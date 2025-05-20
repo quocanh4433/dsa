@@ -51,7 +51,7 @@ var longestCommonPrefix = (strs) => {
     for(let i = 1; i < strs.length; i++) {
 
         // Không sử dụng inclues(prefix)
-        // while(!strs[i].includes(prefix)) { 
+        // while(!strs[i].includes(prefix)) { // Xác nhận chuỗi prefix có thuộc chuỗi strs[i] 
 
         while(strs[i].indexOf(prefix) != 0) { // Tìm vị trí đầu tiên mà chuỗi con xuất hiện trong chuỗi gốc.
             prefix = prefix.substring(0, prefix.length - 1)
