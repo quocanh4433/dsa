@@ -8,3 +8,4 @@
  - [Majority Element](https://github.com/quocanh4433/dsa/blob/main/majority_element.js)
  - [Majority Element II](https://github.com/quocanh4433/dsa/blob/main/majority_element_2.js)
  - [Concatenation of Array](https://github.com/quocanh4433/dsa/blob/main/concatenation_of_array.js)
+ - [[HARD] First Missing Positive ](https://github.com/quocanh4433/dsa/blob/main/first_missing_positive.js)
