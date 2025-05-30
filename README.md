@@ -1,5 +1,6 @@
 ## ARRAY & HASING
  
+ - [Remove Element](https://github.com/quocanh4433/dsa/blob/main/remove_element.js)
  - [Valid Anagram](https://github.com/quocanh4433/dsa/blob/main/valid_anagram.js)
  - [Group Anagram](https://github.com/quocanh4433/dsa/blob/main/group_anagram.js)
  - [Longest Common Prefix](https://github.com/quocanh4433/dsa/blob/main/longest_common_prefix.js)
