@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class LongestSubstringWithRepeatingCharacters {
+public class LongestSubstringWithoutRepeatingCharacters {
     /**
      * Given a string s, find the length of the longest substring without duplicate
      * characters.
@@ -79,7 +79,7 @@ public class LongestSubstringWithRepeatingCharacters {
         String s = "pwwkew";
         String s1 = "bbbbb";
         String s2 = "abcabcbb";
-        /* NOTE: FAIL AT TESTCASE s3 */
+        /* FAIL AT TESTCASE s3 */
         String s3 = "au";
         String s4 = "accna";
        
