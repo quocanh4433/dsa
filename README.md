@@ -18,6 +18,7 @@
 - [Group Anagram](https://github.com/quocanh4433/dsa/blob/main/group_anagram/)
 - [Container With Most Water](https://github.com/quocanh4433/dsa/blob/main/container_with_most_water/)
 - [Longest Substring Without Repeating Characters](https://github.com/quocanh4433/dsa/blob/main/LongestSubstringWithoutRepeatingCharacters/)
+- [Longest Repeating Character Replacement](https://github.com/quocanh4433/dsa/blob/main/LongestRepeatingCharacterReplacement/)
 
 
 
