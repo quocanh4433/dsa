@@ -27,21 +27,25 @@ public class MajorityElement2 {
      * 
      * 
      * Follow up: Could you solve the problem in linear time and in O(1) space?
+     * 
+     * 
+     * Time complexity: O(n)
+     * Space complexity: O(1)
      */
 
-    static List<Integer> majorityElement(int[] nums) {
+    static List<Integer> majorityElement_2(int[] nums) {
         if (nums == null)
             return new ArrayList<>();
 
-        Map<Integer, Integer> count = new HashMap<>(3);
+        Map<Integer, Integer> count = new HashMap<>();
 
         for (int num : nums) {
-            count.putIfAbsent(num, count.getOrDefault(num, 0) + 1);
+            count.put(num, count.getOrDefault(num, 0) + 1);
 
             if (count.size() <= 2)
                 continue;
 
-            Map<Integer, Integer> newCount = new HashMap<>(3);
+            Map<Integer, Integer> newCount = new HashMap<>();
             count.forEach((key, value) -> {
                 if (value > 1) {
                     newCount.put(key, value - 1);
@@ -53,16 +57,56 @@ public class MajorityElement2 {
 
         List<Integer> res = new ArrayList<>();
 
-        for (int candidate : count.keySet()) {
+        for (int c : count.keySet()) {
             int freq = 0;
 
             for (int num : nums) {
-                if (num == candidate)
+                if (num == c)
                     freq++;
             }
 
             if (freq > (nums.length / 3)) {
-                res.add(candidate);
+                res.add(c);
+            }
+        }
+
+        return res;
+    }
+
+    public static List<Integer> majorityElement(int[] nums) {
+        if (nums == null)
+            return new ArrayList<>();
+
+        Map<Integer, Integer> count = new HashMap<>();
+
+        for (int num : nums) {
+            count.put(num, count.getOrDefault(num, 0) + 1);
+
+            if (count.size() <= 2)
+                continue;
+
+            Map<Integer, Integer> newCount = new HashMap<>();
+            count.forEach((key, value) -> {
+                if (value > 1) {
+                    newCount.put(key, value - 1);
+                }
+            });
+
+            count = newCount;
+        }
+
+        List<Integer> res = new ArrayList<>();
+
+        for (int c : count.keySet()) {
+            int freq = 0;
+
+            for (int num : nums) {
+                if (num == c)
+                    freq++;
+            }
+
+            if (freq > (nums.length / 3)) {
+                res.add(c);
             }
         }
 
@@ -74,14 +118,16 @@ public class MajorityElement2 {
         // int[] nums_2 = { 1, 2 };
         // int[] nums_3 = { 1 };
 
-        /* FAIL these testcase */
-        // int[] nums_4 = { 1, 2, 1, 2, 1, 2, 3, 4 };
+        /* FAIL at these testcase */
+        int[] nums_4 = { 1, 2, 1, 2, 1, 2, 3, 4 };
         int[] nums_5 = { 2, 2, 1, 3 };
+        int[] nums_6 = { 1, 2 };
 
         // System.out.println(majorityElement(nums));
         // System.out.println(majorityElement(nums_2));
         // System.out.println(majorityElement(nums_3));
-        // System.out.println(majorityElement(nums_4));
+        System.out.println(majorityElement(nums_4));
         System.out.println(majorityElement(nums_5));
+        System.out.println(majorityElement(nums_6));
     }
 }

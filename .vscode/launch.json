@@ -8,6 +8,13 @@
       "name": "MajorityElement2",
       "request": "launch",
       "mainClass": "MajorityElement2",
+      "projectName": "dsa_2bcf431c"
+    },
+    {
+      "type": "java",
+      "name": "MajorityElement2",
+      "request": "launch",
+      "mainClass": "MajorityElement2",
       "projectName": "dsa_c776637e"
     },
     {
