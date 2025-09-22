@@ -1,0 +1,28 @@
+    
+
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "MajorityElement2",
+      "request": "launch",
+      "mainClass": "MajorityElement2",
+      "projectName": "dsa_c776637e"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Any Java File)",
+      "request": "launch",
+      "mainClass": "${file}",
+      "stepFilters": {
+        "classNameFilters": [
+          "java.*",
+          "javax.*",
+          "sun.*",
+          "com.sun.*"
+        ]
+      }
+    }
+  ]
+}
