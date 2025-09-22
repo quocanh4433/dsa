@@ -32,47 +32,6 @@ public class MajorityElement2 {
      * Time complexity: O(n)
      * Space complexity: O(1)
      */
-
-    static List<Integer> majorityElement_2(int[] nums) {
-        if (nums == null)
-            return new ArrayList<>();
-
-        Map<Integer, Integer> count = new HashMap<>();
-
-        for (int num : nums) {
-            count.put(num, count.getOrDefault(num, 0) + 1);
-
-            if (count.size() <= 2)
-                continue;
-
-            Map<Integer, Integer> newCount = new HashMap<>();
-            count.forEach((key, value) -> {
-                if (value > 1) {
-                    newCount.put(key, value - 1);
-                }
-            });
-
-            count = newCount;
-        }
-
-        List<Integer> res = new ArrayList<>();
-
-        for (int c : count.keySet()) {
-            int freq = 0;
-
-            for (int num : nums) {
-                if (num == c)
-                    freq++;
-            }
-
-            if (freq > (nums.length / 3)) {
-                res.add(c);
-            }
-        }
-
-        return res;
-    }
-
     public static List<Integer> majorityElement(int[] nums) {
         if (nums == null)
             return new ArrayList<>();
