@@ -5,6 +5,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LongestCommonPrefix",
+      "request": "launch",
+      "mainClass": "LongestCommonPrefix",
+      "projectName": "dsa_2bcf431c"
+    },
+    {
+      "type": "java",
       "name": "LongestConsecutiveSequence",
       "request": "launch",
       "mainClass": "LongestConsecutiveSequence",
