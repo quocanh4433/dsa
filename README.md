@@ -9,7 +9,6 @@
 
 - [Longest Common Prefix](https://github.com/quocanh4433/dsa/blob/main/longest_common_prefix.js)
 - [Valid Sudoku](https://github.com/quocanh4433/dsa/blob/main/valid_sudokum.js)
-- [Longest Consecutive Sequence](https://github.com/quocanh4433/dsa/blob/main/longest_consecutive_sequence.js)
 
 
 
@@ -21,6 +20,7 @@
 - [Longest Repeating Character Replacement](https://github.com/quocanh4433/dsa/blob/main/LongestRepeatingCharacterReplacement/)
 - [Three Sum](https://github.com/quocanh4433/dsa/blob/main/ThressSum/)
 - [Majority Element II](https://github.com/quocanh4433/dsa/blob/main/MajorityElement2)
+- [Longest Consecutive Sequence](https://github.com/quocanh4433/dsa/blob/main/LongestConsecutiveSequence)
 
 
 ![Hard](https://img.shields.io/badge/Hard-red?style=flat-square)
