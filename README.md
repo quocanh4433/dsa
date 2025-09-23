@@ -5,9 +5,9 @@
 - [Valid Anagram](https://github.com/quocanh4433/dsa/blob/main/ValidAnagram)
 - [Majority Element](https://github.com/quocanh4433/dsa/blob/main/MajorityElement)
 - [Concatenation of Array](https://github.com/quocanh4433/dsa/blob/main/ConcatenationOfArray)
+- [Longest Common Prefix](https://github.com/quocanh4433/dsa/blob/main/LongestCommonPrefix)
 
 
-- [Longest Common Prefix](https://github.com/quocanh4433/dsa/blob/main/longest_common_prefix.js)
 - [Valid Sudoku](https://github.com/quocanh4433/dsa/blob/main/valid_sudokum.js)
 
 
