@@ -6,6 +6,7 @@
 - [Majority Element](https://github.com/quocanh4433/dsa/blob/main/MajorityElement)
 - [Concatenation of Array](https://github.com/quocanh4433/dsa/blob/main/ConcatenationOfArray)
 - [Longest Common Prefix](https://github.com/quocanh4433/dsa/blob/main/LongestCommonPrefix)
+- [Two Sum](https://github.com/quocanh4433/dsa/blob/main/TwoSum)
 
 
 - [Valid Sudoku](https://github.com/quocanh4433/dsa/blob/main/valid_sudokum.js)
