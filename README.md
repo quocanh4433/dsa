@@ -8,12 +8,6 @@
 - [Longest Common Prefix](https://github.com/quocanh4433/dsa/blob/main/LongestCommonPrefix)
 - [Two Sum](https://github.com/quocanh4433/dsa/blob/main/TwoSum)
 
-
-- [Valid Sudoku](https://github.com/quocanh4433/dsa/blob/main/valid_sudokum.js)
-
-
-
-
 ![Medium](https://img.shields.io/badge/Medium-yellow?style=flat-square)
 - [Group Anagram](https://github.com/quocanh4433/dsa/blob/main/group_anagram/)
 - [Container With Most Water](https://github.com/quocanh4433/dsa/blob/main/container_with_most_water/)
@@ -22,7 +16,7 @@
 - [Three Sum](https://github.com/quocanh4433/dsa/blob/main/ThressSum/)
 - [Majority Element II](https://github.com/quocanh4433/dsa/blob/main/MajorityElement2)
 - [Longest Consecutive Sequence](https://github.com/quocanh4433/dsa/blob/main/LongestConsecutiveSequence)
-
+- [Valid Sudoku](https://github.com/quocanh4433/dsa/blob/main/ValidSoduku)
 
 ![Hard](https://img.shields.io/badge/Hard-red?style=flat-square)
 - [First Missing Positive ](https://github.com/quocanh4433/dsa/blob/main/first_missing_positive.js)
