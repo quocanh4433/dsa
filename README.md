@@ -3,6 +3,7 @@
 - [Remove Element](https://github.com/quocanh4433/dsa/blob/main/remove_element)
 - [Majority Element](https://github.com/quocanh4433/dsa/blob/main/MajorityElement)
 - [Valid Anagram](https://github.com/quocanh4433/dsa/blob/main/ValidAnagram)
+- [Valid Plalindrome](https://github.com/quocanh4433/dsa/blob/main/ValidPalindrome)
 - [Majority Element](https://github.com/quocanh4433/dsa/blob/main/MajorityElement)
 - [Concatenation of Array](https://github.com/quocanh4433/dsa/blob/main/ConcatenationOfArray)
 - [Longest Common Prefix](https://github.com/quocanh4433/dsa/blob/main/LongestCommonPrefix)
