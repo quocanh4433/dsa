@@ -85,13 +85,13 @@ public class FirstMissingPositive {
         int[] nums_2 = {3, 4, -1, 1};
         int[] nums_3 = {7, 8, 9, 11, 12};
         int[] nums_4 = {-1, 1, 3};
-        // System.out.println(firstMissingPositive_1(nums)); // exception: 3
-        // System.out.println(firstMissingPositive_1(nums_2)); // exception: 2
-        // System.out.println(firstMissingPositive_1(nums_3)); // exception: 1
+        System.out.println(firstMissingPositive_1(nums)); // exception: 3
+        System.out.println(firstMissingPositive_1(nums_2)); // exception: 2
+        System.out.println(firstMissingPositive_1(nums_3)); // exception: 1
         System.out.println("_________________________"); // exception: 3
         System.out.println(firstMissingPositive(nums)); // exception: 3 Testcase for reason why -> if (nums[i] >= 0) return i + 1;
-        // System.out.println(firstMissingPositive(nums_2)); // exception: 2  Testcase for why -> int v = Math.abs(nums[i]);
-        // System.out.println(firstMissingPositive(nums_3)); // exception: 1  
-        // System.out.println(firstMissingPositive(nums_4)); // exception: 2  
+        System.out.println(firstMissingPositive(nums_2)); // exception: 2  Testcase for why -> int v = Math.abs(nums[i]);
+        System.out.println(firstMissingPositive(nums_3)); // exception: 1  
+        System.out.println(firstMissingPositive(nums_4)); // exception: 2  
     }
 }
