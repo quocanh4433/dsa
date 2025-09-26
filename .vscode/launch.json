@@ -5,6 +5,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "FirstMissingPositive",
+      "request": "launch",
+      "mainClass": "FirstMissingPositive",
+      "projectName": "dsa_c776637e"
+    },
+    {
+      "type": "java",
       "name": "LongestCommonPrefix",
       "request": "launch",
       "mainClass": "LongestCommonPrefix",
