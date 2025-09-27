@@ -1,15 +1,15 @@
 ## ARRAY & HASING / TWO POINTER / SLIDING WINDOW
 ![Easy](https://img.shields.io/badge/Easy-brightgreen?style=flat-square)
 - [Remove Element](https://github.com/quocanh4433/dsa/blob/main/remove_element)
-- [Majority Element](https://github.com/quocanh4433/dsa/blob/main/MajorityElement)
+- [Remove Duplicates From Sorted Array](https://github.com/quocanh4433/dsa/blob/main/RemoveDuplicatesFromSortedArray)
 - [Valid Anagram](https://github.com/quocanh4433/dsa/blob/main/ValidAnagram)
 - [Valid Plalindrome](https://github.com/quocanh4433/dsa/blob/main/ValidPalindrome)
+- [Valid Palindrome 2](https://github.com/quocanh4433/dsa/blob/main/ValidPalindrome2)
 - [Majority Element](https://github.com/quocanh4433/dsa/blob/main/MajorityElement)
 - [Concatenation of Array](https://github.com/quocanh4433/dsa/blob/main/ConcatenationOfArray)
 - [Longest Common Prefix](https://github.com/quocanh4433/dsa/blob/main/LongestCommonPrefix)
 - [Two Sum](https://github.com/quocanh4433/dsa/blob/main/TwoSum)
 - [Best Time To Buy And Sell Stock](https://github.com/quocanh4433/dsa/blob/main/BestTimeToBuyAndSellStock)
-- [Valid Palindrome 2](https://github.com/quocanh4433/dsa/blob/main/ValidPalindrome2)
 - [Reverse String](https://github.com/quocanh4433/dsa/blob/main/ReverseString)
 
 
