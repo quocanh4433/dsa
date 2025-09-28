@@ -3,7 +3,7 @@
 - [Remove Element](https://github.com/quocanh4433/dsa/blob/main/remove_element)
 - [Remove Duplicates From Sorted Array](https://github.com/quocanh4433/dsa/blob/main/RemoveDuplicatesFromSortedArray)
 - [Valid Anagram](https://github.com/quocanh4433/dsa/blob/main/ValidAnagram)
-- [Valid Plalindrome](https://github.com/quocanh4433/dsa/blob/main/ValidPalindrome)
+- [Valid Palindrome](https://github.com/quocanh4433/dsa/blob/main/ValidPalindrome)
 - [Valid Palindrome 2](https://github.com/quocanh4433/dsa/blob/main/ValidPalindrome2)
 - [Majority Element](https://github.com/quocanh4433/dsa/blob/main/MajorityElement)
 - [Concatenation of Array](https://github.com/quocanh4433/dsa/blob/main/ConcatenationOfArray)
@@ -12,6 +12,7 @@
 - [Best Time To Buy And Sell Stock](https://github.com/quocanh4433/dsa/blob/main/BestTimeToBuyAndSellStock)
 - [Reverse String](https://github.com/quocanh4433/dsa/blob/main/ReverseString)
 - [Merge Sorted Array](https://github.com/quocanh4433/dsa/blob/main/MergeSortedArray)
+- [Contains Duplicate 2](https://github.com/quocanh4433/dsa/blob/main/ContainsDuplicate2)
 
 
 

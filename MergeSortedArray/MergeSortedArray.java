@@ -23,7 +23,7 @@ public class MergeSortedArray {
             k--;
         }
 
-        // lấy phần tử nums2 còn lại thêm vào trong mảng
+        // > Nếu nums2 còn phần tử thì copy nốt sang nums1
         while (j >= 0) {
             nums1[k] = nums2[j];
             j--;
@@ -64,8 +64,7 @@ public class MergeSortedArray {
         System.out.println(Arrays.toString(nums1));
 
         /**
-         * FAIL at testcase why need while loop -> Nếu nums2 còn phần tử thì
-         * copy nốt sang nums1
+         * FAIL at testcase why need while loop -
          */
         int[] nums1_2 = {2, 0, 0, 0};
         int m_2 = 1;
@@ -73,32 +72,5 @@ public class MergeSortedArray {
         int n_2 = 3;
         merge(nums1_2, m_2, nums2_2, n_2);
         System.out.println(Arrays.toString(nums1_2));
-    }
-}
-
-class Solution {
-
-    public void merge(int[] nums1, int m, int[] nums2, int n) {
-        int i = m - 1;
-        int j = n - 1;
-        int k = m + n - 1;
-
-        while (i >= 0 && j >= 0) {
-            if (nums1[i] <= nums2[j]) {
-                nums1[k] = nums2[j];
-                j--;
-            } else {
-                nums1[k] = nums1[i];
-                i--;
-            }
-
-            k--;
-        }
-
-        while (j >= 0) {
-            nums1[k] = nums2[j];
-            j--;
-            k--;
-        }
     }
 }
