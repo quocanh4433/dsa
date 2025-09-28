@@ -11,6 +11,7 @@
 - [Two Sum](https://github.com/quocanh4433/dsa/blob/main/TwoSum)
 - [Best Time To Buy And Sell Stock](https://github.com/quocanh4433/dsa/blob/main/BestTimeToBuyAndSellStock)
 - [Reverse String](https://github.com/quocanh4433/dsa/blob/main/ReverseString)
+- [Merge Sorted Array](https://github.com/quocanh4433/dsa/blob/main/MergeSortedArray)
 
 
 
