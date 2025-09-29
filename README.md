@@ -8,6 +8,7 @@
 - [Majority Element](https://github.com/quocanh4433/dsa/blob/main/MajorityElement)
 - [Concatenation of Array](https://github.com/quocanh4433/dsa/blob/main/ConcatenationOfArray)
 - [Longest Common Prefix](https://github.com/quocanh4433/dsa/blob/main/LongestCommonPrefix)
+- [Longest Harmonious Subsequence](https://github.com/quocanh4433/dsa/blob/main/LongestHarmoniousSubsequence)
 - [Two Sum](https://github.com/quocanh4433/dsa/blob/main/TwoSum)
 - [Best Time To Buy And Sell Stock](https://github.com/quocanh4433/dsa/blob/main/BestTimeToBuyAndSellStock)
 - [Reverse String](https://github.com/quocanh4433/dsa/blob/main/ReverseString)
