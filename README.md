@@ -30,6 +30,7 @@
 - [Valid Sudoku](https://github.com/quocanh4433/dsa/blob/main/ValidSoduku)
 - [Maximun Subarray](https://github.com/quocanh4433/dsa/blob/main/MaximunSubarray)
 - [Rotate Array](https://github.com/quocanh4433/dsa/blob/main/RotateArray)
+- [Permutation In String](https://github.com/quocanh4433/dsa/blob/main/PermutationInString)
 
 
 
