@@ -41,7 +41,7 @@ public class ContainsDuplicate2 {
             return false;
         }
 
-        Map<Integer, Integer> seen = new HashMap();
+        Map<Integer, Integer> seen = new HashMap<>();
 
         for (int i = 0; i < nums.length; i++) {
             if (seen.containsKey(nums[i]) && i - seen.get(nums[i]) <= k) {
