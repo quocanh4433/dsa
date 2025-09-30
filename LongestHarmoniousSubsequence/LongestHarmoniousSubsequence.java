@@ -51,6 +51,12 @@ public class LongestHarmoniousSubsequence {
         }
 
         Arrays.sort(nums);
+        /*
+        {1, 1, 1, 1, 5, 5, 6};
+        s
+            e
+         */
+
         int longest = 0;
         int start = 0;
 

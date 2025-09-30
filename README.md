@@ -36,4 +36,5 @@
 
 ![Hard](https://img.shields.io/badge/Hard-red?style=flat-square)
 - [First Missing Positive](https://github.com/quocanh4433/dsa/blob/main/FirstMissingPositive)
+- [Trapping Rain Water](https://github.com/quocanh4433/dsa/blob/main/TrappingRainWater)
 

@@ -15,3 +15,6 @@ Constraints:
 1 <= height.length <= 1000
 
 0 <= height[i] <= 1000
+
+
+
