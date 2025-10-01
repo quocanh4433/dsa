@@ -1,0 +1,2 @@
+- Cách duyệt phần tử trong HashMap và HashSet
+- Return về empty array trong java
