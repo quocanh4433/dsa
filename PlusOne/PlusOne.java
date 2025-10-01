@@ -3,6 +3,12 @@ import java.util.Arrays;
 
 public class PlusOne {
 
+    /**
+     * Time complexity: O(n)
+     *
+     * Space complexity: O(1) nếu không tính output newDigits. O(n + 1) new tính
+     * output
+     */
     public static int[] plusOne(int[] digits) {
         if (digits == null || digits.length == 0) {
             return new int[]{};
