@@ -1,2 +1,3 @@
 - Cách duyệt phần tử trong HashMap và HashSet
 - Return về empty array trong java
+- Hàm yêu cầu trả về kiểu double thì viết "return 0;" - Đúng, java tự hiểu "return 0.0"

@@ -37,11 +37,12 @@
 1. [Permutation In String](https://github.com/quocanh4433/dsa/blob/main/PermutationInString)
 1. [Boats To Save People](https://github.com/quocanh4433/dsa/blob/main/BoatsToSavePeople)
 1. [Minimum Size Subarray Sum](https://github.com/quocanh4433/dsa/blob/main/MinimumSizeSubarraySum)
-1. [Find K Closest Elements (LÀM LẠI BÀI NÀY KHI HỌC ĐẾN BINARY SEARCH)](https://github.com/quocanh4433/dsa/blob/main/FindKClosestElements)
+1. [Find K Closest Elements (LÀM LẠI KHI HỌC ĐẾN BINARY SEARCH)](https://github.com/quocanh4433/dsa/blob/main/FindKClosestElements)
+1. [Average Waiting Time (LÀM LẠI KHI HỌC ĐẾN HEAP)](https://github.com/quocanh4433/dsa/blob/main/AverageWaitingTime)
 
 
 
-![Hard](https://img.shields.io/badge/Difficulty-Hard-red?style=for-the-badge&logo=leetcode)
+![Hard](https://img.shields.io/badge/Difficulty-Hard-red?style=for-the-badge&logo=leetcode)s
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
 1. [First Missing Positive](https://github.com/quocanh4433/dsa/blob/main/FirstMissingPositive)
 1. [Trapping Rain Water](https://github.com/quocanh4433/dsa/blob/main/TrappingRainWater)
