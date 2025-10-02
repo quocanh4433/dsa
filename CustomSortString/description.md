@@ -23,7 +23,10 @@ Nếu một ký tự không xuất hiện trong order, thì thứ tự của nó
 Trả về: chuỗi s sau khi đã được sắp xếp theo quy tắc trên.
  
 
-VD: order = "ab";    s = "baaj"    ->  result = "aabj". Đảm bảo 'a' trước 'b' theo order. 
+
+
+
+VD: order = "ab";    s = "baaj"    ->  result = "aabj". ✅ Đảm bảo 'a' trước 'b' theo order. 
 
 Do 'j' không có trong order nên 'j' có thể ở bất kỳ đâu miễn là vẫn đảm bảo 'a' trước 'b' theo order 
 

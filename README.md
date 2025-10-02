@@ -41,6 +41,7 @@
 1. [Minimum Size Subarray Sum](https://github.com/quocanh4433/dsa/blob/main/MinimumSizeSubarraySum)
 1. [Find K Closest Elements (LÀM LẠI KHI HỌC ĐẾN BINARY SEARCH)](https://github.com/quocanh4433/dsa/blob/main/FindKClosestElements)
 1. [Average Waiting Time (LÀM LẠI KHI HỌC ĐẾN HEAP)](https://github.com/quocanh4433/dsa/blob/main/AverageWaitingTime)
+1. [CustomSortString](https://github.com/quocanh4433/dsa/blob/main/CustomSortString)
 
 
 

@@ -28,6 +28,7 @@ public class CustomSortString {
                 result.append(c);
             }
         }
+
         return result.toString();
 
     }
