@@ -42,10 +42,11 @@
 1. [Find K Closest Elements (LÀM LẠI KHI HỌC ĐẾN BINARY SEARCH)](https://github.com/quocanh4433/dsa/blob/main/FindKClosestElements)
 1. [Average Waiting Time (LÀM LẠI KHI HỌC ĐẾN HEAP)](https://github.com/quocanh4433/dsa/blob/main/AverageWaitingTime)
 1. [CustomSortString](https://github.com/quocanh4433/dsa/blob/main/CustomSortString)
+1. [Number Of Substrings Containing All Three Characters](https://github.com/quocanh4433/dsa/blob/main/NumberOfSubstringsContainingAllThreeCharacters)
 
 
 
-![Hard](https://img.shields.io/badge/Difficulty-Hard-red?style=for-the-badge&logo=leetcode)s
+![Hard](https://img.shields.io/badge/Difficulty-Hard-red?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
 1. [First Missing Positive](https://github.com/quocanh4433/dsa/blob/main/FirstMissingPositive)
 1. [Trapping Rain Water](https://github.com/quocanh4433/dsa/blob/main/TrappingRainWater)
