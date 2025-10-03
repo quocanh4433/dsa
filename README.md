@@ -43,6 +43,7 @@
 1. [Average Waiting Time (LÀM LẠI KHI HỌC ĐẾN HEAP)](https://github.com/quocanh4433/dsa/blob/main/AverageWaitingTime)
 1. [CustomSortString](https://github.com/quocanh4433/dsa/blob/main/CustomSortString)
 1. [Number Of Substrings Containing All Three Characters](https://github.com/quocanh4433/dsa/blob/main/NumberOfSubstringsContainingAllThreeCharacters)
+1. [Get Equal Substrings Within Budget](https://github.com/quocanh4433/dsa/blob/main/GetEqualSubstringsWithinBudget)
 
 
 
