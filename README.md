@@ -52,3 +52,10 @@
 1. [First Missing Positive](https://github.com/quocanh4433/dsa/blob/main/FirstMissingPositive)
 1. [Trapping Rain Water](https://github.com/quocanh4433/dsa/blob/main/TrappingRainWater)
 
+
+
+## [BINARY SEARCH](./NOTE/NOTE_02.md)
+![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
+![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
+1. [First Bad Version](https://github.com/quocanh4433/dsa/blob/main/FirstBadVersion)
+
