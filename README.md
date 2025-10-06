@@ -1,6 +1,5 @@
 ## [ARRAY & HASHING / TWO POINTER / SLIDING WINDOW](./NOTE/NOTE_Array.md)
 
-
 ![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
 1. [Remove Element](https://github.com/quocanh4433/dsa/blob/main/remove_element)
@@ -19,9 +18,6 @@
 1. [Reverse String](https://github.com/quocanh4433/dsa/blob/main/ReverseString)
 1. [Contains Duplicate 2](https://github.com/quocanh4433/dsa/blob/main/ContainsDuplicate2)
 1. [Monotonic Array](https://github.com/quocanh4433/dsa/blob/main/MonotonicArray)
-
-
-
 
 ![Medium](https://img.shields.io/badge/Difficulty-Medium-orange?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
@@ -46,20 +42,21 @@
 1. [Number Of Substrings Containing All Three Characters](https://github.com/quocanh4433/dsa/blob/main/NumberOfSubstringsContainingAllThreeCharacters)
 1. [Get Equal Substrings Within Budget](https://github.com/quocanh4433/dsa/blob/main/GetEqualSubstringsWithinBudget)
 
-
-
 ![Hard](https://img.shields.io/badge/Difficulty-Hard-red?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
 1. [First Missing Positive](https://github.com/quocanh4433/dsa/blob/main/FirstMissingPositive)
 1. [Trapping Rain Water](https://github.com/quocanh4433/dsa/blob/main/TrappingRainWater)
 1. [Minimum Window Substring](https://github.com/quocanh4433/dsa/blob/main/MinimumWindowSubstring)
 
+
+
+
 ## [STACK & QUEUE](./NOTE/NOTE_Stack.md)
 ![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
 1. [Valid Parentheses](https://github.com/quocanh4433/dsa/blob/main/ValidParentheses)
 1. [ImplementStackUsingQueues](https://github.com/quocanh4433/dsa/blob/main/ImplementStackUsingQueues)
-
+1. [Baseball Game](https://github.com/quocanh4433/dsa/blob/main/BaseballGame)
 
 
 
