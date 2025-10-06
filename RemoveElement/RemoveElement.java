@@ -1,5 +1,5 @@
 
-public class remove_element {
+public class RemoveElement {
 
     /*
         Remove Element
