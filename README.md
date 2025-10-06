@@ -55,7 +55,8 @@
 ![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
 1. [Valid Parentheses](https://github.com/quocanh4433/dsa/blob/main/ValidParentheses)
-1. [ImplementStackUsingQueues](https://github.com/quocanh4433/dsa/blob/main/ImplementStackUsingQueues)
+1. [Implement Stack Using Queues](https://github.com/quocanh4433/dsa/blob/main/ImplementStackUsingQueues)
+1. [Implement Queue Using Stacks](https://github.com/quocanh4433/dsa/blob/main/ImplementQueueUsingStacks)
 1. [Baseball Game](https://github.com/quocanh4433/dsa/blob/main/BaseballGame)
 
 

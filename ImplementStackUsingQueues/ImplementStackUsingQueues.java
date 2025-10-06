@@ -28,14 +28,21 @@ class MyStack {
 
     Queue<Integer> q;
 
+    /*
+    -----------------------
+    ->            1  2 3   
+    -----------------------
+     */
     public MyStack() {
         q = new LinkedList<>();
     }
 
     public void push(int x) {
         q.add(x);
-        for (int i = 0; i < q.size() - 1; i++) {
-            q.add(q.poll());
+        int size = q.size();
+        for (int i = 0; i < size - 1; i++) {
+            int last = q.poll();
+            q.add(last);
         }
     }
 
@@ -45,6 +52,7 @@ class MyStack {
 
     public int top() {
         return q.peek();
+
     }
 
     public boolean empty() {
