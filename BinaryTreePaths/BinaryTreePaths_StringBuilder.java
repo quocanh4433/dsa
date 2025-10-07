@@ -11,13 +11,11 @@ public class BinaryTreePaths_StringBuilder {
         A leaf is a node with no children. 
 
 
-
         Time Complexity: O(N²)
             - Có N là số node trong cây.
             - Mỗi node được duyệt đúng 1 lần, nhưng khi gặp node lá, ta thực hiện sb.toString() để thêm vào danh sách — thao tác này tốn O(H) trong đó H là chiều cao của cây (do cần copy chuỗi).
             - Trường hợp xấu nhất (cây nghiêng), tổng hợp lại thành O(N²).
 
-        
         Space Complexity: O(H)
             - H là chiều cao của cây (do stack đệ quy và StringBuilder chứa đường đi hiện tại).
             - Nếu cây cân bằng → H = log N, còn nếu cây nghiêng → H = N.

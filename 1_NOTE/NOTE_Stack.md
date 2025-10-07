@@ -44,8 +44,24 @@ s = "";     // ✅ Cách phổ biến nhất
 s = null;   // ⚠️ Không phải “rỗng” mà là “không trỏ đến chuỗi nào”
 
 
-
 StringBuilder sb = new StringBuilder("abc");
 sb.setLength(0);    // ✅ Nhanh (không tạo đối tượng mới)
-
 ```
+
+
+
+### Thêm phần từ vào Stack và Queue
+```java
+Stack<Integer> stack = new Stack<>();
+Queue<Integer> queue = new LinkedList<>();
+
+stack.push(1);   // ✅ Trả về phần tử vừa thêm.
+// hoặc
+stack.add(1); // ❌ Không trả về phần tử vừa thêm, mà trả về boolean (true nếu thêm thành công).
+
+
+queue.add(1); // ⚠️ Nếu hàng đợi đầy (với queue có giới hạn, như ArrayBlockingQueue) → ném Exception (IllegalStateException).
+//hoặc
+queue.offer(1); // 🚫 Chính là “anh em” của queue.add(), nhưng an toàn hơn.  Nhưng không ném exception nếu đầy — chỉ trả về false.
+```
+
