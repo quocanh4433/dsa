@@ -65,3 +65,15 @@ queue.add(1); // ⚠️ Nếu hàng đợi đầy (với queue có giới hạn,
 queue.offer(1); // 🚫 Chính là “anh em” của queue.add(), nhưng an toàn hơn.  Nhưng không ném exception nếu đầy — chỉ trả về false.
 ```
 
+### Kiểm tra two numbers have opposite signs
+```java
+int a = 2;
+int b = -18;
+
+// 1: Highly Recommended
+boolean oppositeSigns = a * b < 0;
+// 2: XOR
+boolean oppositeSigns = (a ^ b) < 0;
+// 3
+boolean oppositeSigns =  (a > 0 && b < 0) || (a < 0 && b > 0);
+```
