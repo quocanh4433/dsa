@@ -19,7 +19,7 @@ public class DecodeString {
             if (Character.isLetter(c)) {
                 word.append(c);
             } else if (Character.isDigit(c)) {
-                number = Character.getNumericValue(c);
+                number = number * 10 + Character.getNumericValue(c);
                 // if (!w.isEmpty()) {
                 //     words.push(w.toString());
                 //     count.push(n);
@@ -34,7 +34,7 @@ public class DecodeString {
             } else {
                 int count = countStack.pop();
                 StringBuilder duplicateWord = new StringBuilder(wordStack.pop());
-                for (int j = 0; j < count; j++) {
+                for (int j = 1; j <= count; j++) {
                     duplicateWord.append(word);
                 }
                 word = duplicateWord;
@@ -71,7 +71,8 @@ public class DecodeString {
         String s4 = "3[a2[c]]";
         // System.out.println(decodeString(s4)); // expected: accaccacc 
         String s5 = "100[leetcode]";
-        System.out.println(decodeString(s5)); // expected: accaccacc 
+        System.out.println("________________");
+        System.out.println(decodeString(s5)); // expected:  
 
     }
 }
