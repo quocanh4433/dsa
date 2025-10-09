@@ -64,7 +64,8 @@
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
 1. [Min Stack](https://github.com/quocanh4433/dsa/blob/main/MinStack)
 1. [Generate Parentheses](https://github.com/quocanh4433/dsa/blob/main/GenerateParentheses)
-
+1. [Daily Temperatures](https://github.com/quocanh4433/dsa/blob/main/DailyTemperatures)
+1. [Asteroid Collision](https://github.com/quocanh4433/dsa/blob/main/AsteroidCollision)
 
 
 

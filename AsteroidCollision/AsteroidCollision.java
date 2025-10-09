@@ -8,7 +8,7 @@ public class AsteroidCollision {
      * TỰ LÀM SAI HẾT 😭
      * 
      */
-    public static int[] asteroidCollision(int[] asteroids) {
+    public static int[] asteroidCollision_BAD(int[] asteroids) {
         if (asteroids == null) {
             return new int[]{};
         }
@@ -68,6 +68,54 @@ public class AsteroidCollision {
         }
 
         return res;
+    }
+
+    /*
+     * Time complexity: O(n)
+     * 
+     * Space complexity: O(n)
+     */
+    public static int[] asteroidCollision(int[] asteroids) {
+        // The Stack is our "holding area" for asteroids that are currently alive and moving.
+        // Think of it like a pile where the newest asteroid is always on top.
+        Stack<Integer> stack = new Stack<>();
+
+        for (int ast : asteroids) {
+
+            // 'destroyed' is a flag. It tells us if the current asteroid ('ast') got destroyed in a collision.
+            boolean destroyed = false;
+
+            // This 'while' loop is the heart of the collision logic.
+            // It keeps running as long as:
+            // 1. The stack is NOT empty (meaning there's at least one asteroid already in our holding area).
+            // 2. The current asteroid ('ast') is moving LEFT (ast < 0).
+            // 3. The asteroid on TOP of the stack is moving RIGHT (stack.peek() > 0).
+            // These are the conditions for a potential collision!
+            while (!stack.isEmpty() && ast < 0 && stack.peek() > 0) {
+                if (Math.abs(ast) > stack.peek()) {
+                    stack.pop();
+                } else if (Math.abs(ast) == stack.peek()) {
+                    stack.pop();
+                    destroyed = true;
+                    break;
+                } else {
+                    destroyed = true;
+                    break;
+                }
+            }
+
+            if (!destroyed) {
+                // ...it survives! We add it to our stack of surviving asteroids.
+                stack.push(ast);
+            }
+        }
+
+        int[] result = new int[stack.size()];
+        for (int i = result.length - 1; i >= 0; i--) {
+            result[i] = stack.pop(); // Take the top asteroid from the stack and put it in our result array.
+        }
+
+        return result;
     }
 
     public static void main(String[] args) {
