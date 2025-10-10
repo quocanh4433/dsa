@@ -103,7 +103,7 @@ public class DecodeString {
         System.out.println(decodeString(s4)); // expected: accaccacc 
         String s5 = "100[leetcode]";
         System.out.println("________________");
-        // System.out.println(decodeString(s5)); // expected:  
+        System.out.println(decodeString(s5)); // expected:  
 
     }
 }

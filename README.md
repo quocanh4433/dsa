@@ -68,6 +68,7 @@
 1. [Asteroid Collision](https://github.com/quocanh4433/dsa/blob/main/AsteroidCollision)
 1. [Online Stock Span](https://github.com/quocanh4433/dsa/blob/main/OnlineStockSpan)
 1. [Decode String](https://github.com/quocanh4433/dsa/blob/main/DecodeString)
+1. [Simplify Path](https://github.com/quocanh4433/dsa/blob/main/SimplifyPath)
 
 
 

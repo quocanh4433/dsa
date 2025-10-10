@@ -102,3 +102,44 @@ while (m.find()) {
     System.out.println(m.group()); // in ra: 12 và 34
 }
 ```
+
+
+### duyệt qua các phần từ trong stack
+```java
+// ✅ Duyêt bằng WHILE thay vì FOR
+// 👉 duyệt bằng for không thể kiểm tra stack rỗng cho lần duyệt tiếp theo gây ra EmptyStackException
+Stack<String> stack = new Stack<>();
+while (!stack.isEmpty()) {
+    // Không gây lỗi cho lần duyệt tiếp nếu xư lý xóa hết stack
+}
+
+for(int i = stack.size(); i >= 0 ; i-->) {
+
+}
+```
+
+
+### remove phần tử cuối cùng của ArrayList - O(1)
+```java
+List<String> validString = new ArrayList<>();
+validString.add("a");
+validString.add("b");
+validString.add("c");
+validString.remove(validString.size() - 1);
+System.out.println(validString); // [a, b]
+// 👉 chỉ gán null và giảm size
+```
+
+
+### remove phần tử cuối cùng của LinkedList - O(n)
+```java
+List<String> list = new LinkedList<>();
+list.remove(list.size() - 1);
+//👉  phải duyệt đến phần tử cuối
+```
+
+### tạo chuỗi từ ArrayList
+```java
+List<String> subFolder = {"doc", "math", "exercise"};
+String path = String.join("/", subFolder); // 👉 "doc/math/exercise"
+```
