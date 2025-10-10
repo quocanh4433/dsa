@@ -77,3 +77,28 @@ boolean oppositeSigns = (a ^ b) < 0;
 // 3
 boolean oppositeSigns =  (a > 0 && b < 0) || (a < 0 && b > 0);
 ```
+
+
+
+### Cho một chuỗi String s = "abc100xyz" lấy ra số trong chuỗi
+```java
+int num = 0;
+for(char c : s.toCharArray()) {
+    if(Character.isDigit()) {
+        num = num * 10 + (c - '0');
+    }
+}
+```
+
+
+### Cho một chuỗi String s = "ab12cd34" lấy ra các số trong chuỗi
+```java
+import java.util.regex.*;
+
+String s = "ab12cd34";
+Matcher m = Pattern.compile("\\d+").matcher(s);
+
+while (m.find()) {
+    System.out.println(m.group()); // in ra: 12 và 34
+}
+```

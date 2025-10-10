@@ -3,6 +3,37 @@ import java.util.Stack;
 
 public class DecodeString {
 
+    /*
+    🕓 Time complexity: O(n + L)
+    💾 Space complexity: O(d + L)
+
+
+    n: độ dài chuỗi đầu vào.
+    L: độ dài chuỗi giải mã đầu ra (có thể lớn hơn rất nhiều so với n).
+    d: d là độ sâu lồng nhau. (Tối đa d ≤ n)
+
+
+    - Input "3[a2[c]]" → output "accaccacc" có L = 9, n = 8, d = 2
+
+
+
+    👉 Tại sao chỉ push khi gặp '[', chứ không push khi gặp chữ (text) sau '['?
+
+    🧠 Mục tiêu của 2 stack
+    Trước tiên, ta phải hiểu mục đích thực sự của 2 stack:
+
+    Stack	             Dùng để lưu	                                 Khi nào push
+    countStack	         số lần lặp k (trước [)	                         khi gặp [
+    wordStack	         chuỗi trước đoạn [ ... ]	                     khi gặp [
+
+    Hai stack này không phải để lưu mọi từ bạn đọc được, 
+    mà chỉ lưu bối cảnh trước khi bước vào 1 đoạn lặp mới ([...]).
+
+
+
+
+
+     */
     public static String decodeString(String s) {
         if (s == null) {
             return "";
@@ -63,16 +94,16 @@ public class DecodeString {
 
     public static void main(String[] args) {
         String s = "2[a2[bc2[d]]]";
-        // System.out.println(decodeString(s)); // expected: abcddbcddabcddbcdd
+        System.out.println(decodeString(s)); // expected: abcddbcddabcddbcdd  n = 13 
         String s2 = "xyz3[a]2[b]";
-        // System.out.println(decodeString(s2)); // expected: xyzaaabb
+        System.out.println(decodeString(s2)); // expected: xyzaaabb
         String s3 = "2[abc]3[cd]ef";
-        // System.out.println(decodeString(s3)); // expected: abcabccdcdcdef
+        System.out.println(decodeString(s3)); // expected: abcabccdcdcdef
         String s4 = "3[a2[c]]";
-        // System.out.println(decodeString(s4)); // expected: accaccacc 
+        System.out.println(decodeString(s4)); // expected: accaccacc 
         String s5 = "100[leetcode]";
         System.out.println("________________");
-        System.out.println(decodeString(s5)); // expected:  
+        // System.out.println(decodeString(s5)); // expected:  
 
     }
 }
