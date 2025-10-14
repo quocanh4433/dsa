@@ -86,5 +86,6 @@
 ![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
 1. [Binary Search](https://github.com/quocanh4433/dsa/blob/main/BinarySearch)
+1. [Search Insert Position](https://github.com/quocanh4433/dsa/blob/main/SearchInsertPosition)
 1. [First Bad Version](https://github.com/quocanh4433/dsa/blob/main/FirstBadVersion)
 
