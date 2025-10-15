@@ -56,14 +56,7 @@ public class KokoEatingBananas {
     public static void main(String[] args) {
         int[] piles = {3, 6, 7, 11};
         int[] piles_2 = {30, 11, 23, 4, 20};
-        // System.out.println(minEatingSpeed(piles, 8)); // 4
+        System.out.println(minEatingSpeed(piles, 8)); // 4
         System.out.println(minEatingSpeed(piles_2, 6)); // 23
     }
 }
-/*
-piles = [3,6,7,11], h = 8
-
-{1 ,2 , 3, 4, 5, 6, 7, 8 }
-
-
- */
