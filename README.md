@@ -72,18 +72,6 @@
 1. [Evaluate Reverse Polish Notation](https://github.com/quocanh4433/dsa/blob/main/EvaluateReversePolishNotation)
 
 
-
-
-## [BACKTRACKING](./NOTE/NOTE_Backtracking.md)
-![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
-![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)  
-1. [Binary Tree Paths](https://github.com/quocanh4433/dsa/blob/main/BinaryTreePaths)
-
-![Medium](https://img.shields.io/badge/Difficulty-Medium-orange?style=for-the-badge&logo=leetcode)
-![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
-
-
-
 ## [BINARY SEARCH](./NOTE/NOTE_BinarySearch.md)
 ![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
@@ -91,4 +79,17 @@
 1. [Search Insert Position](https://github.com/quocanh4433/dsa/blob/main/SearchInsertPosition)
 1. [First Bad Version](https://github.com/quocanh4433/dsa/blob/main/FirstBadVersion)
 1. [Guess Number Higher Or Lower](https://github.com/quocanh4433/dsa/blob/main/GuessNumberHigherOrLower)
+1. [Sqrt(x)](https://github.com/quocanh4433/dsa/blob/main/Sqrt(x))
+
+![Medium](https://img.shields.io/badge/Difficulty-Medium-orange?style=for-the-badge&logo=leetcode)
+![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
+1. [Guess Number Higher Or Lower](https://github.com/quocanh4433/dsa/blob/main/GuessNumberHigherOrLower)
+
+
+
+
+## [BACKTRACKING](./NOTE/NOTE_Backtracking.md)
+![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
+![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)  
+1. [Binary Tree Paths](https://github.com/quocanh4433/dsa/blob/main/BinaryTreePaths)
 
