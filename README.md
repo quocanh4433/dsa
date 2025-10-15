@@ -84,6 +84,9 @@
 ![Medium](https://img.shields.io/badge/Difficulty-Medium-orange?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
 1. [Single Element In A Sorted Array](https://github.com/quocanh4433/dsa/blob/main/SingleElementInASortedArray)
+1. [Search a 2D Matrix](https://github.com/quocanh4433/dsa/blob/main/SearchA2DMatrix)
+1. [Koko Eating Bananas](https://github.com/quocanh4433/dsa/blob/main/KokoEatingBananas)
+
 
 
 
