@@ -6,7 +6,12 @@ public class Sqrtx {
      * 
      * Sapce complexity: O(1)
      * 
-     * 
+     * ❓ Tại sao r = x / 2?
+     * 👉 sqrt(x) thì kết quả CHỈ nằm trong khoảng [1, x/2]
+     * VD: 
+     * sqrt(4) = 2 -> 2 thuộc [1,2]
+     * sqrt(16) = 4 -> 4 thuộc [1,8]
+     * sqrt(8) = 2.8 -> 2.8 thuộc [1,4]
      */
     public static int mySqrt(int x) {
         if (x < 2) {
