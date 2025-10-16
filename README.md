@@ -86,6 +86,7 @@
 1. [Single Element In A Sorted Array](https://github.com/quocanh4433/dsa/blob/main/SingleElementInASortedArray)
 1. [Search a 2D Matrix](https://github.com/quocanh4433/dsa/blob/main/SearchA2DMatrix)
 1. [Koko Eating Bananas](https://github.com/quocanh4433/dsa/blob/main/KokoEatingBananas)
+1. [Search In Rotated Sorted Array](https://github.com/quocanh4433/dsa/blob/main/SearchInRotatedSortedArray)
 
 
 
