@@ -1,5 +1,5 @@
 
-public class SearchInRotatedSortedArray {
+public class SearchInRotatedSortedArray2 {
 
     /*
      * Time complexity: O(logn)
@@ -7,9 +7,9 @@ public class SearchInRotatedSortedArray {
      * Space complexity: O(1)
      * 
      */
-    public static int search(int[] nums, int target) {
+    public static boolean search(int[] nums, int target) {
         if (nums == null || nums.length == 0) {
-            return -1;
+            return false;
         }
 
         int l = 0, r = nums.length - 1;
@@ -18,7 +18,10 @@ public class SearchInRotatedSortedArray {
             int mid = l + (r - l) / 2;
 
             if (nums[mid] == target) {
-                return mid;
+                return true;
+            } else if (nums[mid] == nums[l] && nums[mid] == nums[r]) {
+                l++;
+                r--;
             } else if (nums[mid] >= nums[l]) {
                 if (nums[l] <= target && target < nums[mid]) {
                     r = mid - 1;
@@ -26,7 +29,7 @@ public class SearchInRotatedSortedArray {
                     l = mid + 1;
                 }
             } else {
-                if (nums[r] >= target && target > nums[mid]) {
+                if (target >= nums[r] && nums[mid] > target) {
                     l = mid + 1;
                 } else {
                     r = mid - 1;
@@ -34,14 +37,12 @@ public class SearchInRotatedSortedArray {
             }
         }
 
-        return -1;
+        return false;
     }
 
     public static void main(String[] args) {
-        int[] nums = {4, 5, 6, 7, 0, 1, 2};
-        int[] nums2 = {1};
-        System.out.println(search(nums2, 0)); // -1
-        System.out.println(search(nums, 0)); // 4
-        System.out.println(search(nums, 3)); // -1
+        int[] nums = {2, 5, 6, 0, 0, 1, 2};
+        System.out.println(search(nums, 0)); // true
+        System.out.println(search(nums, 3)); // false
     }
 }
