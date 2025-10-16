@@ -94,7 +94,8 @@
 ## [LINKEDLIST](./NOTE/NOTE_LinkedList.md)
 ![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
-1. [Reverse Linked List](https://github.com/quocanh4433/dsa/blob/main/ReverseLinkedList)
+1. [Reverse Linked List (LÀM LẠI KHI HỌC RECURSION)](https://github.com/quocanh4433/dsa/blob/main/ReverseLinkedList)
+1. [Merge Two Sorted Linked Lists (LÀM LẠI KHI HỌC RECURSION)](https://github.com/quocanh4433/dsa/blob/main/MergeTwoSortedLinkedLists)
 
 
 
