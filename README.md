@@ -1,4 +1,4 @@
-## [ARRAY & HASHING / TWO POINTER / SLIDING WINDOW](./NOTE/NOTE_Array.md)
+## [ARRAY & HASHING / TWO POINTER / SLIDING WINDOW](./1_NOTE/NOTE_Array.md)
 
 ![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
@@ -52,7 +52,7 @@
 
 
 
-## [STACK & QUEUE](./NOTE/NOTE_Stack.md)
+## [STACK & QUEUE](./1_NOTE/NOTE_Stack.md)
 ![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
 1. [Valid Parentheses](https://github.com/quocanh4433/dsa/blob/main/ValidParentheses)
@@ -75,7 +75,7 @@
 
 
 
-## [BINARY SEARCH](./NOTE/NOTE_BinarySearch.md)
+## [BINARY SEARCH](./1_NOTE/NOTE_BinarySearch.md)
 ![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
 1. [Binary Search](https://github.com/quocanh4433/dsa/blob/main/BinarySearch)
@@ -94,7 +94,7 @@
 
 
 
-## [LINKEDLIST](./NOTE/LinkedList.md)
+## [LINKEDLIST](./1_NOTE/LinkedList.md)
 ![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
 1. [Reverse Linked List (LÀM LẠI KHI HỌC RECURSION)](https://github.com/quocanh4433/dsa/blob/main/ReverseLinkedList)
@@ -107,8 +107,20 @@
 1. [Remove Nodes From Linked List (LÀM LẠI KHI HỌC RECURSION)](https://github.com/quocanh4433/dsa/blob/main/RemoveNodesFromLinkedList)
 
 
-## [BACKTRACKING](./NOTE/NOTE_Backtracking.md)
+
+
+
+## [BACKTRACKING](./1_NOTE/NOTE_Backtracking.md)
 ![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)  
 1. [Binary Tree Paths](https://github.com/quocanh4433/dsa/blob/main/BinaryTreePaths)
+
+
+
+
+
+## [MATH](./1_NOTE/Math.md)
+![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
+![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)  
+1. [Palindrome Number](https://github.com/quocanh4433/dsa/blob/main/PalindromeNumber)
 
