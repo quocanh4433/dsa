@@ -72,6 +72,9 @@
 1. [Evaluate Reverse Polish Notation](https://github.com/quocanh4433/dsa/blob/main/EvaluateReversePolishNotation)
 
 
+
+
+
 ## [BINARY SEARCH](./NOTE/NOTE_BinarySearch.md)
 ![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
@@ -91,14 +94,17 @@
 
 
 
-## [LINKEDLIST](./NOTE/NOTE_LinkedList.md)
+## [LINKEDLIST](./NOTE/LinkedList.md)
 ![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
 1. [Reverse Linked List (LÀM LẠI KHI HỌC RECURSION)](https://github.com/quocanh4433/dsa/blob/main/ReverseLinkedList)
 1. [Merge Two Sorted Linked Lists (LÀM LẠI KHI HỌC RECURSION)](https://github.com/quocanh4433/dsa/blob/main/MergeTwoSortedLinkedLists)
 1. [Linked List Cycle Detection](https://github.com/quocanh4433/dsa/blob/main/LinkedListCycleDetection)
-1. [Remove LinkedList Elements](https://github.com/quocanh4433/dsa/blob/main/RemoveLinkedListElements)
+1. [Remove LinkedList Elements (LÀM LẠI KHI HỌC RECURSION)](https://github.com/quocanh4433/dsa/blob/main/RemoveLinkedListElements)
 
+![Medium](https://img.shields.io/badge/Difficulty-Medium-orange?style=for-the-badge&logo=leetcode)
+![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
+1. [Remove Nodes From Linked List (LÀM LẠI KHI HỌC RECURSION)](https://github.com/quocanh4433/dsa/blob/main/RemoveNodesFromLinkedList)
 
 
 ## [BACKTRACKING](./NOTE/NOTE_Backtracking.md)
