@@ -18,6 +18,7 @@
 1. [Reverse String](https://github.com/quocanh4433/dsa/blob/main/ReverseString)
 1. [Contains Duplicate 2](https://github.com/quocanh4433/dsa/blob/main/ContainsDuplicate2)
 1. [Monotonic Array](https://github.com/quocanh4433/dsa/blob/main/MonotonicArray)
+1. [Can Place Flowers](https://github.com/quocanh4433/dsa/blob/main/CanPlaceFlowers)
 
 ![Medium](https://img.shields.io/badge/Difficulty-Medium-orange?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)

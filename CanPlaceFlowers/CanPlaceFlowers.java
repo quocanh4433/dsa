@@ -48,7 +48,32 @@ public class CanPlaceFlowers {
 
     /* SỬA LỖI TƯ DUY */
     public boolean canPlaceFlowers_2(int[] flowerbed, int n) {
+        if (flowerbed == null || flowerbed.length == 0) {
+            return false;
+        }
+        if (flowerbed.length == 1) {
+            if (flowerbed[0] == 1) {
+                return false;
+            }
+            n--;
+            return n <= 0;
+        }
 
+        int i = 0;
+
+        while (i < flowerbed.length) {
+            boolean left = i == 0 || flowerbed[i - 1] == 0;
+            boolean right = i == flowerbed.length - 1 || flowerbed[i + 1] == 0;
+
+            if (left && right && flowerbed[i] == 0) {
+                flowerbed[i] = 1;
+                n--;
+            }
+
+            i++;
+        }
+
+        return n <= 0;
     }
 
     public static void main(String[] args) {
