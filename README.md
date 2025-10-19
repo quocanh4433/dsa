@@ -85,6 +85,8 @@
 1. [First Bad Version](https://github.com/quocanh4433/dsa/blob/main/FirstBadVersion)
 1. [Guess Number Higher Or Lower](https://github.com/quocanh4433/dsa/blob/main/GuessNumberHigherOrLower)
 1. [Sqrt(x)](https://github.com/quocanh4433/dsa/blob/main/Sqrt(x))
+1. [Valid Perfect Square](https://github.com/quocanh4433/dsa/blob/main/ValidPerfectSquare)
+
 
 ![Medium](https://img.shields.io/badge/Difficulty-Medium-orange?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
