@@ -20,6 +20,8 @@
 1. [Monotonic Array](https://github.com/quocanh4433/dsa/blob/main/MonotonicArray)
 1. [Can Place Flowers](https://github.com/quocanh4433/dsa/blob/main/CanPlaceFlowers)
 1. [Find Pivot Index](https://github.com/quocanh4433/dsa/blob/main/FindPivotIndex)
+1. [Find All Duplicates in an Array](https://github.com/quocanh4433/dsa/blob/main/FindAllDuplicatesInAnArray)
+
 
 ![Medium](https://img.shields.io/badge/Difficulty-Medium-orange?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
