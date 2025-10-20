@@ -118,6 +118,17 @@
 
 
 
+## [TREE](./1_NOTE/Tree.md)
+![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
+![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)  
+1. [Invert Binary Tree](https://github.com/quocanh4433/dsa/blob/main/InvertBinaryTree)
+
+![Medium](https://img.shields.io/badge/Difficulty-Medium-orange?style=for-the-badge&logo=leetcode)
+![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
+1. [Insert into a Binary Search Tree](https://github.com/quocanh4433/dsa/blob/main/InsertIntoABinarySearchTree)
+
+
+
 ## [BACKTRACKING](./1_NOTE/NOTE_Backtracking.md)
 ![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)  
