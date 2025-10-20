@@ -122,6 +122,7 @@
 ![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)  
 1. [Invert Binary Tree](https://github.com/quocanh4433/dsa/blob/main/TREE/InvertBinaryTree)
+1. [Search in a Binary Search Tree](https://github.com/quocanh4433/dsa/blob/main/TREE/SearchInABinarySearchTree)
 
 ![Medium](https://img.shields.io/badge/Difficulty-Medium-orange?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
