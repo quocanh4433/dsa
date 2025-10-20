@@ -112,6 +112,7 @@
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
 1. [Remove Nodes From Linked List (LÀM LẠI KHI HỌC RECURSION)](https://github.com/quocanh4433/dsa/blob/main/RemoveNodesFromLinkedList)
 1. [Reorder Linked List](https://github.com/quocanh4433/dsa/blob/main/ReorderLinkedList)
+1. [Remove Nth Node From End Of List](https://github.com/quocanh4433/dsa/blob/main/RemoveNthNodeFromEndOfList)
 
 
 
