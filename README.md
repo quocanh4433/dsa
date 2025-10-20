@@ -121,11 +121,14 @@
 ## [TREE](./1_NOTE/Tree.md)
 ![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)  
-1. [Invert Binary Tree](https://github.com/quocanh4433/dsa/blob/main/InvertBinaryTree)
+1. [Invert Binary Tree](https://github.com/quocanh4433/dsa/blob/main/TREE/InvertBinaryTree)
 
 ![Medium](https://img.shields.io/badge/Difficulty-Medium-orange?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
-1. [Insert into a Binary Search Tree](https://github.com/quocanh4433/dsa/blob/main/InsertIntoABinarySearchTree)
+1. [Insert into a Binary Search Tree](https://github.com/quocanh4433/dsa/blob/main/TREE/InsertIntoABinarySearchTree)
+1. [Delete Node in a BST](https://github.com/quocanh4433/dsa/blob/main/TREE/DeleteNodeInABST)
+
+
 
 
 
