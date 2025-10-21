@@ -1,3 +1,4 @@
+package SingleElementInASortedArray;
 
 public class SingleElementInASortedArray {
 

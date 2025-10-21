@@ -1,4 +1,4 @@
-package TREE.DeleteNodeInABST;
+package DeleteNodeInABST;
 
 import TREE.common.TreeNode;
 

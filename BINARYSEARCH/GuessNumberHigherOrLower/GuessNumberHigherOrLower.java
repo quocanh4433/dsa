@@ -1,3 +1,4 @@
+package GuessNumberHigherOrLower;
 
 public class GuessNumberHigherOrLower {
 

@@ -1,4 +1,6 @@
 
+package BaseballGame;
+
 import java.util.Stack;
 
 public class BaseballGame {

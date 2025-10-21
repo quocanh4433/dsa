@@ -1,4 +1,4 @@
-package TREE.SameTree;
+package SameTree;
 
 import TREE.common.TreeNode;
 

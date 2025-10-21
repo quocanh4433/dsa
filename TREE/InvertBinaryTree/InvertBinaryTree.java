@@ -1,4 +1,4 @@
-package TREE.InvertBinaryTree;
+package InvertBinaryTree;
 
 import TREE.common.TreeNode;
 

@@ -1,3 +1,4 @@
+package FirstBadVersion;
 
 public class FirstBadVersion {
 

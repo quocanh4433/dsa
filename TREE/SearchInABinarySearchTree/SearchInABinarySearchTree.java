@@ -1,4 +1,4 @@
-package TREE.SearchInABinarySearchTree;
+package SearchInABinarySearchTree;
 
 import TREE.common.TreeNode;
 

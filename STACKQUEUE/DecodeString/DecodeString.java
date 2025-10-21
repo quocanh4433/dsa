@@ -1,4 +1,6 @@
 
+package DecodeString;
+
 import java.util.Stack;
 
 public class DecodeString {

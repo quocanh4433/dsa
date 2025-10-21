@@ -1,4 +1,4 @@
-package TREE.MaximumDepthOfBinaryTree;
+package MaximumDepthOfBinaryTree;
 
 import TREE.common.TreeNode;
 

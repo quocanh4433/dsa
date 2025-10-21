@@ -1,3 +1,4 @@
+package ValidPerfectSquare;
 
 public class ValidPerfectSquare {
 
