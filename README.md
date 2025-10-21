@@ -127,6 +127,7 @@
 1. [Search in a Binary Search Tree](https://github.com/quocanh4433/dsa/blob/main/TREE/SearchInABinarySearchTree)
 1. [Maximum Depth Of Binary Tree](https://github.com/quocanh4433/dsa/blob/main/TREE/MaximumDepthOfBinaryTree)
 1. [Same Tree](https://github.com/quocanh4433/dsa/blob/main/TREE/SameTree)
+1. [Binary Tree Preorder Traversal](https://github.com/quocanh4433/dsa/blob/main/TREE/BinaryTreePreorderTraversal)
 
 ![Medium](https://img.shields.io/badge/Difficulty-Medium-orange?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
