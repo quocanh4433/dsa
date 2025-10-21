@@ -136,6 +136,7 @@
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
 1. [Insert into a Binary Search Tree](https://github.com/quocanh4433/dsa/blob/main/TREE/InsertIntoABinarySearchTree)
 1. [Delete Node in a BST](https://github.com/quocanh4433/dsa/blob/main/TREE/DeleteNodeInABST)
+1. [Binary Tree Level Order Traversal](https://github.com/quocanh4433/dsa/blob/main/TREE/BinaryTreeLevelOrderTraversal)
 
 
 <br><br>
