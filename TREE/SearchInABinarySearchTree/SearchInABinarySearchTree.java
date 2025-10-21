@@ -1,6 +1,6 @@
 package SearchInABinarySearchTree;
 
-import TREE.common.TreeNode;
+import common.TreeNode;
 
 public class SearchInABinarySearchTree {
 

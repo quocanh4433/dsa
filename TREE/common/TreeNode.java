@@ -1,4 +1,4 @@
-package TREE.common;
+package common;
 
 public class TreeNode {
 
