@@ -138,6 +138,9 @@
 1. [Delete Node in a BST](https://github.com/quocanh4433/dsa/blob/main/TREE/DeleteNodeInABST)
 1. [Binary Tree Level Order Traversal](https://github.com/quocanh4433/dsa/blob/main/TREE/BinaryTreeLevelOrderTraversal)
 1. [Construct Binary Tree From Preorder And Inorder Traversal](https://github.com/quocanh4433/dsa/blob/main/TREE/ConstructBinaryTreeFromPreorderAndInorderTraversal)
+1. [Validate Binary Search Tree](https://github.com/quocanh4433/dsa/blob/main/TREE/ValidateBinarySearchTree)
+1. [Kth Smallest Element in a BST](https://github.com/quocanh4433/dsa/blob/main/TREE/KthSmallestElementInABST)
+
 
 
 <br><br>
