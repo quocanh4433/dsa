@@ -159,6 +159,15 @@
 <br><br>
 
 
+# STRING [🔗](./NOTE/String.md)
+![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
+![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)  
+1. [Check If Digits Are Equal In String After Operations 1](https://github.com/quocanh4433/dsa/blob/main/String/CheckIfDigitsAreEqualInStringAfterOperations1)
+
+
+<br><br>
+
+
 ## MATH [🔗](./NOTE/Math.md)
 ![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)  

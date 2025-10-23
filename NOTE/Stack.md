@@ -161,3 +161,19 @@ list.remove(list.size() - 1);
 List<String> subFolder = {"doc", "math", "exercise"};
 String path = String.join("/", subFolder); // 👉 "doc/math/exercise"
 ```
+
+
+### char to int 
+```java
+char digit = '7'
+
+int num = Character.getNumericValue(digit) // 7
+int num2 = digit - '0'; // 7
+
+// OR
+
+char ch = '9';
+String charAsString = String.valueOf(ch);
+int intValue = Integer.parseInt(charAsString); // intValue will be 9
+System.out.println(intValue);
+```
