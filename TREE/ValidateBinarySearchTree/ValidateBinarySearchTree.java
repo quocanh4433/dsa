@@ -1,6 +1,8 @@
 package ValidateBinarySearchTree;
 
 import common.TreeNode;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class ValidateBinarySearchTree {
 
@@ -38,7 +40,54 @@ public class ValidateBinarySearchTree {
     /*
      * SOLUTION 2: Breath First Search
      * 
+     * Thông thường kiểm tra BST hay dùng DFS đệ quy (vì dễ so sánh min/max), 
+     * nhưng BFS vẫn làm được bằng cách lưu thêm thông tin min/max cho mỗi node trong queue.
+     * 
+     * Time complexity: O(n)
+     * 
+     * Space complexity: O(n)
+     * 
      */
+    public static  class NodeBFS {
+        TreeNode node;
+        long min;
+        long max;
+
+        NodeBFS (TreeNode node, long min, long max) {
+            this.node = node;
+            this.min = min;
+            this.max = max;
+        }
+    }
+
+    public static boolean isValidBST_BFS(TreeNode root) {
+        if(root == null) return true;
+
+        Queue<NodeBFS> queue = new LinkedList<>();
+        queue.add(new NodeBFS(root, Long.MIN_VALUE, Long.MAX_VALUE));
+
+        while(!queue.isEmpty()) {
+            NodeBFS el = queue.poll();
+            TreeNode node = el.node;
+            long min = el.min;
+            long max = el.max;
+
+            if(node.val <= min || node.val >= max) return false;
+
+            if(node.left != null) {
+                queue.add(new NodeBFS(node.left, min, node.val));
+            }
+
+            if (node.right != null) {
+                queue.add(new NodeBFS(node.right, node.val, max));
+            }
+        }
+
+        return true;
+    }
+
+
+
     public static void main(String[] args) {
         TreeNode n0 = new TreeNode(2);
         TreeNode n1 = new TreeNode(1);
@@ -47,5 +96,6 @@ public class ValidateBinarySearchTree {
         n0.left = n1; n0.right = n2; 
 
         System.out.println(isValidBST(n0));
+        System.out.println(isValidBST_BFS(n0));
     }
 }
