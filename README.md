@@ -141,6 +141,10 @@
 1. [Validate Binary Search Tree](https://github.com/quocanh4433/dsa/blob/main/TREE/ValidateBinarySearchTree)
 1. [Kth Smallest Element in a BST](https://github.com/quocanh4433/dsa/blob/main/TREE/KthSmallestElementInABST)
 
+![Hard](https://img.shields.io/badge/Difficulty-Hard-red?style=for-the-badge&logo=leetcode)
+![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
+1. [Serialize and Deserialize Binary Tree](https://github.com/quocanh4433/dsa/blob/main/TREE/SerializeAndDeserializeBinaryTree)
+
 
 
 <br><br>

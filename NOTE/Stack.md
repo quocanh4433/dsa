@@ -23,6 +23,24 @@ result.add(s) // ❌ error: incompatible types: StringBuilder cannot be converte
 
 
 
+### convert a number into text
+```java
+int num = 50;
+String numStr = String.valueOf(num); // "50"
+```
+
+
+
+
+###  split a string into an array of substrings
+```java
+String alphabet = "A,B,C,D";
+String[] arr = alphabet.split(","); // {A, B, C, D}
+```
+
+
+
+
 ### Nối chuỗi với String và StringBuilder
 ```java
 String s = "abc";
