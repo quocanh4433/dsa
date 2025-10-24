@@ -71,5 +71,5 @@ public class CheckIfDigitsAreEqualInStringAfterOperations1 {
         System.out.println(hasSameDigits("34789")); // false
         System.out.println(hasSameDigits_2("3902")); // true
         System.out.println(hasSameDigits_2("34789")); // false
-    }
+        }
 }
