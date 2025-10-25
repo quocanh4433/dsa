@@ -174,4 +174,5 @@
 ![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)  
 1. [Palindrome Number](https://github.com/quocanh4433/dsa/blob/main/MATH/PalindromeNumber)
+1. [Calculate Money In Leetcode Bank](https://github.com/quocanh4433/dsa/blob/main/MATH/CalculateMoneyInLeetcodeBank)
 1. [Next Greater Numerically Balanced Number](https://github.com/quocanh4433/dsa/blob/main/MATH/NextGreaterNumericallyBalancedNumber)
