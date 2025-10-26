@@ -9,10 +9,10 @@ public class SimpleBankSystem {
 
     public boolean transfer(int account1, int account2, long money) {
         // if(!isValid(account1) && !isValid(account2)) return false; // ❌ Không cần cả 2 tài khoản đều sai
-        if (!isValid(account1) || !isValid(account2)) { // ✅ Chỉ cần 1 trong 2 tài khoản SAI là giao dịch thất bại
+        if (!isValid(account1) || !isValid(account2) || balance[account1 - 1] < money) { // ✅ Chỉ cần 1 trong 2 tài khoản SAI là giao dịch thất bại
             return false;
         }
-        // if (balance[account1 - 1] < money) { 
+        // if (balance[account1 - 1] < money) { // ⚠️ Đưa điều kiện lên cùng 1 if
         //     return false;
         // }
         balance[account1 - 1] -= money;  // ❌ Quên trừ tiền account 1
