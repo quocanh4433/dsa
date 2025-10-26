@@ -22,7 +22,7 @@
 1. [Find Pivot Index](https://github.com/quocanh4433/dsa/blob/main/ARRAY/FindPivotIndex)
 1. [Find All Duplicates in an Array](https://github.com/quocanh4433/dsa/blob/main/ARRAY/FindAllDuplicatesInAnArray)
 1. [Single Number (LÀM LẠI KHI HỌC BIT MANUPLATION)](https://github.com/quocanh4433/dsa/blob/main/ARRAY/SingleNumber)
-
+1. [Simple Bank System](https://github.com/quocanh4433/dsa/blob/main/ARRAY/SimpleBankSystem)
 
 ![Medium](https://img.shields.io/badge/Difficulty-Medium-orange?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
