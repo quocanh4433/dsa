@@ -25,38 +25,7 @@ public class BestTimeToBuyAndSellStock {
         return maxProfit;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    // Revise
+    // Revise - One transaction (chỉ 1 mua 1 bán)
     public static int maxProfit_Redo(int[] prices) {
         if(prices == null) return 0; //  Không kiểm tra điều kiện này cũng được do 1 <= prices
         int minPrice = prices[0];

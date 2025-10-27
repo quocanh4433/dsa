@@ -47,6 +47,7 @@
 1. [CustomSortString](https://github.com/quocanh4433/dsa/blob/main/ARRAY/CustomSortString)
 1. [Number Of Substrings Containing All Three Characters](https://github.com/quocanh4433/dsa/blob/main/ARRAY/NumberOfSubstringsContainingAllThreeCharacters)
 1. [Get Equal Substrings Within Budget](https://github.com/quocanh4433/dsa/blob/main/ARRAY/GetEqualSubstringsWithinBudget)
+1. [Best Time To Buy And Sell Stock 2](https://github.com/quocanh4433/dsa/blob/main/ARRAY/BestTimeToBuyAndSellStock2)
 
 ![Hard](https://img.shields.io/badge/Difficulty-Hard-red?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
