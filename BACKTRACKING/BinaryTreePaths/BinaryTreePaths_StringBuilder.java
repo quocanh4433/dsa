@@ -54,7 +54,7 @@ public class BinaryTreePaths_StringBuilder {
 
         int returnPoint = path.length();
         // Nó ghi nhớ vị trí cũ của chuỗi sb trước khi thêm giá trị mới.
-        // au khi đệ quy xong, ta dùng sb.setLength(len) để quay lại trạng thái ban đầu — đây chính là backtracking.
+        // sau khi đệ quy xong, ta dùng sb.setLength(len) để quay lại trạng thái ban đầu — đây chính là backtracking.
         path.append(node.val);
 
         if (node.left == null && node.right == null) {
