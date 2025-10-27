@@ -1,4 +1,6 @@
 
+
+
 public class BestTimeToBuyAndSellStock {
 
     /**
@@ -20,6 +22,50 @@ public class BestTimeToBuyAndSellStock {
             minPrice = Math.min(minPrice, prices[i]);
         }
 
+        return maxProfit;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // Revise
+    public static int maxProfit_Redo(int[] prices) {
+        if(prices == null) return 0; //  Không kiểm tra điều kiện này cũng được do 1 <= prices
+        int minPrice = prices[0];
+        int maxProfit = 0;
+        for(int i = 1; i < prices.length; i++) {
+            int profit = prices[i] - minPrice;
+            maxProfit = Math.max(maxProfit, profit);
+            minPrice = Math.min(minPrice, prices[i]);
+        }
         return maxProfit;
     }
 
