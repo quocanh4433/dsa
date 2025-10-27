@@ -158,6 +158,7 @@
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)  
 1. [Binary Tree Paths](https://github.com/quocanh4433/dsa/blob/main/BACKTRACKING/BinaryTreePaths)
 1. [Combination Sum](https://github.com/quocanh4433/dsa/blob/main/BACKTRACKING/CombinationSum)
+1. [Word Search](https://github.com/quocanh4433/dsa/blob/main/BACKTRACKING/WordSearch)
 
 
 <br><br>
