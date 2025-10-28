@@ -60,6 +60,14 @@
 <br><br>
 
 
+# PREFIXSUM [🔗](./NOTE/Stack.md)
+![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
+![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
+1. [Make Array Elements Equal To Zero](https://github.com/quocanh4433/dsa/blob/main/PREFIXSUM/MakeArrayElementsEqualToZero)
+
+<br><br>
+
+
 # STACK & QUEUE [🔗](./NOTE/Stack.md)
 ![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
