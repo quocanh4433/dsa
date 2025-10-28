@@ -192,3 +192,12 @@
 1. [Climbing Stairs](https://github.com/quocanh4433/dsa/blob/main/DP/ClimbingStairs)
 
 
+<br><br>
+
+
+## TRIE [🔗](./NOTE/TRIE.md)
+![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
+![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)  
+1. [Implement Trie (Prefix Tree)](https://github.com/quocanh4433/dsa/blob/main/TRIE/ImplementTriePrefixTree)
+
+
