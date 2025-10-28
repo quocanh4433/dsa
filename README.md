@@ -128,6 +128,9 @@
 1. [Reorder Linked List](https://github.com/quocanh4433/dsa/blob/main/LINKEDLIST/ReorderLinkedList)
 1. [Remove Nth Node From End Of List](https://github.com/quocanh4433/dsa/blob/main/LINKEDLIST/RemoveNthNodeFromEndOfList)
 
+![Hard](https://img.shields.io/badge/Difficulty-Hard-red?style=for-the-badge&logo=leetcode)
+![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
+1. [Merge K Sorted Lists (CHỈ MỚI BRUTE FORCE)](https://github.com/quocanh4433/dsa/blob/main/LINKEDLIST/MergeKSortedLists)
 
 <br><br>
 
