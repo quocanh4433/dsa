@@ -211,4 +211,8 @@
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)  
 1. [Implement Trie (Prefix Tree)](https://github.com/quocanh4433/dsa/blob/main/TRIE/ImplementTriePrefixTree)
 
+![Medium](https://img.shields.io/badge/Difficulty-Medium-orange?style=for-the-badge&logo=leetcode)
+![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
+1. [Design Add And Search Words Data Structure](https://github.com/quocanh4433/dsa/blob/main/TRIE/DesignAddAndSearchWordsDataStructure)
+
 

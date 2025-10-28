@@ -3,6 +3,21 @@ import java.util.Collections;
 import java.util.List;
 
 public class MergeKSortedLists {
+    public static class ListNode {
+
+        int val;
+        ListNode next;
+
+        ListNode(int val) {
+            this.val = val;
+        }
+
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
+    }
+
     /**
      * 💡 IDEA: 
      * - Lưu val các node vào 1 mảng
@@ -39,17 +54,3 @@ public class MergeKSortedLists {
     }
 }
 
-class ListNode {
-
-    int val;
-    ListNode next;
-
-    ListNode(int val) {
-        this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
-}
