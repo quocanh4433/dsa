@@ -219,3 +219,12 @@
 ![Hard](https://img.shields.io/badge/Difficulty-Hard-%23B22222?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
 1. [Word Search 2](https://github.com/quocanh4433/dsa/blob/main/TRIE/WordSearch2)
+
+
+
+
+
+## BITMANUPLATION [🔗](./NOTE/Bit.md)
+![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
+![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)  
+1. [Smallest Number With All Set Bits (KHÔNG HIỂU - LÀM THEO DAILY)](https://github.com/quocanh4433/dsa/blob/main/BITMANUPLATION/SmallestNumberWithAllSetBits)
