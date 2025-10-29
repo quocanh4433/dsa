@@ -50,7 +50,7 @@
 1. [Best Time To Buy And Sell Stock 2](https://github.com/quocanh4433/dsa/blob/main/ARRAY/BestTimeToBuyAndSellStock2)
 1. [Number of Laser Beams in a Bank](https://github.com/quocanh4433/dsa/blob/main/ARRAY/NumberOfLaserBeamsInABank)
 
-![Hard](https://img.shields.io/badge/Difficulty-Hard-red?style=for-the-badge&logo=leetcode)
+![Hard](https://img.shields.io/badge/Difficulty-Hard-%23B22222?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
 1. [First Missing Positive](https://github.com/quocanh4433/dsa/blob/main/ARRAY/FirstMissingPositive)
 1. [Trapping Rain Water](https://github.com/quocanh4433/dsa/blob/main/ARRAY/TrappingRainWater)
@@ -128,7 +128,7 @@
 1. [Reorder Linked List](https://github.com/quocanh4433/dsa/blob/main/LINKEDLIST/ReorderLinkedList)
 1. [Remove Nth Node From End Of List](https://github.com/quocanh4433/dsa/blob/main/LINKEDLIST/RemoveNthNodeFromEndOfList)
 
-![Hard](https://img.shields.io/badge/Difficulty-Hard-red?style=for-the-badge&logo=leetcode)
+![Hard](https://img.shields.io/badge/Difficulty-Hard-%23B22222?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
 1. [Merge K Sorted Lists (CHỈ MỚI BRUTE FORCE)](https://github.com/quocanh4433/dsa/blob/main/LINKEDLIST/MergeKSortedLists)
 
@@ -156,7 +156,7 @@
 1. [Validate Binary Search Tree](https://github.com/quocanh4433/dsa/blob/main/TREE/ValidateBinarySearchTree)
 1. [Kth Smallest Element in a BST](https://github.com/quocanh4433/dsa/blob/main/TREE/KthSmallestElementInABST)
 
-![Hard](https://img.shields.io/badge/Difficulty-Hard-red?style=for-the-badge&logo=leetcode)
+![Hard](https://img.shields.io/badge/Difficulty-Hard-%23B22222?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
 1. [Serialize and Deserialize Binary Tree](https://github.com/quocanh4433/dsa/blob/main/TREE/SerializeAndDeserializeBinaryTree)
 1. [Binary Tree Maximum Path Sum](https://github.com/quocanh4433/dsa/blob/main/TREE/BinaryTreeMaximumPathSum)
@@ -216,3 +216,6 @@
 1. [Design Add And Search Words Data Structure](https://github.com/quocanh4433/dsa/blob/main/TRIE/DesignAddAndSearchWordsDataStructure)
 
 
+![Hard](https://img.shields.io/badge/Difficulty-Hard-%23B22222?style=for-the-badge&logo=leetcode)
+![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
+1. [Word Search 2](https://github.com/quocanh4433/dsa/blob/main/TRIE/WordSearch2)
