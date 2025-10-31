@@ -48,7 +48,7 @@ public class BinaryTreeLevelOrderTraversal {
     /*
      * CODE ĐÚNG ✅
      * 
-     * BREATH FIRST SEARCH
+     * BREATH FIRST SEARCH + QUEUE + FOR LOOF via LEVEL
      * 
      * Time complexit: O(n)
      * 
@@ -68,12 +68,19 @@ public class BinaryTreeLevelOrderTraversal {
         while (!queue.isEmpty()) {
             List<Integer> level = new ArrayList<>();
 
+            // 👉 Tại sao duyệt từ i = queue.size() mà không bắt đầu từ i = 0 ?
             for (int i = queue.size(); i > 0; i--) {
                 TreeNode node = queue.poll();
                 if (node != null) {
                     level.add(node.val);
                     queue.add(node.left);
                     queue.add(node.right);
+                    
+                    // ❓ Khi node là leaf thì 
+                    // queue.add(node.left) và queue.add(node.right) sẽ thêm rất nhiều null vào hàng đợi
+
+
+                    // 👉 Vậy tại sao kết quả cuối cùng không xuất hiện null ?
                 }
             }
 
