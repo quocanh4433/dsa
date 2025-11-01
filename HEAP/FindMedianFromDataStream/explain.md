@@ -147,7 +147,7 @@ class MedianFinder {
 }
 ```
 
-🧩***Tại sao khi tổng số phân tử là số lẻ return về minHeap.peek()***
+🧩***Tại sao khi tổng số phân tử là số lẻ return về minHeap.peek()?***
 
 👉 Với triền khai như trên khi tổng số phần từ là số lẻ sẽ thêm vào minHeap. Triên khai với 3 - 8 - 7. minHeap.peak() = 7 ✅
 | maxHeap        | minHeap        | 
@@ -155,9 +155,9 @@ class MedianFinder {
 | [3]            |[7, 8]          |
 
 
-🧩***Heap nào giữ median khi số lẻ***
+🧩***Heap nào giữ median khi số lẻ?***
 
-👉 Phụ thuộc vào heap nhận giá trị cuối cùng. Trong triển khai ở trên là minHeap 🔥🔥🔥🔥. Nên khi tổng phần từ là số lẻ return về minHeap hoặc ngược lại
+👉 Phụ thuộc vào heap nhận giá trị cuối cùng. Trong triển khai ở trên là minHeap 🔥🔥🔥🔥, nên khi tổng phần từ là số lẻ return về minHeap hoặc ngược lại
 
 
 ### Soure
@@ -167,3 +167,195 @@ class MedianFinder {
 [https://www.youtube.com/watch?v=SdURPlHqc1gs](https://www.youtube.com/watch?v=SdURPlHqc1gs)
 
 
+
+# Solution dựa vào số lượng phần tử trong heap ?
+
+### Khởi tạo
+
+Khởi tạo minHeap và maxHeap 
+
+```java
+class MedianFinder {
+    private Queue<Integer> minHeap;
+    private Queue<Integer> maxHeap;
+
+    public MedianFinder() {
+        minHeap = new PriorityQueue<>();
+        maxHeap = new PriorityQueue<>(Collections.reverseOrder());
+    }
+}
+```
+
+### Triển khai addNumber()
+
+Thay vì dựa vào tính chẵn - lẻ, phương pháp này cân bằng dựa vào số lương phần từ ở mỗi heap.
+
+```java
+class MedianFinder {
+    private Queue<Integer> minHeap;
+    private Queue<Integer> maxHeap;
+
+    public MedianFinder() {
+        minHeap = new PriorityQueue<>();
+        maxHeap = new PriorityQueue<>(Collections.reverseOrder);
+    }
+
+    public void addNum(int num) {
+        if(minHeap.size() - maxHeap.size() == 1) {
+            maxHeap.offer(num);
+        } else if(maxHeap.size() - minHeap.size() == 1) {
+            minHeap.offer(num); 🔥
+        } else { // minHeap == maxHeap
+            minHeap.offer(num);
+        }
+    }
+}
+```
+
+Thử triên khai với 3 - 5 - 8 - 7 - 10
+| maxHeap        | minHeap        | 
+|----------------|----------------|
+| [5, 7, 10]     |[3, 8]          |
+
+Có gì đó không đúng ở đây, điều kiên này 🔥 không xảy ra. 
+
+ℹ️ **Vậy logic sai ở đâu?**
+
+Sai ở chỗ thêm minHeap và maxHeap không có tính xen kẽ.
+
+***Ý tưởng 💡:***  Sẽ như thế nào nếu offer vào maxHeap đầu tiên. Sau đó mới bắt đầu sắp xếp lại. 
+
+🧩 ***Có thể để mặc định offer(num) vào minHeap được không ?***
+
+Tất nhiên là được không có vấn đề gì. 
+
+### Triền khai addNum() chuẩn với mặc định thêm vào maxHeap
+
+```java
+public void addNum(int num) {
+    // Mặc định thêm vào maxHeap
+    maxHeap.offer(num);
+}
+```
+
+🧩 ***Điều kiện nào cần bằng ?***
+- Hai heap chênh lệch nhau lớn hơn 1. Chuyển sang heap có số lượng phần tử nhỏ hơn
+```java
+public void addNum(int num) {
+    // Mặc định thêm vào maxHeap
+    maxHeap.offer(num);
+
+    if(maxHeap.size() - minHeap.size() > 1) {
+        minHeap.offer(maxHeap.poll());
+    }
+    
+    if(minHeap.size() - maxHeap.size() > 1) {
+        maxHeap.offer(minHeap.poll());
+    }
+}
+```
+
+- Khi số được thêm vào đúng ra phải nằm ở minHeap.❓ Làm sao biết số nào nằm ở minHeap, num mặc định đã thêm vào maxHeap nên so sánh: num > minHeap.peek(). Tương trự triển khai thêm số **11** ở trên. 
+
+```java
+public void addNum(int num) {
+    // Mặc định thêm vào maxHeap
+    maxHeap.offer(num);
+
+    if(maxHeap.size() - minHeap.size() > 1 || num > minHeap.peek()) {
+        minHeap.offer(maxHeap.poll());
+    }
+    
+    if(minHeap.size() - maxHeap.size() > 1) {
+        maxHeap.offer(minHeap.poll());
+    }
+}
+```
+
+Thấy cũng đúng đúng rồi đó. Nhưng nghĩ thật kỹ lại xem có gì chưa hợp lý không. Sẽ ra sau trong trường hợp này. Thử triên khai với 3 - 5, thêm số 3 vào maxHeap
+
+| maxHeap        | minHeap        | 
+|----------------|----------------|
+| [3]            |[]              |
+
+Theo logic sẽ kiểm tra điều kiện này trước ***maxHeap.size() - minHeap.size() > 1*** -> ***false*** tiếp tục kiểm tra đến điều kiện ***num > minHeap.peek()*** -> ***NullPointerException*** do minHeap đang rỗng. Nên cần thêm điều kiện kiểm tra rỗng cho minHeap
+
+
+```java
+public void addNum(int num) {
+    // Mặc định thêm vào maxHeap
+    maxHeap.offer(num);
+
+    if(maxHeap.size() - minHeap.size() > 1 || !minHeap.isEmpty() && num > minHeap.peek()) {
+        minHeap.offer(maxHeap.poll());
+    }
+    
+    if(minHeap.size() - maxHeap.size() > 1) {
+        maxHeap.offer(minHeap.poll());
+    }
+}
+```
+
+### Triển khai findMedian() thì đơn giản
+```java
+ public double findMedian() {
+    if(maxHeap.size() == minHeap.size()) {
+        return (maxHeap.peek() + minHeap.peek()) / 2.0;
+    } else if(maxHeap.size() > minHeap.size()) {
+        return maxHeap.peek();
+    }
+    return minHeap.peek();
+}
+```
+
+### Code hoàn chỉnh
+```java
+class MedianFinder {
+    Queue<Integer> minHeap;
+    Queue<Integer> maxHeap;
+    
+    public MedianFinder() {
+        minHeap = new PriorityQueue<>();
+        maxHeap = new PriorityQueue<>(Collections.reverseOrder());
+    }
+    
+    public void addNum(int num) {
+        maxHeap.offer(num);
+
+        if(maxHeap.size() - minHeap.size() > 1 || !minHeap.isEmpty() && num > minHeap.peek()) {
+            minHeap.offer(maxHeap.poll());
+        }
+        
+        if(minHeap.size() - maxHeap.size() > 1) {
+            maxHeap.offer(minHeap.poll());
+        }
+    }
+    
+    public double findMedian() {
+        if(maxHeap.size() == minHeap.size()) {
+            return (maxHeap.peek() + minHeap.peek()) / 2.0;
+        } else if(maxHeap.size() > minHeap.size()) {
+            return maxHeap.peek();
+        } 
+        return minHeap.peek();
+    }
+}
+```
+
+# Time và Space comlexity
+
+### 🕓 Time
+
+Hàm addNum(num) xử lý mất - O(logn)
+
+Data stream gọi m lần addNum() - O(mlogn)
+
+Hàm findMedian() - O(1)
+
+> Time complexity: O(mlogn) mà m~n nên -> O(nlogn)
+
+### 💾 Space
+
+Chỉ sử dụng minheap và maxHeap với tông số phần từ 2 heap là n
+
+> Space complexity: O(n)
