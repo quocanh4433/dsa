@@ -18,7 +18,7 @@ public class RemoveNthNodeFromEndOfList {
 
         -1 -> 1 -> 2 -> 3 -> 4* -> 5 -> null
         d
-                        l              r
+                        l               r
          */
 
         ListNode result = new ListNode(-1, head);

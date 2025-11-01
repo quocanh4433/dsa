@@ -127,6 +127,7 @@
 1. [Remove Nodes From Linked List (LÀM LẠI KHI HỌC RECURSION)](https://github.com/quocanh4433/dsa/blob/main/LINKEDLIST/RemoveNodesFromLinkedList)
 1. [Reorder Linked List](https://github.com/quocanh4433/dsa/blob/main/LINKEDLIST/ReorderLinkedList)
 1. [Remove Nth Node From End Of List](https://github.com/quocanh4433/dsa/blob/main/LINKEDLIST/RemoveNthNodeFromEndOfList)
+1. [Delete Nodes From Linked List Present in Array](https://github.com/quocanh4433/dsa/blob/main/LINKEDLIST/DeleteNodesFromLinkedListPresentInArray)
 
 ![Hard](https://img.shields.io/badge/Difficulty-Hard-%23B22222?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
