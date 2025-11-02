@@ -161,6 +161,7 @@
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
 1. [Serialize and Deserialize Binary Tree](https://github.com/quocanh4433/dsa/blob/main/TREE/SerializeAndDeserializeBinaryTree)
 1. [Binary Tree Maximum Path Sum](https://github.com/quocanh4433/dsa/blob/main/TREE/BinaryTreeMaximumPathSum)
+1. [Lowest Common Ancestor Of A Binary Search Tree](https://github.com/quocanh4433/dsa/blob/main/TREE/LowestCommonAncestorOfABinarySearchTree)
 
 
 
