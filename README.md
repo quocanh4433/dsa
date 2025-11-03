@@ -238,4 +238,12 @@
 ## HEAP [🔗](./NOTE/Heap.md)
 ![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)  
-1. [Smallest Number With All Set Bits (KHÔNG HIỂU - LÀM THEO DAILY)](https://github.com/quocanh4433/dsa/blob/main/HEAP/SmallestNumberWithAllSetBits)
+1. [Kth Largest Element In A Stream](https://github.com/quocanh4433/dsa/blob/main/HEAP/KthLargestElementInAStream)
+1. [Last Stone Weight](https://github.com/quocanh4433/dsa/blob/main/HEAP/LastStoneWeight)
+
+
+![Hard](https://img.shields.io/badge/Difficulty-Hard-%23B22222?style=for-the-badge&logo=leetcode)
+![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
+1. [Find Median From Data Stream](https://github.com/quocanh4433/dsa/blob/main/HEAP/FindMedianFromDataStream)
+
+
