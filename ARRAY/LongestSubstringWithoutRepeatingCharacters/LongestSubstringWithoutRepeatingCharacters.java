@@ -1,59 +1,24 @@
+
 import java.util.HashMap;
 import java.util.Map;
 
 public class LongestSubstringWithoutRepeatingCharacters {
-    /**
-     * Given a string s, find the length of the longest substring without duplicate
-     * characters.
-     * 
-     * Example 1:
-     * 
-     * Input: s = "abcabcbb"
-     * Output: 3
-     * Explanation: The answer is "abc", with the length of 3.
-     * Example 2:
-     * 
-     * Input: s = "bbbbb"
-     * Output: 1
-     * Explanation: The answer is "b", with the length of 1.
-     * Example 3:
-     * 
-     * Input: s = "pwwkew"
-     * Output: 3
-     * Explanation: The answer is "wke", with the length of 3.
-     * Notice that the answer must be a substring, "pwke" is a subsequence and not a
-     * substring.
-     * 
-     * 
-     * Constraints:
-     * 
-     * 0 <= s.length <= 5 * 104
-     * s consists of English letters, digits, symbols and spaces.
-     * 
-     * s = "pwwkew"
-     * start = 0, end = 0
-     * map {key: char, value: index}
-     * 
-     * while(end < s.lenght) {
-     *   char = s[end]
-     *    
-     * 
-     * }
-     * 
-     * return end - start
-     */
 
     static int lengthOfLongestSubstring(String s) {
-        if(s == null) return 0;
-        if(s.length() == 1) return 1;
+        if (s == null) {
+            return 0;
+        }
+        if (s.length() == 1) {
+            return 1;
+        }
 
         int res = 0, l = 0, r = 0;
         Map<Character, Integer> seen = new HashMap<>();
 
-        while(r < s.length()) {
+        while (r < s.length()) {
             char c = s.charAt(r);
 
-            if(seen.containsKey(c) && seen.get(c) >= l) {
+            if (seen.containsKey(c) && seen.get(c) >= l) {
                 l = seen.get(c) + 1;
             }
 
@@ -73,7 +38,38 @@ public class LongestSubstringWithoutRepeatingCharacters {
 
         return res;
     }
-    
+
+    /* JUST REVISE THIS PROBLEM
+     * 
+     * Time complexity: O(n)
+     * 
+     * Space complexity: O(n)
+     */
+    public int lengthOfLongestSubstring_2(String s) {
+        if (s == null || s.length() == 0) {
+            return 0;
+        }
+        if (s.length() == 1) {
+            return 1;
+        }
+
+        char[] chars = s.toCharArray();
+        Map<Character, Integer> seen = new HashMap<>();
+        int i = 0;
+        int res = 0;
+
+        for (int k = 0; k < chars.length; k++) {
+            char c = chars[k];
+
+            // 🔥 NEEDED THE CONDITION: seen.get(c) >= i?
+            if (seen.containsKey(c) && seen.get(c) >= i) {
+                i = seen.get(c) + 1;
+            }
+            seen.put(c, k);
+            res = Math.max(res, k - i + 1);
+        }
+        return res;
+    }
 
     public static void main(String[] args) {
         String s = "pwwkew";
@@ -82,7 +78,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
         /* FAIL AT TESTCASE s3 */
         String s3 = "au";
         String s4 = "accna";
-       
+
         System.out.println(lengthOfLongestSubstring(s));
         System.out.println(lengthOfLongestSubstring(s1));
         System.out.println(lengthOfLongestSubstring(s2));
