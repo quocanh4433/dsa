@@ -31,7 +31,6 @@ public class GroupAnagram {
      * lowercase English letters.
      *
      */
-
     /**
      * SOLUTION 1:
      *
@@ -73,6 +72,43 @@ public class GroupAnagram {
         }
 
         return new ArrayList<>(map.values());
+    }
+
+    /*
+     * JUST REVISE
+     * 
+     */
+    public List<List<String>> groupAnagrams(String[] strs) {
+        List<List<String>> res = new ArrayList<>();
+        if (strs.length == 1) {
+            res.add(Arrays.asList(strs[0]));
+            return res;
+        }
+
+        Map<String, List<String>> seen = new HashMap<>();
+
+        for (String s : strs) {
+            int[] count = new int[26];
+
+            for (char c : s.toCharArray()) {
+                int i = c - 'a';
+                count[i] += 1;
+            }
+
+            String key = Arrays.toString(count);
+            if (!seen.containsKey(key)) {
+                seen.put(key, new ArrayList<>());
+            }
+            seen.get(key).add(s);
+        }
+
+        for (String key : seen.keySet()) {
+            if (!seen.get(key).isEmpty()) {
+                res.add(seen.get(key));
+            }
+        }
+
+        return res;
     }
 
     public static void main(String[] args) {
