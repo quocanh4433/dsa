@@ -36,9 +36,11 @@ public class CloneGraph {
         Map<Node, Node> oldToNew = new HashMap<>();
         Queue<Node> q = new LinkedList<>();
 
+        // Tạo node clone nhưng chưa có neighbors
         oldToNew.put(node, new Node(node.val));
         q.add(node);
 
+        // Tạo neighbors
         while (!q.isEmpty()) {
             Node cur = q.poll();
 
@@ -47,6 +49,8 @@ public class CloneGraph {
                     oldToNew.put(nei, new Node(nei.val));
                     q.add(nei);
                 }
+
+                // kết nối node clone hiện tại với node clone neighbor
                 oldToNew.get(cur).neighbors.add(oldToNew.get(nei));
             }
         }
