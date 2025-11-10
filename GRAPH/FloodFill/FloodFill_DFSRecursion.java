@@ -1,5 +1,5 @@
 
-public class FloodFill_Recursion {
+public class FloodFill_DFSRecursion {
 
     /*
      * RECUSRSION

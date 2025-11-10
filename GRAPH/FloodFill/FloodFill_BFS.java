@@ -2,7 +2,7 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-public record FloodFill() {
+public record FloodFill_BFS() {
 
     /*
      * BREATH FIRST SEARCH (NOT USING RECURSION)
