@@ -50,13 +50,69 @@ public class CloneGraph {
                     q.add(nei);
                 }
 
-                // kết nối node clone hiện tại với node clone neighbor
-                oldToNew.get(cur).neighbors.add(oldToNew.get(nei));
+                // 01. Lấy ra node clone từ node original (Node cur)
+                Node cloneNode = oldToNew.get(cur);
+
+                // 02. Lấy ra node neighbor tư f node neighbor original
+                // Node nei này được thêm từ điều kiện if ở trên 
+                Node neiNode = oldToNew.get(nei);
+
+                // 03. Kết nối node clone hiện tại với node clone neighbor
+                cloneNode.neighbors.add(neiNode);
+
+                // Từ 01, 02, 03 ở trên có thể viết gọn thành
+                // oldToNew.get(cur).neighbors.add(oldToNew.get(nei));
             }
         }
 
         return oldToNew.get(node);
     }
+
+    /**
+     * JUST REVISE
+     *
+     *
+     */
+    public Node cloneGraph_revise(Node node) {
+        if (node == null) {
+            return null;
+        }
+
+        Map<Node, Node> origToClone = new HashMap<>(); // pair of key: original Node - value: clone Node
+        Queue<Node> q = new LinkedList<>();
+
+        q.add(node);
+        origToClone.put(node, new Node(node.val));
+
+        while (!q.isEmpty()) {
+            Node origNode = q.poll();
+
+            // Clone neighbors
+            for (Node nei : origNode.neighbors) {
+                if (!origToClone.containsKey(nei)) {
+                    origToClone.put(nei, new Node(nei.val));
+                    q.add(nei);
+                }
+
+                // Get clone node
+                Node cloneNode = origToClone.get(origNode);
+
+                // Get nei for clone node
+                Node cloneNei = origToClone.get(nei);
+
+                // Add neighbor for clone node
+                cloneNode.neighbors.add(cloneNei);
+            }
+
+        }
+
+        return origToClone.get(node); // get clone node
+    }
+    /*
+     * DEPTH FIRST SEARCH
+     * 
+     * 
+     */
 }
 
 class Node {
