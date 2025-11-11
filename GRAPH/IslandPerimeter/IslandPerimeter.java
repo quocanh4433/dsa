@@ -13,7 +13,7 @@ public class IslandPerimeter {
      * Xét theo cặp nào cũng đúng chỉ khác điều kiện một chút
      * 
      * 
-     * 🧩 Tại sao không xét theo cặp TRÊN + DƯỚI hoặc TRÁI + PHẢI?
+     * 🧩 Tại sao không xét chỉ theo cặp TRÊN + DƯỚI hoặc TRÁI + PHẢI?
      * Xem file explain.md
      * 
      */
@@ -45,6 +45,45 @@ public class IslandPerimeter {
                     // if (i > 0 && grid[i - 1][j] == 1) {
                     //     perimeter -= 2;
                     // }
+                }
+            }
+        }
+        return perimeter;
+    }
+
+
+    /*
+     * XÉT THEO BỐN HƯỚNG - Dễ hiểu hơn
+     */
+    public int islandPerimeter_2(int[][] grid) {
+        int m = grid.length;
+        int n = grid[0].length;
+        int perimeter = 0;
+
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (grid[i][j] == 1) {
+                    perimeter += 4;
+
+                    // Kiểm tra bên phải
+                    if (j < n - 1 && grid[i][j + 1] == 1) {
+                        perimeter -= 1;
+                    }
+
+                    // Kiểm tra bên trái
+                    if (j > 0 && grid[i][j - 1] == 1) {
+                        perimeter -= 1;
+                    }
+
+                    // Kiểm tra bên dưới
+                    if (i < m - 1 && grid[i + 1][j] == 1) {
+                        perimeter -= 1;
+                    }
+
+                    // Kiểm tra bên trên
+                    if (i > 0 && grid[i - 1][j] == 1) {
+                        perimeter -= 1;
+                    }
                 }
             }
         }

@@ -135,7 +135,7 @@ class MedianFinder {
             maxHeap.offer(num);
             minHeap.offer(maxHeap.poll()); // 🔥🔥🔥🔥
         } else {
-            minHeap.offer(num);
+            minHeap.offer(num); 
             maxHeap.offer(minHeap.poll());
         }
         isEven = !isEven;
@@ -147,17 +147,20 @@ class MedianFinder {
 }
 ```
 
-🧩***Tại sao khi tổng số phân tử là số lẻ return về minHeap.peek()?***
+🧩***Tại sao theo triển khai ở trên khi tổng số phân tử là số lẻ return về minHeap.peek() mà không phải là maxHeap.peek()?***
 
-👉 Với triền khai như trên khi tổng số phần từ là số lẻ sẽ thêm vào minHeap. Triên khai với 3 - 8 - 7. minHeap.peak() = 7 ✅
+Khi tổng số phần tử lẻ median nằm ở heap nào nhiều phần từ hơn
+
+**Làm sao để biết heap nào nhiều phẩn tử hơn**
+
+👉 Heap nào được GỬI TẶNG giá trị khi isEven = true, trong triển khai ở trên là minHeap (🔥🔥🔥🔥) , nên khi tổng phần từ là số lẻ return về minHeap hoặc ngược lại. Ok chưa !!!!
+
+
+👉 Thử với triền khai như trên, thêm lần lược 3 - 8 - 7. minHeap.peak() = 7 ✅
 | maxHeap        | minHeap        | 
 |----------------|----------------|
 | [3]            |[7, 8]          |
 
-
-🧩***Heap nào giữ median khi số lẻ?***
-
-👉 Phụ thuộc vào heap nhận giá trị cuối cùng. Trong triển khai ở trên là minHeap 🔥🔥🔥🔥, nên khi tổng phần từ là số lẻ return về minHeap hoặc ngược lại
 
 
 ### Soure
