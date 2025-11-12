@@ -16,11 +16,11 @@ Keep size of minHeap less than or equal 4
 
 | Action                                                     |       Visualize minHeap       | 
 |----------------------------------------------------------  |-------------------------------|
-| i = 0  -> socre = 8  -> add(8)                             | ![Img 01](./img/img_01.png)   |
-| i = 1  -> socre = 5 < minHeap.peek() -> add(5)             | ![Img 02](./img/img_02.png)   |
-| i = 2  -> socre = 6 < minHeap.peek() -> add(6)             | ![Img 03](./img/img_03.png)   |
-| i = 3  -> socre = 9 < minHeap.size() -> poll() -> add(9)   | ![Img 04](./img/img_04.png)   |
-| i = 4  -> socre = 10 < minHeap.size() -> poll() -> add(10) | ![Img 05](./img/img_05.png)   |
+| i = 0  -> score = 8  -> add(8)                             | ![Img 01](./img/img_01.png)   |
+| i = 1  -> score = 5 < minHeap.peek() -> add(5)             | ![Img 02](./img/img_02.png)   |
+| i = 2  -> score = 6 < minHeap.peek() -> add(6)             | ![Img 03](./img/img_03.png)   |
+| i = 3  -> score = 9 < minHeap.size() -> poll() -> add(9)   | ![Img 04](./img/img_04.png)   |
+| i = 4  -> score = 10 < minHeap.size() -> poll() -> add(10) | ![Img 05](./img/img_05.png)   |
 
 
 > minHeap.peek() = 8 that is answer

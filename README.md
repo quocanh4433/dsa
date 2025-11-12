@@ -235,30 +235,20 @@
 <br><br>
 
 
-## HEAP [🔗](./NOTE/Heap.md)
+<!-- ## HEAP [🔗](./NOTE/Heap.md)
 ![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)  
 1. [Kth Largest Element In A Stream](https://github.com/quocanh4433/dsa/blob/main/HEAP/KthLargestElementInAStream)
 1. [Last Stone Weight](https://github.com/quocanh4433/dsa/blob/main/HEAP/LastStoneWeight)
 
+![Medium](https://img.shields.io/badge/Difficulty-Medium-orange?style=for-the-badge&logo=leetcode)
+![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
+1. [Top K Frequent Elements](https://github.com/quocanh4433/dsa/blob/main/HEAP/TopKFrequentElements)
+
 
 ![Hard](https://img.shields.io/badge/Difficulty-Hard-%23B22222?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
-1. [Find Median From Data Stream](https://github.com/quocanh4433/dsa/blob/main/HEAP/FindMedianFromDataStream)
-
-
-<br><br>
-
-
-## GRAPH [🔗](./NOTE/Graph.md)
-![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
-![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
-1. [Flood Fill](https://github.com/quocanh4433/dsa/blob/main/GRAPH/FloodFill)
-
-![Medium](https://img.shields.io/badge/Difficulty-Medium-orange?style=for-the-badge&logo=leetcode)
-![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
-1. [Clone Graph](https://github.com/quocanh4433/dsa/blob/main/GRAPH/CloneGraph)
-
+1. [Find Median From Data Stream](https://github.com/quocanh4433/dsa/blob/main/HEAP/FindMedianFromDataStream) -->
 
 
 
