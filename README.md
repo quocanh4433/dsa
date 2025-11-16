@@ -4,6 +4,7 @@
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
 1. [Remove Element](https://github.com/quocanh4433/dsa/blob/main/ARRAY/RemoveElement)
 1. [Remove Duplicates From Sorted Array](https://github.com/quocanh4433/dsa/blob/main/ARRAY/RemoveDuplicatesFromSortedArray)
+1. [Reverse String](https://github.com/quocanh4433/dsa/blob/main/ARRAY/ReverseString)
 1. [Valid Anagram](https://github.com/quocanh4433/dsa/blob/main/ARRAY/ValidAnagram)
 1. [Valid Palindrome](https://github.com/quocanh4433/dsa/blob/main/ARRAY/ValidPalindrome)
 1. [Valid Palindrome 2](https://github.com/quocanh4433/dsa/blob/main/ARRAY/ValidPalindrome2)
@@ -13,16 +14,15 @@
 1. [Longest Harmonious Subsequence](https://github.com/quocanh4433/dsa/blob/main/ARRAY/LongestHarmoniousSubsequence)
 1. [Majority Element](https://github.com/quocanh4433/dsa/blob/main/ARRAY/MajorityElement)
 1. [Concatenation of Array](https://github.com/quocanh4433/dsa/blob/main/ARRAY/ConcatenationOfArray)
-1. [Two Sum](https://github.com/quocanh4433/dsa/blob/main/ARRAY/TwoSum)
-1. [Best Time To Buy And Sell Stock](https://github.com/quocanh4433/dsa/blob/main/ARRAY/BestTimeToBuyAndSellStock)
-1. [Reverse String](https://github.com/quocanh4433/dsa/blob/main/ARRAY/ReverseString)
 1. [Contains Duplicate 2](https://github.com/quocanh4433/dsa/blob/main/ARRAY/ContainsDuplicate2)
-1. [Monotonic Array](https://github.com/quocanh4433/dsa/blob/main/ARRAY/MonotonicArray)
 1. [Can Place Flowers](https://github.com/quocanh4433/dsa/blob/main/ARRAY/CanPlaceFlowers)
+1. [Monotonic Array](https://github.com/quocanh4433/dsa/blob/main/ARRAY/MonotonicArray)
 1. [Find Pivot Index](https://github.com/quocanh4433/dsa/blob/main/ARRAY/FindPivotIndex)
 1. [Find All Duplicates in an Array](https://github.com/quocanh4433/dsa/blob/main/ARRAY/FindAllDuplicatesInAnArray)
-1. [Single Number (LÀM LẠI KHI HỌC BIT MANUPLATION)](https://github.com/quocanh4433/dsa/blob/main/ARRAY/SingleNumber)
 1. [Simple Bank System](https://github.com/quocanh4433/dsa/blob/main/ARRAY/SimpleBankSystem)
+1. [Single Number (LÀM LẠI KHI HỌC BIT MANUPLATION)](https://github.com/quocanh4433/dsa/blob/main/ARRAY/SingleNumber)
+1. [Best Time To Buy And Sell Stock](https://github.com/quocanh4433/dsa/blob/main/ARRAY/BestTimeToBuyAndSellStock)
+1. [Two Sum](https://github.com/quocanh4433/dsa/blob/main/ARRAY/TwoSum)
 1. [Happy Number](https://github.com/quocanh4433/dsa/blob/main/ARRAY/HappyNumber)
 
 ![Medium](https://img.shields.io/badge/Difficulty-Medium-orange?style=for-the-badge&logo=leetcode)
@@ -194,7 +194,7 @@
 1. [Palindrome Number](https://github.com/quocanh4433/dsa/blob/main/MATH/PalindromeNumber)
 1. [Calculate Money In Leetcode Bank](https://github.com/quocanh4433/dsa/blob/main/MATH/CalculateMoneyInLeetcodeBank)
 1. [Next Greater Numerically Balanced Number](https://github.com/quocanh4433/dsa/blob/main/MATH/NextGreaterNumericallyBalancedNumber)
-
+1. [Missing Number](https://github.com/quocanh4433/dsa/blob/main/MATH/MissingNumber)
 
 <br><br>
 
