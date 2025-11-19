@@ -12,7 +12,7 @@ Build a strong foundation in Graph algorithms using Java with 2 problems per day
 |-----|--------|------------|----------|
 | Day 1 | DFS Basics on Grid | 733. Flood Fill, 200. Number of Islands | ☐ |
 | Day 2 | DFS on Matrix (Part 2) | 695. Max Area of Island, 463. Island Perimeter | ☐ |
-| Day 3 | BFS Basics | 1971. Find if Path Exists in Graph, 1091. Shortest Path in Binary Matrix | ☐ |
+| Day 3 | BFS Basics <br> Đây là bài kiểm tra tính liên thông (connectivity). | 1971. Find if Path Exists in Graph, 1091. Shortest Path in Binary Matrix | ☐ |
 | Day 4 | Connected Components | 547. Number of Provinces, 841. Keys and Rooms | ☐ |
 | Day 5 | Adjacency List Practice | 1519. Number of Nodes in Sub-Tree (or 997. Town Judge for easier) | ☐ |
 | Day 6 | In/Out Degree | 997. Find the Town Judge, 1557. Minimum Vertices to Reach All Nodes | ☐ |
