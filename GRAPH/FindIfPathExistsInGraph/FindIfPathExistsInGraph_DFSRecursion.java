@@ -5,9 +5,11 @@ import java.util.List;
 public class FindIfPathExistsInGraph_DFSRecursion {
 
     /**
-     * Time complexity: O(n + e), n: node - e :edge
+     * n: node - e :edge
+     * 
+     * Time complexity: O(n + e), 
      *
-     * Space complexity: O(n + e), n: node - e :edge
+     * Space complexity: O(n + e)
      */
     public boolean validPath(int n, int[][] edges, int source, int destination) {
         // Create adjacency injection
