@@ -47,4 +47,9 @@ public class ShortestPathInBinaryMatrix_BFS {
 
         return -1;
     }
+
+    public static void main(String[] args) {
+        
+    }
+
 }
