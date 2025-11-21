@@ -27,5 +27,6 @@
     1. [Number Of Islands](https://github.com/quocanh4433/dsa/blob/main/GRAPH/NumberOfIslands)
     1. [Max Area Of Island](https://github.com/quocanh4433/dsa/blob/main/GRAPH/MaxAreaOfIsland)
     1. [Pacific Atlantic Water Flow](https://github.com/quocanh4433/dsa/blob/main/GRAPH/PacificAtlanticWaterFlow)
+    1. [Shortest Path In Binary Matrix](https://github.com/quocanh4433/dsa/blob/main/GRAPH/ShortestPathInBinaryMatrix)
     
 </detail>
