@@ -18,9 +18,12 @@ public class CourseSchedule {
      * 👉 Hay Union-Find?
      * 
      * 
-     * Time complexity: O(n + e)
+     * Time complexity: O(V + E)
      * 
-     * Space complexity: O(n + e)
+     * Space complexity: O(V + E)
+     * 
+     * V = numCourses
+     * E = prerequisites.length
      * 
     */
 

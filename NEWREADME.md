@@ -26,4 +26,5 @@
     1. [Pacific Atlantic Water Flow](https://github.com/quocanh4433/dsa/blob/main/GRAPH/PacificAtlanticWaterFlow)
     1. [Shortest Path In Binary Matrix](https://github.com/quocanh4433/dsa/blob/main/GRAPH/ShortestPathInBinaryMatrix)
     1. [Course Schedule](https://github.com/quocanh4433/dsa/blob/main/GRAPH/CourseSchedule)
+    1. [Graph Valid Tree (Only NeetCode)](https://github.com/quocanh4433/dsa/blob/main/GRAPH/GraphValidTree)
 </detail>
