@@ -23,14 +23,16 @@
 
 - 📒 **Medium**
     1. [Clone Graph](https://github.com/quocanh4433/dsa/blob/main/GRAPH/CloneGraph)
-    1. [Number Of Islands](https://github.com/quocanh4433/dsa/blob/main/GRAPH/NumberOfIslands)
-    1. [Max Area Of Island](https://github.com/quocanh4433/dsa/blob/main/GRAPH/MaxAreaOfIsland)
+    1. [Course Schedule](https://github.com/quocanh4433/dsa/blob/main/GRAPH/CourseSchedule)
     1. [Pacific Atlantic Water Flow](https://github.com/quocanh4433/dsa/blob/main/GRAPH/PacificAtlanticWaterFlow)
     1. [Shortest Path In Binary Matrix](https://github.com/quocanh4433/dsa/blob/main/GRAPH/ShortestPathInBinaryMatrix)
-    1. [Course Schedule](https://github.com/quocanh4433/dsa/blob/main/GRAPH/CourseSchedule)
     1. [Graph Valid Tree (Only NeetCode)](https://github.com/quocanh4433/dsa/blob/main/GRAPH/GraphValidTree)
-    1. [Minimum Height Trees (XEM LẠI)](https://github.com/quocanh4433/dsa/blob/main/GRAPH/MinimumHeightTrees)
+    1. [Number Of Islands](https://github.com/quocanh4433/dsa/blob/main/GRAPH/NumberOfIslands)
     1. [Number Of Nodes In The Sub-Tree With The Same Label (XEM LẠI)](https://github.com/quocanh4433/dsa/blob/main/GRAPH/NumberOfNodesInTheSubTreeWithTheSameLabel)
+    1. [Max Area Of Island](https://github.com/quocanh4433/dsa/blob/main/GRAPH/MaxAreaOfIsland)
+    1. [Minimum Height Trees (XEM LẠI)](https://github.com/quocanh4433/dsa/blob/main/GRAPH/MinimumHeightTrees)
+    1. [Minimum Number Of Vertices To Reach All Nodes (XEM LẠI)](https://github.com/quocanh4433/dsa/blob/main/GRAPH/MinimumNumberOfVerticesToReachAllNodes)
+
 
 - ⛔️ **Hard**
     1. [Alien Dictionary (Only Neetcode)](https://github.com/quocanh4433/dsa/blob/main/GRAPH/AlienDictionary)
