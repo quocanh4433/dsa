@@ -47,4 +47,5 @@
 
 - 📒 **Medium**
     1. [Palindromic Substrings](https://github.com/quocanh4433/dsa/blob/main/STRING/PalindromicSubstrings)
+    1. [Longest Palindromic Substring](https://github.com/quocanh4433/dsa/blob/main/STRING/LongestPalindromicSubstring)
 </details>
