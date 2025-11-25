@@ -33,7 +33,6 @@
     1. [Minimum Height Trees (XEM LẠI)](https://github.com/quocanh4433/dsa/blob/main/GRAPH/MinimumHeightTrees)
     1. [Minimum Number Of Vertices To Reach All Nodes (XEM LẠI)](https://github.com/quocanh4433/dsa/blob/main/GRAPH/MinimumNumberOfVerticesToReachAllNodes)
 
-
 - ⛔️ **Hard**
     1. [Alien Dictionary (Only Neetcode)](https://github.com/quocanh4433/dsa/blob/main/GRAPH/AlienDictionary)
 </detail>

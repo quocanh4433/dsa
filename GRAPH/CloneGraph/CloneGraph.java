@@ -53,7 +53,7 @@ public class CloneGraph {
                 // 01. Lấy ra node clone từ node original (Node cur)
                 Node cloneNode = oldToNew.get(cur);
 
-                // 02. Lấy ra node neighbor tư f node neighbor original
+                // 02. Lấy ra node neighbor tư node neighbor original
                 // Node nei này được thêm từ điều kiện if ở trên 
                 Node neiNode = oldToNew.get(nei);
 
@@ -69,11 +69,9 @@ public class CloneGraph {
     }
 
     /**
-     * JUST REVISE
-     *
-     *
+     * REVISE - FIRST TIME
      */
-    public Node cloneGraph_revise(Node node) {
+    public Node cloneGraph_reviseFirstTime(Node node) {
         if (node == null) {
             return null;
         }
@@ -108,6 +106,41 @@ public class CloneGraph {
 
         return origToClone.get(node); // get clone node
     }
+
+    /**
+     * REVISE - SECOND TIME
+     */
+    public Node cloneGraph_reviseSecondTime(Node node) {
+        // ❌: thiếu kiêm tra điều kiện null
+        if(node == null) return null;
+
+        Map<Node, Node> map = new HashMap<>();
+        map.put(node, new Node(node.val));
+
+        Queue<Node> q = new LinkedList<>();
+        q.add(node);
+
+        while(!q.isEmpty()) {
+            Node cur = q.poll();
+
+            for(Node nei : cur.neighbors) {
+                if(!map.containsKey(nei)) {
+                    map.put(nei, new Node(nei.val));
+                    q.add(nei);
+                }
+
+                // ❌: get(cur)     và       get neiClone từ map không phải tạo nei.val mới
+                // map.get(node).neighbors.add(new Node(nei.val));
+
+                // ✅
+                map.get(node).neighbors.add(map.get(nei));
+            }
+        }
+
+        return map.get(node);
+    }
+    
+
     /*
      * DEPTH FIRST SEARCH
      * 
