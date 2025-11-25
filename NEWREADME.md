@@ -36,4 +36,15 @@
 
 - ⛔️ **Hard**
     1. [Alien Dictionary (Only Neetcode)](https://github.com/quocanh4433/dsa/blob/main/GRAPH/AlienDictionary)
-</detail>
+</details>
+
+
+## [STRING](./NOTE/String.md)
+<details>
+
+- ✳️ **Easy**
+    1. [Check If Digits Are Equal In String After Operations 1](https://github.com/quocanh4433/dsa/blob/main/String/CheckIfDigitsAreEqualInStringAfterOperations1)
+
+- 📒 **Medium**
+    1. [Palindromic Substrings](https://github.com/quocanh4433/dsa/blob/main/STRING/PalindromicSubstrings)
+</details>
