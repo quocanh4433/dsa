@@ -197,6 +197,7 @@
 1. [Next Greater Numerically Balanced Number](https://github.com/quocanh4433/dsa/blob/main/MATH/NextGreaterNumericallyBalancedNumber)
 1. [Missing Number](https://github.com/quocanh4433/dsa/blob/main/MATH/MissingNumber)
 1. [Roman To Integer](https://github.com/quocanh4433/dsa/blob/main/MATH/RomanToInteger)
+1. [Pascal's Triangle](https://github.com/quocanh4433/dsa/blob/main/MATH/PascalsTriangle)
 
 <br><br>
 
