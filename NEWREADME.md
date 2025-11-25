@@ -32,6 +32,7 @@
     1. [Max Area Of Island](https://github.com/quocanh4433/dsa/blob/main/GRAPH/MaxAreaOfIsland)
     1. [Minimum Height Trees (XEM LẠI)](https://github.com/quocanh4433/dsa/blob/main/GRAPH/MinimumHeightTrees)
     1. [Minimum Number Of Vertices To Reach All Nodes (XEM LẠI)](https://github.com/quocanh4433/dsa/blob/main/GRAPH/MinimumNumberOfVerticesToReachAllNodes)
+    1. [Copy List With Random Pointer](https://github.com/quocanh4433/dsa/blob/main/GRAPH/CopyListWithRandomPointer)
 
 - ⛔️ **Hard**
     1. [Alien Dictionary (Only Neetcode)](https://github.com/quocanh4433/dsa/blob/main/GRAPH/AlienDictionary)
