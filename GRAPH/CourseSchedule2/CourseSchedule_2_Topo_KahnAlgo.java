@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class CourseSchedule_2_KahnAlgo {
+public class CourseSchedule_2_Topo_KahnAlgo {
     /**
      
      * Time complexity: O(V + E)
