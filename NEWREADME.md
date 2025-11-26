@@ -30,6 +30,7 @@
     1. [Shortest Path In Binary Matrix](https://github.com/quocanh4433/dsa/blob/main/GRAPH/ShortestPathInBinaryMatrix)
     1. [Graph Valid Tree (Only NeetCode)](https://github.com/quocanh4433/dsa/blob/main/GRAPH/GraphValidTree)
     1. [Number Of Islands](https://github.com/quocanh4433/dsa/blob/main/GRAPH/NumberOfIslands)
+    1. [Number Of Provinces (XEM LẠI SOLUTION UNION FIND) 🔥](https://github.com/quocanh4433/dsa/blob/main/GRAPH/NumberOfProvinces)
     1. [Number Of Operations To Connect Network (XEM LẠI) 🔥](https://github.com/quocanh4433/dsa/blob/main/GRAPH/NumberOfOperationsToConnectNetwork)
     1. [Number Of Nodes In The Sub-Tree With The Same Label (XEM LẠI) 🔥](https://github.com/quocanh4433/dsa/blob/main/GRAPH/NumberOfNodesInTheSubTreeWithTheSameLabel)
     1. [Max Area Of Island](https://github.com/quocanh4433/dsa/blob/main/GRAPH/MaxAreaOfIsland)
