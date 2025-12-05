@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class CoinChange_DP {
+public class CoinChange_DPTopDown {
     
     /**
      *  BOTTOM-UP 
@@ -18,9 +18,6 @@ public class CoinChange_DP {
 
         for (int cur = amount - 1; cur >= 0; cur--) {
             for (int coin : coins) {
-                if (coin <= 0) {
-                    continue; // coin phải dương
-                }
                 // ngăn tràn số: cur + coin > Integer.MAX_VALUE
                 if (cur > Integer.MAX_VALUE - coin) {
                     continue;
@@ -35,28 +32,6 @@ public class CoinChange_DP {
 
 
             
-
-    // public int coinChange(int[] coins, int amount) {
-    //     int INF = amount + 1;
-    //     int[] dp = new int[amount + 1];
-
-    //     // Khởi tạo
-    //     Arrays.fill(dp, INF);
-    //     dp[0] = 0;
-
-    //     // DP
-    //     for (int coin : coins) {
-    //         for (int i = coin; i <= amount; i++) {
-    //             dp[i] = Math.min(dp[i], dp[i - coin] + 1);
-    //         }
-    //     }
-
-    //     return dp[amount] == INF ? -1 : dp[amount];
-    // }
-
-
-
-
         // int MAX = amount + 1;
         // int[] dp = new int[amount + 1];
 
