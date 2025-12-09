@@ -7,6 +7,7 @@
 - 📒 **Medium**
     1. [Coin Change](https://github.com/quocanh4433/dsa/blob/main/DP/CoinChange)
     1. [House Robber](https://github.com/quocanh4433/dsa/blob/main/DP/HouseRobber)
+    1. [House Robber 2 ](https://github.com/quocanh4433/dsa/blob/main/DP/HouseRobber2)
 
 - ⛔️ **Hard**
     
