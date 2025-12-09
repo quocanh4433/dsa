@@ -8,8 +8,6 @@ public class LongestPalindromicSubstring {
      * 
      * Space complexity: O(1)
      * 
-     * @param s
-     * @return
      */
 
     public String longestPalindrome(String s) {
