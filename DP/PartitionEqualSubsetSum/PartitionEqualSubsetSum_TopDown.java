@@ -1,4 +1,4 @@
-public class PartitionEqualSubsetSum {
+public class PartitionEqualSubsetSum_TopDown {
     private int[] nums;
 
     /*
@@ -60,6 +60,10 @@ public class PartitionEqualSubsetSum {
             return false;
         }
         memo = new Boolean[n][sum / 2 + 1];
+
+        // TẠI SAO memo = new Boolean[n][sum / 2 + 1];
+        // Xem https://www.youtube.com/watch?v=s6FhG--P7z0&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr&index=4
+
         return dfs(0, sum / 2);
     }
 
