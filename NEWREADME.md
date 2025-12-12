@@ -7,6 +7,7 @@
 
 - 📒 **Medium**
    1. [Jump Game](https://github.com/quocanh4433/dsa/blob/main/GREEDY/JumpGame)
+   1. [Jump Game 2](https://github.com/quocanh4433/dsa/blob/main/GREEDY/JumpGame2)
 
 - ⛔️ **Hard**
     
