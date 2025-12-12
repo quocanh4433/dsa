@@ -4,6 +4,9 @@ public class JumpGame {
     /**
      * BACKWARD GREEDY
      * 
+     * Time -> O(n)
+     * Space -> O(1)
+     * 
      */
     public boolean canJump(int[] nums) {
         if(nums.length == 1) return true;

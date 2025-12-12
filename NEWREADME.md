@@ -2,6 +2,7 @@
 <details>
 
 - ✳️ **Easy**
+   1. [Maximize Sum Of Array After K Negations](https://github.com/quocanh4433/dsa/blob/main/GREEDY/MaximizeSumOfArrayAfterKNegations)
     
 
 - 📒 **Medium**
