@@ -1,3 +1,16 @@
+## [GREEDY](./NOTE/GREEDY.md)
+<details>
+
+- ✳️ **Easy**
+    
+
+- 📒 **Medium**
+   1. [Jump Game](https://github.com/quocanh4433/dsa/blob/main/GREEDY/JumpGame)
+
+- ⛔️ **Hard**
+    
+</details>
+
 ## [DP](./NOTE/DP.md)
 <details>
 
