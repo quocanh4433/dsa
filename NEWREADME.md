@@ -81,8 +81,12 @@
 
 - ✳️ **Easy**
     1. [Check If Digits Are Equal In String After Operations 1](https://github.com/quocanh4433/dsa/blob/main/String/CheckIfDigitsAreEqualInStringAfterOperations1)
+    1. [Length of Last Word](https://github.com/quocanh4433/dsa/blob/main/String/LengthOfLastWord)
 
 - 📒 **Medium**
     1. [Palindromic Substrings](https://github.com/quocanh4433/dsa/blob/main/STRING/PalindromicSubstrings)
     1. [Longest Palindromic Substring](https://github.com/quocanh4433/dsa/blob/main/STRING/LongestPalindromicSubstring)
+    1. [Letter Combinations Of A Phone Number 🔥🔥🔥🔥🔥](https://github.com/quocanh4433/dsa/blob/main/STRING/LetterCombinationsOfAPhoneNumber)
+    1. [Integer To Roman 🔥🔥🔥🔥🔥](https://github.com/quocanh4433/dsa/blob/main/STRING/IntegerToRoman)
+    
 </details>

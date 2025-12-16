@@ -101,6 +101,7 @@
 1. [Guess Number Higher Or Lower](https://github.com/quocanh4433/dsa/blob/main/BINARYSEARCH/GuessNumberHigherOrLower)
 1. [Sqrt(x)](https://github.com/quocanh4433/dsa/blob/main/BINARYSEARCH/Sqrt(x))
 1. [Valid Perfect Square](https://github.com/quocanh4433/dsa/blob/main/BINARYSEARCH/ValidPerfectSquare)
+1. [Convert Sorted Array To Binary Search Tree 🔥🔥🔥🔥🔥](https://github.com/quocanh4433/dsa/blob/main/BINARYSEARCH/ConvertSortedArrayToBinarySearchTree)
 
 
 ![Medium](https://img.shields.io/badge/Difficulty-Medium-orange?style=for-the-badge&logo=leetcode)
