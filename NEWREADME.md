@@ -1,9 +1,20 @@
+## [INTERVALS](./NOTE/INTERVALS.md)
+<details>
+
+- ✳️ **Easy**
+   1. [Meeting Room](https://github.com/quocanh4433/dsa/blob/main/INTERVALS/MeetingRoom)
+    
+- 📒 **Medium**
+
+- ⛔️ **Hard**
+    
+</details>
+
 ## [GREEDY](./NOTE/GREEDY.md)
 <details>
 
 - ✳️ **Easy**
    1. [Maximize Sum Of Array After K Negations](https://github.com/quocanh4433/dsa/blob/main/GREEDY/MaximizeSumOfArrayAfterKNegations)
-    
 
 - 📒 **Medium**
    1. [Jump Game](https://github.com/quocanh4433/dsa/blob/main/GREEDY/JumpGame)
