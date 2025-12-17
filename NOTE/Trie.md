@@ -1,8 +1,8 @@
-### Trie pruning?	
+## Trie pruning?	
 Dừng DFS sớm khi prefix hiện tại không thuộc Trie
 
 
-### khi bao class TrieNode
+## khi bao class TrieNode
 ```java
 class TrieNode { // ✅ ĐÚNG
     TrieNode[] children;

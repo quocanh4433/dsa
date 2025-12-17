@@ -1,9 +1,9 @@
-### Prefixsum inclusive and exclusive
+## Prefixsum inclusive and exclusive
 <b>Inclusive:</b> tính luôn giá trị nums[i]<br>
 <b>Exclusive:</b> không tính giá trị nums[i]
 
 
-### Tính prefix và suffix exclusive với 1 vòng lặp
+## Tính prefix và suffix exclusive với 1 vòng lặp
 ```java
 int[] nums;
 int[] leftSum;
@@ -16,7 +16,7 @@ for(int i = 1; i < n; i++) {
 ```
 
 
-### Rolling Sum: 
+## Rolling Sum: 
 - “Rolling Sum” (hay còn gọi là <b>Running Sum / Prefix Accumulation</b>) là một khái niệm cực kỳ cơ bản và quan trọng trong lập trình, đặc biệt là Dynamic Programming, Prefix Sum, và tối ưu vòng lặp.
 - Có thể dùng cho prefix exclusive và inclusive
 - Ứng dụng 🧩: tính rightSum khi biết leftSum và totalSum(tổng toàn mảng)

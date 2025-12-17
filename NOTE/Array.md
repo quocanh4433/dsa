@@ -17,3 +17,14 @@ System.out.println(a.equals(b)); // ✅ true  (cùng giá trị)
 Integer x = 127;
 Integer y = 127;
 System.out.println(x == y);      // ✅ true (vì cùng cache object)
+```
+
+
+## Sắp xếp Array 2D
+```java
+int[][] intervals = {{1,2},{2,4},{0,4}};
+
+Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]))
+
+// {{0,4}, {1,2}, {2,4}}
+```

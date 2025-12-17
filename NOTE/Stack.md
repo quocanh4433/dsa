@@ -1,4 +1,4 @@
-### Chuyển String s = "123" sang số 
+## Chuyển String s = "123" sang số 
 ```java
 int num = Integer.parseInt(s) // -> trả về kiểu int
 int num = Integer.valueOf(s) // -> trả về wrapper class Integer
@@ -11,7 +11,7 @@ stack.push(Integer.valueOf(s)) ✅
 
 
 
-### Thêm StringBuilder onto List<String>
+## Thêm StringBuilder onto List<String>
 ```java
 StringBuilder s = "String"
 List<String> result = new ArrayList<>();
@@ -23,7 +23,7 @@ result.add(s) // ❌ error: incompatible types: StringBuilder cannot be converte
 
 
 
-### convert a number into text
+## convert a number into text
 ```java
 int num = 50;
 String numStr = String.valueOf(num); // "50"

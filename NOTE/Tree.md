@@ -1,4 +1,4 @@
-### pass bay value  và pass by referrence
+## pass bay value  và pass by referrence
 Ví dụ bài:  297. Serialize and Deserialize Binary Tree
 
 ```java
