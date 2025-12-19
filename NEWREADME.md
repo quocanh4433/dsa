@@ -5,6 +5,8 @@
    1. [Meeting Room](https://github.com/quocanh4433/dsa/blob/main/INTERVALS/MeetingRoom)
     
 - 📒 **Medium**
+    1. [Non-overlapping Intervals](https://github.com/quocanh4433/dsa/blob/main/INTERVALS/NonOverlappingIntervals)
+    1. [Merge Intervals](https://github.com/quocanh4433/dsa/blob/main/INTERVALS/MergeIntervals)
 
 - ⛔️ **Hard**
     

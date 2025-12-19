@@ -18,8 +18,6 @@ public class NonOverlappingIntervals {
         /*
             👉 Tại sao lại sắp xếp tăng dần theo thời gian kết thúc ?
 
-           
-
             Nếu bạn giữ 1 interval kéo dài quá lâu:
                 → Chồng lên nhiều interval khác
                 → Khiến bạn phải remove nhiều hơn
