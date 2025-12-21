@@ -2,24 +2,24 @@
 
 /*
 
-ONLY NEETCODE
+    ONLY NEETCODE
 
-Given an array of meeting time interval objects consisting of start and end times [[start_1,end_1],[start_2,end_2],...] (start_i < end_i), determine if a person could add all meetings to their schedule without any conflicts.
+    Given an array of meeting time interval objects consisting of start and end times [[start_1,end_1],[start_2,end_2],...] (start_i < end_i), determine if a person could add all meetings to their schedule without any conflicts.
 
-Note: (0,8),(8,10) is not considered a conflict at 8
+    Note: (0,8),(8,10) is not considered a conflict at 8
 
-Example 1:
-Input: intervals = [(0,30),(5,10),(15,20)]
-Output: false
+    Example 1:
+    Input: intervals = [(0,30),(5,10),(15,20)]
+    Output: false
 
 
-Example 2:
-Input: intervals = [(5,8),(9,15)]
-Output: true
+    Example 2:
+    Input: intervals = [(5,8),(9,15)]
+    Output: true
 
-Example 3:
-Input: intervals = [(5,10),(0,4)]
-Output: true
+    Example 3:
+    Input: intervals = [(5,10),(0,4)]
+    Output: true
 
 
  */

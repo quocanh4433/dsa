@@ -8,6 +8,8 @@
     1. [Non-overlapping Intervals](https://github.com/quocanh4433/dsa/blob/main/INTERVALS/NonOverlappingIntervals)
     1. [Merge Intervals](https://github.com/quocanh4433/dsa/blob/main/INTERVALS/MergeIntervals)
     1. [Insert Intervals](https://github.com/quocanh4433/dsa/blob/main/INTERVALS/InsertIntervals)
+    1. [Meeting Room 2](https://github.com/quocanh4433/dsa/blob/main/INTERVALS/MeetingRoom2)
+
 
 - ⛔️ **Hard**
     
