@@ -1,3 +1,23 @@
+## [MATH & GEOMETRY](./NOTE/MATH.md)
+<details>
+
+- ✳️ **Easy**
+    1. [Palindrome Number](https://github.com/quocanh4433/dsa/blob/main/MATH&GEOMETRY/PalindromeNumber)
+    1. [Calculate Money In Leetcode Bank](https://github.com/quocanh4433/dsa/blob/main/MATH&GEOMETRY/CalculateMoneyInLeetcodeBank)
+    1. [Next Greater Numerically Balanced Number](https://github.com/quocanh4433/dsa/blob/main/MATH&GEOMETRY/NextGreaterNumericallyBalancedNumber)
+    1. [Missing Number](https://github.com/quocanh4433/dsa/blob/main/MATH&GEOMETRY/MissingNumber)
+    1. [Roman To Integer](https://github.com/quocanh4433/dsa/blob/main/MATH&GEOMETRY/RomanToInteger)
+    1. [Pascal's Triangle](https://github.com/quocanh4433/dsa/blob/main/MATH&GEOMETRY/PascalsTriangle)
+
+    
+- 📒 **Medium**
+    1. [Rotate Image](https://github.com/quocanh4433/dsa/blob/main/MATH&GEOMETRY/RotateImage)
+
+
+- ⛔️ **Hard**
+    
+</details>
+
 ## [INTERVALS](./NOTE/INTERVALS.md)
 <details>
 
