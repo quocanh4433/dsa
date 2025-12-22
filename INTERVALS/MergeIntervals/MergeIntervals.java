@@ -5,7 +5,7 @@ import java.util.List;
 public class MergeIntervals {
 
     /*
-        Time -> O(n)
+        Time -> O(nlogn)
         Space -> O(n)
     
     */
@@ -38,7 +38,7 @@ public class MergeIntervals {
         /*
             CHI SU DUNG 1 BIEN DE QUAN SAT
 
-            Time -> O(n)
+            Time -> O(nlogn)
             Space -> O(1)
     
          */

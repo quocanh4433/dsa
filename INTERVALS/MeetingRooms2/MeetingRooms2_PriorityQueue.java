@@ -1,6 +1,15 @@
-public class MeetingRooms2 {
+
+public class MeetingRooms2_PriorityQueue {
+
+    /*
+        Priority Queue
+
+        Time -> O(nlogn)
+        Space -> O(n)
+    */
+
     public static void main(String[] args) {
-        
+
     }
 }
 
