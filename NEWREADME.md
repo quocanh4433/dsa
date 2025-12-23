@@ -1,3 +1,16 @@
+## [BIT MANUPLATION](./NOTE/BIT.md)
+<details>
+
+- ✳️ **Easy**
+    1. [Number Of 1 Bits](https://github.com/quocanh4433/dsa/blob/main/BITMANUPLATION/NumberOf1Bits)
+    1. [Smallest Number With All Set Bits (KHÔNG HIỂU - LÀM THEO DAILY)](https://github.com/quocanh4433/dsa/blob/main/BITMANUPLATION/SmallestNumberWithAllSetBits)
+
+- 📒 **Medium**
+  
+- ⛔️ **Hard**
+    
+</details>
+
 ## [MATH & GEOMETRY](./NOTE/MATH.md)
 <details>
 
