@@ -4,6 +4,10 @@ public class ReverseBits {
         ✔ Lấy từng bit của n
         ✔ Đặt nó vào vị trí đối xứng trong res
         ✔ Làm đủ 32 bit → hoàn thành
+
+
+        Time: O(32) ~ O(1)
+        Space: O(1)
     
      */
     public int reverseBits(int n) {
