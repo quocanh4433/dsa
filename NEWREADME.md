@@ -1,8 +1,25 @@
+## [BACKTRACKING](./NOTE/Backtracking.md)
+<details>
+
+- ✳️ **Easy**
+    1. [Binary Tree Paths](https://github.com/quocanh4433/dsa/blob/main/BACKTRACKING/BinaryTreePaths)
+    1. [Combination Sum](https://github.com/quocanh4433/dsa/blob/main/BACKTRACKING/CombinationSum)
+    1. [Word Search](https://github.com/quocanh4433/dsa/blob/main/BACKTRACKING/WordSearch)
+
+- 📒 **Medium**
+    1. [Permutations](https://github.com/quocanh4433/dsa/blob/main/BACKTRACKING/Permutations)
+  
+- ⛔️ **Hard**
+    
+</details>
+
 ## [BIT MANUPLATION](./NOTE/BIT.md)
 <details>
 
 - ✳️ **Easy**
     1. [Number Of 1 Bits](https://github.com/quocanh4433/dsa/blob/main/BITMANUPLATION/NumberOf1Bits)
+    1. [Counting Bits](https://github.com/quocanh4433/dsa/blob/main/BITMANUPLATION/CountingBits)
+    1. [Reverse Bits](https://github.com/quocanh4433/dsa/blob/main/BITMANUPLATION/ReverseBits)
     1. [Smallest Number With All Set Bits (KHÔNG HIỂU - LÀM THEO DAILY)](https://github.com/quocanh4433/dsa/blob/main/BITMANUPLATION/SmallestNumberWithAllSetBits)
 
 - 📒 **Medium**
