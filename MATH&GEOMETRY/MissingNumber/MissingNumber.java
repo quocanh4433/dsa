@@ -1,5 +1,5 @@
 public class MissingNumber {
-    // SOLUTION 1: HASHTABLE tự code
+    // SOLUTION 1: HASHSET tự code
 
 
     // SOLUTION 2: MATH

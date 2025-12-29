@@ -21,7 +21,7 @@
     1. [Counting Bits](https://github.com/quocanh4433/dsa/blob/main/BITMANUPLATION/CountingBits)
     1. [Reverse Bits](https://github.com/quocanh4433/dsa/blob/main/BITMANUPLATION/ReverseBits)
     1. [Smallest Number With All Set Bits (KHÔNG HIỂU - LÀM THEO DAILY)](https://github.com/quocanh4433/dsa/blob/main/BITMANUPLATION/SmallestNumberWithAllSetBits)
-
+    1. [Missing Number (TỪNG LÀM Ở MỤC MATH)](https://github.com/quocanh4433/dsa/blob/main/BITMANUPLATION/MissingNumber)
 - 📒 **Medium**
   
 - ⛔️ **Hard**
