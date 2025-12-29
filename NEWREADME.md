@@ -23,6 +23,7 @@
     1. [Smallest Number With All Set Bits (KHÔNG HIỂU - LÀM THEO DAILY)](https://github.com/quocanh4433/dsa/blob/main/BITMANUPLATION/SmallestNumberWithAllSetBits)
     1. [Missing Number (TỪNG LÀM Ở MỤC MATH)](https://github.com/quocanh4433/dsa/blob/main/BITMANUPLATION/MissingNumber)
 - 📒 **Medium**
+    1. [Sum Of Two Integers (XEM LẠI) 🔥](https://github.com/quocanh4433/dsa/blob/main/BITMANUPLATION/SumOfTwoIntegers)
   
 - ⛔️ **Hard**
     
