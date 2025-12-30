@@ -96,6 +96,7 @@
     1. [Partition Equal Subset Sum](https://github.com/quocanh4433/dsa/blob/main/DP/PartitionEqualSubsetSum)
     1. [Target Sum](https://github.com/quocanh4433/dsa/blob/main/DP/TargetSum)
     1. [Unique Path](https://github.com/quocanh4433/dsa/blob/main/DP/UniquePaths)
+    1. [Longest Common Subsequence](https://github.com/quocanh4433/dsa/blob/main/DP/LongestCommonSubsequence)
 
 - ⛔️ **Hard**
     
