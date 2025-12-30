@@ -3,6 +3,7 @@
 
 - ✳️ **Easy**
     1. [Find Target Indices After Sorting Array](https://github.com/quocanh4433/dsa/blob/main/SORT/FindTargetIndicesAfterSortingArray)
+    1. [How Many Numbers Are Smaller Than the Current Number](https://github.com/quocanh4433/dsa/blob/main/SORT/HowManyNumbersAreSmallerThanTheCurrentNumber)
 
 
 - 📒 **Medium**
