@@ -1,3 +1,16 @@
+## [SORT](./NOTE/Sort.md)
+<details>
+
+- ✳️ **Easy**
+    1. [Find Target Indices After Sorting Array](https://github.com/quocanh4433/dsa/blob/main/SORT/FindTargetIndicesAfterSortingArray)
+
+
+- 📒 **Medium**
+  
+- ⛔️ **Hard**
+    
+</details>
+
 ## [BACKTRACKING](./NOTE/Backtracking.md)
 <details>
 
