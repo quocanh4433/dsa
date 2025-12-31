@@ -4,6 +4,7 @@
 - ✳️ **Easy**
     1. [Find Target Indices After Sorting Array](https://github.com/quocanh4433/dsa/blob/main/SORT/FindTargetIndicesAfterSortingArray)
     1. [How Many Numbers Are Smaller Than the Current Number](https://github.com/quocanh4433/dsa/blob/main/SORT/HowManyNumbersAreSmallerThanTheCurrentNumber)
+    1. [Sort The Students By Their Kth Score](https://github.com/quocanh4433/dsa/blob/main/SORT/SortTheStudentsByTheirKthScore)
 
 
 - 📒 **Medium**
