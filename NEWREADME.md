@@ -60,6 +60,7 @@
     1. [Rotate Image](https://github.com/quocanh4433/dsa/blob/main/MATH&GEOMETRY/RotateImage)
     1. [Spiral Matrix](https://github.com/quocanh4433/dsa/blob/main/MATH&GEOMETRY/SpiralMatrix)
     1. [Set Matrix Zeroes](https://github.com/quocanh4433/dsa/blob/main/MATH&GEOMETRY/SetMatrixZeroes)
+    1. [Reverse Integer](https://github.com/quocanh4433/dsa/blob/main/MATH&GEOMETRY/ReverseInteger)
 
 
 - ⛔️ **Hard**

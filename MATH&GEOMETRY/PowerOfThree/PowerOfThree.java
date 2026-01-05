@@ -1,5 +1,3 @@
-package MATH.PowerOfThree;
-
 public class PowerOfThree {
     /*
      * Time complexity: O(log3n) ~ O(logn)
