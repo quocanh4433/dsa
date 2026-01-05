@@ -112,7 +112,7 @@
 1. [Koko Eating Bananas](https://github.com/quocanh4433/dsa/blob/main/BINARYSEARCH/KokoEatingBananas)
 1. [Search In Rotated Sorted Array](https://github.com/quocanh4433/dsa/blob/main/BINARYSEARCH/SearchInRotatedSortedArray)
 1. [Search In Rotated Sorted Array II](https://github.com/quocanh4433/dsa/blob/main/BINARYSEARCH/SearchInRotatedSortedArray2)
-
+1. [Find First And Last Position Of Element In Sorted Array](https://github.com/quocanh4433/dsa/blob/main/BINARYSEARCH/FindFirstAndLastPositionOfElementInSortedArray)
 
 <br><br>
 

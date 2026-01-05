@@ -5,7 +5,8 @@ public class ReverseInteger {
         - Ghép vào kết quả bằng res = res * 10 + digit
         - Quan trọng nhất: kiểm tra overflow trước khi nhân 10 / cộng chữ số.
     
-    
+        Time -> O(log-10-n) logarit cở số 10 của n
+        Space -> O(1)
     */
 
 
