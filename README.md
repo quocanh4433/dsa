@@ -57,7 +57,7 @@
 1. [First Missing Positive](https://github.com/quocanh4433/dsa/blob/main/ARRAY/FirstMissingPositive)
 1. [Trapping Rain Water](https://github.com/quocanh4433/dsa/blob/main/ARRAY/TrappingRainWater)
 1. [Minimum Window Substring](https://github.com/quocanh4433/dsa/blob/main/ARRAY/MinimumWindowSubstring)
-
+1. [Median Of Two Sorted Arrays](https://github.com/quocanh4433/dsa/blob/main/ARRAY/MedianOfTwoSortedArrays)
 
 <br><br>
 
@@ -93,7 +93,7 @@
 <br><br>
 
 
-# BINARY SEARCH [🔗](./NOTE/BinarySearch.md)
+<!-- # BINARY SEARCH [🔗](./NOTE/BinarySearch.md)
 ![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
 1. [Binary Search](https://github.com/quocanh4433/dsa/blob/main/BINARYSEARCH/BinarySearch)
@@ -112,7 +112,7 @@
 1. [Koko Eating Bananas](https://github.com/quocanh4433/dsa/blob/main/BINARYSEARCH/KokoEatingBananas)
 1. [Search In Rotated Sorted Array](https://github.com/quocanh4433/dsa/blob/main/BINARYSEARCH/SearchInRotatedSortedArray)
 1. [Search In Rotated Sorted Array II](https://github.com/quocanh4433/dsa/blob/main/BINARYSEARCH/SearchInRotatedSortedArray2)
-1. [Find First And Last Position Of Element In Sorted Array](https://github.com/quocanh4433/dsa/blob/main/BINARYSEARCH/FindFirstAndLastPositionOfElementInSortedArray)
+1. [Find First And Last Position Of Element In Sorted Array](https://github.com/quocanh4433/dsa/blob/main/BINARYSEARCH/FindFirstAndLastPositionOfElementInSortedArray) -->
 
 <br><br>
 

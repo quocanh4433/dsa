@@ -1,3 +1,27 @@
+## [BINARY SEARCH](./NOTE/BinarySearch.md)
+<details>
+
+- ✳️ **Easy**
+    1. [Binary Search](https://github.com/quocanh4433/dsa/blob/main/BINARYSEARCH/BinarySearch)
+    1. [Search Insert Position](https://github.com/quocanh4433/dsa/blob/main/BINARYSEARCH/SearchInsertPosition)
+    1. [First Bad Version](https://github.com/quocanh4433/dsa/blob/main/BINARYSEARCH/FirstBadVersion)
+    1. [Guess Number Higher Or Lower](https://github.com/quocanh4433/dsa/blob/main/BINARYSEARCH/GuessNumberHigherOrLower)
+    1. [Sqrt(x)](https://github.com/quocanh4433/dsa/blob/main/BINARYSEARCH/Sqrt(x))
+    1. [Valid Perfect Square](https://github.com/quocanh4433/dsa/blob/main/BINARYSEARCH/ValidPerfectSquare)
+    1. [Convert Sorted Array To Binary Search Tree 🔥🔥🔥🔥🔥](https://github.com/quocanh4433/dsa/blob/main/BINARYSEARCH/ConvertSortedArrayToBinarySearchTree)
+
+- 📒 **Medium**
+    1. [Single Element In A Sorted Array](https://github.com/quocanh4433/dsa/blob/main/BINARYSEARCH/SingleElementInASortedArray)
+    1. [Search a 2D Matrix](https://github.com/quocanh4433/dsa/blob/main/BINARYSEARCH/SearchA2DMatrix)
+    1. [Koko Eating Bananas](https://github.com/quocanh4433/dsa/blob/main/BINARYSEARCH/KokoEatingBananas)
+    1. [Search In Rotated Sorted Array](https://github.com/quocanh4433/dsa/blob/main/BINARYSEARCH/SearchInRotatedSortedArray)
+    1. [Search In Rotated Sorted Array II](https://github.com/quocanh4433/dsa/blob/main/BINARYSEARCH/SearchInRotatedSortedArray2)
+    1. [Find First And Last Position Of Element In Sorted Array](https://github.com/quocanh4433/dsa/blob/main/BINARYSEARCH/FindFirstAndLastPositionOfElementInSortedArray)
+  
+- ⛔️ **Hard**
+   
+</details>
+
 ## [SORT](./NOTE/Sort.md)
 <details>
 
