@@ -8,7 +8,6 @@ public class MedianOfTwoSortedArrays {
 
 
         ✍️ FOLLOW UP: Giải với Time O(log(n + m))
-        Áp dụng Divide and Conquer
     */
 
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
