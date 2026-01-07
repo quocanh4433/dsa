@@ -25,6 +25,7 @@
 1. [Best Time To Buy And Sell Stock](https://github.com/quocanh4433/dsa/blob/main/ARRAY/BestTimeToBuyAndSellStock)
 1. [Two Sum](https://github.com/quocanh4433/dsa/blob/main/ARRAY/TwoSum)
 1. [Happy Number](https://github.com/quocanh4433/dsa/blob/main/ARRAY/HappyNumber)
+1. [Range Sum Query - Immutable](https://github.com/quocanh4433/dsa/blob/main/ARRAY/RangeSumQuery-Immutable)
 
 ![Medium](https://img.shields.io/badge/Difficulty-Medium-orange?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
