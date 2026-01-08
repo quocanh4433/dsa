@@ -1,6 +1,6 @@
 package STRING.LongestPalindromicSubstring;
 
-public class LongestPalindromicSubstring {
+public class LongestPalindromicSubstring_BestSolution {
 
     /**
      * SOLUTION: Manacher’s Algorithm
