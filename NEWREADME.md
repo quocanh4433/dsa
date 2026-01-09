@@ -198,6 +198,7 @@
     1. [Shuffle String](https://github.com/quocanh4433/dsa/blob/main/STRING/ShuffleString)
     1. [Goal Parser Interpretation](https://github.com/quocanh4433/dsa/blob/main/STRING/GoalParserInterpretation)
     1. [Decode the Message](https://github.com/quocanh4433/dsa/blob/main/STRING/DecodeTheMessage)
+    1. [Calculate Digit Sum Of A String](https://github.com/quocanh4433/dsa/blob/main/STRING/CalculateDigitSumOfAString)
 
 - 📒 **Medium**
     1. [Palindromic Substrings](https://github.com/quocanh4433/dsa/blob/main/STRING/PalindromicSubstrings)
