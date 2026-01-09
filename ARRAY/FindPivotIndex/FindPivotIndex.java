@@ -58,7 +58,7 @@ public class FindPivotIndex {
         int[] nums2 = {1, 2, 3};
         int[] nums3 = {2, 1, -1};
         System.out.println(pivotIndex(nums));
-        // System.out.println(pivotIndex(nums2));
-        // System.out.println(pivotIndex(nums3));
+        System.out.println(pivotIndex(nums2));
+        System.out.println(pivotIndex(nums3));
     }
 }
