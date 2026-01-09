@@ -1,6 +1,3 @@
-
-
-
 public class BestTimeToBuyAndSellStock2 {
 
     // Bài 122 chính là nền tảng để hiểu các bài phức tạp hơn — các bài sau chỉ thêm điều kiện hoặc mở rộng số state mà thôi

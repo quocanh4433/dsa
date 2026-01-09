@@ -191,9 +191,11 @@
 <details>
 
 - ✳️ **Easy**
-    1. [Check If Digits Are Equal In String After Operations 1](https://github.com/quocanh4433/dsa/blob/main/String/CheckIfDigitsAreEqualInStringAfterOperations1)
-    1. [Length of Last Word](https://github.com/quocanh4433/dsa/blob/main/String/LengthOfLastWord)
-    1. [Check If Numbers Are Ascending In A Sentence](https://github.com/quocanh4433/dsa/blob/main/String/CheckIfNumbersAreAscendingInASentence)
+    1. [Check If Digits Are Equal In String After Operations 1](https://github.com/quocanh4433/dsa/blob/main/STRING/CheckIfDigitsAreEqualInStringAfterOperations1)
+    1. [Length of Last Word](https://github.com/quocanh4433/dsa/blob/main/STRING/LengthOfLastWord)
+    1. [Check If Numbers Are Ascending In A Sentence](https://github.com/quocanh4433/dsa/blob/main/STRING/CheckIfNumbersAreAscendingInASentence)
+    1. [Reverse String](https://github.com/quocanh4433/dsa/blob/main/STRING/ReverseString)
+    1. [Shuffle String](https://github.com/quocanh4433/dsa/blob/main/STRING/ShuffleString)
 
 - 📒 **Medium**
     1. [Palindromic Substrings](https://github.com/quocanh4433/dsa/blob/main/STRING/PalindromicSubstrings)

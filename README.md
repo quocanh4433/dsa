@@ -4,7 +4,6 @@
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
 1. [Remove Element](https://github.com/quocanh4433/dsa/blob/main/ARRAY/RemoveElement)
 1. [Remove Duplicates From Sorted Array](https://github.com/quocanh4433/dsa/blob/main/ARRAY/RemoveDuplicatesFromSortedArray)
-1. [Reverse String](https://github.com/quocanh4433/dsa/blob/main/ARRAY/ReverseString)
 1. [Valid Anagram](https://github.com/quocanh4433/dsa/blob/main/ARRAY/ValidAnagram)
 1. [Valid Palindrome](https://github.com/quocanh4433/dsa/blob/main/ARRAY/ValidPalindrome)
 1. [Valid Palindrome 2](https://github.com/quocanh4433/dsa/blob/main/ARRAY/ValidPalindrome2)

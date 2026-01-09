@@ -26,6 +26,11 @@ public class LongestCommonPrefix_VerticalScanning {
 
                     ❌ Trường hợp 1: Chuỗi ngắn hơn vị trí đang xét (CHƯA HIỂU CHÔ NÀY)
                     strs[j].length() == i
+
+                    VD:
+                                        i = 4 = len("flow") 🎯
+                    prefix:     f l o w e r
+                    strs[j]:    f l o w
                     
                     ❌ Trường hợp 2: Ký tự khác nhau
                      strs[j].charAt(i) != c
@@ -42,7 +47,7 @@ public class LongestCommonPrefix_VerticalScanning {
     }
 
     public static void main(String[] args) {
-        String[] strs = { "flower", "flow", "flight" };
+        String[] strs = { "flower", "flow"};
         System.out.println(longestPrefix(strs));
     }
 }
