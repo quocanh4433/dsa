@@ -196,6 +196,7 @@
     1. [Check If Numbers Are Ascending In A Sentence](https://github.com/quocanh4433/dsa/blob/main/STRING/CheckIfNumbersAreAscendingInASentence)
     1. [Reverse String](https://github.com/quocanh4433/dsa/blob/main/STRING/ReverseString)
     1. [Shuffle String](https://github.com/quocanh4433/dsa/blob/main/STRING/ShuffleString)
+    1. [Goal Parser Interpretation](https://github.com/quocanh4433/dsa/blob/main/STRING/GoalParserInterpretation)
 
 - 📒 **Medium**
     1. [Palindromic Substrings](https://github.com/quocanh4433/dsa/blob/main/STRING/PalindromicSubstrings)
