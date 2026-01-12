@@ -1,3 +1,19 @@
+## [RECURSION](./NOTE/Recursion.md)
+<details>
+
+- ✳️ **Easy**
+    1. [Power Of Three](https://github.com/quocanh4433/dsa/blob/main/RECURSION/PowerOfThree)
+
+
+- 📒 **Medium**
+    1. [Find Kth Bit In Nth Binary String](https://github.com/quocanh4433/dsa/blob/main/RECURSION/FindKthBitInNthBinaryString)
+    1. [Kth Symbol In Grammar](https://github.com/quocanh4433/dsa/blob/main/RECURSION/KthSymbolInGrammar)
+
+  
+- ⛔️ **Hard**
+
+</details>
+
 ## [BINARY SEARCH](./NOTE/BinarySearch.md)
 <details>
 
@@ -208,5 +224,4 @@
     1. [Integer To Roman 🔥🔥🔥🔥🔥](https://github.com/quocanh4433/dsa/blob/main/STRING/IntegerToRoman)
     1. [Zigzag Conversion](https://github.com/quocanh4433/dsa/blob/main/STRING/ZigzagConversion)
     1. [String To Integer (atoi)](https://github.com/quocanh4433/dsa/blob/main/STRING/StringToInteger(atoi))
-    
 </details>
