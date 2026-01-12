@@ -78,6 +78,7 @@
     1. [Missing Number](https://github.com/quocanh4433/dsa/blob/main/MATH&GEOMETRY/MissingNumber)
     1. [Roman To Integer](https://github.com/quocanh4433/dsa/blob/main/MATH&GEOMETRY/RomanToInteger)
     1. [Pascal's Triangle](https://github.com/quocanh4433/dsa/blob/main/MATH&GEOMETRY/PascalsTriangle)
+    1. [Base 7](https://github.com/quocanh4433/dsa/blob/main/MATH&GEOMETRY/BaseSeven)
 
     
 - 📒 **Medium**
