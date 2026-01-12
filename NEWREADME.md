@@ -3,6 +3,7 @@
 
 - ✳️ **Easy**
     1. [Power Of Three](https://github.com/quocanh4433/dsa/blob/main/RECURSION/PowerOfThree)
+    1. [Power Of Four](https://github.com/quocanh4433/dsa/blob/main/RECURSION/PowerOfFour)
 
 
 - 📒 **Medium**

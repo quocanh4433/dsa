@@ -1,4 +1,9 @@
 public class PowerOfThree {
+    /*
+        Time: O(log3n) ~ O(logn) do BigO không quan tâm cơ số
+        Space:O(1)
+    
+    */
     public boolean isPowerOfThree(int n) {
         while (n > 1) {
             if (n % 3 != 0) {
