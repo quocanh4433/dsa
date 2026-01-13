@@ -125,6 +125,7 @@
 1. [Merge Two Sorted Linked Lists (LÀM LẠI KHI HỌC RECURSION)](https://github.com/quocanh4433/dsa/blob/main/LINKEDLIST/MergeTwoSortedLinkedLists)
 1. [Linked List Cycle Detection](https://github.com/quocanh4433/dsa/blob/main/LINKEDLIST/LinkedListCycleDetection)
 1. [Remove LinkedList Elements (LÀM LẠI KHI HỌC RECURSION)](https://github.com/quocanh4433/dsa/blob/main/LINKEDLIST/RemoveLinkedListElements)
+1. [Design Hash Set](https://github.com/quocanh4433/dsa/blob/main/LINKEDLIST/DesignHashSet)
 
 ![Medium](https://img.shields.io/badge/Difficulty-Medium-orange?style=for-the-badge&logo=leetcode)
 ![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
