@@ -157,6 +157,7 @@
     1. [Target Sum](https://github.com/quocanh4433/dsa/blob/main/DP/TargetSum)
     1. [Unique Path](https://github.com/quocanh4433/dsa/blob/main/DP/UniquePaths)
     1. [Longest Common Subsequence](https://github.com/quocanh4433/dsa/blob/main/DP/LongestCommonSubsequence)
+    1. [Minimum ASCII Delete Sum For Two Strings](https://github.com/quocanh4433/dsa/blob/main/DP/LongestCommonSubsequence)
 
 - ⛔️ **Hard**
     
