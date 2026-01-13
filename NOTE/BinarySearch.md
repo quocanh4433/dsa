@@ -47,3 +47,14 @@ int b = 2;
 ```
 
 
+### Senior tip (rất quan trọng)
+
+💡Binary search không phải: “chia đôi mảng”
+
+Mà là:
+
+thu hẹp miền nghiệm hợp lệ / không hợp lệ
+
+Hiểu được điều này → bạn làm được rất nhiều bài khó (Median, Kth, Capacity, Answer Space…)
+
+

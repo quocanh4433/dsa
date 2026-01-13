@@ -80,7 +80,7 @@ public class SingleElementInASortedArray {
 
         return -1;
     }
-
+    
     public static void main(String[] args) {
 
     }

@@ -26,6 +26,7 @@
     1. [Sqrt(x)](https://github.com/quocanh4433/dsa/blob/main/BINARYSEARCH/Sqrt(x))
     1. [Valid Perfect Square](https://github.com/quocanh4433/dsa/blob/main/BINARYSEARCH/ValidPerfectSquare)
     1. [Convert Sorted Array To Binary Search Tree 🔥🔥🔥🔥🔥](https://github.com/quocanh4433/dsa/blob/main/BINARYSEARCH/ConvertSortedArrayToBinarySearchTree)
+    1. [Arranging Coins](https://github.com/quocanh4433/dsa/blob/main/BINARYSEARCH/ArrangingCoins)
 
 - 📒 **Medium**
     1. [Single Element In A Sorted Array](https://github.com/quocanh4433/dsa/blob/main/BINARYSEARCH/SingleElementInASortedArray)
