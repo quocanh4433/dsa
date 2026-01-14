@@ -6,6 +6,8 @@ public class LongestCommonSubsequence_BottomUp {
         Time: O(m * n)
         Space: O(m * n)
 
+        https://www.youtube.com/watch?v=7uQ1Lehw7_k
+
 
         dp[][] với "abcde" và "ace":
 
@@ -36,7 +38,7 @@ public class LongestCommonSubsequence_BottomUp {
                 if (text1.charAt(i) == text2.charAt(j)) {
                     dp[i][j] = 1 + dp[i + 1][j + 1];
                     /*
-                        👉 Lấy ký tự này vào LCS
+                        👉 Lấy 1 ký tự này vào LCS
                         👉 Cộng thêm LCS của phần còn lại
                     */
                 } else {
