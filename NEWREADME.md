@@ -159,6 +159,7 @@
     1. [Longest Common Subsequence](https://github.com/quocanh4433/dsa/blob/main/DP/LongestCommonSubsequence)
     1. [Minimum ASCII Delete Sum For Two Strings](https://github.com/quocanh4433/dsa/blob/main/DP/LongestCommonSubsequence)
     1. [Edit Distance](https://github.com/quocanh4433/dsa/blob/main/DP/EditDistance)
+    1. [Longest Increasing Subsequence](https://github.com/quocanh4433/dsa/blob/main/DP/LongestIncreasingSubsequence)
 
 - ⛔️ **Hard**
     
