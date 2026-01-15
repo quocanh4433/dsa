@@ -11,7 +11,10 @@ public class MinimumASCIIDeleteSumForTwoStrings_BottomUp_2 {
 
 
 
-                PHÂN TÍCH THEO HƯỚNG NÀY DỄ HIỂU HƠN
+            ✅PHÂN TÍCH THEO HƯỚNG NÀY DỄ HIỂU HƠN
+
+            Time: O(n*m)
+            Space: O(n*m)
                
          */
         int n = s1.length();
