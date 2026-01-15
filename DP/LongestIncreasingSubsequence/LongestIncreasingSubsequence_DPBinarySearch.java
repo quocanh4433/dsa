@@ -33,7 +33,7 @@ public class LongestIncreasingSubsequence_DPBinarySearch {
             }
 
             // Nếu không thỏa điều kiện tăng dần
-            // Tìm nums[i] trong dp
+            // Tìm index đầu tiên của núm[i] trong dp
             int idx = Collections.binarySearch(dp, nums[i]);
             if(idx < 0) idx = -idx -1;
             dp.set(idx, nums[i]);
