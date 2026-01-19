@@ -147,6 +147,7 @@
 
 - ✳️ **Easy**
     1. [Climbing Stairs](https://github.com/quocanh4433/dsa/blob/main/DP/ClimbingStairs)
+    1. [Min Cost Climbing Stairs](https://github.com/quocanh4433/dsa/blob/main/DP/MinCostClimbingStairs)
 
 - 📒 **Medium**
     1. [Coin Change](https://github.com/quocanh4433/dsa/blob/main/DP/CoinChange)
