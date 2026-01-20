@@ -163,6 +163,7 @@
     1. [Longest Increasing Subsequence](https://github.com/quocanh4433/dsa/blob/main/DP/LongestIncreasingSubsequence)
 
 - ⛔️ **Hard**
+    1. [Regular Expression Matching](https://github.com/quocanh4433/dsa/blob/main/DP/RegularExpressionMatching)
     
 </details>
 
@@ -234,3 +235,9 @@
 </details>
 
 ## [GAMETHEORY](./NOTE/GameTheory.md)
+<details>
+
+- ✳️ **Easy**
+    1. [DivisorGame](https://github.com/quocanh4433/dsa/blob/main/GAMETHEORY/DivisorGame)
+
+</details>
