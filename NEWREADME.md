@@ -157,10 +157,11 @@
     1. [Partition Equal Subset Sum](https://github.com/quocanh4433/dsa/blob/main/DP/PartitionEqualSubsetSum)
     1. [Target Sum](https://github.com/quocanh4433/dsa/blob/main/DP/TargetSum)
     1. [Unique Path](https://github.com/quocanh4433/dsa/blob/main/DP/UniquePaths)
-    1. [Longest Common Subsequence](https://github.com/quocanh4433/dsa/blob/main/DP/LongestCommonSubsequence)
     1. [Minimum ASCII Delete Sum For Two Strings](https://github.com/quocanh4433/dsa/blob/main/DP/LongestCommonSubsequence)
     1. [Edit Distance](https://github.com/quocanh4433/dsa/blob/main/DP/EditDistance)
+    1. [Longest Common Subsequence](https://github.com/quocanh4433/dsa/blob/main/DP/LongestCommonSubsequence)
     1. [Longest Increasing Subsequence](https://github.com/quocanh4433/dsa/blob/main/DP/LongestIncreasingSubsequence)
+    1. [Longest Palindromic Subsequence](https://github.com/quocanh4433/dsa/blob/main/DP/LongestPalindromicSubsequence)
 
 - ⛔️ **Hard**
     1. [Regular Expression Matching](https://github.com/quocanh4433/dsa/blob/main/DP/RegularExpressionMatching)
