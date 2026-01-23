@@ -225,6 +225,7 @@
     1. [Goal Parser Interpretation](https://github.com/quocanh4433/dsa/blob/main/STRING/GoalParserInterpretation)
     1. [Decode the Message](https://github.com/quocanh4433/dsa/blob/main/STRING/DecodeTheMessage)
     1. [Calculate Digit Sum Of A String](https://github.com/quocanh4433/dsa/blob/main/STRING/CalculateDigitSumOfAString)
+    1. [Longest Palindrome](https://github.com/quocanh4433/dsa/blob/main/STRING/LongestPalindrome)
 
 - 📒 **Medium**
     1. [Palindromic Substrings](https://github.com/quocanh4433/dsa/blob/main/STRING/PalindromicSubstrings)
