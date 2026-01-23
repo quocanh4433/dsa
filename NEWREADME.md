@@ -158,6 +158,7 @@
     1. [Target Sum](https://github.com/quocanh4433/dsa/blob/main/DP/TargetSum)
     1. [Unique Path](https://github.com/quocanh4433/dsa/blob/main/DP/UniquePaths)
     1. [Minimum ASCII Delete Sum For Two Strings](https://github.com/quocanh4433/dsa/blob/main/DP/LongestCommonSubsequence)
+    1. [Maximum Product Subarray](https://github.com/quocanh4433/dsa/blob/main/DP/MaximumProductSubarray)
     1. [Edit Distance](https://github.com/quocanh4433/dsa/blob/main/DP/EditDistance)
     1. [Longest Common Subsequence](https://github.com/quocanh4433/dsa/blob/main/DP/LongestCommonSubsequence)
     1. [Longest Increasing Subsequence](https://github.com/quocanh4433/dsa/blob/main/DP/LongestIncreasingSubsequence)
