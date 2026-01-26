@@ -51,7 +51,9 @@ public class UniquePaths_DFS {
     }
 
     public int dfs_2(int i, int j, int m, int n, int[][] memo) {
-        if (i == m - 1 || j == n - 1) { // TAI SAO CO DIEU KIEN NAY?
+        if (i == m - 1 || j == n - 1) { 
+            // i == m - 1 && j == n - 1 vẫn đúng
+            // TAI SAO CO DIEU KIEN NAY?
             return 1;
         }
 
