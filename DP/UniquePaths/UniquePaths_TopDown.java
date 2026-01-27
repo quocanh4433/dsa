@@ -2,7 +2,7 @@
 import java.util.Arrays;
 
 
-public class UniquePaths_DFS {
+public class UniquePaths_TopDown {
     /*
         SOLUTION 1: RECURSION
 
