@@ -1,5 +1,4 @@
 
-import java.util.Arrays;
 
 
 public class UniquePaths_BottomUp {
@@ -8,7 +7,7 @@ public class UniquePaths_BottomUp {
         time: O(n * m)
         space: O(m)
      */
-    public int uniquePathsWithObstacles(int m, int n) {
+    public int uniquePaths(int m, int n) {
         int[] dp = new int[n];
         dp[0] = 1;
 
@@ -28,11 +27,6 @@ public class UniquePaths_BottomUp {
         time: O(n * m)
         space: O(n * m)
     */
-
-
-    public int uniquePaths(int m, int n) {
-       
-    }
 
     public static void main(String[] args) {
 
