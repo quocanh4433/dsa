@@ -153,7 +153,9 @@
     1. [Coin Change](https://github.com/quocanh4433/dsa/blob/main/DP/CoinChange)
     1. [Perfect Squares](https://github.com/quocanh4433/dsa/blob/main/DP/PerfectSquares)
 
+    <!--pattern 2 mảng dp -->
     1. [Max Consecutive Ones 2](https://github.com/quocanh4433/dsa/blob/main/DP/MaxConsecutiveOnes2)
+    1. [Maximum Product Subarray](https://github.com/quocanh4433/dsa/blob/main/DP/MaximumProductSubarray)
 
     1. [House Robber](https://github.com/quocanh4433/dsa/blob/main/DP/HouseRobber)
     1. [House Robber 2](https://github.com/quocanh4433/dsa/blob/main/DP/HouseRobber2)
@@ -163,7 +165,7 @@
     1. [Unique Path](https://github.com/quocanh4433/dsa/blob/main/DP/UniquePaths)
     1. [Unique Path 2](https://github.com/quocanh4433/dsa/blob/main/DP/UniquePaths2)
     1. [Minimum ASCII Delete Sum For Two Strings](https://github.com/quocanh4433/dsa/blob/main/DP/LongestCommonSubsequence)
-    1. [Maximum Product Subarray](https://github.com/quocanh4433/dsa/blob/main/DP/MaximumProductSubarray)
+   
     1. [Edit Distance](https://github.com/quocanh4433/dsa/blob/main/DP/EditDistance)
     1. [Longest Common Subsequence](https://github.com/quocanh4433/dsa/blob/main/DP/LongestCommonSubsequence)
     1. [Longest Increasing Subsequence](https://github.com/quocanh4433/dsa/blob/main/DP/LongestIncreasingSubsequence)

@@ -28,6 +28,13 @@
 - 152 – Maximum Product Subarray
 
 - 487 – Max Consecutive Ones II
+        
+    - Chia làm 2 mảng DP. Cách nhận biết
+
+        - “ĐƯỢC PHÉP … TỐI ĐA 1 LẦN”
+
+        - “Tại vị trí i, quá khứ của mình có ảnh hưởng không?”
+
 
 👉 Đặc điểm:
 

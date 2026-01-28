@@ -1,5 +1,5 @@
 
-## 487. Max Consecutive Ones II (Leetcode premium)
+## 487. Max Consecutive Ones II (Leetcode premium and Neetocde)
 
 Given a binary array nums, return the maximum number of consecutive 1s in the array if you can flip at most one 0.
 
