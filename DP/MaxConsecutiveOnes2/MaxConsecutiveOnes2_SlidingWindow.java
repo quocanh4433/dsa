@@ -9,7 +9,7 @@ public class MaxConsecutiveOnes2_SlidingWindow {
         if (nums.length == 1) {
             /*
                 tại sao nums = [0] return 1?
-                👉 có thể lấy 0 flip thành 1
+                👉 có thể lật 0 thành 1
             */
             return 1;
         }

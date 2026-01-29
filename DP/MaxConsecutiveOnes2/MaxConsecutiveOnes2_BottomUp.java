@@ -14,6 +14,8 @@ public class MaxConsecutiveOnes2_BottomUp {
         /*
             dp1(i): chuỗi 1 liên tiếp kết thúc tại i - được flip 0;
             dp0(i): chuỗi 1 liên tiếp kết thúc tại i - không flip 0;
+
+            dp...(i): kết quả tốt nhất nếu i hợp lệ
         
         */
         int[] dp1 = new int[n];

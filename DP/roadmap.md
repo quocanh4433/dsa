@@ -1,5 +1,7 @@
 1D → String → Knapsack → LIS → Stock → Interval
 
+https://www.youtube.com/watch?v=f19e_ofbydc&list=PLEJXowNB4kPxBwaXtRO1qFLpCzF75DYrS&index=1
+
 ## 1. DP cơ bản / 1D DP (Easy → Medium)
 ✳️ Easy
 
@@ -29,7 +31,7 @@
 
 - 487 – Max Consecutive Ones II
         
-    - Chia làm 2 mảng DP. Cách nhận biết
+    - Chia làm 2 mảng dp. Cách nhận biết
 
         - “ĐƯỢC PHÉP … TỐI ĐA 1 LẦN”
 
