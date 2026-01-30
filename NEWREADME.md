@@ -145,35 +145,35 @@
 ## [DP](./NOTE/DP.md)
 <details>
 
-- ✳️ **Easy**
-    1. [Climbing Stairs](https://github.com/quocanh4433/dsa/blob/main/DP/ClimbingStairs)
-    1. [Min Cost Climbing Stairs](https://github.com/quocanh4433/dsa/blob/main/DP/MinCostClimbingStairs)
+1. [✳️ Climbing Stairs](https://github.com/quocanh4433/dsa/blob/main/DP/ClimbingStairs)
+1. [✳️ Min Cost Climbing Stairs](https://github.com/quocanh4433/dsa/blob/main/DP/MinCostClimbingStairs)
 
-- 📒 **Medium**
-    <!--pattern 2 mảng dp, mỗi mảng dp giữ đáp án tốt nhất dẫn tới kết quả tối ưu -->
-    1. [Max Consecutive Ones 2](https://github.com/quocanh4433/dsa/blob/main/DP/MaxConsecutiveOnes2)
-    1. [Maximum Product Subarray](https://github.com/quocanh4433/dsa/blob/main/DP/MaximumProductSubarray)
-    1. [Wiggle Subsequence](https://github.com/quocanh4433/dsa/blob/main/DP/WiggleSubsequence)
+<!--pattern 2 mảng dp, mỗi mảng dp giữ đáp án tốt nhất dẫn tới kết quả tối ưu -->
+1. [📒 Max Consecutive Ones 2](https://github.com/quocanh4433/dsa/blob/main/DP/MaxConsecutiveOnes2)
+1. [📒 Maximum Product Subarray](https://github.com/quocanh4433/dsa/blob/main/DP/MaximumProductSubarray)
+1. [📒 Wiggle Subsequence](https://github.com/quocanh4433/dsa/blob/main/DP/WiggleSubsequence)
 
-    <!-- pattern LIS -->
-    1. [Longest Increasing Subsequence (LIS)](https://github.com/quocanh4433/dsa/blob/main/DP/LongestIncreasingSubsequence)
-    1. [Coin Change](https://github.com/quocanh4433/dsa/blob/main/DP/CoinChange)
-    1. [Perfect Squares](https://github.com/quocanh4433/dsa/blob/main/DP/PerfectSquares)
-    1. [House Robber](https://github.com/quocanh4433/dsa/blob/main/DP/HouseRobber)
-    1. [House Robber 2](https://github.com/quocanh4433/dsa/blob/main/DP/HouseRobber2)
-    1. [Decode Ways](https://github.com/quocanh4433/dsa/blob/main/DP/DecodeWays)
-    1. [Partition Equal Subset Sum](https://github.com/quocanh4433/dsa/blob/main/DP/PartitionEqualSubsetSum)
-    1. [Target Sum](https://github.com/quocanh4433/dsa/blob/main/DP/TargetSum)
-    1. [Unique Path](https://github.com/quocanh4433/dsa/blob/main/DP/UniquePaths)
-    1. [Unique Path 2](https://github.com/quocanh4433/dsa/blob/main/DP/UniquePaths2)
-    1. [Minimum ASCII Delete Sum For Two Strings](https://github.com/quocanh4433/dsa/blob/main/DP/LongestCommonSubsequence)
-    1. [Edit Distance](https://github.com/quocanh4433/dsa/blob/main/DP/EditDistance)
-    1. [Longest Common Subsequence](https://github.com/quocanh4433/dsa/blob/main/DP/LongestCommonSubsequence)
-    1. [Longest Palindromic Subsequence](https://github.com/quocanh4433/dsa/blob/main/DP/LongestPalindromicSubsequence)
+<!-- pattern LIS -->
+1. [📒 Longest Increasing Subsequence (LIS)](https://github.com/quocanh4433/dsa/blob/main/DP/LongestIncreasingSubsequence)
 
-- ⛔️ **Hard**
-    1. [Regular Expression Matching](https://github.com/quocanh4433/dsa/blob/main/DP/RegularExpressionMatching)
-    
+<!-- pattern string dp(i, j) là chiều dai -->
+1. [📒 Longest Palindromic Subsequence](https://github.com/quocanh4433/dsa/blob/main/DP/LongestPalindromicSubsequence)
+1. [📒 Interleaving String](https://github.com/quocanh4433/dsa/blob/main/DP/InterleavingString)
+1. [⛔️Regular Expression Matching](https://github.com/quocanh4433/dsa/blob/main/DP/RegularExpressionMatching)
+
+1. [📒 Coin Change](https://github.com/quocanh4433/dsa/blob/main/DP/CoinChange)
+1. [📒 Perfect Squares](https://github.com/quocanh4433/dsa/blob/main/DP/PerfectSquares)
+1. [📒 House Robber](https://github.com/quocanh4433/dsa/blob/main/DP/HouseRobber)
+1. [📒 House Robber 2](https://github.com/quocanh4433/dsa/blob/main/DP/HouseRobber2)
+1. [📒 Decode Ways](https://github.com/quocanh4433/dsa/blob/main/DP/DecodeWays)
+1. [📒 Partition Equal Subset Sum](https://github.com/quocanh4433/dsa/blob/main/DP/PartitionEqualSubsetSum)
+1. [📒 Target Sum](https://github.com/quocanh4433/dsa/blob/main/DP/TargetSum)
+1. [📒 Unique Path](https://github.com/quocanh4433/dsa/blob/main/DP/UniquePaths)
+1. [📒 Unique Path 2](https://github.com/quocanh4433/dsa/blob/main/DP/UniquePaths2)
+1. [📒 Minimum ASCII Delete Sum For Two Strings](https://github.com/quocanh4433/dsa/blob/main/DP/LongestCommonSubsequence)
+1. [📒 Edit Distance](https://github.com/quocanh4433/dsa/blob/main/DP/EditDistance)
+1. [📒 Longest Common Subsequence](https://github.com/quocanh4433/dsa/blob/main/DP/LongestCommonSubsequence)
+
 </details>
 
 ## [HEAP](./NOTE/Heap.md)
