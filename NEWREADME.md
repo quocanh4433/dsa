@@ -147,7 +147,6 @@
 
 1. [✳️ Climbing Stairs](https://github.com/quocanh4433/dsa/blob/main/DP/ClimbingStairs)
 1. [✳️ Min Cost Climbing Stairs](https://github.com/quocanh4433/dsa/blob/main/DP/MinCostClimbingStairs)
-
 <!--pattern 2 mảng dp, mỗi mảng dp giữ đáp án tốt nhất dẫn tới kết quả tối ưu -->
 1. [📒 Max Consecutive Ones 2](https://github.com/quocanh4433/dsa/blob/main/DP/MaxConsecutiveOnes2)
 1. [📒 Maximum Product Subarray](https://github.com/quocanh4433/dsa/blob/main/DP/MaximumProductSubarray)
@@ -162,6 +161,7 @@
 1. [⛔️Regular Expression Matching](https://github.com/quocanh4433/dsa/blob/main/DP/RegularExpressionMatching)
 
 1. [📒 Coin Change](https://github.com/quocanh4433/dsa/blob/main/DP/CoinChange)
+1. [📒 Coin Change 2](https://github.com/quocanh4433/dsa/blob/main/DP/CoinChange2)
 1. [📒 Perfect Squares](https://github.com/quocanh4433/dsa/blob/main/DP/PerfectSquares)
 1. [📒 House Robber](https://github.com/quocanh4433/dsa/blob/main/DP/HouseRobber)
 1. [📒 House Robber 2](https://github.com/quocanh4433/dsa/blob/main/DP/HouseRobber2)
