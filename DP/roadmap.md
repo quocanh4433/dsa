@@ -9,7 +9,7 @@ https://www.youtube.com/watch?v=f19e_ofbydc&list=PLEJXowNB4kPxBwaXtRO1qFLpCzF75D
 
 - 198 – House Robber
 
-- 256 – Paint House
+- 256 – Paint House ❌
 
 - 62 – Unique Paths
 
@@ -48,9 +48,9 @@ Thường tối ưu được xuống O(1) space
 
 📒 Medium
 
-- 139 – Word Break
+- 139 – Word Break (Chưa giải bài này theo DP) ❌
 
-- 647 – Palindromic Substrings
+- 647 – Palindromic Substrings (Nằm trong STRING)
 
 - 516 – Longest Palindromic Subsequence
 
@@ -62,11 +62,11 @@ Thường tối ưu được xuống O(1) space
 
 - 10 – Regular Expression Matching
 
-- 115 – Distinct Subsequences
+- 115 – Distinct Subsequences ❌
 
-- 1092 – Shortest Common Supersequence
+- 1092 – Shortest Common Supersequence ❌
 
-- 1278 – Palindrome Partitioning III
+- 1278 – Palindrome Partitioning III ❌
 
 👉 Đặc điểm:
 
@@ -90,13 +90,15 @@ Hay gặp: LCS, palindrome, regex
 
 ⛔️ Hard
 
-- 1049 – Last Stone Weight II
+- 1049 – Last Stone Weight II ❌
 
 👉 Đặc điểm:
 
 dp[sum] hoặc dp[i][sum]
 
 Bài toán “chọn / không chọn”
+
+
 
 ## 4. DP Subsequence / LIS / LCS
 
@@ -106,11 +108,11 @@ Bài toán “chọn / không chọn”
 
 - 1143 – Longest Common Subsequence
 
-- 354 – Russian Doll Envelopes
+- 354 – Russian Doll Envelopes ❌
 
-- 368 – Largest Divisible Subset
+- 368 – Largest Divisible Subset ❌
 
-- 1964 – Longest Valid Obstacle Course
+- 1964 – Longest Valid Obstacle Course ❌
 
 👉 Đặc điểm:
 
@@ -123,9 +125,9 @@ LCS: dp[i][j]
 ## 5. DP Chứng khoán (State Machine DP)
 
 📒 Medium
-- 123 – Best Time to Buy and Sell Stock III
+- 123 – Best Time to Buy and Sell Stock III ❌
 
-- 309 – Best Time to Buy and Sell Stock with Cooldown
+- 309 – Best Time to Buy and Sell Stock with Cooldown ❌
 
 👉 Đặc điểm:
 
@@ -137,21 +139,21 @@ State = buy / sell / cooldown / k transactions
 
 📒 Medium
 
-- 221 – Maximal Square
+- 221 – Maximal Square ❌
 
-- 688 – Knight Probability in Chessboard
+- 688 – Knight Probability in Chessboard ❌
 
 
 ## 7. Interval DP (Khó – nâng cao)
 ⛔️ Hard
 
-- 312 – Burst Balloons
+- 312 – Burst Balloons ❌
 
-- 1547 – Minimum Cost to Cut a Stick
+- 1547 – Minimum Cost to Cut a Stick ❌
 
-- 1335 – Minimum Difficulty of a Job Schedule
+- 1335 – Minimum Difficulty of a Job Schedule ❌
 
-- 410 – Split Array Largest Sum
+- 410 – Split Array Largest Sum ❌
 
 👉 Đặc điểm:
 

@@ -145,34 +145,44 @@
 ## [DP](./NOTE/DP.md)
 <details>
 
-1. [✳️ Climbing Stairs](https://github.com/quocanh4433/dsa/blob/main/DP/ClimbingStairs)
-1. [✳️ Min Cost Climbing Stairs](https://github.com/quocanh4433/dsa/blob/main/DP/MinCostClimbingStairs)
-<!--pattern 2 mảng dp, mỗi mảng dp giữ đáp án tốt nhất dẫn tới kết quả tối ưu -->
-1. [📒 Max Consecutive Ones 2](https://github.com/quocanh4433/dsa/blob/main/DP/MaxConsecutiveOnes2)
-1. [📒 Maximum Product Subarray](https://github.com/quocanh4433/dsa/blob/main/DP/MaximumProductSubarray)
-1. [📒 Wiggle Subsequence](https://github.com/quocanh4433/dsa/blob/main/DP/WiggleSubsequence)
+-   **1D**
+        1. [✳️ Climbing Stairs](https://github.com/quocanh4433/dsa/blob/main/DP/ClimbingStairs)
+        1. [✳️ Min Cost Climbing Stairs](https://github.com/quocanh4433/dsa/blob/main/DP/MinCostClimbingStairs)
+        1. [📒 House Robber](https://github.com/quocanh4433/dsa/blob/main/DP/HouseRobber)
+        1. [📒 House Robber 2](https://github.com/quocanh4433/dsa/blob/main/DP/HouseRobber2)
+        1. [📒 Unique Path](https://github.com/quocanh4433/dsa/blob/main/DP/UniquePaths)
+        1. [📒 Unique Path 2](https://github.com/quocanh4433/dsa/blob/main/DP/UniquePaths2)
+        1. [📒 Minimum Path Sum](https://github.com/quocanh4433/dsa/blob/main/DP/MinimumPathSum)
+        1. [📒 Perfect Squares](https://github.com/quocanh4433/dsa/blob/main/DP/PerfectSquares)
+        1. [📒 Decode Ways](https://github.com/quocanh4433/dsa/blob/main/DP/DecodeWays)
+        1. [📒 Coin Change](https://github.com/quocanh4433/dsa/blob/main/DP/CoinChange)
 
-<!-- pattern LIS -->
-1. [📒 Longest Increasing Subsequence (LIS)](https://github.com/quocanh4433/dsa/blob/main/DP/LongestIncreasingSubsequence)
+        - pattern 2 mảng dp, mỗi mảng dp giữ đáp án tốt nhất dẫn tới kết quả tối ưu
 
-<!-- pattern string dp(i, j) là chiều dai -->
-1. [📒 Longest Palindromic Subsequence](https://github.com/quocanh4433/dsa/blob/main/DP/LongestPalindromicSubsequence)
-1. [📒 Interleaving String](https://github.com/quocanh4433/dsa/blob/main/DP/InterleavingString)
-1. [⛔️Regular Expression Matching](https://github.com/quocanh4433/dsa/blob/main/DP/RegularExpressionMatching)
+        1. [📒 Max Consecutive Ones 2](https://github.com/quocanh4433/dsa/blob/main/DP/MaxConsecutiveOnes2)
+        1. [📒 Maximum Product Subarray](https://github.com/quocanh4433/dsa/blob/main/DP/MaximumProductSubarray)
+        1. [📒 Wiggle Subsequence](https://github.com/quocanh4433/dsa/blob/main/DP/WiggleSubsequence)
+    
+-   **String**
+        1. [📒 Edit Distance](https://github.com/quocanh4433/dsa/blob/main/DP/EditDistance)
+        1. [📒 Word Break](https://github.com/quocanh4433/dsa/blob/main/DP/WordBreak)
 
-1. [📒 Coin Change](https://github.com/quocanh4433/dsa/blob/main/DP/CoinChange)
-1. [📒 Coin Change 2](https://github.com/quocanh4433/dsa/blob/main/DP/CoinChange2)
-1. [📒 Perfect Squares](https://github.com/quocanh4433/dsa/blob/main/DP/PerfectSquares)
-1. [📒 House Robber](https://github.com/quocanh4433/dsa/blob/main/DP/HouseRobber)
-1. [📒 House Robber 2](https://github.com/quocanh4433/dsa/blob/main/DP/HouseRobber2)
-1. [📒 Decode Ways](https://github.com/quocanh4433/dsa/blob/main/DP/DecodeWays)
-1. [📒 Partition Equal Subset Sum](https://github.com/quocanh4433/dsa/blob/main/DP/PartitionEqualSubsetSum)
-1. [📒 Target Sum](https://github.com/quocanh4433/dsa/blob/main/DP/TargetSum)
-1. [📒 Unique Path](https://github.com/quocanh4433/dsa/blob/main/DP/UniquePaths)
-1. [📒 Unique Path 2](https://github.com/quocanh4433/dsa/blob/main/DP/UniquePaths2)
-1. [📒 Minimum ASCII Delete Sum For Two Strings](https://github.com/quocanh4433/dsa/blob/main/DP/LongestCommonSubsequence)
-1. [📒 Edit Distance](https://github.com/quocanh4433/dsa/blob/main/DP/EditDistance)
-1. [📒 Longest Common Subsequence](https://github.com/quocanh4433/dsa/blob/main/DP/LongestCommonSubsequence)
+        - pattern string dp(i, j) là chiều dài
+
+        1. [📒 Longest Palindromic Subsequence](https://github.com/quocanh4433/dsa/blob/main/DP/LongestPalindromicSubsequence)
+        1. [📒 Interleaving String](https://github.com/quocanh4433/dsa/blob/main/DP/InterleavingString)
+        1. [⛔️Regular Expression Matching](https://github.com/quocanh4433/dsa/blob/main/DP/RegularExpressionMatching)
+
+-   **Knapsack / subset sum**
+        1. [📒 Partition Equal Subset Sum](https://github.com/quocanh4433/dsa/blob/main/DP/PartitionEqualSubsetSum)
+        1. [📒 Target Sum](https://github.com/quocanh4433/dsa/blob/main/DP/TargetSum)
+        1. [📒 Combination Sum 4](https://github.com/quocanh4433/dsa/blob/main/DP/CombinationSum4)
+        1. [📒 Coin Change 2](https://github.com/quocanh4433/dsa/blob/main/DP/CoinChange2)
+
+-   **Subsequence / LIS / LCS**
+        1. [📒 Longest Increasing Subsequence (LIS)](https://github.com/quocanh4433/dsa/blob/main/DP/LongestIncreasingSubsequence)
+        1. [📒 Longest Common Subsequence](https://github.com/quocanh4433/dsa/blob/main/DP/LongestCommonSubsequence)
+        1. [📒 Minimum ASCII Delete Sum For Two Strings](https://github.com/quocanh4433/dsa/blob/main/DP/MinimumASCIIDeleteSumForTwoStrings)
 
 </details>
 
