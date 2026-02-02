@@ -5,10 +5,8 @@ import java.util.Map;
 public class TargetSum_TopDown {
 
     /*
-    Time -> O(n * 2 * totalSum) -> O(n * totalSum);
-    Space -> O(n * 2 * totalSum) -> O(n * totalSum)
-  
-    TOTALSUM là gì?
+        time -> O(n * 2 * totalSum) -> O(n * totalSum);
+        space -> O(n * 2 * totalSum) -> O(n * totalSum)
     */
 
     private Map<String, Integer> dp;
@@ -23,6 +21,7 @@ public class TargetSum_TopDown {
     }
 
     public int dfs(int i, int curSum) {
+        // base case
         if (i == nums.length) {
             return curSum == target ? 1 : 0;
         }
