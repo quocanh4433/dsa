@@ -178,6 +178,7 @@
         1. [📒 Target Sum](https://github.com/quocanh4433/dsa/blob/main/DP/TargetSum)
         1. [📒 Combination Sum 4](https://github.com/quocanh4433/dsa/blob/main/DP/CombinationSum4)
         1. [📒 Coin Change 2](https://github.com/quocanh4433/dsa/blob/main/DP/CoinChange2)
+        1. [📒 Last Stone Weight 2](https://github.com/quocanh4433/dsa/blob/main/DP/LastStoneWeight2)
 
 -   **Subsequence / LIS / LCS**
         1. [📒 Longest Increasing Subsequence (LIS)](https://github.com/quocanh4433/dsa/blob/main/DP/LongestIncreasingSubsequence)
