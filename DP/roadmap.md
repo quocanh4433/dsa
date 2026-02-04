@@ -104,13 +104,19 @@ Bài toán “chọn / không chọn”
 
 - 300 – Longest Increasing Subsequence
 
-- 1143 – Longest Common Subsequence
+    - dp binary search
 
-- 354 – Russian Doll Envelopes ❌
+- 1143 – Longest Common Subsequence
 
 - 368 – Largest Divisible Subset ❌
 
+⛔️ Hard
+
+- 354 – Russian Doll Envelopes ❌
+
 - 1964 – Longest Valid Obstacle Course ❌
+    
+    - dp binary search
 
 👉 Đặc điểm:
 

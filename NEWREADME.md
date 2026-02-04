@@ -182,6 +182,7 @@
 
 -   **Subsequence / LIS / LCS**
         1. [📒 Longest Increasing Subsequence (LIS)](https://github.com/quocanh4433/dsa/blob/main/DP/LongestIncreasingSubsequence)
+        1. [⛔️ Find the Longest Valid Obstacle Course at Each Position](https://github.com/quocanh4433/dsa/blob/main/DP/FindTheLongestValidObstacleCourseAtEachPosition)
         1. [📒 Longest Common Subsequence](https://github.com/quocanh4433/dsa/blob/main/DP/LongestCommonSubsequence)
         1. [📒 Minimum ASCII Delete Sum For Two Strings](https://github.com/quocanh4433/dsa/blob/main/DP/MinimumASCIIDeleteSumForTwoStrings)
         1. [📒 Ones And Zeroes](https://github.com/quocanh4433/dsa/blob/main/DP/OnesAndZeroes)
