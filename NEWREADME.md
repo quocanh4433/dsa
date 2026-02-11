@@ -164,6 +164,7 @@
         1. [📒 Wiggle Subsequence](https://github.com/quocanh4433/dsa/blob/main/DP/WiggleSubsequence)
     
 -   **String**
+        1. [✳️ Maximum Repeating Substring](https://github.com/quocanh4433/dsa/blob/main/DP/MaximumRepeatingSubstring)
         1. [📒 Edit Distance](https://github.com/quocanh4433/dsa/blob/main/DP/EditDistance)
         1. [📒 Word Break](https://github.com/quocanh4433/dsa/blob/main/DP/WordBreak)
 
