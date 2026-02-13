@@ -148,6 +148,7 @@
 -   **1D**
         1. [✳️ Climbing Stairs](https://github.com/quocanh4433/dsa/blob/main/DP/ClimbingStairs)
         1. [✳️ Min Cost Climbing Stairs](https://github.com/quocanh4433/dsa/blob/main/DP/MinCostClimbingStairs)
+        1. [✳️ N-th Tribonacci Number](https://github.com/quocanh4433/dsa/blob/main/DP/N-thTribonacciNumber) 
         1. [📒 House Robber](https://github.com/quocanh4433/dsa/blob/main/DP/HouseRobber)
         1. [📒 House Robber 2](https://github.com/quocanh4433/dsa/blob/main/DP/HouseRobber2)
         1. [📒 Unique Path](https://github.com/quocanh4433/dsa/blob/main/DP/UniquePaths)
