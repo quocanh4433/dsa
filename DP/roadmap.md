@@ -88,7 +88,7 @@ Hay gặp: LCS, palindrome, regex
 
 - 518 – Coin Change II
 
-- 1049 – Last Stone Weight II ❌
+- 1049 – Last Stone Weight II
 
 👉 Đặc điểm:
 

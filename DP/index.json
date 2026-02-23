@@ -10,7 +10,7 @@
       "name": "1092-shortest-common-supersequence.py"
     },
     {
-      "name": "1105-filling-bookcase-shelves.py"
+      "❌name": "1105-filling-bookcase-shelves.py"
     },
     {
       "name": "1143-longest-common-subsequence.py"
@@ -49,7 +49,7 @@
       "name": "198-house-robber.py"
     },
     {
-      "name": "213-house-robber-ii.py"
+      "❌name": "213-house-robber-ii.py"
     },
     {
       "name": "221-maximal-square.py"
@@ -70,7 +70,7 @@
       "name": "312-burst-balloons.py"
     },
     {
-      "name": "322-coin-change.java"
+      "❌name": "322-coin-change.java"
     },
     {
       "name": "322-coin-change.py"
