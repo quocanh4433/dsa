@@ -54,7 +54,7 @@ public class LongestIncreasingSubsequence_BinarySearch {
                 }
             }
 
-            tail[l] = num;
+            tail[l] = num; // or tail[r] = num đều đúng
 
             // vừa tạo được subsequence dài hơn nên tăng size
             if (l == size) {

@@ -23,6 +23,8 @@ https://www.youtube.com/watch?v=f19e_ofbydc&list=PLEJXowNB4kPxBwaXtRO1qFLpCzF75D
 
 - 91 – Decode Ways
 
+- 1105 – Filling Bookcase Shelves
+
 - 279 – Perfect Squares
 
 - 376 – Wiggle Subsequence
@@ -114,7 +116,7 @@ Bài toán “chọn / không chọn”
 
 - 354 – Russian Doll Envelopes ❌
 
-- 1964 – Longest Valid Obstacle Course ❌
+- 1964 – Find The Longest Valid Obstacle Course At Each Position
     
     - dp binary search
 
