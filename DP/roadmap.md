@@ -110,7 +110,7 @@ Bài toán “chọn / không chọn”
 
 - 1143 – Longest Common Subsequence
 
-- 368 – Largest Divisible Subset ❌
+- 368 – Largest Divisible Subset
 
 ⛔️ Hard
 

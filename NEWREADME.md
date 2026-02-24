@@ -169,7 +169,7 @@
 
     1. [📒 Coin Change](https://github.com/quocanh4433/dsa/blob/main/DP/CoinChange)
 
-    1. [📒 1105. filling bookcase shelves](https://github.com/quocanh4433/dsa/blob/main/DP/1105_filling_bookcase_shelves)
+    1. [📒 1105_filling_bookcase_shelves](https://github.com/quocanh4433/dsa/blob/main/DP/1105_filling_bookcase_shelves)
 
     
     - pattern 2 mảng dp, mỗi mảng dp giữ đáp án tốt nhất dẫn tới kết quả tối ưu
@@ -201,7 +201,6 @@
 
 -   **Knapsack / subset sum**
   
-  
     1. [📒 Partition Equal Subset Sum](https://github.com/quocanh4433/dsa/blob/main/DP/PartitionEqualSubsetSum)
         
     1. [📒 Target Sum](https://github.com/quocanh4433/dsa/blob/main/DP/TargetSum)
@@ -215,9 +214,11 @@
 -   **Subsequence / LIS / LCS**
         
     1. [📒 Longest Increasing Subsequence (LIS)](https://github.com/quocanh4433/dsa/blob/main/DP/LongestIncreasingSubsequence)
+
+    1. [📒 368_largest_divisible_subset](https://github.com/quocanh4433/dsa/blob/main/DP/368_largest_divisible_subset)
         
     1. [⛔️ Find the Longest Valid Obstacle Course at Each Position](https://github.com/quocanh4433/dsa/blob/main/DP/FindTheLongestValidObstacleCourseAtEachPosition)
-        
+
     1. [📒 Longest Common Subsequence](https://github.com/quocanh4433/dsa/blob/main/DP/LongestCommonSubsequence)
         
     1. [📒 Minimum ASCII Delete Sum For Two Strings](https://github.com/quocanh4433/dsa/blob/main/DP/MinimumASCIIDeleteSumForTwoStrings)
