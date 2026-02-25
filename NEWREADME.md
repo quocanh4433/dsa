@@ -216,6 +216,8 @@
     1. [📒 Longest Increasing Subsequence (LIS)](https://github.com/quocanh4433/dsa/blob/main/DP/LongestIncreasingSubsequence)
 
     1. [📒 368_largest_divisible_subset](https://github.com/quocanh4433/dsa/blob/main/DP/368_largest_divisible_subset)
+
+    1. [⛔️ 354_russian_doll_envelopes](https://github.com/quocanh4433/dsa/blob/main/DP/354_russian_doll_envelopes)
         
     1. [⛔️ Find the Longest Valid Obstacle Course at Each Position](https://github.com/quocanh4433/dsa/blob/main/DP/FindTheLongestValidObstacleCourseAtEachPosition)
 

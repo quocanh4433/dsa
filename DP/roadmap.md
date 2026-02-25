@@ -114,7 +114,7 @@ Bài toán “chọn / không chọn”
 
 ⛔️ Hard
 
-- 354 – Russian Doll Envelopes ❌
+- 354 – Russian Doll Envelopes
 
 - 1964 – Find The Longest Valid Obstacle Course At Each Position
     
