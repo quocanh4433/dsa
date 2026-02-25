@@ -131,9 +131,9 @@ LCS: dp[i][j]
 ## 5. DP Chứng khoán (State Machine DP)
 
 📒 Medium
-- 123 – Best Time to Buy and Sell Stock III ❌
+- 123 – Best Time to Buy and Sell Stock III
 
-- 309 – Best Time to Buy and Sell Stock with Cooldown ❌
+- 309 – Best Time to Buy and Sell Stock with Cooldown
 
 👉 Đặc điểm:
 
