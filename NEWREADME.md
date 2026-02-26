@@ -277,8 +277,13 @@
     1. [Graph Valid Tree (Only NeetCode)](https://github.com/quocanh4433/dsa/blob/main/GRAPH/GraphValidTree)
     1. [Keys And Rooms](https://github.com/quocanh4433/dsa/blob/main/GRAPH/KeysAndRooms)
 
+
 - ⛔️ **Hard**
     1. [Alien Dictionary (Only Neetcode)](https://github.com/quocanh4433/dsa/blob/main/GRAPH/AlienDictionary)
+
+
+- **Dijkstra**
+    1. [📒 743_network_delay_time](https://github.com/quocanh4433/dsa/blob/main/GRAPH/743_network_delay_time)
 </details>
 
 
