@@ -284,6 +284,7 @@
 
 - **Dijkstra**
     1. [📒 743_network_delay_time](https://github.com/quocanh4433/dsa/blob/main/GRAPH/743_network_delay_time)
+    1. [📒 1514_path_with_maximum_probability](https://github.com/quocanh4433/dsa/blob/main/GRAPH/1514_path_with_maximum_probability)
 </details>
 
 
