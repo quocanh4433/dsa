@@ -286,6 +286,7 @@
     1. [📒 743_network_delay_time](https://github.com/quocanh4433/dsa/blob/main/GRAPH/743_network_delay_time)
     1. [📒 1514_path_with_maximum_probability](https://github.com/quocanh4433/dsa/blob/main/GRAPH/1514_path_with_maximum_probability)
     1. [📒 1334_find_the_city_with_the_smallest_number_of_neighbors_at_a_threshold_distance](https://github.com/quocanh4433/dsa/blob/main/GRAPH/1334_find_the_city_with_the_smallest_number_of_neighbors_at_a_threshold_distance)
+    1. [📒 1631_path_with_minimum_effort](https://github.com/quocanh4433/dsa/blob/main/GRAPH/1631_path_with_minimum_effort)
 </details>
 
 
