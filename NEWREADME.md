@@ -324,3 +324,12 @@
     1. [DivisorGame](https://github.com/quocanh4433/dsa/blob/main/GAMETHEORY/DivisorGame)
 
 </details>
+
+
+## [STRINGPARSER](./NOTE/GameTheory.md)
+<details>
+
+- ✳️ **Easy**
+    1. [📒 227_basic_calculator_II](https://github.com/quocanh4433/dsa/blob/main/STRINGPARSER/227_basic_calculator_II)
+
+</details>
