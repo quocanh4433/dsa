@@ -288,6 +288,8 @@
     1. [📒 1334_find_the_city_with_the_smallest_number_of_neighbors_at_a_threshold_distance](https://github.com/quocanh4433/dsa/blob/main/GRAPH/1334_find_the_city_with_the_smallest_number_of_neighbors_at_a_threshold_distance)
     1. [📒 1631_path_with_minimum_effort](https://github.com/quocanh4433/dsa/blob/main/GRAPH/1631_path_with_minimum_effort)
     1. [⛔️ 2290_minimum_obstacle_removal_to_reach_corner](https://github.com/quocanh4433/dsa/blob/main/GRAPH/2290_minimum_obstacle_removal_to_reach_corner)
+    1. [⛔️ 1368_minimum_cost_to_make_at_least_one_valid_path_in_a_grid](https://github.com/quocanh4433/dsa/blob/main/GRAPH/1368_minimum_cost_to_make_at_least_one_valid_path_in_a_grid)
+    
 </details>
 
 
