@@ -1,6 +1,7 @@
 import java.util.Stack;
 
 class Solution {
+
     /*
         time: O(n)
         space: O(n)

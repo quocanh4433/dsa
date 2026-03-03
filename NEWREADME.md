@@ -331,5 +331,6 @@
 
 - ✳️ **Easy**
     1. [📒 227_basic_calculator_II](https://github.com/quocanh4433/dsa/blob/main/STRINGPARSER/227_basic_calculator_II)
+    1. [⛔️ 224_basic_calculator](https://github.com/quocanh4433/dsa/blob/main/STRINGPARSER/227_basic_calculator)
 
 </details>
