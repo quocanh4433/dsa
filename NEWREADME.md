@@ -336,5 +336,6 @@
     1. [⛔️ 224_basic_calculator](https://github.com/quocanh4433/dsa/blob/main/STRINGPARSER/227_basic_calculator)
     1. [⛔️ 726_number_of_atoms](https://github.com/quocanh4433/dsa/blob/main/STRINGPARSER/726_number_of_atoms)
     1. [⛔️ 736_parse_lisp_expression](https://github.com/quocanh4433/dsa/blob/main/STRINGPARSER/726_number_of_atoms)
+    1. [⛔️ 68_text_justification](https://github.com/quocanh4433/dsa/blob/main/STRINGPARSER/726_number_of_atoms)
 
 </details>
