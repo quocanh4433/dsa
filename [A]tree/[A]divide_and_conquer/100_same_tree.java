@@ -1,8 +1,5 @@
-package SameTree;
 
-import common.TreeNode;
-
-public class SameTree {
+class Solution {
 
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if (p == null && q == null) {
@@ -32,5 +29,37 @@ public class SameTree {
 
     public static void main(String[] args) {
 
+    }
+}
+
+class TreeNode {
+
+    public int val;
+    public TreeNode left;
+    public TreeNode right;
+
+    public TreeNode() {
+    }
+
+    public TreeNode(int val) {
+        this.val = val;
+    }
+
+    public TreeNode(int val, TreeNode left, TreeNode right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+    }
+
+    @Override
+    public String toString() {
+        return toStringHelper(this);
+    }
+
+    private String toStringHelper(TreeNode node) {
+        if (node == null) {
+            return "N";
+        }
+        return node.val + "(" + toStringHelper(node.left) + "," + toStringHelper(node.right) + ")";
     }
 }
