@@ -26,5 +26,12 @@
         "topic": "[A]tree-bfs",
         "pattern": "bfs",
         "solution": "[A]tree/[A]tree-bfs/2415-reverse-odd-levels-of-binary-tree"
+    },
+    {
+        "name": "623. Add One Row to Tree",
+        "leetcode_link": "https://leetcode.com/problems/add-one-row-to-tree/",
+        "topic": "[A]tree-bfs",
+        "pattern": "bfs",
+        "solution": "[A]tree/[A]tree-bfs/623_add_one_row_to_tree"
     }
 ]
