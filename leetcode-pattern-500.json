@@ -33,5 +33,12 @@
         "topic": "[A]tree-bfs",
         "pattern": "bfs",
         "solution": "[A]tree/[A]tree-bfs/623_add_one_row_to_tree"
+    },
+    {
+        "name": "690. Employee Importance",
+        "leetcode_link": "https://leetcode.com/problems/employee-importance/",
+        "topic": "[A]tree-bfs",
+        "pattern": "bfs",
+        "solution": "[A]tree/[A]tree-bfs/690_employee_importance"
     }
 ]
