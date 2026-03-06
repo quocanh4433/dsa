@@ -1,0 +1,23 @@
+[
+    {
+        "name": "100. Same Tree",
+        "leetcode_link": "https://leetcode.com/problems/same-tree/",
+        "topic": "[A]tree-divide-and-conquer",
+        "pattern": "two branch top-down",
+        "solution": "[A]tree/[A]tree-divide-and-conquer/100-same-tree"
+    },
+    {
+        "name": "103. Binary Tree Zigzag Level Order Traversal",
+        "leetcode_link": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/",
+        "topic": "[A]tree-bfs",
+        "pattern": "bfs",
+        "solution": "[A]tree/[A]tree-bfs/103-binary-tree-zigzag-level-order-traversal.java)"
+    },
+    {
+        "name": "199. Binary Tree Right Side View",
+        "leetcode_link": "https://leetcode.com/problems/binary-tree-right-side-view/",
+        "topic": "[A]tree-bfs",
+        "pattern": "bfs",
+        "solution": "[A]tree/[A]tree-bfs/199-binary-tree-right-side-view)"
+    }
+]

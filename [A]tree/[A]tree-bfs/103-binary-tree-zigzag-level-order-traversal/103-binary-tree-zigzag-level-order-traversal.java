@@ -8,8 +8,8 @@ import java.util.Queue;
 class Solution {
 
     /*
-        time: O(n)
-        space: O(n)
+        time O(n)
+        space O(n)
 
         idea:
         each odd row is reversed

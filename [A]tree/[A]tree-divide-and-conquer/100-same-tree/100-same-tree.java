@@ -1,9 +1,10 @@
 
 class Solution {
+
     /*
-        
-    
-    */
+        time O(n + m)
+        space O(max(h1, h2)) - h: is height of tree
+     */
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if (p == null && q == null) {
             return true;

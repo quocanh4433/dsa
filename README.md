@@ -1,21 +1,6 @@
 # Leetcode pattern 500
 
-## [A]tree
-
-<details>
-
-<summary>bfs</summary>
-
-- [103_binary_tree_zigzag_level_order_traversal](https://github.com/quocanh4433/dsa/blob/main/[A]tree/[A]tree_bfs/103_binary_tree_zigzag_level_order_traversal.java)
-
-</details>
-
-
-<details>
-
-<summary>divide and conquer</summary>
-
-- [100_same_tree](https://github.com/quocanh4433/dsa/blob/main/[A]tree/[A]divide_and_conquer/100_same_tree.java)
-
-</details>
-
+| Num | Name | Topic | Pattern | Solution |
+| :---: | -------- | -------- | -------- | -------- | 
+| 000 | [100. Same Tree](https://leetcode.com/problems/same-tree/) | [A]tree-divide-and-conquer | two branch top-down | [Python]([A]tree/[A]tree-divide-and-conquer/100-same-tree.py) [Java]([A]tree/[A]tree-divide-and-conquer/100-same-tree.java) |
+| 000 | [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [A]tree-bfs | bfs | [Python]([A]tree/[A]tree-bfs/103-binary-tree-zigzag-level-order-traversal.py) |
