@@ -1,7 +1,8 @@
 
 import java.util.*;
 
-class Solution {
+@SuppressWarnings("unused")
+class BinaryTreeRightSideView_DFS {
 
     /*
         time O(n)
@@ -46,9 +47,11 @@ class TreeNode {
     TreeNode left;
     TreeNode right;
 
+    @SuppressWarnings("unused")
     TreeNode() {
     }
 
+    @SuppressWarnings("unused")
     TreeNode(int val) {
         this.val = val;
     }
