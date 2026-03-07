@@ -40,5 +40,12 @@
         "topic": "[A]tree-bfs",
         "pattern": "bfs",
         "solution": "[A]tree/[A]tree-bfs/690_employee_importance"
+    },
+    {
+        "name": "863. All Nodes Distance K in Binary Tree",
+        "leetcode_link": "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/",
+        "topic": "[A]tree-bfs",
+        "pattern": "build a child_parent hashmap",
+        "solution": "[A]tree/[A]tree-bfs/863_all_nodes_distance_k_in_binary_tree"
     }
 ]
