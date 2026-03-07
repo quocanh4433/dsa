@@ -54,6 +54,13 @@
         "topic": "[A]tree-bfs",
         "pattern": "build a child_parent hashmap",
         "solution": "[A]tree/[A]tree-bfs/2385_amount_of_time_for_binary_tree_to_be_infected"
+    },
+    {
+        "name": "662. Maximum Width of Binary Tree",
+        "leetcode_link": "https://leetcode.com/problems/maximum-width-of-binary-tree/",
+        "topic": "[A]tree-bfs",
+        "pattern": "assign idx",
+        "solution": "[A]tree/[A]tree-bfs/662_maximum_width_of_binary_tree"
     }
 ]
 
