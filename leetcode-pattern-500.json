@@ -47,5 +47,13 @@
         "topic": "[A]tree-bfs",
         "pattern": "build a child_parent hashmap",
         "solution": "[A]tree/[A]tree-bfs/863_all_nodes_distance_k_in_binary_tree"
+    },
+    {
+        "name": "2385. Amount of Time for Binary Tree to Be Infected",
+        "leetcode_link": "https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/",
+        "topic": "[A]tree-bfs",
+        "pattern": "build a child_parent hashmap",
+        "solution": "[A]tree/[A]tree-bfs/2385_amount_of_time_for_binary_tree_to_be_infected"
     }
 ]
+

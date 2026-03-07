@@ -1,8 +1,13 @@
+
 import java.util.*;
 
 @SuppressWarnings("unused")
 class AllNodesDistanceKInBinaryTree {
 
+    /*
+        time O(n)
+        space O(n)    
+     */
     public List<Integer> distanceK(TreeNode root, TreeNode target, int k) {
         Map<TreeNode, TreeNode> parentMap = new HashMap<>(); // key: childNode - value: parentNode
         buildGraph(root, null, parentMap);
