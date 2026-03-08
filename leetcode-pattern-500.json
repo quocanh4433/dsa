@@ -68,6 +68,19 @@
         "topic": "[A]tree_bfs",
         "pattern": "assign idx",
         "solution": "[A]tree/[A]tree_bfs/662_maximum_width_of_binary_tree"
+    },
+      {
+        "name": "314. Binary Tree Vertical Order Traversal",
+        "leetcode_link": "https://leetcode.com/problems/binary-tree-vertical-order-traversal/",
+        "topic": "[A]tree_bfs",
+        "pattern": "assign coordinates",
+        "solution": "[A]tree/[A]tree_bfs/314_binary_tree_vertical_order_traversal"
+    },
+    {
+        "name": "987. Vertical Order Traversal of a Binary Tree",
+        "leetcode_link": "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/",
+        "topic": "[A]tree_bfs",
+        "pattern": "assign coordinates",
+        "solution": "[A]tree/[A]tree_bfs/987_vertical_order_traversal_of_a_binary_tree"
     }
 ]
-
