@@ -2,65 +2,65 @@
     {
         "name": "100. Same Tree",
         "leetcode_link": "https://leetcode.com/problems/same-tree/",
-        "topic": "[A]tree-divide-and-conquer",
+        "topic": "[A]tree_divide_and_conquer",
         "pattern": "two branch top-down",
-        "solution": "[A]tree/[A]tree-divide-and-conquer/100-same-tree/"
+        "solution": "[A]tree/[A]tree_divide_and_conquer/100-same-tree/"
     },
     {
         "name": "103. Binary Tree Zigzag Level Order Traversal",
         "leetcode_link": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/",
-        "topic": "[A]tree-bfs",
+        "topic": "[A]tree_bfs",
         "pattern": "bfs",
-        "solution": "[A]tree/[A]tree-bfs/103-binary-tree-zigzag-level-order-traversal"
+        "solution": "[A]tree/[A]tree_bfs/103_binary_tree_zigzag_level_order_traversal"
     },
     {
         "name": "199. Binary Tree Right Side View",
         "leetcode_link": "https://leetcode.com/problems/binary-tree-right-side-view/",
-        "topic": "[A]tree-bfs",
+        "topic": "[A]tree_bfs",
         "pattern": "bfs",
-        "solution": "[A]tree/[A]tree-bfs/199-binary-tree-right-side-view"
+        "solution": "[A]tree/[A]tree_bfs/199_binary_tree_right_side_view"
     },
     {
         "name": "2415. Reverse Odd Levels of Binary Tree",
         "leetcode_link": "https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/",
-        "topic": "[A]tree-bfs",
+        "topic": "[A]tree_bfs",
         "pattern": "bfs",
-        "solution": "[A]tree/[A]tree-bfs/2415-reverse-odd-levels-of-binary-tree"
+        "solution": "[A]tree/[A]tree_bfs/2415_reverse_odd_levels_of_binary_tree"
     },
     {
         "name": "623. Add One Row to Tree",
         "leetcode_link": "https://leetcode.com/problems/add-one-row-to-tree/",
-        "topic": "[A]tree-bfs",
+        "topic": "[A]tree_bfs",
         "pattern": "bfs",
-        "solution": "[A]tree/[A]tree-bfs/623_add_one_row_to_tree"
+        "solution": "[A]tree/[A]tree_bfs/623_add_one_row_to_tree"
     },
     {
         "name": "690. Employee Importance",
         "leetcode_link": "https://leetcode.com/problems/employee-importance/",
-        "topic": "[A]tree-bfs",
+        "topic": "[A]tree_bfs",
         "pattern": "bfs",
-        "solution": "[A]tree/[A]tree-bfs/690_employee_importance"
+        "solution": "[A]tree/[A]tree_bfs/690_employee_importance"
     },
     {
         "name": "863. All Nodes Distance K in Binary Tree",
         "leetcode_link": "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/",
-        "topic": "[A]tree-bfs",
+        "topic": "[A]tree_bfs",
         "pattern": "build a child_parent hashmap",
-        "solution": "[A]tree/[A]tree-bfs/863_all_nodes_distance_k_in_binary_tree"
+        "solution": "[A]tree/[A]tree_bfs/863_all_nodes_distance_k_in_binary_tree"
     },
     {
         "name": "2385. Amount of Time for Binary Tree to Be Infected",
         "leetcode_link": "https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/",
-        "topic": "[A]tree-bfs",
+        "topic": "[A]tree_bfs",
         "pattern": "build a child_parent hashmap",
-        "solution": "[A]tree/[A]tree-bfs/2385_amount_of_time_for_binary_tree_to_be_infected"
+        "solution": "[A]tree/[A]tree_bfs/2385_amount_of_time_for_binary_tree_to_be_infected"
     },
     {
         "name": "662. Maximum Width of Binary Tree",
         "leetcode_link": "https://leetcode.com/problems/maximum-width-of-binary-tree/",
-        "topic": "[A]tree-bfs",
+        "topic": "[A]tree_bfs",
         "pattern": "assign idx",
-        "solution": "[A]tree/[A]tree-bfs/662_maximum_width_of_binary_tree"
+        "solution": "[A]tree/[A]tree_bfs/662_maximum_width_of_binary_tree"
     }
 ]
 
