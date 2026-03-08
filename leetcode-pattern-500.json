@@ -7,6 +7,13 @@
         "solution": "[A]tree/[A]tree_divide_and_conquer/100-same-tree/"
     },
     {
+        "name": "102. Binary Tree Level Order Traversal",
+        "leetcode_link": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+        "topic": "[A]tree_bfs",
+        "pattern": "bfs",
+        "solution": "[A]tree/[A]tree_bfs/102_binary_tree_level_order_traversal"
+    },
+    {
         "name": "103. Binary Tree Zigzag Level Order Traversal",
         "leetcode_link": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/",
         "topic": "[A]tree_bfs",
