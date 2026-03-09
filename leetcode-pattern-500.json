@@ -82,5 +82,12 @@
         "topic": "[A]tree_bfs",
         "pattern": "assign coordinates",
         "solution": "[A]tree/[A]tree_bfs/987_vertical_order_traversal_of_a_binary_tree"
+    },
+    {
+        "name": "872. Leaf-Similar Trees",
+        "leetcode_link": "https://leetcode.com/problems/leaf-similar-trees/",
+        "topic": "[A]tree_bfs",
+        "pattern": "preorder",
+        "solution": "[A]tree/[A]tree_dfs_preorder/872_leaf_similar_trees"
     }
 ]
