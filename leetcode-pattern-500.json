@@ -89,5 +89,12 @@
         "topic": "[A]tree_bfs",
         "pattern": "preorder",
         "solution": "[A]tree/[A]tree_dfs_preorder/872_leaf_similar_trees"
+    },
+    {
+        "name": "226. Invert Binary Tree",
+        "leetcode_link": "https://leetcode.com/problems/invert-binary-tree/",
+        "topic": "[A]tree_bfs",
+        "pattern": "preorder",
+        "solution": "[A]tree/[A]tree_dfs_preorder/226_invert_binary_tree"
     }
 ]
