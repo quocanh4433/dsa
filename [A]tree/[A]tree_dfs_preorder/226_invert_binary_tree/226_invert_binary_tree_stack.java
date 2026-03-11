@@ -6,7 +6,9 @@ class InvertBinaryTree_Stack {
 
     /*
         time O(n)
-        space O(n)
+        space O(h)
+            ▪︎ balanced tree: O(logn)
+            ▪︎ skew tree: O(n)
 
         pre_order
      */
