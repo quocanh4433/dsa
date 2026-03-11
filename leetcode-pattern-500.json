@@ -98,10 +98,10 @@
         "solution": "[A]tree/[A]tree_dfs_preorder/226_invert_binary_tree"
     },
     {
-        "name": "1448. Count Good Nodes in Binary Tree",
-        "leetcode_link": "https://leetcode.com/problems/count-good-nodes-in-binary-tree/",
+        "name": "572. Subtree of Another Tree",
+        "leetcode_link": "https://leetcode.com/problems/subtree-of-another-tree/",
         "topic": "[A]tree_bfs",
-        "pattern": "preorder",
-        "solution": "[A]tree/[A]tree_dfs_preorder/1448_count_good_nodes_in_binary_tree"
+        "pattern": "turn tree to string",
+        "solution": "[A]tree/[A]tree_dfs_preorder/572_subtree_of_another_tree"
     }
 ]

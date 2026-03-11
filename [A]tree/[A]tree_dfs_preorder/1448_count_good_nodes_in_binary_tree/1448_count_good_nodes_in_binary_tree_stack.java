@@ -47,6 +47,7 @@ class Pair<K, V> {
     K node;
     V maxSoFar;
 
+    @SuppressWarnings("unused")
     Pair() {
     }
 
