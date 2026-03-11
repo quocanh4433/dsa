@@ -1,7 +1,13 @@
+
 import java.util.*;
 
-class LeafSimilarTrees {
+@SuppressWarnings("unused")
+class LeafSimilarTrees_Recursion {
 
+    /*
+        time O(n + m)
+        space O(n + m)
+     */
     public boolean leafSimilar(TreeNode root1, TreeNode root2) {
         List<Integer> left = new ArrayList<>();
         List<Integer> right = new ArrayList<>();
@@ -14,12 +20,19 @@ class LeafSimilarTrees {
         }
 
         for (int i = 0; i < left.size(); i++) {
-            if (left.get(i) != right.get(i)) {
-                return false;
+            if (!left.get(i).equals(right.get(i))) {
+                return false; // object nên so sánh băng equal
             }
         }
 
         return true;
+
+        /*
+            thay vì kiểm tra băng if() + for()
+
+            đơn giản 
+            return left.equals(right);
+         */
     }
 
     public void dfs(TreeNode node, List<Integer> list) {
