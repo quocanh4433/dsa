@@ -124,5 +124,12 @@
         "topic": "[A]tree_dfs_preorder",
         "pattern": "turn tree to string",
         "solution": "[A]tree/[A]tree_dfs_preorder/606_construct_string_from_binary_tree"
+    },
+    {
+        "name": "449. Serialize and Deserialize BST",
+        "leetcode_link": "https://leetcode.com/problems/serialize-and-deserialize-bst/",
+        "topic": "[A]tree_dfs_preorder",
+        "pattern": "turn tree to string",
+        "solution": "[A]tree/[A]tree_dfs_preorder/449_serialize_and_deserialize_bst"
     }
 ]
