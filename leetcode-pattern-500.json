@@ -101,7 +101,15 @@
         "name": "572. Subtree of Another Tree",
         "leetcode_link": "https://leetcode.com/problems/subtree-of-another-tree/",
         "topic": "[A]tree_bfs",
-        "pattern": "turn tree to string",
+        "pattern": "preorder",
         "solution": "[A]tree/[A]tree_dfs_preorder/572_subtree_of_another_tree"
-    }
+    },
+    {
+        "name": "1457. Pseudo-Palindromic Paths in a Binary Tree",
+        "leetcode_link": "https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/",
+        "topic": "[A]tree_bfs",
+        "pattern": "preorder with backtracking",
+        "solution": "[A]tree/[A]tree_dfs_preorder/1457_pseudo_palindromic_paths_in_a_binary_tree"
+    },
+
 ]
