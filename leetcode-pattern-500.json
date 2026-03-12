@@ -86,30 +86,43 @@
     {
         "name": "872. Leaf-Similar Trees",
         "leetcode_link": "https://leetcode.com/problems/leaf-similar-trees/",
-        "topic": "[A]tree_bfs",
+        "topic": "[A]tree_dfs_preorder",
         "pattern": "preorder",
         "solution": "[A]tree/[A]tree_dfs_preorder/872_leaf_similar_trees"
     },
     {
         "name": "226. Invert Binary Tree",
         "leetcode_link": "https://leetcode.com/problems/invert-binary-tree/",
-        "topic": "[A]tree_bfs",
+        "topic": "[A]tree_dfs_preorder",
         "pattern": "preorder",
         "solution": "[A]tree/[A]tree_dfs_preorder/226_invert_binary_tree"
     },
     {
         "name": "572. Subtree of Another Tree",
         "leetcode_link": "https://leetcode.com/problems/subtree-of-another-tree/",
-        "topic": "[A]tree_bfs",
+        "topic": "[A]tree_dfs_preorder",
         "pattern": "preorder",
         "solution": "[A]tree/[A]tree_dfs_preorder/572_subtree_of_another_tree"
     },
     {
+        "name": "1448. Count Good Nodes in Binary Tree",
+        "leetcode_link": "https://leetcode.com/problems/count-good-nodes-in-binary-tree/",
+        "topic": "[A]tree_dfs_preorder",
+        "pattern": "preorder",
+        "solution": "[A]tree/[A]tree_dfs_preorder/1448_count_good_nodes_in_binary_tree"
+    },
+    {
         "name": "1457. Pseudo-Palindromic Paths in a Binary Tree",
         "leetcode_link": "https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/",
-        "topic": "[A]tree_bfs",
+        "topic": "[A]tree_dfs_preorder",
         "pattern": "preorder with backtracking",
         "solution": "[A]tree/[A]tree_dfs_preorder/1457_pseudo_palindromic_paths_in_a_binary_tree"
     },
-
+    {
+        "name": "606. Construct String from Binary Tree",
+        "leetcode_link": "https://leetcode.com/problems/construct-string-from-binary-tree/",
+        "topic": "[A]tree_dfs_preorder",
+        "pattern": "turn tree to string",
+        "solution": "[A]tree/[A]tree_dfs_preorder/606_construct_string_from_binary_tree"
+    }
 ]
