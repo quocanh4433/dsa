@@ -131,5 +131,12 @@
         "topic": "[A]tree_dfs_preorder",
         "pattern": "turn tree to string",
         "solution": "[A]tree/[A]tree_dfs_preorder/449_serialize_and_deserialize_bst"
-    }
+    },
+    {
+        "name": "99. Recover Binary Search TreeT",
+        "leetcode_link": "https://leetcode.com/problems/recover-binary-search-tree/",
+        "topic": "[A]tree_dfs_inorder",
+        "pattern": "inorder",
+        "solution": "[A]tree/[A]tree_dfs_inorder/99_recover_binary_search_tree"
+    }                                                                                                                           
 ]
