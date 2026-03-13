@@ -150,14 +150,14 @@
         "name": "173. Binary Search Tree Iterator ",
         "leetcode_link": "https://leetcode.com/problems/binary-search-tree-iterator/",
         "topic": "[A]tree_dfs_inorder",
-        "pattern": "lazy inorder traversal",
+        "pattern": "lazy inorder",
         "solution": "[A]tree/[A]tree_dfs_inorder/173_binary_search_tree_iterator"
     },
     {
         "name": "230. Kth Smallest Element in a BST",
         "leetcode_link": "https: //leetcode.com/problems/kth-smallest-element-in-a-bst/",
         "topic": "[A]tree_dfs_inorder",
-        "pattern": "inorder",
+        "pattern": "lazy inorder",
         "solution": "[A]tree/[A]tree_dfs_inorder/230_kth_smallest_element_in_a_bst"
     },  
     {
@@ -173,5 +173,12 @@
         "topic": "[A]tree_dfs_postorder",
         "pattern": "postorder",
         "solution": "[A]tree/[A]tree_dfs_postorder/543_diameter_of_binary_tree"
+    },
+    {
+        "name": "124. Binary Tree Maximum Path Sum",
+        "leetcode_link": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+        "topic": "[A]tree_dfs_postorder",
+        "pattern": "postorder",
+        "solution": "[A]tree/[A]tree_dfs_postorder/124_binary_tree_maximum_path_sum"
     }
 ]
