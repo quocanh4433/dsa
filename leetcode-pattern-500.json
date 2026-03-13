@@ -147,6 +147,13 @@
         "solution": "[A]tree/[A]tree_dfs_inorder/99_recover_binary_search_tree"
     },
     {
+        "name": "173. Binary Search Tree Iterator ",
+        "leetcode_link": "https://leetcode.com/problems/binary-search-tree-iterator/",
+        "topic": "[A]tree_dfs_inorder",
+        "pattern": "lazy inorder traversal",
+        "solution": "[A]tree/[A]tree_dfs_inorder/173_binary_search_tree_iterator"
+    },
+    {
         "name": "110. Balanced Binary Tree",
         "leetcode_link": "https: //leetcode.com/problems/balanced-binary-tree/",
         "topic": "[A]tree_dfs_postorder",

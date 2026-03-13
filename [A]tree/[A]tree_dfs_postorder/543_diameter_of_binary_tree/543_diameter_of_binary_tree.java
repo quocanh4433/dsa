@@ -43,6 +43,7 @@ class DiameterOfBinaryTree {
 
 class TreeNode {
 
+    @SuppressWarnings("unused")
     int val;
     TreeNode left;
     TreeNode right;

@@ -41,6 +41,7 @@ class BalancedBinaryTree {
 
 class TreeNode {
 
+    @SuppressWarnings("unused")
     int val;
     TreeNode left;
     TreeNode right;
