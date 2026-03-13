@@ -1,16 +1,26 @@
 import java.util.*;
 
-public class BinarySearchTreeIterator {
+@SuppressWarnings("unused")
+class BinarySearchTreeIterator {
 
     class BSTIterator {
 
         /*
-        next() → trả về node nhỏ nhất tiếp theo
-        hasNext() → còn node nào chưa duyệt không
+            next() → trả về node nhỏ nhất tiếp theo
+            hasNext() → còn node nào chưa duyệt không
 
-        follow-up:
-            next() -> O(1)
-            hasNext() -> O(1)
+            follow-up:
+                ▪︎ next() -> O(1)
+                ▪︎ hasNext() -> O(1)
+
+            time
+                ▪︎ BSTIterator O(h)
+                ▪︎ next() O(1)
+                ▪︎ hasNext() O(1)
+
+            space O(h)
+                ▪︎ balanced tree: O(logn)
+                ▪︎ skew tree: O(n)
          */
         Stack<TreeNode> stack = new Stack<>(); // stack giữu cho node nhỏ nhất được lấy đầu tiên
 

@@ -154,6 +154,13 @@
         "solution": "[A]tree/[A]tree_dfs_inorder/173_binary_search_tree_iterator"
     },
     {
+        "name": "230. Kth Smallest Element in a BST",
+        "leetcode_link": "https: //leetcode.com/problems/kth-smallest-element-in-a-bst/",
+        "topic": "[A]tree_dfs_inorder",
+        "pattern": "inorder",
+        "solution": "[A]tree/[A]tree_dfs_inorder/230_kth_smallest_element_in_a_bst"
+    },  
+    {
         "name": "110. Balanced Binary Tree",
         "leetcode_link": "https: //leetcode.com/problems/balanced-binary-tree/",
         "topic": "[A]tree_dfs_postorder",
