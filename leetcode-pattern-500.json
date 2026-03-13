@@ -69,7 +69,7 @@
         "pattern": "assign idx",
         "solution": "[A]tree/[A]tree_bfs/662_maximum_width_of_binary_tree"
     },
-      {
+    {
         "name": "314. Binary Tree Vertical Order Traversal",
         "leetcode_link": "https://leetcode.com/problems/binary-tree-vertical-order-traversal/",
         "topic": "[A]tree_bfs",
@@ -140,10 +140,17 @@
         "solution": "[A]tree/[A]tree_dfs_preorder/94_binary_tree_inorder_traversal"
     },
     {
-        "name": "99. Recover Binary Search TreeT",
+        "name": "99. Recover Binary Search Tree",
         "leetcode_link": "https://leetcode.com/problems/recover-binary-search-tree/",
         "topic": "[A]tree_dfs_inorder",
         "pattern": "inorder",
         "solution": "[A]tree/[A]tree_dfs_inorder/99_recover_binary_search_tree"
-    }                     
+    },
+    {
+        "name": "110. Balanced Binary Tree",
+        "leetcode_link": "https: //leetcode.com/problems/balanced-binary-tree/",
+        "topic": "[A]tree_dfs_postorder",
+        "pattern": "postorder",
+        "solution": "[A]tree/[A]tree_dfs_postorder/110_balanced_binary_tree"
+    } 
 ]
