@@ -39,32 +39,18 @@ class Solution {
 
 class TreeNode {
 
-    public int val;
-    public TreeNode left;
-    public TreeNode right;
+    @SuppressWarnings("unused")
+    int val;
+    TreeNode left;
+    TreeNode right;
 
-    public TreeNode() {
+    @SuppressWarnings("unused")
+    TreeNode() {
     }
 
-    public TreeNode(int val) {
+    @SuppressWarnings("unused")
+    TreeNode(int val) {
         this.val = val;
     }
 
-    public TreeNode(int val, TreeNode left, TreeNode right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
-    }
-
-    @Override
-    public String toString() {
-        return toStringHelper(this);
-    }
-
-    private String toStringHelper(TreeNode node) {
-        if (node == null) {
-            return "N";
-        }
-        return node.val + "(" + toStringHelper(node.left) + "," + toStringHelper(node.right) + ")";
-    }
 }
