@@ -1,4 +1,7 @@
+import java.util.HashMap;
+import java.util.Map;
 
+@SuppressWarnings("unused")
 class ConstructBinaryTreeFromPreorderAndInorderTraversal {
     /*
         time O(n)
@@ -49,7 +52,9 @@ class TreeNode {
 
     @SuppressWarnings("unused")
     int val;
+    @SuppressWarnings("unused")
     TreeNode left;
+    @SuppressWarnings("unused")
     TreeNode right;
 
     @SuppressWarnings("unused")

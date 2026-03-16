@@ -208,5 +208,12 @@
         "topic": "[A]tree_dfs_postorder",
         "pattern": "postorder",
         "solution": "[A]tree/[A]tree_dfs_postorder/236_lowest_common_ancestor_of_a_binary_tree"
-    }   
+    },
+    {
+        "name": "1145. Binary Tree Coloring Game",
+        "leetcode_link": "https: //leetcode.com/problems/binary-tree-coloring-game/",
+        "topic": "[A]tree_dfs_postorder",
+        "pattern": "postorder",
+        "solution": "[A]tree/[A]tree_dfs_postorder/1145_binary_tree_coloring_game"
+    }
 ]

@@ -1,5 +1,9 @@
+import java.util.HashMap;
+import java.util.Map;
 
+@SuppressWarnings("unused")
 class ConstructBinaryTreeFromInorderAndPostorderTraversal {
+
     /*
         time O(n)
         space O(h)
@@ -14,8 +18,9 @@ class ConstructBinaryTreeFromInorderAndPostorderTraversal {
      */
     Map<Integer, Integer> map = new HashMap<>();
     int indexPostorder;
+
     public TreeNode buildTree(int[] inorder, int[] postorder) {
-        for(int i = 0; i < inorder.length; i++) {
+        for (int i = 0; i < inorder.length; i++) {
             map.put(inorder[i], i);
         }
 
@@ -24,7 +29,9 @@ class ConstructBinaryTreeFromInorderAndPostorderTraversal {
     }
 
     public TreeNode dfs(int[] postorder, int l, int r) {
-        if(l > r) return null;
+        if (l > r) {
+            return null;
+        }
 
         int rootVal = postorder[indexPostorder--];
         TreeNode root = new TreeNode(rootVal);
@@ -33,8 +40,26 @@ class ConstructBinaryTreeFromInorderAndPostorderTraversal {
 
         // postorder nên build right trước
         root.right = dfs(postorder, index + 1, r);
-        root.left = dfs(postorder, l, index - 1); 
+        root.left = dfs(postorder, l, index - 1);
 
-        return root; 
+        return root;
     }
+}
+
+class TreeNode {
+
+    @SuppressWarnings("unused")
+    int val;
+    TreeNode left;
+    TreeNode right;
+
+    @SuppressWarnings("unused")
+    TreeNode() {
+    }
+
+    @SuppressWarnings("unused")
+    TreeNode(int val) {
+        this.val = val;
+    }
+
 }
