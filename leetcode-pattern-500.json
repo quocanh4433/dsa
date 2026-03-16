@@ -194,5 +194,12 @@
         "topic": "[A]tree_dfs_postorder",
         "pattern": "postorder",
         "solution": "[A]tree/[A]tree_dfs_postorder/124_binary_tree_maximum_path_sum"
+    },
+    {
+        "name": "865. Smallest Subtree with all the Deepest Nodes",
+        "leetcode_link": "https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/",
+        "topic": "[A]tree_dfs_postorder",
+        "pattern": "postorder",
+        "solution": "[A]tree/[A]tree_dfs_postorder/865_smallest_subtree_with_all_the_deepest_nodes"
     }
 ]
