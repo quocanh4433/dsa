@@ -8,7 +8,7 @@ class BinaryTreeMaximumPathSum {
             ▪︎ balanced tree: O(logn)
             ▪︎ skew tree: O(n)
 
-        postorder + divide & conquer
+        postorder ~ divide & conquer
      */
     int res = Integer.MIN_VALUE;
 

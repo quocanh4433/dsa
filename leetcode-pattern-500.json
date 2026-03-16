@@ -173,7 +173,7 @@
         "topic": "[A]tree_dfs_inorder",
         "pattern": "lazy inorder",
         "solution": "[A]tree/[A]tree_dfs_inorder/230_kth_smallest_element_in_a_bst"
-    },  
+    },
     {
         "name": "110. Balanced Binary Tree",
         "leetcode_link": "https: //leetcode.com/problems/balanced-binary-tree/",
@@ -201,5 +201,12 @@
         "topic": "[A]tree_dfs_postorder",
         "pattern": "postorder",
         "solution": "[A]tree/[A]tree_dfs_postorder/865_smallest_subtree_with_all_the_deepest_nodes"
-    }
+    },
+    {
+        "name": "236. Lowest Common Ancestor of a Binary Tree",
+        "leetcode_link": "https: //leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+        "topic": "[A]tree_dfs_postorder",
+        "pattern": "postorder",
+        "solution": "[A]tree/[A]tree_dfs_postorder/236_lowest_common_ancestor_of_a_binary_tree"
+    }   
 ]
