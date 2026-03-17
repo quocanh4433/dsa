@@ -56,7 +56,9 @@ class TreeNode {
 
     @SuppressWarnings("unused")
     int val;
+    @SuppressWarnings("unused")
     TreeNode left;
+    @SuppressWarnings("unused")
     TreeNode right;
 
     @SuppressWarnings("unused")
