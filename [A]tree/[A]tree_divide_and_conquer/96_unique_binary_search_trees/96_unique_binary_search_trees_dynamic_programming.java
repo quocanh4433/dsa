@@ -5,8 +5,6 @@ class UniqueBinarySearchTrees_DynamicProgramming {
         time O(n**2)
         space O(n)
 
-
-
         ý tưởng
 
         số node là 1 tạo được 1 path

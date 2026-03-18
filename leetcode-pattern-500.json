@@ -58,6 +58,12 @@
         "pattern": "unique BST",
         "solution": "[A]tree/[A]tree_divide_and_conquer/96_unique_binary_search_trees"
     },
+    {   "name": "95. Unique Binary Search Trees II",
+        "leetcode_link": "https://leetcode.com/problems/unique-binary-search-trees-ii/",
+        "topic": "[A]tree_divide_and_conquer",
+        "pattern": "unique BST",
+        "solution": "[A]tree/[A]tree_divide_and_conquer/95_unique_binary_search_trees_ii"
+    },
     {
         "name": "102. Binary Tree Level Order Traversal",
         "leetcode_link": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
