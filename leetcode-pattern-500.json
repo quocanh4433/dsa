@@ -46,6 +46,12 @@
         "pattern": "populate next ptr",
         "solution": "[A]tree/[A]tree_divide_and_conquer/116_populating_next_right_pointers_in_each_node"
     },
+    {   "name": "117. Populating Next Right Pointers in Each Node II",
+        "leetcode_link": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/",
+        "topic": "[A]tree_divide_and_conquer",
+        "pattern": "populate next ptr",
+        "solution": "[A]tree/[A]tree_divide_and_conquer/117_populating_next_right_pointers_in_each_node_ii"
+    },
     {
         "name": "102. Binary Tree Level Order Traversal",
         "leetcode_link": "https://leetcode.com/problems/binary-tree-level-order-traversal/",

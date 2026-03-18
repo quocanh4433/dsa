@@ -9,8 +9,8 @@ class PopulatingNextRightPointersInEachNode {
         phù hợp cho interview
 
         tóm tăt: 
-        mỗi node là instant của class Node có left, right, next
-        left, right đã có thông tin, tìm next ?? cho mỗi node
+            ▪︎ mỗi node là instant của class Node có left, right, next
+            ▪︎ left, right đã có thông tin, tìm next ?? cho mỗi node
 
 
              1
