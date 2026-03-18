@@ -25,7 +25,7 @@
         "topic": "[A]tree_divide_and_conquer",
         "pattern": "re-build BST (inorder approach)",
         "solution": "[A]tree/[A]tree_divide_and_conquer/109_convert_sorted_list_to_binary_search_tree"
-    },
+    },  
     {
         "name": "889. Construct Binary Tree from Preorder and Postorder Traversal",
         "leetcode_link": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/",
@@ -40,6 +40,12 @@
         "pattern": "re-build tree ",
         "solution": "[A]tree/[A]tree_divide_and_conquer/1008_construct_binary_search_tree_from_preorder_traversal"
     }, 
+    {   "name": "116. Populating Next Right Pointers in Each Node",
+        "leetcode_link": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node/",
+        "topic": "[A]tree_divide_and_conquer",
+        "pattern": "populate next ptr",
+        "solution": "[A]tree/[A]tree_divide_and_conquer/116_populating_next_right_pointers_in_each_node"
+    },
     {
         "name": "102. Binary Tree Level Order Traversal",
         "leetcode_link": "https://leetcode.com/problems/binary-tree-level-order-traversal/",

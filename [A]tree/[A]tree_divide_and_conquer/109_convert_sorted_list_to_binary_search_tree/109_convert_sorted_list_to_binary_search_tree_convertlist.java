@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
+@SuppressWarnings("unused")
 class ConvertSortedListToBinarySearchTree_ConvertToList {
     /*
         time O(n)
