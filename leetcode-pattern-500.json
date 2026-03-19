@@ -259,5 +259,12 @@
         "topic": "[A]tree_dfs_postorder",
         "pattern": "postorder",
         "solution": "[A]tree/[A]tree_dfs_postorder/1145_binary_tree_coloring_game"
-    }
+    },
+    {
+        "name": "2246. Longest Path With Different Adjacent Characters",
+        "leetcode_link": "https://leetcode.com/problems/longest-path-with-different-adjacent-characters/",
+        "topic": "[A]tree_dfs_postorder",
+        "pattern": "postorder",
+        "solution": "[A]tree/[A]tree_dfs_postorder/2246_longest_path_with_different_adjacent_characters"
+    }                                                                                                                            
 ]
