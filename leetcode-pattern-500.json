@@ -93,6 +93,13 @@
         "pattern": "path sum",
         "solution": "[A]tree/[A]tree_divide_and_conquer/112_path_sum"
     },
+    {   
+        "name": "113. Path Sum II",
+        "leetcode_link": "https://leetcode.com/problems/path-sum-ii/",
+        "topic": "[A]tree_divide_and_conquer",
+        "pattern": "path sum",
+        "solution": "[A]tree/[A]tree_divide_and_conquer/113_path_sum_ii"
+    },
     
 
     
