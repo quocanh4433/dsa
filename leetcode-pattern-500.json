@@ -1,5 +1,8 @@
 [
     {
+        "____comment___":"[A]tree_divide_and_conquer", 
+
+
         "name": "100. Same Tree",
         "leetcode_link": "https://leetcode.com/problems/same-tree/",
         "topic": "[A]tree_divide_and_conquer",
@@ -31,10 +34,11 @@
         "name": "106. Construct Binary Tree from Inorder and Postorder Traversal",
         "leetcode_link": "https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/",
         "topic": "[A]tree_divide_and_conquer",
-        "pattern": "re-build tree ",
+        "pattern": "re-build tree",
         "solution": "[A]tree/[A]tree_divide_and_conquer/106_construct_binary_tree_from_inorder_and_postorder_traversal"
     },
-    {   "name": "109. Convert Sorted List to Binary Search Tree",
+    {   
+        "name": "109. Convert Sorted List to Binary Search Tree",
         "leetcode_link": "https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/",
         "topic": "[A]tree_divide_and_conquer",
         "pattern": "re-build BST (inorder approach)",
@@ -44,7 +48,7 @@
         "name": "889. Construct Binary Tree from Preorder and Postorder Traversal",
         "leetcode_link": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/",
         "topic": "[A]tree_divide_and_conquer",
-        "pattern": "re-build tree ",
+        "pattern": "re-build tree",
         "solution": "[A]tree/[A]tree_divide_and_conquer/889_construct_binary_tree_from_preorder_and_postorder_traversal"
     },
     {
@@ -54,31 +58,50 @@
         "pattern": "re-build tree ",
         "solution": "[A]tree/[A]tree_divide_and_conquer/1008_construct_binary_search_tree_from_preorder_traversal"
     }, 
-    {   "name": "116. Populating Next Right Pointers in Each Node",
+    {   
+        "name": "116. Populating Next Right Pointers in Each Node",
         "leetcode_link": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node/",
         "topic": "[A]tree_divide_and_conquer",
         "pattern": "populate next ptr",
         "solution": "[A]tree/[A]tree_divide_and_conquer/116_populating_next_right_pointers_in_each_node"
     },
-    {   "name": "117. Populating Next Right Pointers in Each Node II",
+    {   
+        "name": "117. Populating Next Right Pointers in Each Node II",
         "leetcode_link": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/",
         "topic": "[A]tree_divide_and_conquer",
         "pattern": "populate next ptr",
         "solution": "[A]tree/[A]tree_divide_and_conquer/117_populating_next_right_pointers_in_each_node_ii"
     },
-    {   "name": "96. Unique Binary Search Trees",
+    {   
+        "name": "96. Unique Binary Search Trees",
         "leetcode_link": "https://leetcode.com/problems/unique-binary-search-trees/",
         "topic": "[A]tree_divide_and_conquer",
         "pattern": "unique BST",
         "solution": "[A]tree/[A]tree_divide_and_conquer/96_unique_binary_search_trees"
     },
-    {   "name": "95. Unique Binary Search Trees II",
+    {   
+        "name": "95. Unique Binary Search Trees II",
         "leetcode_link": "https://leetcode.com/problems/unique-binary-search-trees-ii/",
         "topic": "[A]tree_divide_and_conquer",
         "pattern": "unique BST",
         "solution": "[A]tree/[A]tree_divide_and_conquer/95_unique_binary_search_trees_ii"
     },
+    {   
+        "name": "112. Path Sum",
+        "leetcode_link": "https://leetcode.com/problems/path-sum/",
+        "topic": "[A]tree_divide_and_conquer",
+        "pattern": "path sum",
+        "solution": "[A]tree/[A]tree_divide_and_conquer/112_path_sum"
+    },
+    
+
+    
+    
+    
     {
+        "____comment___":"[A]tree_bfs", 
+        
+
         "name": "102. Binary Tree Level Order Traversal",
         "leetcode_link": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
         "topic": "[A]tree_bfs",
@@ -155,7 +178,15 @@
         "pattern": "assign coordinates",
         "solution": "[A]tree/[A]tree_bfs/987_vertical_order_traversal_of_a_binary_tree"
     },
-    {
+
+
+
+
+
+    {   
+        "____comment___":"[A]tree_dfs_preorder", 
+
+
         "name": "872. Leaf-Similar Trees",
         "leetcode_link": "https://leetcode.com/problems/leaf-similar-trees/",
         "topic": "[A]tree_dfs_preorder",
