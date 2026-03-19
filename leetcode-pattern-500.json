@@ -14,6 +14,13 @@
         "solution": "[A]tree/[A]tree_divide_and_conquer/101_symmetric_tree"
     },
     {
+        "name": "98. Validate Binary Search Tree",
+        "leetcode_link": "https://leetcode.com/problems/validate-binary-search-tree/",
+        "topic": "[A]tree_divide_and_conquer",
+        "pattern": "two branch top-down",
+        "solution": "[A]tree/[A]tree_divide_and_conquer/98_validate_binary_search_tree"
+    },
+    {
         "name": "105. Construct Binary Tree from Preorder and Inorder Traversal",
         "leetcode_link": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
         "topic": "[A]tree_divide_and_conquer",
