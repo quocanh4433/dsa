@@ -107,6 +107,13 @@
         "pattern": "path sum",
         "solution": "[A]tree/[A]tree_divide_and_conquer/129_sum_root_to_leaf_numbers"
     },
+    {   
+        "name": "988. Smallest String Starting From Leaf",
+        "leetcode_link": "https://leetcode.com/problems/smallest-string-starting-from-leaf/",
+        "topic": "[A]tree_divide_and_conquer",
+        "pattern": "backtracking string",
+        "solution": "[A]tree/[A]tree_divide_and_conquer/988_smallest_string_starting_from_leaf"
+    },
     
 
     
