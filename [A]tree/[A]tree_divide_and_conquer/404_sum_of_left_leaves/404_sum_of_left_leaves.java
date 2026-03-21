@@ -1,30 +1,37 @@
 
 @SuppressWarnings("unused")
-class MinimumDepthOfBinaryTree {
+class SumOfLeftLeaves {
 
     /*
-          time O(n)
+        time O(n)
         space O(h)
             ▪︎ balanced tree: h = logn
             ▪︎ skew tree: h = On
 
      */
-    int res = Integer.MAX_VALUE;
+    int res = 0;
 
-    public int minDepth(TreeNode root) {
+    public int sumOfLeftLeaves(TreeNode root) {
         if (root == null) {
             return 0;
         }
 
-        // nếu 1 bên null → phải đi bên còn lại
-        if (root.left == null) {
-            return 1 + minDepth(root.right);
-        }
-        if (root.right == null) {
-            return 1 + minDepth(root.left);
+        int sum = 0;
+
+        if (root.left != null) {
+            if (isLeaf(root.left)) {
+                sum += root.left.val;
+            } else {
+                sum += sumOfLeftLeaves(root.left);
+            }
         }
 
-        return 1 + Math.min(minDepth(root.left), minDepth(root.right));
+        sum += sumOfLeftLeaves(root.right);
+        return sum;
+    }
+
+    public boolean isLeaf(TreeNode node) {
+        return node.left == null && node.right == null;
     }
 }
 
