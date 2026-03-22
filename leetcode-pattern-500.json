@@ -76,8 +76,15 @@
         "name": "1008. Construct Binary Search Tree from Preorder Traversal",
         "leetcode_link": "https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/",
         "topic": "[A]tree_divide_and_conquer",
-        "pattern": "re-build tree ",
+        "pattern": "re-build tree",
         "solution": "[A]tree/[A]tree_divide_and_conquer/1008_construct_binary_search_tree_from_preorder_traversal"
+    }, 
+    {
+        "name": "700. Search in a Binary Search Tree",
+        "leetcode_link": "https://leetcode.com/problems/search-in-a-binary-search-tree/",
+        "topic": "[A]tree_divide_and_conquer",
+        "pattern": "use BST attributes",
+        "solution": "[A]tree/[A]tree_divide_and_conquer/700_search_in_a_binary_search_tree"
     }, 
     {   
         "name": "116. Populating Next Right Pointers in Each Node",
