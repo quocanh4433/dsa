@@ -93,6 +93,13 @@
         "pattern": "use BST attributes",
         "solution": "[A]tree/[A]tree_divide_and_conquer/450_delete_node_in_a_bst"
     }, 
+    {
+        "name": "701. Insert into a Binary Search Tree",
+        "leetcode_link": "https://leetcode.com/problems/insert-into-a-binary-search-tree/",
+        "topic": "[A]tree_divide_and_conquer",
+        "pattern": "use BST attributes",
+        "solution": "[A]tree/[A]tree_divide_and_conquer/701_insert_into_a_binary_search_tree"
+    }, 
     {   
         "name": "116. Populating Next Right Pointers in Each Node",
         "leetcode_link": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node/",

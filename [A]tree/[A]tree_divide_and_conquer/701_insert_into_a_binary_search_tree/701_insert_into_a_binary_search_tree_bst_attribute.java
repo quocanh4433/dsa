@@ -1,30 +1,40 @@
 
 @SuppressWarnings("unused")
-class SearchInABinarySearchTree_BSTAttributes {
+class InsertIntoABinarySearchTree_BFS_Attribute {
+
 
     /*
         time O(n)
         space O(1)
-    
      */
-    public TreeNode searchBST(TreeNode root, int val) {
+    public TreeNode insertIntoBST(TreeNode root, int val) {
+        TreeNode node = new TreeNode(val);
         if (root == null) {
-            return null;
+            return node;
         }
 
         TreeNode cur = root;
 
         while (cur != null) {
-            if (cur.val == val) {
-                return cur;
-            } else if (cur.val > val) {
+            if (val < cur.val) {
+                if (cur.left == null) {
+                    cur.left = node;
+                    break;
+                }
                 cur = cur.left;
             } else {
+                // new value does not exist in the original BST.
+                // nên val > cur.left 
+                if (cur.right == null) {
+                    cur.right = node;
+                    break;
+                }
                 cur = cur.right;
             }
+
         }
 
-        return cur;
+        return root;
     }
 }
 
