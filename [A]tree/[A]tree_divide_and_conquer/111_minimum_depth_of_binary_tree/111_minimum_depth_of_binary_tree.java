@@ -3,7 +3,7 @@
 class MinimumDepthOfBinaryTree {
 
     /*
-          time O(n)
+        time O(n)
         space O(h)
             ▪︎ balanced tree: h = logn
             ▪︎ skew tree: h = On
