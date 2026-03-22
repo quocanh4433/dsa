@@ -1,32 +1,27 @@
 
 @SuppressWarnings("unused")
-class LowestCommonAncestorOfABinaryTree {
+class LowestCommonAncestorOfABinarySearchTree_DFS {
 
     /*
         time O(n)
         space O(h)
-            ▪︎ balanced tree: O(logn)
-            ▪︎ skew tree: O(n)
-
-        postorder + divide & conquer
+            ▪︎ balanced tree: h = logn
+            ▪︎ skew tree: h = On
      */
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        return dfs(root, p, q);
-    }
-
-    public TreeNode dfs(TreeNode node, TreeNode p, TreeNode q) {
-        if (node == null) {
+        if (root == null) {
             return null;
         }
 
-        if (node == p || node == q) {
-            return node;
+        if (p.val == root.val || q.val == root.val) {
+            return root;
         }
-        TreeNode left = dfs(node.left, p, q);
-        TreeNode right = dfs(node.right, p, q);
+
+        TreeNode left = lowestCommonAncestor(root.left, p, q);
+        TreeNode right = lowestCommonAncestor(root.right, p, q);
 
         if (left != null && right != null) {
-            return node;
+            return root;
         }
 
         return left != null ? left : right;
@@ -37,7 +32,9 @@ class TreeNode {
 
     @SuppressWarnings("unused")
     int val;
+    @SuppressWarnings("unused")
     TreeNode left;
+    @SuppressWarnings("unused")
     TreeNode right;
 
     @SuppressWarnings("unused")

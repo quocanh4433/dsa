@@ -156,6 +156,13 @@
         "pattern": "backtracking string",
         "solution": "[A]tree/[A]tree_divide_and_conquer/988_smallest_string_starting_from_leaf"
     },
+    {   
+        "name": "235. Lowest Common Ancestor of a Binary Search Tree",
+        "leetcode_link": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+        "topic": "[A]tree_divide_and_conquer",
+        "pattern": "find LCA + use BST attributes",
+        "solution": "[A]tree/[A]tree_divide_and_conquer/235_lowest_common_ancestor_of_a_binary_search_tree"
+    },
     
 
     
