@@ -193,6 +193,13 @@
         "solution": "[A]tree/[A]tree_bfs/103_binary_tree_zigzag_level_order_traversal"
     },
     {
+        "name": "104. Maximum Depth of Binary Tree",
+        "leetcode_link": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+        "topic": "[A]tree_bfs",
+        "pattern": "bfs",
+        "solution": "[A]tree/[A]tree_bfs/104_maximum_depth_of_binary_tree"
+    },
+    {
         "name": "199. Binary Tree Right Side View",
         "leetcode_link": "https://leetcode.com/problems/binary-tree-right-side-view/",
         "topic": "[A]tree_bfs",
