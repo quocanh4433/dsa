@@ -320,6 +320,21 @@
         "solution": "[A]tree/[A]tree_dfs_preorder/449_serialize_and_deserialize_bst"
     },
     {
+        "name": "297. Serialize and Deserialize Binary Tree",
+        "leetcode_link": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+        "topic": "[A]tree_dfs_preorder",
+        "pattern": "turn tree to string",
+        "solution": "[A]tree/[A]tree_dfs_preorder/297_serialize_and_deserialize_binary_tree"
+    },
+
+
+
+
+    
+    {
+        "____comment___":"[A]tree_dfs_inorder", 
+
+
         "name": "94. Binary Tree Inorder Traversal",
         "leetcode_link": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
         "topic": "[A]tree_dfs_inorder",
