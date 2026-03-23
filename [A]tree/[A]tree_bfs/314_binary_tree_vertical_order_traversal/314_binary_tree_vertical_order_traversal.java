@@ -8,6 +8,7 @@ class BinaryTreeVerticalOrderTraversal {
                 ▪︎ while loop: O(n)
                 ▪︎ treemap.put: O(logn)
             space O(n)
+
         hashmap<>()
             time O(n)
             space O(n)
@@ -21,8 +22,9 @@ class BinaryTreeVerticalOrderTraversal {
         Map<Integer, List<Integer>> map = new HashMap<>();
         Queue<Pair> q = new LinkedList<>();
         q.offer(new Pair(root, 0));
-        int minCol = 0;
-        int maxCol = 0;
+
+        int minCol = 0; // giữa giá trị trái cùng
+        int maxCol = 0; // giữa giá trị phải cùng
 
         while (!q.isEmpty()) {
             Pair cur = q.poll();

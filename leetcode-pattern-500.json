@@ -326,6 +326,13 @@
         "pattern": "turn tree to string",
         "solution": "[A]tree/[A]tree_dfs_preorder/297_serialize_and_deserialize_binary_tree"
     },
+    {
+        "name": "331. Verify Preorder Serialization of a Binary Tree",
+        "leetcode_link": "https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/",
+        "topic": "[A]tree_dfs_preorder",
+        "pattern": "couting slot",
+        "solution": "[A]tree/[A]tree_dfs_preorder/331_verify_preorder_serialization_of_a_binary_tree"
+    },
 
 
 
