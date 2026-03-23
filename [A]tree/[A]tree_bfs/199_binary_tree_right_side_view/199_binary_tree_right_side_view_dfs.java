@@ -6,9 +6,40 @@ class BinaryTreeRightSideView_DFS {
 
     /*
         time O(n)
-        space O(h) - h: height of tree
-            ▪︎ balanced tree: O(logn)
-            ▪︎ skewed tree: O(n)
+        space O(h)
+            ▪︎ balanced tree: h = O(logn)
+            ▪︎ skewed tree: h = O(n)
+
+        idea
+            ▪︎ level: cho biết level của node
+            ▪︎ res.size(): cho biết level nào chưa có node bên phải
+                ▪︎ res.size() = 1 tức level 1 chưa có node right nào
+            ▪︎ node right cần tìm ở đúng level chưa có node nào -> level == res.size()
+
+        dry run
+
+           1
+         /   \
+        2     3
+
+
+        1/
+            res.size = 0
+            level = 0
+            node = 1
+            -> res.size == level ->  res = {1}  
+
+        2/ đi right trước
+            res.size = 1
+            level = 1
+            node = 3
+            -> res.size == level -> res = {1, 3}
+
+        3/ đi left
+            res.size = 2
+            level = 1
+            node = 2
+            -> đang ở level 1 nhưng level 1 đã kết quả -> return
      */
     public List<Integer> rightSideView(TreeNode root) {
         List<Integer> res = new ArrayList<>();
@@ -18,15 +49,7 @@ class BinaryTreeRightSideView_DFS {
         dfs(root, res, 0);
         return res ;
     }
-    /*
-        ▪︎ level: cho biết level của node
-        ▪︎ res.size(): cho biết level nào chưa có node
-
-        node ở đúng level chưa có node nào -> level == res.size()
-
-        val của node đó chính là giá trị cần tìm
-        
-    */
+  
     private void dfs(TreeNode node, List<Integer> res, int level) {
         if (node == null) {
             return;
@@ -35,7 +58,8 @@ class BinaryTreeRightSideView_DFS {
         if (level == res.size()) {
             res.add(node.val);
         }
-
+        
+        // đi right trước
         dfs(node.right, res, level + 1);
         dfs(node.left, res, level + 1);
     }

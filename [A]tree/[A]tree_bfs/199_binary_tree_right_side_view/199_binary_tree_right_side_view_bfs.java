@@ -7,6 +7,10 @@ class BinaryTreeRightSideView_BFS {
     /*
         time O(n)
         space O(w) - w: width of tree
+
+        ý tưởng
+
+
      */
     public List<Integer> rightSideView(TreeNode root) {
         List<Integer> res = new ArrayList<>();
@@ -24,8 +28,11 @@ class BinaryTreeRightSideView_BFS {
                 TreeNode cur = q.poll();
 
                 if (i == 0) {
+                    // i = 0 chính là node right được push vào
                     res.add(cur.val);
                 }
+
+                // node right phải được đưa vào queue trước
                 if (cur.right != null) {
                     q.offer(cur.right);
                 }
