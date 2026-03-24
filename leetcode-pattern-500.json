@@ -432,8 +432,13 @@
         "pattern": "use sentinel node",
         "solution": "[B]linked_list/21_merge_two_sorted_lists"
     },
-
-
+    {
+        "name": "2. Add Two Numbers",
+        "leetcode_link": "https://leetcode.com/problems/add-two-numbers/",
+        "topic": "[B]linked_list",
+        "pattern": "use sentinel node",
+        "solution": "[B]linked_list/2_add_two_numbers"
+    },
 
 
 
