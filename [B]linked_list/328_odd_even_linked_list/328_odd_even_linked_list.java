@@ -4,6 +4,8 @@ class OddEvenLinkedList {
     /*
         time O(n)
         space O(1)
+
+        idea: using 3 pointer odd, even, evenhead
     */
     public ListNode oddEvenList(ListNode head) {
         if (head == null) {
@@ -14,12 +16,11 @@ class OddEvenLinkedList {
         ListNode even = head.next;
         ListNode evenHead = even;
 
-        // bắt đầu từ node even
         while (even != null && even.next != null) {
-            odd.next = even.next; // nối odd
+            odd.next = even.next; // connect to next odd
             odd = odd.next;
 
-            even.next = odd.next; // nối even với node chẵng tiếp theo
+            even.next = odd.next; // connect event to next even node
             even = even.next;
         }
 
@@ -30,6 +31,7 @@ class OddEvenLinkedList {
 }
 class ListNode {
 
+    @SuppressWarnings("unused")
     int val;
     ListNode next;
 
