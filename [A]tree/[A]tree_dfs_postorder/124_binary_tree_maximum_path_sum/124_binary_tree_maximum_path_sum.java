@@ -9,6 +9,16 @@ class BinaryTreeMaximumPathSum {
             ▪︎ skew tree: O(n)
 
         postorder ~ divide & conquer
+
+        at each node, 
+            we need to combine left side, right side and current node 
+                ~ res = Math.max(res, left + right + node.val)
+
+            however, when returning to parent, we only take the maximum path sum from one side
+                ~ node.val + Math.max(left, right);
+
+        Note: 
+            ignore the negative paths by treating them as 0
      */
     int res = Integer.MIN_VALUE;
 

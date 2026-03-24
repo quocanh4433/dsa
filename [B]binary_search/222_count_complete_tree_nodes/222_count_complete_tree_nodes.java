@@ -2,7 +2,7 @@
 class Solution {
     /*
         time O(n)
-        space: O(n)
+        space O(n)
 
         chưa tận dụng được tính chất của "completed binary tree"
     
