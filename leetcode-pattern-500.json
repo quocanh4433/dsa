@@ -439,6 +439,13 @@
         "pattern": "use sentinel node",
         "solution": "[B]linked_list/2_add_two_numbers"
     },
+    {
+        "name": "328. Odd Even Linked List",
+        "leetcode_link": "https://leetcode.com/problems/odd-even-linked-list/",
+        "topic": "[B]linked_list",
+        "pattern": "use sentinel node",
+        "solution": "[B]linked_list/328_odd_even_linked_list"
+    },
 
 
 
