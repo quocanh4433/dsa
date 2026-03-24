@@ -446,8 +446,13 @@
         "pattern": "use sentinel node",
         "solution": "[B]linked_list/328_odd_even_linked_list"
     },
-
-
+    {
+        "name": "19. Remove Nth Node From End of List",
+        "leetcode_link": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+        "topic": "[B]linked_list",
+        "pattern": "use sentinel node",
+        "solution": "[B]linked_list/19_remove_nth_node_from_end_of_list"
+    },
 
 
 
