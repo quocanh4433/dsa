@@ -457,11 +457,18 @@
         "name": "141. Linked List Cycle",
         "leetcode_link": "https://leetcode.com/problems/linked-list-cycle/",
         "topic": "[B]linked_list",
-        "pattern": "use two pointers (slow and fast)   ",
+        "pattern": "use two pointers (slow and fast)",
         "solution": "[B]linked_list/141_linked_list_cycle"
     },
+    {
+        "name": "142. Linked List Cycle II",
+        "leetcode_link": "https://leetcode.com/problems/linked-list-cycle-ii/",
+        "topic": "[B]linked_list",
+        "pattern": "use two pointers (slow and fast)",
+        "solution": "[B]linked_list/142_linked_list_cycle_ii"
+    },
 
-
+    
 
 
     
