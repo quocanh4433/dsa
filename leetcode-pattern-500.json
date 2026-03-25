@@ -453,11 +453,18 @@
         "pattern": "use sentinel node",
         "solution": "[B]linked_list/19_remove_nth_node_from_end_of_list"
     },
+    {
+        "name": "141. Linked List Cycle",
+        "leetcode_link": "https://leetcode.com/problems/linked-list-cycle/",
+        "topic": "[B]linked_list",
+        "pattern": "use two pointers (slow and fast)   ",
+        "solution": "[B]linked_list/141_linked_list_cycle"
+    },
 
 
 
 
-
+    
     {
         "____comment___":"[I]stack_queue", 
 
