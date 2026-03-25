@@ -1,62 +1,49 @@
 
 @SuppressWarnings("unused")
-class RemoveNthNodeFromEndOfList_TwoPass {
+class RemoveNthNodeFromEndOfList_OnePass {
 
     /*
+        time O(n)
+        space O(1)
 
-        one pass ~ traverse list 1 times
+        
+        one pass ~ traverse list 1 time
 
         for interview
+
+            d   1   2   3   x   5   null
+    slow                ^
+    fast                            ^    
+
      */
     public ListNode removeNthFromEnd(ListNode head, int n) {
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        ListNode slow = dummy;
+        ListNode fast = dummy;
 
-        // pass 1: couting length
-        int len = 0;
-        ListNode cur = head;
-        while (cur != null) {
-            len++;
-            cur = cur.next;
+        for(int i = 0; i <= n; i++) {
+            fast = fast.next;
         }
 
-        if (len == n) {
-            return head.next;
+        while(fast != null) {
+            fast = fast.next;
+            slow = slow.next;
         }
 
-        // pass 2: đi tới node trước node cần xóa
-        
-        /*
-            tại sao chỉ đi đến i < len - n mà không phải i <= len - n?
+        slow.next = slow.next.next;
 
-            vd: 
-            
-            1 -> 2 -> 3 -> 4 -> 5 
-            n = 2
-            len = 5
-
-            for đi từ 1 đến 2
-
-            i = 1 -> cur = cur.next = 2
-            i = 2 -> cur = cur.next = 3 (node cần đến) ✅
-            
-            nếu cho i đi từ 1 đến 3 thì khi i = 3
-
-            i = 3 -> cur = cur.next = 4 (vươt qua node cần đến là 3) ❌
-        */
-        cur = head;
-        for (int i = 1; i < len - n; i++) {
-            cur = cur.next;
-        }
-        cur.next = cur.next.next;
-
-        return head;
+        return dummy.next;
     }
 }
 
 class ListNode {
 
+    @SuppressWarnings("unused")
     int val;
     ListNode next;
 
+    @SuppressWarnings("unused")
     ListNode(int val) {
         this.val = val;
     }

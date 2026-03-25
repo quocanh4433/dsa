@@ -2,7 +2,9 @@
 class RemoveNthNodeFromEndOfList_TwoPass {
 
     /*
-
+        time O(n)
+        space O(1)
+        
         two pass ~ traverse list 2 times
      */
     public ListNode removeNthFromEnd(ListNode head, int n) {
@@ -20,6 +22,27 @@ class RemoveNthNodeFromEndOfList_TwoPass {
         }
 
         // pass 2: đi tới node trước node cần xóa
+
+        /*
+            tại sao chỉ đi đến i < len - n mà không phải i <= len - n?
+
+            vd: 
+            
+            1 -> 2 -> 3 -> 4 -> 5 
+            n = 2
+            len = 5
+
+            target = len - n = 3 cần đi đến node số 3 
+
+            for đi từ 1 đến 2
+
+            i = 1 -> cur = cur.next = 2
+            i = 2 -> cur = cur.next = 3 ~ target ✅
+            
+            nếu cho i đi từ 1 đến 3 thì khi i = 3
+
+            i = 3 -> cur = cur.next = 4 (vươt qua node cần đến là 3) ❌
+        */
         cur = head;
         for (int i = 1; i < len - n; i++) {
             cur = cur.next;
@@ -35,6 +58,7 @@ class ListNode {
     int val;
     ListNode next;
 
+    @SuppressWarnings("unused")
     ListNode(int val) {
         this.val = val;
     }
