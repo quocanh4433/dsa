@@ -6,8 +6,15 @@ class RemoveNthNodeFromEndOfList_OnePass {
         time O(n)
         space O(1)
 
-        
+        interview-friendly 👍
+
         one pass ~ traverse list 1 time
+
+        idea
+            ▪︎ using two pointers: fast and slow
+            ▪︎ move fast ahead by n + 1 steps (starting from dummy)
+            ▪︎ then, move both fast and slow 1 step at a time
+            ▪︎ when fast = null, slow at right before the node to be remove
 
         for interview
 
