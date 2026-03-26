@@ -467,10 +467,17 @@
         "pattern": "use two pointers (slow and fast)",
         "solution": "[B]linked_list/142_linked_list_cycle_ii"
     },
+    {
+        "name": "876. Middle of the Linked List",
+        "leetcode_link": "https://leetcode.com/problems/middle-of-the-linked-list/",
+        "topic": "[B]linked_list",
+        "pattern": "use two pointers (slow and fast)",
+        "solution": "[B]linked_list/876_middle_of_the_linked_list"
+    },
 
     
 
-
+    
     
     {
         "____comment___":"[I]stack_queue", 
