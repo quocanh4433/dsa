@@ -6,8 +6,8 @@ class MiddleOfTheLinkedList {
         time O(n)
         space O(1)
 
-        fast đi nhanh gấp đôi slow
-        khi fast đi hết n node thì slow đang ở n/2
+        because the fast pointer moves twice as fast as slow pointer
+        so when the fast pointer reaches the end of the list, the slow pointer is at the middle (approximately n/2)
      */
     public ListNode middleNode(ListNode head) {
         ListNode fast = head;

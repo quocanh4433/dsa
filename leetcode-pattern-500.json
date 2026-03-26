@@ -1,8 +1,6 @@
 [
     {
-        "____comment___":"[A]tree_divide_and_conquer", 
-
-
+        "____comment___": "[A]tree_divide_and_conquer",
         "name": "100. Same Tree",
         "leetcode_link": "https://leetcode.com/problems/same-tree/",
         "topic": "[A]tree_divide_and_conquer",
@@ -51,20 +49,20 @@
         "pattern": "re-build tree",
         "solution": "[A]tree/[A]tree_divide_and_conquer/106_construct_binary_tree_from_inorder_and_postorder_traversal"
     },
-    {   
+    {
         "name": "109. Convert Sorted List to Binary Search Tree",
         "leetcode_link": "https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/",
         "topic": "[A]tree_divide_and_conquer",
         "pattern": "re-build BST (inorder approach)",
         "solution": "[A]tree/[A]tree_divide_and_conquer/109_convert_sorted_list_to_binary_search_tree"
     },
-    {   
+    {
         "name": "108. Convert Sorted Array to Binary Search Tree",
         "leetcode_link": "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/",
         "topic": "[A]tree_divide_and_conquer",
         "pattern": "re-build BST (top-down approach)",
         "solution": "[A]tree/[A]tree_divide_and_conquer/108_convert_sorted_array_to_binary_search_tree"
-    },  
+    },
     {
         "name": "889. Construct Binary Tree from Preorder and Postorder Traversal",
         "leetcode_link": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/",
@@ -78,100 +76,93 @@
         "topic": "[A]tree_divide_and_conquer",
         "pattern": "re-build tree",
         "solution": "[A]tree/[A]tree_divide_and_conquer/1008_construct_binary_search_tree_from_preorder_traversal"
-    }, 
+    },
     {
         "name": "700. Search in a Binary Search Tree",
         "leetcode_link": "https://leetcode.com/problems/search-in-a-binary-search-tree/",
         "topic": "[A]tree_divide_and_conquer",
         "pattern": "use BST attributes",
         "solution": "[A]tree/[A]tree_divide_and_conquer/700_search_in_a_binary_search_tree"
-    }, 
+    },
     {
         "name": "450. Delete Node in a BST",
         "leetcode_link": "https://leetcode.com/problems/delete-node-in-a-bst/",
         "topic": "[A]tree_divide_and_conquer",
         "pattern": "use BST attributes",
         "solution": "[A]tree/[A]tree_divide_and_conquer/450_delete_node_in_a_bst"
-    }, 
+    },
     {
         "name": "701. Insert into a Binary Search Tree",
         "leetcode_link": "https://leetcode.com/problems/insert-into-a-binary-search-tree/",
         "topic": "[A]tree_divide_and_conquer",
         "pattern": "use BST attributes",
         "solution": "[A]tree/[A]tree_divide_and_conquer/701_insert_into_a_binary_search_tree"
-    }, 
-    {   
+    },
+    {
         "name": "116. Populating Next Right Pointers in Each Node",
         "leetcode_link": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node/",
         "topic": "[A]tree_divide_and_conquer",
         "pattern": "populate next ptr",
         "solution": "[A]tree/[A]tree_divide_and_conquer/116_populating_next_right_pointers_in_each_node"
     },
-    {   
+    {
         "name": "117. Populating Next Right Pointers in Each Node II",
         "leetcode_link": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/",
         "topic": "[A]tree_divide_and_conquer",
         "pattern": "populate next ptr",
         "solution": "[A]tree/[A]tree_divide_and_conquer/117_populating_next_right_pointers_in_each_node_ii"
     },
-    {   
+    {
         "name": "96. Unique Binary Search Trees",
         "leetcode_link": "https://leetcode.com/problems/unique-binary-search-trees/",
         "topic": "[A]tree_divide_and_conquer",
         "pattern": "unique BST",
         "solution": "[A]tree/[A]tree_divide_and_conquer/96_unique_binary_search_trees"
     },
-    {   
+    {
         "name": "95. Unique Binary Search Trees II",
         "leetcode_link": "https://leetcode.com/problems/unique-binary-search-trees-ii/",
         "topic": "[A]tree_divide_and_conquer",
         "pattern": "unique BST",
         "solution": "[A]tree/[A]tree_divide_and_conquer/95_unique_binary_search_trees_ii"
     },
-    {   
+    {
         "name": "112. Path Sum",
         "leetcode_link": "https://leetcode.com/problems/path-sum/",
         "topic": "[A]tree_divide_and_conquer",
         "pattern": "path sum",
         "solution": "[A]tree/[A]tree_divide_and_conquer/112_path_sum"
     },
-    {   
+    {
         "name": "113. Path Sum II",
         "leetcode_link": "https://leetcode.com/problems/path-sum-ii/",
         "topic": "[A]tree_divide_and_conquer",
         "pattern": "path sum",
         "solution": "[A]tree/[A]tree_divide_and_conquer/113_path_sum_ii"
     },
-    {   
+    {
         "name": "129. Sum Root to Leaf Numbers",
         "leetcode_link": "https://leetcode.com/problems/sum-root-to-leaf-numbers/",
         "topic": "[A]tree_divide_and_conquer",
         "pattern": "path sum",
         "solution": "[A]tree/[A]tree_divide_and_conquer/129_sum_root_to_leaf_numbers"
     },
-    {   
+    {
         "name": "988. Smallest String Starting From Leaf",
         "leetcode_link": "https://leetcode.com/problems/smallest-string-starting-from-leaf/",
         "topic": "[A]tree_divide_and_conquer",
         "pattern": "backtracking string",
         "solution": "[A]tree/[A]tree_divide_and_conquer/988_smallest_string_starting_from_leaf"
     },
-    {   
+    {
         "name": "235. Lowest Common Ancestor of a Binary Search Tree",
         "leetcode_link": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
         "topic": "[A]tree_divide_and_conquer",
         "pattern": "find LCA + use BST attributes",
         "solution": "[A]tree/[A]tree_divide_and_conquer/235_lowest_common_ancestor_of_a_binary_search_tree"
     },
-    
-
-    
-    
-    
     {
-        "____comment___":"[A]tree_bfs", 
-        
-
+        "____comment___": "[A]tree_bfs",
         "name": "102. Binary Tree Level Order Traversal",
         "leetcode_link": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
         "topic": "[A]tree_bfs",
@@ -262,15 +253,8 @@
         "pattern": "assign coordinates",
         "solution": "[A]tree/[A]tree_bfs/987_vertical_order_traversal_of_a_binary_tree"
     },
-
-
-
-
-
-    {   
-        "____comment___":"[A]tree_dfs_preorder", 
-
-
+    {
+        "____comment___": "[A]tree_dfs_preorder",
         "name": "872. Leaf-Similar Trees",
         "leetcode_link": "https://leetcode.com/problems/leaf-similar-trees/",
         "topic": "[A]tree_dfs_preorder",
@@ -333,15 +317,8 @@
         "pattern": "couting slot",
         "solution": "[A]tree/[A]tree_dfs_preorder/331_verify_preorder_serialization_of_a_binary_tree"
     },
-
-
-
-
-    
     {
-        "____comment___":"[A]tree_dfs_inorder", 
-
-
+        "____comment___": "[A]tree_dfs_inorder",
         "name": "94. Binary Tree Inorder Traversal",
         "leetcode_link": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
         "topic": "[A]tree_dfs_inorder",
@@ -418,14 +395,8 @@
         "pattern": "postorder",
         "solution": "[A]tree/[A]tree_dfs_postorder/2246_longest_path_with_different_adjacent_characters"
     },
-    
-    
-
-
     {
-        "____comment___":"[B]linked_list", 
-
-
+        "____comment___": "[B]linked_list",
         "name": "21. Merge Two Sorted Lists",
         "leetcode_link": "https://leetcode.com/problems/merge-two-sorted-lists/",
         "topic": "[B]linked_list",
@@ -474,15 +445,20 @@
         "pattern": "use two pointers (slow and fast)",
         "solution": "[B]linked_list/876_middle_of_the_linked_list"
     },
+    {
+        "name": "206. Reverse Linked List",
+        "leetcode_link": "https: //leetcode.com/problems/reverse-linked-list/",
+        "topic": "[B]linked_list",
+        "pattern": "use two pointers (prev and cur)",
+        "solution": "[B]linked_list/206_reverse_linked_list"
+    },
 
-    
 
-    
+
+
     
     {
-        "____comment___":"[I]stack_queue", 
-
-
+        "____comment___": "[I]stack_queue",
         "name": "1249. Minimum Remove to Make Valid Parentheses",
         "leetcode_link": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
         "topic": "[I]stack_queue",
