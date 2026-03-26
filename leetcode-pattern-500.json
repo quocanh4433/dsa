@@ -452,6 +452,13 @@
         "pattern": "use two pointers (prev and cur)",
         "solution": "[B]linked_list/206_reverse_linked_list"
     },
+    {
+        "name": "92. Reverse Linked List II",
+        "leetcode_link": "https://leetcode.com/problems/reverse-linked-list-ii/",
+        "topic": "[B]linked_list",
+        "pattern": "use two pointers (prev and cur)",
+        "solution": "[B]linked_list/92_reverse_linked_list_ii"
+    },
 
 
 
