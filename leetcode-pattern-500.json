@@ -473,8 +473,15 @@
         "pattern": "use two pointers (prev and cur)",
         "solution": "[B]linked_list/2074_reverse_nodes_in_even_length_groups"
     },
+    {
+        "name": "24. Swap Nodes in Pairs",
+        "leetcode_link": "https://leetcode.com/problems/swap-nodes-in-pairs/",
+        "topic": "[B]linked_list",
+        "pattern": "use two pointers (prev and cur)",
+        "solution": "[B]linked_list/24_swap_nodes_in_pairs"
+    },
 
-
+                                                                              
                                                                                                                         
 
     
