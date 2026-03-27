@@ -1,70 +1,77 @@
 
+@SuppressWarnings("unused")
 class ReverseNodesInEvenLengthGroups {
-    /*
+
+    /*  
+
+        time O(n)
+        space O(1)
+        
         note: 
             we reverse base on actual group length, not the intended group size, 
             because the last group may be shorter
             
      */
     public ListNode reverseEvenLengthGroups(ListNode head) {
-        ListNode dummy = new ListNode(0, head);
-
-        ListNode prevGroup = dummy;
-        ListNode cur = head;
-        ListNode nextGroup = head;
-
-        int groupLength = 1;
-
-        while(cur != null) {
-            // đếm số node
-            int count = 0;
-
-            while(nextGroup != null && count < groupLength) {
-                count++;
-                nextGroup = nextGroup.next;
-            }
-
-            if(count % 2 == 0) {
-                // cô lặp group cần reverse
-                ListNode node = cur;
-                ListNode headGroup = new ListNode(-1);
-                ListNode tailGroup = headGroup;
-
-
-                for(int i = 0; i <= count; i++) {
-                    if(i == count) {
-                        tailGroup.next = null;
-                        break;
-                    } 
-                    tailGroup.next = node;
-                    node == node.next;
-                }
-
-                // reverse
-                headGroup = reverse(headGroup, tailGroup);
-
-
-                // nối lại
-                prevGroup.next = headGroup;
-                tailGroup.next = nextGroup;
-
-            } else {
-                for(int i = 0; i < groupLength; i++) {
-                    cur = cur.next;
-                    prevGroup = prevGroup.next;
-                }
-            }
-
-            groupLength++;
+        // if listnode has 1 or 2 nodes only
+        if (head.next == null || head.next.next == null) {
+            return head;
         }
 
+        ListNode node = head;
+        int groupSize = 1;
 
-        return dummy.next;
+        while (node != null && node.next != null) {
+            groupSize++;
+
+            // first check number of node
+            int count = 0;
+            ListNode temp = node.next; // start couting and reversing from second node
+            while (temp != null && count < groupSize) {
+                count++;
+                temp = temp.next;
+            }
+
+            if (count % 2 == 0) {
+                ListNode prev = null;
+                ListNode next = null;
+                ListNode cur = node.next;
+
+                for (int i = 0; i < count; i++) {
+                    next = cur.next;
+                    cur.next = prev;
+                    prev = cur;
+                    cur = next;
+                }
+
+                /*
+                    2 -> 3 -> 4 -> 5
+
+                    after reverse
+
+                    4(prev) -> 3 -> 2
+                    5(cur)
+
+                    lúc này
+
+                    prev là head của group vưa đảo
+                    node là node đứng trước group
+                    cur là node đứng sau group
+                 */
+                ListNode tail = node.next; // lấy đuôi chính là node số 2 cũ
+                tail.next = cur;
+                node.next = prev;
+                node = tail;
+            } else {
+                for (int i = 0; i < count; i++) {
+                    node = node.next;
+                }
+            }
+        }
+
+        return head;
     }
 
-    public ListNode reverse (ListNode head, ListNode tail) {
-        return null;
-    }
 }
 
 class ListNode {
