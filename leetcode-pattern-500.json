@@ -494,9 +494,23 @@
         "pattern": "use two pointers (prev and cur)",
         "solution": "[B]linked_list/82_remove_duplicates_from_sorted_list_ii"
     },
+    {
+        "name": "160. Intersection of Two Linked Lists",
+        "leetcode_link": "https://leetcode.com/problems/intersection-of-two-linked-lists/",
+        "topic": "[B]linked_list",
+        "pattern": "use two pointers (find LCA/intersection)",
+        "solution": "[B]linked_list/160_intersection_of_two_linked_lists"
+    },
+    {
+        "name": "234. Palindrome Linked List",
+        "leetcode_link": "https://leetcode.com/problems/palindrome-linked-list/",
+        "topic": "[B]linked_list",
+        "pattern": "use two pointers (utilize symmetry property)",
+        "solution": "[B]linked_list/234_palindrome_linked_list"
+    },
 
-     
-    
+
+
     
 
     
