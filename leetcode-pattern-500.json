@@ -485,11 +485,19 @@
         "leetcode_link": "https://leetcode.com/problems/remove-duplicates-from-sorted-list/",
         "topic": "[B]linked_list",
         "pattern": "use two pointers (prev and cur)",
-        "solution": "[B]linked_list/83_remove_duplicates_from_sorted_list."
+        "solution": "[B]linked_list/83_remove_duplicates_from_sorted_list"
+    },
+    {
+        "name": "82. Remove Duplicates from Sorted List II",
+        "leetcode_link": "https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/",
+        "topic": "[B]linked_list",
+        "pattern": "use two pointers (prev and cur)",
+        "solution": "[B]linked_list/82_remove_duplicates_from_sorted_list_ii"
     },
 
-                                                                              
-                                                                                                             
+     
+    
+    
 
     
     {                                                                                                                            
