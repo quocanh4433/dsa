@@ -480,9 +480,16 @@
         "pattern": "use two pointers (prev and cur)",
         "solution": "[B]linked_list/24_swap_nodes_in_pairs"
     },
+    {
+        "name": "83. Remove Duplicates from Sorted List",
+        "leetcode_link": "https://leetcode.com/problems/remove-duplicates-from-sorted-list/",
+        "topic": "[B]linked_list",
+        "pattern": "use two pointers (prev and cur)",
+        "solution": "[B]linked_list/83_remove_duplicates_from_sorted_list."
+    },
 
                                                                               
-                                                                                                                        
+                                                                                                             
 
     
     {                                                                                                                            
