@@ -425,13 +425,6 @@
         "solution": "[B]linked_list/19_remove_nth_node_from_end_of_list"
     },
     {
-        "name": "203. Remove Linked List Elements",
-        "leetcode_link": "https://leetcode.com/problems/remove-linked-list-elements/",
-        "topic": "[B]linked_list",
-        "pattern": "use sentinel node",
-        "solution": "[B]linked_list/203_remove_linked_list_elements"
-    },
-    {
         "name": "141. Linked List Cycle",
         "leetcode_link": "https://leetcode.com/problems/linked-list-cycle/",
         "topic": "[B]linked_list",
@@ -500,6 +493,20 @@
         "topic": "[B]linked_list",
         "pattern": "use two pointers (prev and cur)",
         "solution": "[B]linked_list/82_remove_duplicates_from_sorted_list_ii"
+    },
+    {
+        "name": "203. Remove Linked List Elements",
+        "leetcode_link": "https://leetcode.com/problems/remove-linked-list-elements/",
+        "topic": "[B]linked_list",
+        "pattern": "use two pointers (prev and cur)",
+        "solution": "[B]linked_list/203_remove_linked_list_elements"
+    },
+    {
+        "name": "3217. Delete Nodes From Linked List Present in Array",
+        "leetcode_link": "https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/",
+        "topic": "[B]linked_list",
+        "pattern": "use two pointers (prev and cur)",
+        "solution": "[B]linked_list/3217_delete_nodes_from_linked_list_present_in_array"
     },
     {
         "name": "160. Intersection of Two Linked Lists",
