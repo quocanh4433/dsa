@@ -515,10 +515,15 @@
         "pattern": "use two pointers (utilize symmetry property)",
         "solution": "[B]linked_list/143_reorder_list"
     },
+    {
+        "name": "2130. Maximum Twin Sum of a Linked List",
+        "leetcode_link": "https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/",
+        "topic": "[B]linked_list",
+        "pattern": "use two pointers (utilize symmetry property)",
+        "solution": "[B]linked_list/2130_maximum_twin_sum_of_a_linked_list"
+    },
 
 
-
-    
 
     
     {                                                                                                                            
