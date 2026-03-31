@@ -522,6 +522,21 @@
         "pattern": "use two pointers (utilize symmetry property)",
         "solution": "[B]linked_list/2130_maximum_twin_sum_of_a_linked_list"
     },
+    {
+        "name": "61. Rotate List",
+        "leetcode_link": "https://leetcode.com/problems/rotate-list/",
+        "topic": "[B]linked_list",
+        "pattern": "get linked list length",
+        "solution": "[B]linked_list/61_rotate_list"
+    },
+    {
+        "name": "1019. Next Greater Node In Linked List",
+        "leetcode_link": "https://leetcode.com/problems/next-greater-node-in-linked-list/",
+        "topic": "[B]linked_list",
+        "pattern": "get linked list length",
+        "solution": "[B]linked_list/1019_next_greater_node_in_linked_list"
+    },
+
 
 
 

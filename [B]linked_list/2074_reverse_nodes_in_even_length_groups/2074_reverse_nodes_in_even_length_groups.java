@@ -34,11 +34,10 @@ class ReverseNodesInEvenLengthGroups {
 
             if (count % 2 == 0) {
                 ListNode prev = null;
-                ListNode next = null;
                 ListNode cur = node.next;
 
                 for (int i = 0; i < count; i++) {
-                    next = cur.next;
+                    ListNode next = cur.next;
                     cur.next = prev;
                     prev = cur;
                     cur = next;
