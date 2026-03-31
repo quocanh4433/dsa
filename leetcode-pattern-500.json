@@ -509,6 +509,13 @@
         "solution": "[B]linked_list/3217_delete_nodes_from_linked_list_present_in_array"
     },
     {
+        "name": "2487. Remove Nodes From Linked List",
+        "leetcode_link": "https://leetcode.com/problems/remove-nodes-from-linked-list/",
+        "topic": "[B]linked_list",
+        "pattern": "use two pointers (prev and cur)",
+        "solution": "[B]linked_list/2487_remove_nodes_from_linked_list"
+    },
+    {
         "name": "160. Intersection of Two Linked Lists",
         "leetcode_link": "https://leetcode.com/problems/intersection-of-two-linked-lists/",
         "topic": "[B]linked_list",
