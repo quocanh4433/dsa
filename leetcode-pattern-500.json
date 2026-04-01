@@ -557,6 +557,15 @@
         "pattern": "get linked list length",
         "solution": "[B]linked_list/1019_next_greater_node_in_linked_list"
     },
+    {
+        "name": "148. Sort List",
+        "leetcode_link": "https://leetcode.com/problems/sort-list/",
+        "topic": "[B]linked_list",
+        "pattern": "use merge sort to sort list",
+        "solution": "[B]linked_list/148_sort_list"
+    },
+
+
 
 
 
