@@ -564,7 +564,13 @@
         "pattern": "use merge sort to sort list",
         "solution": "[B]linked_list/148_sort_list"
     },
-
+    {
+        "name": "138. Copy List with Random Pointer",
+        "leetcode_link": "https://leetcode.com/problems/copy-list-with-random-pointer/",
+        "topic": "[B]linked_list",
+        "pattern": "interweaving nodes",
+        "solution": "[B]linked_list/138_copy_list_with_random_pointer"
+    },
 
 
 
