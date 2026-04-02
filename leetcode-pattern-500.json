@@ -571,7 +571,13 @@
         "pattern": "interweaving nodes",
         "solution": "[B]linked_list/138_copy_list_with_random_pointer"
     },
-
+    {
+        "name": "146. LRU Cache",
+        "leetcode_link": "https://leetcode.com/problems/lru-cache/",
+        "topic": "[B]linked_list",
+        "pattern": "use dll and hashmap together ",
+        "solution": "[B]linked_list/146_lru_cache"
+    },
 
 
 
