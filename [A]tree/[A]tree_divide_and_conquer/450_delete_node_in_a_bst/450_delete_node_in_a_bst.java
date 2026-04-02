@@ -7,8 +7,6 @@ class DeleteNodeInABst {
         space O(h)
             ▪︎ balanced tree: h = logn
             ▪︎ skew tree: h = On
-    
-    
      */
     public TreeNode deleteNode(TreeNode root, int key) {
         if (root == null) {

@@ -578,10 +578,17 @@
         "pattern": "use dll and hashmap together ",
         "solution": "[B]linked_list/146_lru_cache"
     },
+    {
+        "name": "460. LFU Cache",
+        "leetcode_link": "https://leetcode.com/problems/lfu-cache/",
+        "topic": "[B]linked_list",
+        "pattern": "use dll and hashmap together ",
+        "solution": "[B]linked_list/460_lfu_cache"
+    },
 
 
 
-
+    
     
     {                                                                                                                            
         "____comment___": "[I]stack_queue",
