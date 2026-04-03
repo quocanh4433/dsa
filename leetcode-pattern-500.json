@@ -219,6 +219,13 @@
         "solution": "[A]tree/[A]tree_bfs/690_employee_importance"
     },
     {
+        "name": "515. Find Largest Value in Each Tree Row",
+        "leetcode_link": "https://leetcode.com/problems/find-largest-value-in-each-tree-row/",
+        "topic": "[A]tree_bfs",
+        "pattern": "bfs",
+        "solution": "[A]tree/[A]tree_bfs/515_find_largest_value_in_each_tree_row"
+    },
+    {
         "name": "863. All Nodes Distance K in Binary Tree",
         "leetcode_link": "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/",
         "topic": "[A]tree_bfs",
