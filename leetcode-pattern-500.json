@@ -593,6 +593,13 @@
         "solution": "[B]linked_list/460_lfu_cache"
     },
     {
+        "name": "432. All O`one Data Structure",
+        "leetcode_link": "https://leetcode.com/problems/all-oone-data-structure/",
+        "topic": "[B]linked_list",
+        "pattern": "use dll and hashmap together",
+        "solution": "[B]linked_list/432_all_oone_data_structure."
+    },
+    {
         "name": "237. Delete Node in a Linked List",
         "leetcode_link": "https://leetcode.com/problems/delete-node-in-a-linked-list/",
         "topic": "[B]linked_list",
