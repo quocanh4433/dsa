@@ -582,8 +582,15 @@
         "name": "460. LFU Cache",
         "leetcode_link": "https://leetcode.com/problems/lfu-cache/",
         "topic": "[B]linked_list",
-        "pattern": "use dll and hashmap together ",
+        "pattern": "use dll and hashmap together",
         "solution": "[B]linked_list/460_lfu_cache"
+    },
+    {
+        "name": "237. Delete Node in a Linked List",
+        "leetcode_link": "https://leetcode.com/problems/delete-node-in-a-linked-list/",
+        "topic": "[B]linked_list",
+        "pattern": "change val as change node",
+        "solution": "[B]linked_list/237_delete_node_in_a_linked_list"
     },
 
 
