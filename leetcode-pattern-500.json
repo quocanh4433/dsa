@@ -261,6 +261,13 @@
         "solution": "[A]tree/[A]tree_bfs/987_vertical_order_traversal_of_a_binary_tree"
     },
     {
+        "name": "2583. Kth Largest Sum in a Binary Tree",
+        "leetcode_link": "https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/",
+        "topic": "[A]tree_bfs",
+        "pattern": "assign coordinates",
+        "solution": "[A]tree/[A]tree_bfs/2583_kth_largest_sum_in_a_binary_tree"
+    },
+    {
         "____comment___": "[A]tree_dfs_preorder",
         "name": "872. Leaf-Similar Trees",
         "leetcode_link": "https://leetcode.com/problems/leaf-similar-trees/",
