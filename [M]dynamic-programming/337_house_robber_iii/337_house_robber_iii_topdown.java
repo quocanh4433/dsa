@@ -1,3 +1,5 @@
+import java.util.HashMap;
+import java.util.Map;
 
 @SuppressWarnings("unused")
 class HouseRobberIII_TopDown {
@@ -11,6 +13,7 @@ class HouseRobberIII_TopDown {
      */
 
     Map<TreeNode, Integer> memo = new HashMap<>();
+
 
     public int rob(TreeNode root) {
         if (root == null) {

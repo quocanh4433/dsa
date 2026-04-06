@@ -1,139 +1,110 @@
 
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
 class AllOne {
 
     class Node {
 
-        String key;
-        int freq;
         Node prev;
         Node next;
+        Set<String> keys = new HashSet<>();
+        int count;
 
-        Node(String _key) {
-            key = _key;
-            prev = null;
-            next = null;
-            freq = 1;
-        }
-    }
-
-    class DLL {
-
-        Node head = new Node("-1");
-        Node tail = new Node("-1");
-        int size;
-
-        DLL() {
-            head.next = tail;
-            tail.prev = head;
-            size = 0;
+        Node() {
+            this("-1", 0);
         }
 
-        void addFirst(Node node) {
-            Node nextNode = head.next;
-            head.next = node;
+        Node(String key, int count) {
+            this.keys.add(key);
+            this.count = count;
+        }
+
+        // insert immediately after this node
+        // sentinel.insertAfter(newNode) -> this node: sentinel
+        Node insertAfter(Node node) {
+            Node nextNode = this.next;
+            Node prevNode = this.prev;
+
+            this.next = node;
             node.next = nextNode;
             nextNode.prev = node;
-            node.prev = head;
-            size++;
-        }
+            node.prev = prevNode;
 
-        void removeNode(Node node) {
-            Node nextNode = node.next;
-            Node prevNode = node.prev;
-
-            prevNode.next = nextNode;
-            nextNode.prev = prevNode;
-
-            size--;
-        }
-
-        String getFirst() {
-            return head.next.key;
+            return node;
         }
     }
 
-    Map<String, Node> keyMap = new HashMap<>();
-    Map<Integer, DLL> freqMap = new HashMap<>();
-
-    int minFreq = 0;
-    int maxFreq = 0;
+    Map<String, Node> keyMap;
+    Node sentinel;
 
     public AllOne() {
-
+        keyMap = new HashMap<>();
+        sentinel = new Node();
+        sentinel.next = sentinel;
+        sentinel.prev = sentinel;
     }
 
     public void inc(String key) {
         if (keyMap.containsKey(key)) {
             Node node = keyMap.get(key);
-            incFreq(node);
+            int newCount = node.count + 1;
+
+            if (sentinel.next == sentinel || sentinel.next.count > newCount) {
+                // doubly-linkedlist đang rỗng || node nhỏ nhất lớn hơn newcount -> nối với sentinel
+                Node newNode = new Node(key, newCount);
+                keyMap.put(key, sentinel.insertAfter(newNode));
+            } else {
+                sentinel.next.keys.add(key);
+                keyMap.put(key, sentinel.next);
+            }
+
         } else {
-            Node node = new Node(key);
-            keyMap.put(key, node);
-            freqMap.putIfAbsent(1, new DLL());
-            freqMap.get(1).addFirst(node);
-            minFreq = 1;
-            maxFreq = Math.max(maxFreq, 1);
+            if (sentinel.next == sentinel || sentinel.next.count > 1) {
+                // doubly-linkedlist đang rỗng || node nhỏ nhất không phải count = 1
+                Node newNode = new Node(key, 1);
+                keyMap.put(key, sentinel.insertAfter(newNode));
+            } else {
+                // A node with count 1 already exists
+                sentinel.next.keys.add(key);
+                keyMap.put(key, sentinel.next);
+            }
+
         }
     }
 
     public void dec(String key) {
-        if (!keyMap.containsKey(key)) {
-            return;
-        } else {
-            Node node = keyMap.get(key);
-            descFreq(node);
-        }
+
     }
 
     public String getMaxKey() {
-        if (keyMap.isEmpty()) {
-            return "";
-        }
-        DLL list = freqMap.get(maxFreq);
-        return list.getFirst();
+        return "";
     }
 
     public String getMinKey() {
-        if (keyMap.isEmpty()) {
-            return "";
-        }
-        DLL list = freqMap.get(minFreq);
-        return list.getFirst();
-    }
-
-    public void incFreq(Node node) {
-        int oldFreq = node.freq;
-        DLL oldList = freqMap.get(oldFreq);
-
-        oldList.removeNode(node);
-
-        if (oldList.size == 0 && oldFreq == minFreq) {
-            minFreq++;
-            maxFreq = Math.max(maxFreq, minFreq);
-        }
-
-        node.freq++;
-        freqMap.putIfAbsent(node.freq, new DLL());
-        freqMap.get(node.freq).addFirst(node);
-    }
-
-    public void descFreq(Node node) {
-        int oldFreq = node.freq;
-        DLL oldList = freqMap.get(oldFreq);
-
-        oldList.removeNode(node);
-
-        if (oldList.size == 0 && oldFreq == maxFreq) {
-            maxFreq--;
-            minFreq = Math.min(minFreq, maxFreq);
-        }
-
-        node.freq--;
-        if (node.freq == 0) {
-            keyMap.remove(node.key);
-        } else {
-            freqMap.putIfAbsent(node.freq, new DLL());
-            freqMap.get(node.freq).addFirst(node);
-        }
+        return "";
     }
 }
+
+/**
+ * Your AllOne object will be instantiated and called as such: AllOne obj = new
+ * AllOne(); obj.inc(key); obj.dec(key); String param_3 = obj.getMaxKey();
+ * String param_4 = obj.getMinKey();
+ */
+// public static void main(String[] args) {
+//     AllOne ao = new AllOne();
+//     ao.inc("a");
+//     ao.inc("b");
+//     ao.inc("b");
+//     ao.inc("c");
+//     ao.inc("c");
+//     ao.inc("c");
+//     ao.dec("b");
+//     ao.dec("b");
+//     System.out.println(ao.getMinKey());
+//     ao.dec("a");
+//     System.out.println(ao.getMaxKey());
+//     System.out.println(ao.getMinKey());
+// }
