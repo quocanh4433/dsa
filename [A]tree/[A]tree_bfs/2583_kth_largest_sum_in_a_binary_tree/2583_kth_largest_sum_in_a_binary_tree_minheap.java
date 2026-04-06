@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Queue;
 
 @SuppressWarnings("unused")
-class KthLargestSumInABinaryTree {
+class KthLargestSumInABinaryTree_MinHeap {
 
     /*
         time O(n long n)

@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Queue;
 
 @SuppressWarnings("unused")
-class KthLargestSumInABinaryTree {
+class KthLargestSumInABinaryTree_Sort {
 
     /*
         time O(n long n)
