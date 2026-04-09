@@ -632,6 +632,19 @@
 
 
 
+    {                                                                                                                            
+        "____comment___": "[J]backtracking",
+
+
+        "name": "437. Path Sum III",
+        "leetcode_link": "https://leetcode.com/problems/path-sum-iii/",
+        "topic": "[J]backtracking",
+        "pattern": "backtracking ",
+        "solution": "[J]backtracking/437_path_sum_iii"
+    },   
+
+
+
 
     {                                                                                                                            
         "____comment___": "[M]dynamic-programming",
@@ -643,4 +656,9 @@
         "pattern": "tree dp",
         "solution": "[M]dynamic-programming/337_house_robber_iii"
     }
+
+
+
+
+    
 ]

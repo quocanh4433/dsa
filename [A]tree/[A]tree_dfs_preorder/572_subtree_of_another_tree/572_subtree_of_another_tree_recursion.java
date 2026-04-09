@@ -44,8 +44,6 @@ class SubtreeOfAnotherTree_Recursion {
             trường hợp đặc biêt 1 trong 2 node chỉ có 1 giá trị
 
             example:  root = [1, 1]  subRoot = [1]
-
-            left: FALSE && right:FALSE -> TRUE
          */
         return isSameTree(node1.left, node2.left) && isSameTree(node1.right, node2.right);
     }
