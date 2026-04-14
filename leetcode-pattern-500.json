@@ -616,6 +616,19 @@
 
 
 
+
+    {                                                                                                                            
+        "____comment___": "[H]array",
+
+
+        "name": "560. Subarray Sum Equals K",
+        "leetcode_link": "https://leetcode.com/problems/subarray-sum-equals-k/",
+        "topic": "[H]array_prefix_sum",
+        "pattern": "use hashmap to validate the gap subarray ",
+        "solution": "[H]array/[H]array_prefix_sum/560_subarray_sum_equals_k"
+    },
+
+   
     
     
     {                                                                                                                            
@@ -656,6 +669,11 @@
         "pattern": "tree dp",
         "solution": "[M]dynamic-programming/337_house_robber_iii"
     }
+
+
+
+
+  
 
 
 
