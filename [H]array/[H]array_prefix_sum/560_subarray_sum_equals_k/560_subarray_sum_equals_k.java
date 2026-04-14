@@ -3,7 +3,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 class SubarraySumEqualsK {
-
+    /*
+        time O(n)
+        space O(n)
+    */
     public int subarraySum(int[] nums, int k) {
         if (nums == null) {
             return 0;
@@ -18,7 +21,7 @@ class SubarraySumEqualsK {
         for (int i = 0; i < nums.length; i++) {
             currentSum += nums[i];
 
-            if (prefixMap.containsKey(currentSum - k)) { // trươcs đó có prefixSum nào = currentSum - k không?
+            if (prefixMap.containsKey(currentSum - k)) { // trươc đó có prefixSum nào = currentSum - k không?
                 count += prefixMap.getOrDefault(currentSum - k, 0);
             }
             prefixMap.put(currentSum, prefixMap.getOrDefault(currentSum, 0) + 1);
