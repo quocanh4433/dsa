@@ -613,6 +613,13 @@
         "pattern": "change val as change node",
         "solution": "[B]linked_list/237_delete_node_in_a_linked_list"
     },
+    {
+        "name": "1367. Linked List in Binary Tree",
+        "leetcode_link": "https://leetcode.com/problems/linked-list-in-binary-tree/",
+        "topic": "[B]linked_list",
+        "pattern": "linkedlist and binary tree",
+        "solution": "[B]linked_list/1367_linked_list-in_binary_tree"
+    },
 
 
 
