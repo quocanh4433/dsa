@@ -672,16 +672,25 @@
 
         "name": "337. House Robber III",
         "leetcode_link": "https://leetcode.com/problems/house-robber-iii/",
-        "topic": "[M]dynamic-programming",
+        "topic": "[M]dynamic_programming",
         "pattern": "tree dp",
-        "solution": "[M]dynamic-programming/337_house_robber_iii"
+        "solution": "[M]dynamic_programming/337_house_robber_iii"
+    },
+
+
+
+
+
+    {                                                                                                                            
+        "____comment___": "[P]segment_tree",
+
+
+        "name": "307. Range Sum Query - Mutable",
+        "leetcode_link": "https://leetcode.com/problems/range-sum-query-mutable/",
+        "topic": "[P]segment_tree",
+        "pattern": "use sum type segment tree",
+        "solution": "[P]segment_tree/307_range_sum_query_mutable"
     }
-
-
-
-
-  
-
 
 
 
