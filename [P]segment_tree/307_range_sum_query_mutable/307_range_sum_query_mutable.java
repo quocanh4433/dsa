@@ -9,9 +9,11 @@ class NumArray {
         space:
             ▪︎ tree    = O(4 * n) ~ O(n)
             ▪︎ stack   = O(log n)
+
+
+        nếu không update prefixsum 
+        ngược lại segment tree
     */
-
-
 
     int[] tree;
     int n;
