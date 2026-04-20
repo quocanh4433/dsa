@@ -1,7 +1,6 @@
 
-class MyCalendarI_SegmentTree {
 
-    /*
+/*
         treemap: 
             ▪︎ friendly-interview
             ▪︎ nhanh gọn
@@ -10,65 +9,130 @@ class MyCalendarI_SegmentTree {
             ▪︎ scalable tốt hơn
             ▪︎ nhưng nặng hơn
             ▪︎ sử dụng segment tree cho bài này overskill
+ */
+class MyCalendar {
 
-
-        ý tưởng với segmenttree:
-            mỗi node đại điện cho một khoảng thời gian
-     */
-    
     class Node {
+
         Node left, right;
-        boolean booked; // bất kỳ phần nào trong đoạn đã bị book, thì "booked" được xem là true
+        boolean booked; // booked = true ⇢ TOÀN BỘ đoạn này đã bị đoạn lớn hơn hoặc bằng cover
     }
 
-    int START = 0, END = (int) 1e9;
+    int START = 0;
+    int END = (int) 1e9;
     Node root;
 
-    public MyCalendarI_SegmentTree() {
+    public MyCalendar() {
         root = new Node();
     }
-    
+
     public boolean book(int start, int end) {
-        // nêu overlap thì dừng lại
-        if(hasOverlap(root, start, end - 1, START, END)){
+        // kiểm tra thời gian cần book có nằm trong hoặc overlap với thời gian của node hay không?
+
+        if (hasOverlap(root, start, end - 1, START, END)) {
+            // nếu có -> không thể book 
             return false;
         }
 
-        // nếu không overlap thì update về tree
-        update(root, START, END, start, end - 1);
+        // nếu không -> update tree -> có thể book
+        update(root, start, end - 1, START, END);
         return true;
     }
 
     /*
-        @param: nodeStart, nodeEnd: range của node đang quản lý
-        @param: start, end: range đang xét
+        @param: node: node đang xét
+        @param: nodeStart, nodeEnd: thời gian của node trong segment tree
+        @param: start, end: thời gian cần book
+
+        thời gian cần book có nằm trong hay overlap với thời gian của node hay không?
      */
     public boolean hasOverlap(Node node, int start, int end, int nodeStart, int nodeEnd) {
-        // nếu node == null hoặc đoạn đang xét hoàn toàn nằm bên ngoài range của node 
+        // nếu node == null hoặc đoạn cần book hoàn toàn nằm bên ngoài range của node 
         // không overlap -> return false
-        if(node == null || start > nodeEnd || end < nodeStart) return false;
-
-        // early stop
-        if(node.booked) return true;
-
-        // đi đến node leaf
-        // không overlap -> return false;
-        if(nodeStart == nodeEnd) return false;
-
-        int mid = nodeStart + (nodeEnd - nodeStart) / 2;
-
-        return hasOverlap(node.left, start, end, nodeStart, mid) || hasOverlap(node.right, start, end, mid + 1, nodeEnd);
-    }
-
-    public void update(Node node, int start, int end, int nodeStart, int nodeEnd) {
-        // nếu node == null hoặc đoạn đang xét hoàn toàn nằm bên ngoài range của node 
-        if(node == null || start > nodeEnd || end < nodeStart) return;
-
-        // đoạn cần book nằm hoàn toàn trong range của node
-        if(start >= nodeStart && end <= nodeEnd) {
-            node.booked = true;
-            return; // đoạn này đã bị chiếm không cần đi tiếp nữa
+        if (node == null || start > nodeEnd || end < nodeStart) {
+            return false;
         }
 
+        // nếu node đang xét đã bị book
+        // có overlap -> return true
+        if (node.booked) {
+            return true; // nên để đây đề tránh trường hợp node == null
+        }
+        // đi đến node leaf
+        // không overlap -> return false;
+        if (nodeStart == nodeEnd) {
+            return false;
+        }
+
+        int nodeMid = nodeStart + (nodeEnd - nodeStart) / 2;
+
+        // nên viết như vầy tránh trường hợp cây nghiên một phía nhưng vẫn kiểm tra 2 phía left và right
+        if (end <= nodeMid) {
+            return hasOverlap(node.left, start, end, nodeStart, nodeMid);
+        } else if (start > nodeMid) {
+            return hasOverlap(node.right, start, end, nodeMid + 1, nodeEnd);
+        } else {
+            return hasOverlap(node.left, start, end, nodeStart, nodeMid)
+                    || hasOverlap(node.right, start, end, nodeMid + 1, nodeEnd);
+        }
+    }
+
+    /*
+        @param: node: node đang xét
+        @param: nodeStart, nodeEnd: thời gian của node trong segment tree
+        @param: start, end: thời gian cần book
+
+        để update cần biết thời gian cần book đang cover hoặc overlap với thời gian của node nào?
+
+            - nếu nằm hoàn toàn ngoài thời gian của node -> bỏ qua không quan tâm
+
+            - nếu
+
+     */
+    public void update(Node node, int start, int end, int nodeStart, int nodeEnd) {
+        // nếu node == null hoặc đoạn cần update hoàn toàn nằm bên ngoài thời gian của node
+        // không cần update -> return
+        if (node == null || end < nodeStart || nodeEnd < start) {
+            return;
+        }
+
+        if (node.booked) {
+            return;
+        }
+
+        // nếu thời gian cần update cover hoàn toàn thời gian của node
+        // không cần update -> return
+        if (start <= nodeStart && nodeEnd <= end) {
+            node.booked = true;
+
+            // đã full rồi không cần giữ cây con bên dưới
+            // giúp cây gọn hơn tránh lãng phí bộ nhớ
+            node.left = null;
+            node.right = null;
+            return;
+        }
+
+        // nếu thời gian cần update giao một phần với node
+        // node: [9, 12] 
+        // update: [10, 19]
+        int nodeMid = nodeStart + (nodeEnd - nodeStart) / 2;
+
+        if (node.left == null) {
+            node.left = new Node();
+        }
+        if (node.right == null) {
+            node.right = new Node();
+        }
+
+        if (end <= nodeMid) {
+            update(node.left, start, end, nodeStart, nodeMid);
+        } else if (start > nodeMid) {
+            update(node.right, start, end, nodeMid + 1, nodeEnd);
+        } else {
+            update(node.left, start, end, nodeStart, nodeMid);
+            update(node.right, start, end, nodeMid + 1, nodeEnd);
+        }
+
+        node.booked = node.left.booked && node.right.booked;
     }
 }
