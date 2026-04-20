@@ -9,6 +9,21 @@
             ▪︎ scalable tốt hơn
             ▪︎ nhưng nặng hơn
             ▪︎ sử dụng segment tree cho bài này overskill
+
+
+        time O(log N)
+            ▪︎ mỗi lần book O(log N)
+            ▪︎ mỗi lần update O(log N)
+            ▪︎ N = 1e9 -> log(1e9) ~ 30 -> rất nhanh
+
+        space O(k log N)
+            ▪︎ mỗi lần book tạo tối đa bao nhiêu node?
+                ▪︎ mỗi lần update đi sâu tối đa O(log N)
+                ▪︎ mỗi level tạo nhiều nhất 2 node
+                ▪︎ suy ra, mỗi lần book tạo ra tối đa O(log N) = O(log(1e9)) ~ 30
+            ▪︎ theo constrains có tối đa 1000 lần call book()
+                ▪︎ suy ra, có tối đa 1000 * 30 = 30,000 node được tạo ra
+
  */
 class MyCalendar {
 

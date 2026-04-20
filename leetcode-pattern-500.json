@@ -697,5 +697,12 @@
         "topic": "[P]segment_tree",
         "pattern": "use count type segment tree",
         "solution": "[P]segment_tree/729_my_calendar_i"
+    },
+    {                                                                                                                            
+        "name": "731. My Calendar II",
+        "leetcode_link": "https://leetcode.com/problems/my-calendar-ii/",
+        "topic": "[P]segment_tree",
+        "pattern": "use max type segment tree",
+        "solution": "[P]segment_tree/731_my_calendar_ii"
     }
 ]
