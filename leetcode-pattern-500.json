@@ -697,10 +697,17 @@
         "pattern": "elimination greedy",
         "solution": "[N]greedy/55_jump_game"
     },
+    {                                                                                                                            
+        "name": "621. Task Scheduler",
+        "leetcode_link": "https://leetcode.com/problems/task-scheduler/",
+        "topic": "[N]greedy",
+        "pattern": "heap greedy",
+        "solution": "[N]greedy/621_task_scheduler"
+    },
 
 
-
-
+    
+    
 
 
     {                                                                                                                            
