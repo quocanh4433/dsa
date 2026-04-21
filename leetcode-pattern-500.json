@@ -679,6 +679,21 @@
 
 
 
+    
+    {                                                                                                                            
+        "____comment___": "[N]greedy",
+
+
+        "name": "134. Gas Station",
+        "leetcode_link": "https://leetcode.com/problems/gas-station/",
+        "topic": "[N]greedy",
+        "pattern": "elimination greedy",
+        "solution": "[N]greedy/134_gas_station"
+    },
+
+
+
+
 
 
     {                                                                                                                            
