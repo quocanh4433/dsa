@@ -704,9 +704,15 @@
         "pattern": "heap greedy",
         "solution": "[N]greedy/621_task_scheduler"
     },
+    {                                                                                                                            
+        "name": "665. Non-decreasing Array",
+        "leetcode_link": "https://leetcode.com/problems/non-decreasing-array/",
+        "topic": "[N]greedy",
+        "pattern": "invariant greedy",
+        "solution": "[N]greedy/665_non_decreasing_array"
+    },
 
 
-    
     
 
 
