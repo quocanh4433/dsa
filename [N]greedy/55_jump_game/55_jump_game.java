@@ -9,14 +9,12 @@ class JumpGame {
         thay vì hỏi
             " đứng ở i đi được bao xa "
 
-        thay đổi
+        thay đổi GREEDY
             " đứng ở i đi xa nhất là bao nhiêu "
 
         cho i tăng và cập nhật maxreach
 
-        nếu i > maxreach tức là các ô trước đó đi xa nhất cũng không tới i
-
-       
+        nếu i > maxreach tức là các ô trước đó đi xa nhất cũng không tới i=
      */
     public boolean canJump(int[] nums) {
         int maxReach = 0;
@@ -30,5 +28,4 @@ class JumpGame {
 
         return true;
     }
-}
 }

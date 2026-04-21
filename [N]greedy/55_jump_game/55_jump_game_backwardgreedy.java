@@ -1,34 +1,25 @@
 
-class JumpGame {
+class JumpGame_BackwardGreedy {
 
     /*
         tim O(n)
         space O(1)
-        
-        
-        thay vì hỏi
-            " đứng ở i đi được bao xa "
-
-        thay đổi
-            " đứng ở i đi xa nhất là bao nhiêu "
-
-        cho i tăng và cập nhật maxreach
-
-        nếu i > maxreach tức là các ô trước đó đi xa nhất cũng không tới i
-
-       
      */
     public boolean canJump(int[] nums) {
-        int maxReach = 0;
+        if(nums.length == 1) return true;
+        int n = nums.length;
+        int goal = n - 1;
 
-        for (int i = 0; i < nums.length; i++) {
-            if (i > maxReach) {
-                return false;
+        // Kiểm tra ngược từ vị trí áp cuối
+        // Xác đinh có vị trí nào nhay đến goal
+        for (int i = n - 2; i >= 0; i--) {
+            if (i + nums[i] >= goal) {
+                // 👉 Từ vị trí i, có nhảy được tới goal không?
+                // Nếu có cập nhật goal
+                goal = i;
             }
-            maxReach = Math.max(maxReach, i + nums[i]);
         }
 
-        return true;
+        return goal == 0;
     }
-}
 }
