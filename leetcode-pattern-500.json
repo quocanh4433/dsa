@@ -690,6 +690,13 @@
         "pattern": "elimination greedy",
         "solution": "[N]greedy/134_gas_station"
     },
+    {                                                                                                                            
+        "name": "55. Jump Game",
+        "leetcode_link": "https://leetcode.com/problems/jump-game/",
+        "topic": "[N]greedy",
+        "pattern": "elimination greedy",
+        "solution": "[N]greedy/55_jump_game"
+    },
 
 
 

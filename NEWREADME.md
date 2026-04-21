@@ -128,20 +128,6 @@
     
 </details>
 
-## [GREEDY](./NOTE/GREEDY.md)
-<details>
-
-- ✳️ **Easy**
-   1. [Maximize Sum Of Array After K Negations](https://github.com/quocanh4433/dsa/blob/main/GREEDY/MaximizeSumOfArrayAfterKNegations)
-
-- 📒 **Medium**
-   1. [Jump Game](https://github.com/quocanh4433/dsa/blob/main/GREEDY/JumpGame)
-   1. [Jump Game 2](https://github.com/quocanh4433/dsa/blob/main/GREEDY/JumpGame2)
-
-- ⛔️ **Hard**
-    
-</details>
-
 ## [DP](./NOTE/DP.md)
 <details>
 
