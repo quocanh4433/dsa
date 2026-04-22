@@ -712,6 +712,13 @@
         "solution": "[N]greedy/665_non_decreasing_array"
     },
     {                                                                                                                            
+        "name": "659. Split Array into Consecutive Subsequences",
+        "leetcode_link": "https://leetcode.com/problems/split-array-into-consecutive-subsequences/",
+        "topic": "[N]greedy",
+        "pattern": "invariant greedy",
+        "solution": "[N]greedy/659_split_array_into_consecutive_subsequences"
+    },
+    {                                                                                                                            
         "name": "406. Queue Reconstruction by Height",
         "leetcode_link": "https://leetcode.com/problems/queue-reconstruction-by-height/",
         "topic": "[N]greedy",
