@@ -718,13 +718,20 @@
         "pattern": "invariant greedy",
         "solution": "[N]greedy/659_split_array_into_consecutive_subsequences"
     },
-        {                                                                                                                            
+    {                                                                                                                            
         "name": "763. Partition Labels",
         "leetcode_link": "https://leetcode.com/problems/partition-labels",
         "topic": "[N]greedy",
         "pattern": "invariant greedy",
         "solution": "[N]greedy/763_partition_labels"
     },
+    {                                                                                                                            
+        "name": "1567. Maximum Length of Subarray With Positive Product",
+        "leetcode_link": "https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/",
+        "topic": "[N]greedy",
+        "pattern": "invariant greedy",
+        "solution": "[N]greedy/1567_maximum_length_of_subarray_with_positive_product"
+    },                                                                                                                                     
     {                                                                                                                            
         "name": "926. Flip String to Monotone Increasing",
         "leetcode_link": "https://leetcode.com/problems/flip-string-to-monotone-increasing/",
