@@ -37,7 +37,7 @@ class PartitionLabels {
 
 
         time O(n)
-        space O(n)
+        space O(1)
      */
     public List<Integer> partitionLabels(String s) {
         int[] last = new int[26]; // lưu vị trí cuối cùng của từng ký tự
