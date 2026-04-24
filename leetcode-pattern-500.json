@@ -753,6 +753,13 @@
         "pattern": "greedy",
         "solution": "[N]greedy/2870_minimum_number_of_operations_to_make_array_empty"
     },
+    {                                                                                                                            
+        "name": "135. Candy",
+        "leetcode_link": "https://leetcode.com/problems/candy/",
+        "topic": "[N]greedy",
+        "pattern": "greedy",
+        "solution": "[N]greedy/135_candy"
+    },
 
 
 
