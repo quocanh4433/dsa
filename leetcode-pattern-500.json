@@ -739,11 +739,14 @@
         "pattern": "invariant greedy",
         "solution": "[N]greedy/763_flip_string_to_monotone_increasing"
     },
+    {                                                                                                                            
+        "name": "1864. Minimum Number of Swaps to Make the Binary String Alternating",
+        "leetcode_link": "https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating/",
+        "topic": "[N]greedy",
+        "pattern": "greedy",
+        "solution": "[N]greedy/1864_minimum_number_of_swaps_to_make_the_binary_string_alternating"
+    },
 
-
-
-
-    
     {                                                                                                                            
         "name": "406. Queue Reconstruction by Height",
         "leetcode_link": "https://leetcode.com/problems/queue-reconstruction-by-height/",
