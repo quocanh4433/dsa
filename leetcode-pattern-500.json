@@ -740,23 +740,21 @@
         "solution": "[N]greedy/763_flip_string_to_monotone_increasing"
     },
     {                                                                                                                            
-        "name": "1864. Minimum Number of Swaps to Make the Binary String Alternating",
-        "leetcode_link": "https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating/",
-        "topic": "[N]greedy",
-        "pattern": "greedy",
-        "solution": "[N]greedy/1864_minimum_number_of_swaps_to_make_the_binary_string_alternating"
-    },
-
-    {                                                                                                                            
         "name": "406. Queue Reconstruction by Height",
         "leetcode_link": "https://leetcode.com/problems/queue-reconstruction-by-height/",
         "topic": "[N]greedy",
         "pattern": "greedy-sorting/ordering & greedy-constructor",
         "solution": "[N]greedy/406_queue_reconstruction_by_height"
     },
+    {                                                                                                                            
+        "name": "2870. Minimum Number of Operations to Make Array Empty",
+        "leetcode_link": "https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/",
+        "topic": "[N]greedy",
+        "pattern": "greedy",
+        "solution": "[N]greedy/2870_minimum_number_of_operations_to_make_array_empty"
+    },
 
 
-    
 
 
 
