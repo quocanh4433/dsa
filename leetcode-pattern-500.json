@@ -760,6 +760,13 @@
         "pattern": "greedy",
         "solution": "[N]greedy/135_candy"
     },
+    {                                                                                                                            
+        "name": "2144. Minimum Cost of Buying Candies With Discount",
+        "leetcode_link": "https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/",
+        "topic": "[N]greedy",
+        "pattern": "greedy",
+        "solution": "[N]greedy/2144_minimum_cost_of_buying_candies_with_discount"
+    },
 
 
 
