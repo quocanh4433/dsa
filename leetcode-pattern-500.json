@@ -620,183 +620,158 @@
         "pattern": "linkedlist and binary tree",
         "solution": "[B]linked_list/1367_linked_list-in_binary_tree"
     },
-
-
-
-
-    {                                                                                                                            
+    {
         "____comment___": "[H]array",
-
-
         "name": "560. Subarray Sum Equals K",
         "leetcode_link": "https://leetcode.com/problems/subarray-sum-equals-k/",
         "topic": "[H]array_prefix_sum",
         "pattern": "use hashmap to validate the gap subarray ",
         "solution": "[H]array/[H]array_prefix_sum/560_subarray_sum_equals_k"
     },
-
-   
-    
-    
-    {                                                                                                                            
+    {
         "____comment___": "[I]stack_queue",
-
-
         "name": "1249. Minimum Remove to Make Valid Parentheses",
         "leetcode_link": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
         "topic": "[I]stack_queue",
         "pattern": "use variables to simulate stack",
         "solution": "[I]stack_queue/[I]stack_queue/1249_minimum_remove_to_make_valid_parentheses"
     },
-
-
-
-
-    {                                                                                                                            
+    {
         "____comment___": "[J]backtracking",
-
-
         "name": "437. Path Sum III",
         "leetcode_link": "https://leetcode.com/problems/path-sum-iii/",
         "topic": "[J]backtracking",
         "pattern": "backtracking ",
         "solution": "[J]backtracking/437_path_sum_iii"
-    },   
-
-
-
-
-    {                                                                                                                            
+    },
+    {
         "____comment___": "[M]dynamic-programming",
-
-
         "name": "337. House Robber III",
         "leetcode_link": "https://leetcode.com/problems/house-robber-iii/",
         "topic": "[M]dynamic_programming",
         "pattern": "tree dp",
         "solution": "[M]dynamic_programming/337_house_robber_iii"
     },
-
-
-
-    
-    {                                                                                                                            
+    {
         "____comment___": "[N]greedy",
-
-
         "name": "134. Gas Station",
         "leetcode_link": "https://leetcode.com/problems/gas-station/",
         "topic": "[N]greedy",
         "pattern": "elimination greedy",
         "solution": "[N]greedy/134_gas_station"
     },
-    {                                                                                                                            
+    {
         "name": "55. Jump Game",
         "leetcode_link": "https://leetcode.com/problems/jump-game/",
         "topic": "[N]greedy",
         "pattern": "elimination greedy",
         "solution": "[N]greedy/55_jump_game"
     },
-    {                                                                                                                            
+    {
         "name": "621. Task Scheduler",
         "leetcode_link": "https://leetcode.com/problems/task-scheduler/",
         "topic": "[N]greedy",
         "pattern": "heap greedy",
         "solution": "[N]greedy/621_task_scheduler"
     },
-    {                                                                                                                            
+    {
         "name": "665. Non-decreasing Array",
         "leetcode_link": "https://leetcode.com/problems/non-decreasing-array/",
         "topic": "[N]greedy",
         "pattern": "invariant greedy",
         "solution": "[N]greedy/665_non_decreasing_array"
     },
-    {                                                                                                                            
+    {
         "name": "659. Split Array into Consecutive Subsequences",
         "leetcode_link": "https://leetcode.com/problems/split-array-into-consecutive-subsequences/",
         "topic": "[N]greedy",
         "pattern": "invariant greedy",
         "solution": "[N]greedy/659_split_array_into_consecutive_subsequences"
     },
-    {                                                                                                                            
+    {
         "name": "763. Partition Labels",
         "leetcode_link": "https://leetcode.com/problems/partition-labels",
         "topic": "[N]greedy",
         "pattern": "invariant greedy",
         "solution": "[N]greedy/763_partition_labels"
     },
-    {                                                                                                                            
+    {
         "name": "1567. Maximum Length of Subarray With Positive Product",
         "leetcode_link": "https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/",
         "topic": "[N]greedy",
         "pattern": "invariant greedy",
         "solution": "[N]greedy/1567_maximum_length_of_subarray_with_positive_product"
-    },                                                                                                                                     
-    {                                                                                                                            
+    },
+    {
         "name": "926. Flip String to Monotone Increasing",
         "leetcode_link": "https://leetcode.com/problems/flip-string-to-monotone-increasing/",
         "topic": "[N]greedy",
         "pattern": "invariant greedy",
         "solution": "[N]greedy/763_flip_string_to_monotone_increasing"
     },
-    {                                                                                                                            
+    {
         "name": "406. Queue Reconstruction by Height",
         "leetcode_link": "https://leetcode.com/problems/queue-reconstruction-by-height/",
         "topic": "[N]greedy",
         "pattern": "greedy-sorting/ordering & greedy-constructor",
         "solution": "[N]greedy/406_queue_reconstruction_by_height"
     },
-    {                                                                                                                            
+    {
         "name": "2870. Minimum Number of Operations to Make Array Empty",
         "leetcode_link": "https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/",
         "topic": "[N]greedy",
         "pattern": "greedy",
         "solution": "[N]greedy/2870_minimum_number_of_operations_to_make_array_empty"
     },
-    {                                                                                                                            
+    {
         "name": "135. Candy",
         "leetcode_link": "https://leetcode.com/problems/candy/",
         "topic": "[N]greedy",
         "pattern": "greedy",
         "solution": "[N]greedy/135_candy"
     },
-    {                                                                                                                            
+    {
         "name": "2144. Minimum Cost of Buying Candies With Discount",
         "leetcode_link": "https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/",
         "topic": "[N]greedy",
         "pattern": "greedy",
         "solution": "[N]greedy/2144_minimum_cost_of_buying_candies_with_discount"
     },
-    {                                                                                                                            
+    {
         "name": "179. Largest Number",
         "leetcode_link": "https://leetcode.com/problems/largest-number/",
         "topic": "[N]greedy",
         "pattern": "greedy",
         "solution": "[N]greedy/179_largest_number"
     },
+    {
+        "name": "45. Jump Game II",
+        "leetcode_link": "https: //leetcode.com/problems/jump-game-ii/",
+        "topic": "[N]greedy",
+        "pattern": "greedy",
+        "solution": "[N]greedy/45_jump_game_ii"
+    },
+
+                                                                                                                                                      
 
 
-
-
-
-    {                                                                                                                            
+    
+    {
         "____comment___": "[P]segment_tree",
-
-
         "name": "307. Range Sum Query - Mutable",
         "leetcode_link": "https://leetcode.com/problems/range-sum-query-mutable/",
         "topic": "[P]segment_tree",
         "pattern": "use sum type segment tree",
         "solution": "[P]segment_tree/307_range_sum_query_mutable"
     },
-    {                                                                                                                            
+    {
         "name": "729. My Calendar I",
         "leetcode_link": "https://leetcode.com/problems/my-calendar-i/",
         "topic": "[P]segment_tree",
         "pattern": "use count type segment tree",
         "solution": "[P]segment_tree/729_my_calendar_i"
     },
-    {                                                                                                                            
+    {
         "name": "731. My Calendar II",
         "leetcode_link": "https://leetcode.com/problems/my-calendar-ii/",
         "topic": "[P]segment_tree",
