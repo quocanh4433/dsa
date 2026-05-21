@@ -767,6 +767,13 @@
         "pattern": "greedy",
         "solution": "[N]greedy/2144_minimum_cost_of_buying_candies_with_discount"
     },
+    {                                                                                                                            
+        "name": "179. Largest Number",
+        "leetcode_link": "https://leetcode.com/problems/largest-number/",
+        "topic": "[N]greedy",
+        "pattern": "greedy",
+        "solution": "[N]greedy/179_largest_number"
+    },
 
 
 
