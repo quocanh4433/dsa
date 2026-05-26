@@ -83,13 +83,14 @@ class AccountsMerge {
 
 
 /*
-input = [[John, a, b], [John, a, c], [Mary, m], [John, g]]
+input = [[John, a, b, f], [John, a, c], [Mary, m], [John, g]]
 
 1. tìm parent của từng email
 
 parent = {    ban đầu mỗi email là 1 group riêng
     a: a, 
     b: b, 
+    f: f
     c: c, 
     m: m, 
     g: g
@@ -98,6 +99,7 @@ owner = {   email này thuộc owner nào
     a: John, 
     b: John, 
     c: John, 
+    f: John,
     m: Mary, 
     g: John
 }
@@ -105,19 +107,23 @@ owner = {   email này thuộc owner nào
 
 2. union các email có account
 
-    [John, a, b]
+    [John, a, b, f]
     firstEmail = a
     union(a, b)
         pa = a
         pb = b
         khác nhau: parent a -> b
+    union(a, f)
+        pa = b
+        pf = f
+        khác nhau: parent b -> f
 
     [John, a, c]
     firstEmail = a
     union(a, c)
-        pa = b
+        pa = f
         pc = c
-        kacs nhau: parent b -> c
+        kacs nhau: parent f -> c
 
 
     [Mary, m]
@@ -132,8 +138,9 @@ owner = {   email này thuộc owner nào
 sau bước thứ 2
 
 parent = {
-    a: b, 
-    b: c, 
+    a: f, 
+    b: f,
+    f: c 
     c: c, 
     m: m, 
     g: g
@@ -143,6 +150,7 @@ owner = {
     a: John, 
     b: John, 
     c: John, 
+    f: John
     m: Mary, 
     g: John
 }
@@ -150,7 +158,7 @@ owner = {
 
 3. gom nhóm theo root
 
-    parent.keySet = [a, b, c, m, g]
+    parent.keySet = [a, b, c, f, m, g]
 
     email = a
     root = find(a) = c
@@ -165,23 +173,29 @@ owner = {
         c: [a, b]
     }
 
+    email = f
+    root = find(f) = c
+    groups = {
+        c: [a, b, f]
+    }
+
     email = c
     root = find(c) = c
     groups = {
-        c: [a, b, c]
+        c: [a, b, f, c]
     }
 
     email = m
     root = find(m) = m
     groups = {
-        c: [a, b, c],
+        c: [a, b, f, c],
         m: [m]
     }
 
     email = g
     root = find(g) = g
     groups = {
-        c: [a, b, c],
+        c: [a, b, f, c],
         m: [m],
         g: [g]
     }
@@ -189,7 +203,7 @@ owner = {
 sau bước 3
 
 groups = {
-    c: [a, b, c],
+    c: [a, b, f, c],
     m: [m],
     g: [g]
 }
