@@ -751,6 +751,13 @@
         "pattern": "greedy",
         "solution": "[N]greedy/45_jump_game_ii"
     },
+    {
+        "name": "1005. Maximize Sum Of Array After K Negations",
+        "leetcode_link": "https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/",
+        "topic": "[N]greedy",
+        "pattern": "greedy",
+        "solution": "[N]greedy/1005_maximize_sum_of_array_after_k_negations"
+    },
 
                                                                                                                                                       
 

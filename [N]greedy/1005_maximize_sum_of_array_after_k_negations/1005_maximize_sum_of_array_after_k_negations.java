@@ -1,7 +1,7 @@
 
 import java.util.Arrays;
 
-public class MaximizeSumOfArrayAfterKNegations {
+class MaximizeSumOfArrayAfterKNegations {
 
     /**
      * 🎯 Ý tưởng GREEDY
@@ -12,37 +12,35 @@ public class MaximizeSumOfArrayAfterKNegations {
      * ✔️ STEP 2 — Sau khi hết số âm Nếu k vẫn còn ➤ Nếu k chẵn → tổng không đổi
      * Lật 2 lần vào cùng số → trở về ban đầu ➤ Nếu k lẻ → lật số nhỏ nhất trong
      * mảng
-     * 
-     * 
-     * Time: O(nlogn)
-     * Space: O(1)
+     *
+     *
+     * time: O(nlogn) 
+     * space: O(1)
      */
-
     public int largestSumAfterKNegations(int[] nums, int k) {
-        // STEP 1: Flip all negative values
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
+        int n = nums.length;
+
         Arrays.sort(nums);
-        for (int i = 0; i < nums.length && k > 0; i++) {
+        for (int i = 0; i < n && k > 0; i++) {
             if (nums[i] < 0) {
                 nums[i] *= -1;
                 k--;
             }
         }
 
-        // STEP 2: k still odd
         Arrays.sort(nums);
         if (k % 2 == 1) {
             nums[0] *= -1;
         }
 
-        // STEP 3: 
-        int res = 0;
+        int sum = 0;
         for (int num : nums) {
-            res += num;
+            sum += num;
         }
-        return res;
-    }
 
-    public static void main(String[] args) {
-
+        return sum;
     }
 }
