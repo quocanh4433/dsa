@@ -628,32 +628,76 @@
         "pattern": "use hashmap to validate the gap subarray ",
         "solution": "[H]array/[H]array_prefix_sum/560_subarray_sum_equals_k"
     },
+
+
+
+
+
     {
         "____comment___": "[I]stack_queue",
+
+
         "name": "1249. Minimum Remove to Make Valid Parentheses",
         "leetcode_link": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
         "topic": "[I]stack_queue",
         "pattern": "use variables to simulate stack",
         "solution": "[I]stack_queue/[I]stack_queue/1249_minimum_remove_to_make_valid_parentheses"
     },
+
+
+
+
+
     {
         "____comment___": "[J]backtracking",
+
+
         "name": "437. Path Sum III",
         "leetcode_link": "https://leetcode.com/problems/path-sum-iii/",
         "topic": "[J]backtracking",
         "pattern": "backtracking ",
         "solution": "[J]backtracking/437_path_sum_iii"
     },
+
+
+
+
+
+
+    {
+        "____comment___": "[K]graph",
+
+
+        "name": "721. Accounts Merge",
+        "leetcode_link": "https://leetcode.com/problems/accounts-merge/",
+        "topic": "[K]graph",
+        "pattern": "union find",
+        "solution": "[K]graph/[K]graph_union_find/721_accounts_merge"
+    },
+
+
+
+        
+        
     {
         "____comment___": "[M]dynamic-programming",
+
+
         "name": "337. House Robber III",
         "leetcode_link": "https://leetcode.com/problems/house-robber-iii/",
         "topic": "[M]dynamic_programming",
         "pattern": "tree dp",
         "solution": "[M]dynamic_programming/337_house_robber_iii"
     },
+
+
+
+
+
     {
         "____comment___": "[N]greedy",
+
+
         "name": "134. Gas Station",
         "leetcode_link": "https://leetcode.com/problems/gas-station/",
         "topic": "[N]greedy",
