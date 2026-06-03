@@ -674,6 +674,14 @@
         "pattern": "union find",
         "solution": "[K]graph/[K]graph_union_find/721_accounts_merge"
     },
+    {
+        "name": "2316. Count Unreachable Pairs of Nodes in an Undirected Graph",
+        "leetcode_link": "https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/",
+        "topic": "[K]graph",
+        "pattern": "union find",
+        "solution": "[K]graph/[K]graph_union_find/2316_count_unreachable_pairs_of_nodes_in_an_undirected_graph"
+    },
+
 
 
 
