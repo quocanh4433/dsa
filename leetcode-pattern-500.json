@@ -682,6 +682,13 @@
         "solution": "[K]graph/[K]graph_union_find/2316_count_unreachable_pairs_of_nodes_in_an_undirected_graph"
     },
     {
+        "name": "684. Redundant Connection",
+        "leetcode_link": "https://leetcode.com/problems/redundant-connection/",
+        "topic": "[K]graph",
+        "pattern": "union find",
+        "solution": "[K]graph/[K]graph_union_find/684_redundant_connection"
+    },
+    {
         "name": "399. Evaluate Division",
         "leetcode_link": "https://leetcode.com/problems/evaluate-division/",
         "topic": "[K]graph",
