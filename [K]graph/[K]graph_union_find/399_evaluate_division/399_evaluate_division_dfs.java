@@ -25,14 +25,34 @@ class EvaluateDivision_DFS {
 
         time    O(n + e) mỗi node và cạnh duyệt qua 1 lần
         space   O(n)
-            - mang visited: O(n)
+            - array visited: O(n)
             - recursion:    O(n)
 
 
+              
         time và space với q query
 
-        time    O(q * (n + e)) mỗi node và cạnh duyệt qua 1 lần
-        space   O(n)
+        time    O(q * (n + e))
+        space   O(n)    
+
+
+
+        
+        tại sao time là O(n + e) mà không phải O(n)?
+            - mỗi node chỉ đi qua 1 lần là O(n)
+            - mỗi node tạo 2 edge
+                vd: a --> b và a <-- b    
+                n = 10000  
+                e = 2*1000 = 2000
+
+        tại sao có những problem time là O(n + e) ~ O(n)?
+            vì đó là undirected graph hoặc graph 1 chiều 
+            có n node thì có n - 1 edge
+
+            suy ra O(n + e) ~ O(2n) ~ O(n)
+
+
+      
      */
     private Map<String, Map<String, Double>> graph;
 

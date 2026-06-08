@@ -69,11 +69,11 @@ class CountUnreachablePairsOfNodesInAnUndirectedGraph {
 
         /*
             tại sao dùng long?
-                worst-case n = 100000 và các node riêng lẻ không liên kết với nhau
+                worst-case n = 100,000 và các node riêng lẻ không liên kết với nhau
 
-                suy ra mỗi node sex không kết nối với 99999 còn lại, mà có 100000 node
+                suy ra mỗi node sẽ không kết nối với 99,999 còn lại, mà có 100,0000 node
 
-                -> result = (100000 * 99999) / 2 
+                -> result = (100,000 * 99,999) / 2 
                 -> result ~ 5 tỷ vượt qua int (~2.2ty)
 
 
