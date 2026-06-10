@@ -61,12 +61,15 @@ class EvaluateDivision_UnionFind {
 
     public double[] calcEquation(List<List<String>> equations, double[] values, List<List<String>> queries) {
         
+        // 1. union
         for(int i = 0; i < equations.size(); i++) {
             String x = equations.get(i).get(0);
             String y = equations.get(i).get(1);
             union(x, y, values[i]);
         }
 
+
+        // 2. queries 
         double[] ans = new double[queries.size()];
 
         for(int i = 0; i < queries.size(); i++) {
@@ -107,7 +110,7 @@ weight: {
     b: 1.0
 }
 
-weight[x] cho biết tỷ lệ của nodeX với node cha trực tiếp
+1. union
 
 ["a","b"]
     rootA = a
@@ -128,6 +131,7 @@ weight[x] cho biết tỷ lệ của nodeX với node cha trực tiếp
         weight.put(b,  weightB) = weight.put(b, 3)
 
 SAU KHI UNION
+
 parent: {
     a: b,
     b: c,
@@ -138,5 +142,34 @@ weight: {
     b: 3.0,
     c: 1.0
 }
+
+
+2. query
+
+["a","c"] 
+    rootA = find(a) = c
+        String p = b
+        String root = c
+        parent.put(a, c)
+        weight.put(a, weight[a] * weight[b]) ~ weight.put(a, 6)
+
+    rootb = find(b) = c
+    
+
+    sau khi find
+    parent: {
+        a: c,
+        b: c,
+        c: c
+    }
+    weight: {
+        a: 6.0,
+        b: 3.0,
+        c: 1.0
+    }
+
+    rootA == rootB
+
+    -> ans = weight(a) / weight(c) = 6 / 1 = 6
 
  */
