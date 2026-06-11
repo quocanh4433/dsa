@@ -695,6 +695,13 @@
         "pattern": "weighted union find",
         "solution": "[K]graph/[K]graph_union_find/399_evaluate_division"
     },
+    {
+        "name": "130. Surrounded Regions",
+        "leetcode_link": "https://leetcode.com/problems/surrounded-regions/",
+        "topic": "[K]graph",
+        "pattern": "weighted union find",
+        "solution": "[K]graph/[K]graph_union_find/130_surrounded_regions"
+    },
 
 
 
