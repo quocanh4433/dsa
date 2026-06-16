@@ -699,8 +699,15 @@
         "name": "130. Surrounded Regions",
         "leetcode_link": "https://leetcode.com/problems/surrounded-regions/",
         "topic": "[K]graph",
-        "pattern": "weighted union find",
+        "pattern": "union find",
         "solution": "[K]graph/[K]graph_union_find/130_surrounded_regions"
+    },
+    {
+        "name": "947. Most Stones Removed with Same Row or Column",
+        "leetcode_link": "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/",
+        "topic": "[K]graph",
+        "pattern": "union find",
+        "solution": "[K]graph/[K]graph_union_find/947_most_stones_removed_with_same_row_or_column"
     },
 
 
@@ -831,6 +838,13 @@
         "topic": "[N]greedy",
         "pattern": "greedy",
         "solution": "[N]greedy/1005_maximize_sum_of_array_after_k_negations"
+    },
+    {
+        "name": "455. Assign Cookies",
+        "leetcode_link": "https://leetcode.com/problems/assign-cookies/",
+        "topic": "[N]greedy",
+        "pattern": "greedy",
+        "solution": "[N]greedy/455_assign_cookies"
     },
 
                                                                                                                                                       
