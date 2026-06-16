@@ -846,6 +846,13 @@
         "pattern": "greedy",
         "solution": "[N]greedy/455_assign_cookies"
     },
+    {
+        "name": "561. Array Partition",
+        "leetcode_link": "https://leetcode.com/problems/array-partition/",
+        "topic": "[N]greedy",
+        "pattern": "greedy",
+        "solution": "[N]greedy/561_array_partition"
+    },
 
                                                                                                                                                       
 
