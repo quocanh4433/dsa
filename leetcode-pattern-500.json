@@ -860,6 +860,13 @@
         "pattern": "greedy",
         "solution": "[N]greedy/860_lemonade_change"
     },
+    {
+        "name": "860. Lemonade Change",
+        "leetcode_link": "https://leetcode.com/problems/di-string-match/",
+        "topic": "[N]greedy",
+        "pattern": "greedy",
+        "solution": "[N]greedy/860_lemonade_change"
+    },
 
                                                                                                                                                       
 
