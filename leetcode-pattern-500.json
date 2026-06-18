@@ -861,11 +861,18 @@
         "solution": "[N]greedy/860_lemonade_change"
     },
     {
-        "name": "860. Lemonade Change",
+        "name": "942. DI String Match",
         "leetcode_link": "https://leetcode.com/problems/di-string-match/",
         "topic": "[N]greedy",
         "pattern": "greedy",
-        "solution": "[N]greedy/860_lemonade_change"
+        "solution": "[N]greedy/942_di_string_match"
+    },
+    {
+        "name": "1403. Minimum Subsequence in Non-Increasing Order",
+        "leetcode_link": "https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/",
+        "topic": "[N]greedy",
+        "pattern": "greedy",
+        "solution": "[N]greedy/1403_minimum_subsequence_in_non_increasing_order"
     },
 
                                                                                                                                                       
