@@ -710,6 +710,21 @@
         "solution": "[K]graph/[K]graph_union_find/947_most_stones_removed_with_same_row_or_column"
     },
 
+     {
+        "name": "207. Course Schedule",
+        "leetcode_link": "https://leetcode.com/problems/course-schedule/",
+        "topic": "[K]graph",
+        "pattern": "kahn (topological sort)",
+        "solution": "[K]graph/[K]graph_kahn/207_course_schedule"
+    },
+    {
+        "name": "2115. Find All Possible Recipes from Given Supplies",
+        "leetcode_link": "https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/",
+        "topic": "[K]graph",
+        "pattern": "kahn (topological sort)",
+        "solution": "[K]graph/[K]graph_kahn/2115_find_all_possible_recipes_from_given_supplies"
+    },
+
 
 
 
