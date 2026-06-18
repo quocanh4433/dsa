@@ -874,6 +874,13 @@
         "pattern": "greedy",
         "solution": "[N]greedy/1403_minimum_subsequence_in_non_increasing_order"
     },
+    {
+        "name": "1827. Minimum Operations to Make the Array Increasing",
+        "leetcode_link": "https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/",
+        "topic": "[N]greedy",
+        "pattern": "greedy",
+        "solution": "[N]greedy/1827_minimum_operations_to_make_the_array_increasing"
+    },
 
                                                                                                                                                       
 
