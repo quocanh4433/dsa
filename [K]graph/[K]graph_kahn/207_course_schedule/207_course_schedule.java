@@ -4,7 +4,17 @@ import java.util.List;
 import java.util.Queue;
 
 class CourseSchedule {
+    /*
+        n: numCourses
+        e: len(prerequisites)
 
+        time O(n + e)
+        space O(n + e) 
+            - graph: O(n + e)
+            - indegree: O(n)
+            - queue: O(n)
+    
+    */
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         List<List<Integer>> graph = new ArrayList<>();
 
