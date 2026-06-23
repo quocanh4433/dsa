@@ -724,10 +724,15 @@
         "pattern": "kahn (topological sort)",
         "solution": "[K]graph/[K]graph_kahn/2115_find_all_possible_recipes_from_given_supplies"
     },
+     {
+        "name": "802. Find Eventual Safe States",
+        "leetcode_link": "https://leetcode.com/problems/find-eventual-safe-states/",
+        "topic": "[K]graph",
+        "pattern": "kahn reverse (topological sort)",
+        "solution": "[K]graph/[K]graph_kahn/802_find_eventual_safe_states"
+    },
 
-
-
-
+                                                                                      
 
         
         
