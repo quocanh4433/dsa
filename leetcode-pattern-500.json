@@ -748,7 +748,7 @@
         "name": "310. Minimum Height Trees",
         "leetcode_link": "https://leetcode.com/problems/minimum-height-trees/",
         "topic": "[K]graph",
-        "pattern": "kahn reverse (topological sort)",
+        "pattern": "kahn (topological sort) idea for undirected graph",
         "solution": "[K]graph/[K]graph_kahn/310_minimum_height_trees"
     },
        
