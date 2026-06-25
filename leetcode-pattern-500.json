@@ -738,6 +738,13 @@
         "solution": "[K]graph/[K]graph_kahn/2115_find_all_possible_recipes_from_given_supplies"
     },
     {
+        "name": "2192. All Ancestors of a Node in a Directed Acyclic Graph",
+        "leetcode_link": "https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/",
+        "topic": "[K]graph",
+        "pattern": "kahn (topological sort)",
+        "solution": "[K]graph/[K]graph_kahn/2192_all_ancestors_of_a_node_in_a_directed_acyclic_graph"
+    },
+    {
         "name": "802. Find Eventual Safe States",
         "leetcode_link": "https://leetcode.com/problems/find-eventual-safe-states/",
         "topic": "[K]graph",
