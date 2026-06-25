@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Queue;
 
 class MinimumHeightTrees {
-
     /*
         problem là undirected graph nhưng vẫn áp dung Kahn's Algorithms?
         - nó chỉ mượn ý tưởng từ Kahn's Algorithms
@@ -44,16 +43,31 @@ class MinimumHeightTrees {
         0       4
 
         
-        lưu ý nếu tổng số canh tức n - 1 là số lẻ thì có 2 root thỏa điều kiện      
+        lưu ý nếu tổng số canh tức n - 1 là số lẻ thì có 2 root thỏa điều kiện
+
+            2 - 3
+           /     \
+          1       4
+         /         \
+        0           5
+
+
+        time O(n)
+        space O(n)
+
+
+        nên ưu tiên dùng hashset để khi remove O(1)
      */
     public List<Integer> findMinHeightTrees(int n, int[][] edges) {
-        List<List<Integer>> graph = new ArrayList<>();
+        if(n == 1) return Arrays.asList(0);
 
-        for (int i = 0; i < n; i++) {
-            graph.add(new ArrayList<>());
+        List<Set<Integer>> graph = new ArrayList<>();
+       
+        for(int i = 0; i < n; i++) {
+            graph.add(new HashSet<>());
         }
 
-        for (int[] e : edges) {
+        for(int[] e : edges) {
             int u = e[0];
             int v = e[1];
             graph.get(u).add(v);
@@ -62,25 +76,37 @@ class MinimumHeightTrees {
 
         Queue<Integer> q = new LinkedList<>();
 
-        for (int i = 0; i < n; i++) {
-            if (graph.get(i).size() == 1) {
+        for(int i = 0; i < n; i++) {
+            if(graph.get(i).size() == 1) {
                 q.offer(i);
             }
         }
 
         int remainNode = n;
 
-        while (remainNode > 2) { // vì chỉ có thể lấy tối đa 2 node làm root
+        while(remainNode > 2) { // vì chỉ có thể lấy tối đa 2 node làm root
             int size = q.size();
             remainNode -= size;
 
-            for (int i = 0; i < size; i++) {
+            for(int i = 0; i < size; i++) {
                 int leaf = q.poll();
-              
-            }
+                int neighboor = graph.get(leaf).iterator().next();
+                graph.get(neighboor).remove(leaf);
 
+                if(graph.get(neighboor).size() == 1) {
+                    q.offer(neighboor);
+                }
+            }
         }
 
-        return null;
+
+        List<Integer> res = new ArrayList<>();
+
+        while(!q.isEmpty()) {
+            int node = q.poll();
+            res.add(node);
+        }
+
+        return res;
     }
 }
