@@ -745,6 +745,13 @@
         "solution": "[K]graph/[K]graph_kahn/2192_all_ancestors_of_a_node_in_a_directed_acyclic_graph"
     },
     {
+        "name": "2050. Parallel Courses III",
+        "leetcode_link": "https://leetcode.com/problems/parallel-courses-iii/",
+        "topic": "[K]graph",
+        "pattern": "kahn (topological sort)",
+        "solution": "[K]graph/[K]graph_kahn/2050_parallel_courses_iii"
+    },
+    {
         "name": "802. Find Eventual Safe States",
         "leetcode_link": "https://leetcode.com/problems/find-eventual-safe-states/",
         "topic": "[K]graph",
@@ -758,6 +765,8 @@
         "pattern": "kahn (topological sort) idea for undirected graph",
         "solution": "[K]graph/[K]graph_kahn/310_minimum_height_trees"
     },
+
+  
        
     
         
