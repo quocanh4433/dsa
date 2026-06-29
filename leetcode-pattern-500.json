@@ -779,9 +779,13 @@
         "pattern": "dijkstra (shortest path)",
         "solution": "[K]graph/[K]graph_dijkstra/1514_path_with_maximum_probability"
     },
-
-   
-
+    {
+        "name": "787. Cheapest Flights Within K Stops",
+        "leetcode_link": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+        "topic": "[K]graph",
+        "pattern": "bellman ford (shortest path)",
+        "solution": "[K]graph/[K]graph_bellman_ford/787_cheapest_flights_within_k_stops"
+    },
 
 
        
