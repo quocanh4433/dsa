@@ -765,8 +765,18 @@
         "pattern": "kahn (topological sort) idea for undirected graph",
         "solution": "[K]graph/[K]graph_kahn/310_minimum_height_trees"
     },
+      {
+        "name": "743. Network Delay Time",
+        "leetcode_link": "https://leetcode.com/problems/network-delay-time/",
+        "topic": "[K]graph",
+        "pattern": "dijkstra (shortest path)",
+        "solution": "[K]graph/[K]graph_dijkstra/743_network_delay_time"
+    },
 
-  
+   
+
+
+
        
     
         
