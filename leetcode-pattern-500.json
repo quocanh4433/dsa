@@ -786,8 +786,16 @@
         "pattern": "bellman ford (shortest path)",
         "solution": "[K]graph/[K]graph_bellman_ford/787_cheapest_flights_within_k_stops"
     },
+    {
+        "name": "1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance",
+        "leetcode_link": "https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/",
+        "topic": "[K]graph",
+        "pattern": "floyd warshall (shortest path)",
+        "solution": "[K]graph/[K]graph_floyd_warshall/1334_find_the_city_with_the_smallest_number_of_neighbors_at_a_threshold_distance/"
+    },
 
 
+   
        
     
         
