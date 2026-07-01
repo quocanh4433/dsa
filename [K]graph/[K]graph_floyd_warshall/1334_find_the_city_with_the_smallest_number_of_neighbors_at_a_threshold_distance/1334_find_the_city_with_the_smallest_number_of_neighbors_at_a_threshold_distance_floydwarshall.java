@@ -7,15 +7,12 @@ class Solution_Floyd {
         - matrix O(n**2)
         - build graph O(e)
         - floydwarshall O(n**3)
-
-        -> time O(n**3)
+        -> time: O(n**3)
 
 
         - dist[][] O(n**2)
         - another variable O(1)
-
-        -> space O(n**2)
-    
+        -> space: O(n**2)
     
      */
     public int findTheCity(int n, int[][] edges, int distanceThreshold) {
