@@ -793,9 +793,16 @@
         "pattern": "floyd warshall (shortest path)",
         "solution": "[K]graph/[K]graph_floyd_warshall/1334_find_the_city_with_the_smallest_number_of_neighbors_at_a_threshold_distance/"
     },
+    {
+        "name": "1584. Min Cost to Connect All Points",
+        "leetcode_link": "https://leetcode.com/problems/min-cost-to-connect-all-points/",
+        "topic": "[K]graph",
+        "pattern": "kruskal (mst)",
+        "solution": "[K]graph/[K]graph_kruskal/1584_min_cost_to_connect_all_points/"
+    },
 
 
-   
+
        
     
         
