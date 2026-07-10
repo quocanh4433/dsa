@@ -801,6 +801,15 @@
         "solution": "[K]graph/[K]graph_kruskal/1584_min_cost_to_connect_all_points/"
     },
 
+    {
+        "name": "1582. Special Positions in a Binary Matrix",
+        "leetcode_link": "https://leetcode.com/problems/special-positions-in-a-binary-matrix/",
+        "topic": "[K]graph",
+        "pattern": "matrix",
+        "solution": "[K]graph/[K]graph_matrix/1582_special_positions_in_a_binary_matrix/"
+    },
+
+
 
 
        
