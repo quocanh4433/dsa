@@ -801,6 +801,13 @@
         "solution": "[K]graph/[K]graph_kruskal/1584_min_cost_to_connect_all_points/"
     },
     {
+        "name": "1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree",
+        "leetcode_link": "https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/",
+        "topic": "[K]graph",
+        "pattern": "kruskal (mst)",
+        "solution": "[K]graph/[K]graph_kruskal/1489_find_critical_and_pseudo_critical_edges_in_minimum_spanning_tree/"
+    },
+    {
         "name": "73. Set Matrix Zeroes",
         "leetcode_link": "https://leetcode.com/problems/set-matrix-zeroes/",
         "topic": "[K]graph",
