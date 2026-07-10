@@ -1,6 +1,10 @@
 
 class SpecialPositionsInABinaryMatrix {
-        public int numSpecial(int[][] mat) {
+    /*
+        time O(r * c)
+        space O(r + c)
+    */
+    public int numSpecial(int[][] mat) {
         int n = mat.length;
         int m = mat[0].length;
 
