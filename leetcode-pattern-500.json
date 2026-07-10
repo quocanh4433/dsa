@@ -800,7 +800,13 @@
         "pattern": "kruskal (mst)",
         "solution": "[K]graph/[K]graph_kruskal/1584_min_cost_to_connect_all_points/"
     },
-
+    {
+        "name": "73. Set Matrix Zeroes",
+        "leetcode_link": "https://leetcode.com/problems/set-matrix-zeroes/",
+        "topic": "[K]graph",
+        "pattern": "matrix",
+        "solution": "[K]graph/[K]graph_matrix/73_set_matrix_zeroes/"
+    },
     {
         "name": "1582. Special Positions in a Binary Matrix",
         "leetcode_link": "https://leetcode.com/problems/special-positions-in-a-binary-matrix/",
