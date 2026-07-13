@@ -621,7 +621,21 @@
         "solution": "[B]linked_list/1367_linked_list-in_binary_tree"
     },
     {
+        "name": "1206. Design Skiplist",
+        "leetcode_link": "https://leetcode.com/problems/design-skiplist/",
+        "topic": "[B]linked_list",
+        "pattern": "skiplist",
+        "solution": "[B]linked_list/1206_design_skiplist"
+    },
+
+
+
+
+
+    {
         "____comment___": "[H]array",
+
+
         "name": "560. Subarray Sum Equals K",
         "leetcode_link": "https://leetcode.com/problems/subarray-sum-equals-k/",
         "topic": "[H]array_prefix_sum",
