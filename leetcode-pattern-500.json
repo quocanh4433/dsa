@@ -667,8 +667,14 @@
         "pattern": "store val",
         "solution": "[C]hashmap/1805_number_of_different_integers_in_a_string"
     },
+    {
+        "name": "128. Longest Consecutive Sequence",
+        "leetcode_link": "https://leetcode.com/problems/longest-consecutive-sequence/",
+        "topic": "[C]hashmap",
+        "pattern": "store val",
+        "solution": "[C]hashmap/128_longest_consecutive_sequence"
+    },
 
-  
 
 
 
