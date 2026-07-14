@@ -644,14 +644,21 @@
         "leetcode_link": "https://leetcode.com/problems/design-hashset/",
         "topic": "[C]hashmap",
         "pattern": "separate chaining",
-        "solution": "[H]array/705_design_hashset"
+        "solution": "[C]hashmap/705_design_hashset"
     },
     {
         "name": "706. Design HashMap",
         "leetcode_link": "https://leetcode.com/problems/design-hashmap/",
         "topic": "[C]hashmap",
         "pattern": "separate chaining",
-        "solution": "[H]array/706_design_hashmap"
+        "solution": "[C]hashmap/706_design_hashmap"
+    },
+    {
+        "name": "217. Contains Duplicate",
+        "leetcode_link": "https://leetcode.com/problems/contains-duplicate/",
+        "topic": "[C]hashmap",
+        "pattern": "store val",
+        "solution": "[C]hashmap/217_contains_duplicate"
     },
     {
         "name": "1805. Number of Different Integers in a String",
