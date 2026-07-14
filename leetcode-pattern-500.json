@@ -1,6 +1,8 @@
 [
     {
-        "____comment___": "[A]tree_divide_and_conquer",
+        "____comment___": "[A]tree",
+
+
         "name": "100. Same Tree",
         "leetcode_link": "https://leetcode.com/problems/same-tree/",
         "topic": "[A]tree_divide_and_conquer",
@@ -162,7 +164,6 @@
         "solution": "[A]tree/[A]tree_divide_and_conquer/235_lowest_common_ancestor_of_a_binary_search_tree"
     },
     {
-        "____comment___": "[A]tree_bfs",
         "name": "102. Binary Tree Level Order Traversal",
         "leetcode_link": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
         "topic": "[A]tree_bfs",
@@ -268,7 +269,6 @@
         "solution": "[A]tree/[A]tree_bfs/2583_kth_largest_sum_in_a_binary_tree"
     },
     {
-        "____comment___": "[A]tree_dfs_preorder",
         "name": "872. Leaf-Similar Trees",
         "leetcode_link": "https://leetcode.com/problems/leaf-similar-trees/",
         "topic": "[A]tree_dfs_preorder",
@@ -409,8 +409,15 @@
         "pattern": "postorder",
         "solution": "[A]tree/[A]tree_dfs_postorder/2246_longest_path_with_different_adjacent_characters"
     },
+
+
+
+
+
     {
         "____comment___": "[B]linked_list",
+
+
         "name": "21. Merge Two Sorted Lists",
         "leetcode_link": "https://leetcode.com/problems/merge-two-sorted-lists/",
         "topic": "[B]linked_list",
@@ -629,6 +636,20 @@
     },
 
 
+
+
+    {
+        "____comment___": "[C]hashmap",
+
+
+        "name": "1805. Number of Different Integers in a String",
+        "leetcode_link": "https://leetcode.com/problems/number-of-different-integers-in-a-string/",
+        "topic": "[H]array_prefix_sum",
+        "pattern": "use hashmap to validate the gap subarray ",
+        "solution": "[H]array/[H]array_prefix_sum/560_subarray_sum_equals_k"
+    },
+
+| 090 |          | []()                                                                       | [C]hashmap                               | store val                                              | [Python]([C]hashmap/[C]hashmap/1805-number-of-different-integers-in-a-string.py)    
 
 
 
