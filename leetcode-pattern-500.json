@@ -636,20 +636,28 @@
     },
 
 
-
-
-    {
+     {
         "____comment___": "[C]hashmap",
 
 
-        "name": "1805. Number of Different Integers in a String",
-        "leetcode_link": "https://leetcode.com/problems/number-of-different-integers-in-a-string/",
-        "topic": "[H]array_prefix_sum",
-        "pattern": "use hashmap to validate the gap subarray ",
-        "solution": "[H]array/[H]array_prefix_sum/560_subarray_sum_equals_k"
+        "name": "705. Design HashSet ✅",
+        "leetcode_link": "https://leetcode.com/problems/design-hashset/",
+        "topic": "[C]hashmap",
+        "pattern": "separate chaining",
+        "solution": "[H]array/705_design_hashset"
     },
 
-| 090 |          | []()                                                                       | [C]hashmap                               | store val                                              | [Python]([C]hashmap/[C]hashmap/1805-number-of-different-integers-in-a-string.py)    
+    {
+        "name": "1805. Number of Different Integers in a String",
+        "leetcode_link": "https://leetcode.com/problems/number-of-different-integers-in-a-string/",
+        "topic": "[C]hashmap",
+        "pattern": "store val",
+        "solution": "[C]hashmap/1805_number_of_different_integers_in_a_string"
+    },
+
+  
+
+
 
 
 

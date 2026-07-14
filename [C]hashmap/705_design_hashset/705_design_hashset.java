@@ -1,33 +1,42 @@
-public class DesignHashSet {
+
+class MyHashSet {
+
     /*
     
     add() 
-        Time: O(1) - worst case: O(n)
+        time: O(1) - worst case: O(n)
     
     contains() 
-        Time: O(1) - worst case: O(n)
+        time: O(1) - worst case: O(n)
     
     remove() 
-        Time: O(1) - worst case: O(n)
+        time: O(1) - worst case: O(n)
 
-    Space:
+    space:
         - mảng set: O(SIZE)
         - mỗi key 1 node -> n key -> O(n)
         -> O(SIZE + n) = O(n) 🔹
     
-    */
-    
-    private class Node {
-        int key;
+     */
+    class Node {
+
+        int val;
         Node next;
 
-        Node(int key) {
-            this.key = key;
+        Node(int val) {
+            this.val = val;
             this.next = null;
         }
     }
 
-    public int getIndex(int key) {
+    private final Node[] set;
+    private final int SIZE = 10000;
+
+    public MyHashSet() {
+        set = new Node[SIZE];
+    }
+
+    private int getIndex(int key) {
         /*  
             Chuyển key sang index trong mảng set
         
@@ -44,60 +53,56 @@ public class DesignHashSet {
         return key % SIZE;
     }
 
-    private final Node[] set;
-    private final int SIZE = 10000;
-
-    public MyHashSet() {
-        set = new Node[SIZE];
-    }
-
     public void add(int key) {
         int index = getIndex(key);
         Node head = set[index];
-        Node curr = head;
-        while (curr != null) {
-            // HashSet không được trùng value
-            if (curr.key == key) {
+        Node cur = head;
+
+        // kiểm tra key đã xuất hiện trong set chưa
+        while (cur != null) {
+            if (cur.val == key) {
                 return;
             }
-            curr = curr.next;
+            cur = cur.next;
         }
-        // hêm node mới vào đầu list
+
         Node newNode = new Node(key);
+        // thêm vào đầu danh sách
         newNode.next = head;
+        // cập nhật lại danh sách
         set[index] = newNode;
     }
 
     public void remove(int key) {
         int index = getIndex(key);
-        Node curr = set[index];
+        Node cur = set[index];
         Node prev = null;
-        while (curr != null) {
-            if (curr.key == key) {
-                if (prev == null) { // xóa node đầu
-                    set[index] = curr.next;
-                } else { // xóa node giữa/cuối
-                    prev.next = curr.next;
+
+        while (cur != null) {
+            if (cur.val == key) {
+                if (prev == null) {
+                    set[index] = cur.next;
+                } else {
+                    prev.next = cur.next;
                 }
+                break;
             }
-            prev = curr;
-            curr = curr.next;
+            prev = cur;
+            cur = cur.next;
         }
     }
 
     public boolean contains(int key) {
         int index = getIndex(key);
-        Node curr = set[index];
-        while (curr != null) {
-            if (curr.key == key) {
+        Node cur = set[index];
+
+        while (cur != null) {
+            if (cur.val == key) {
                 return true;
             }
-            curr = curr.next;
+            cur = cur.next;
         }
+
         return false;
-    }
-    
-    public static void main(String[] args) {
-        
     }
 }
