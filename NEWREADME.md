@@ -327,3 +327,133 @@
     1. [⛔️ 2468_split_message_based_on_limit](https://github.com/quocanh4433/dsa/blob/main/STRINGPARSER/2468_split_message_based_on_limit)
 
 </details>
+
+
+
+## ------------------------------------------------------------------------------------------------------------
+## ------------------------------------------------------------------------------------------------------------
+## ------------------------------------------------------------------------------------------------------------
+
+# ARRAY & HASHING / TWO POINTER / SLIDING WINDOW [🔗](./NOTE/Array.md)
+
+![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
+![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
+1. [Remove Element](https://github.com/quocanh4433/dsa/blob/main/ARRAY/RemoveElement)
+1. [Remove Duplicates From Sorted Array](https://github.com/quocanh4433/dsa/blob/main/ARRAY/RemoveDuplicatesFromSortedArray)
+1. [Valid Anagram](https://github.com/quocanh4433/dsa/blob/main/ARRAY/ValidAnagram)
+1. [Valid Palindrome](https://github.com/quocanh4433/dsa/blob/main/ARRAY/ValidPalindrome)
+1. [Valid Palindrome 2](https://github.com/quocanh4433/dsa/blob/main/ARRAY/ValidPalindrome2)
+1. [Merge Sorted Array](https://github.com/quocanh4433/dsa/blob/main/ARRAY/MergeSortedArray)
+1. [Merge Strings Alternately](https://github.com/quocanh4433/dsa/blob/main/ARRAY/MergeStringsAlternately)
+1. [Longest Common Prefix](https://github.com/quocanh4433/dsa/blob/main/ARRAY/LongestCommonPrefix)
+1. [Longest Harmonious Subsequence](https://github.com/quocanh4433/dsa/blob/main/ARRAY/LongestHarmoniousSubsequence)
+1. [Majority Element](https://github.com/quocanh4433/dsa/blob/main/ARRAY/MajorityElement)
+1. [Concatenation of Array](https://github.com/quocanh4433/dsa/blob/main/ARRAY/ConcatenationOfArray)
+1. [Contains Duplicate 2](https://github.com/quocanh4433/dsa/blob/main/ARRAY/ContainsDuplicate2)
+1. [Can Place Flowers](https://github.com/quocanh4433/dsa/blob/main/ARRAY/CanPlaceFlowers)
+1. [Monotonic Array](https://github.com/quocanh4433/dsa/blob/main/ARRAY/MonotonicArray)
+1. [Find Pivot Index](https://github.com/quocanh4433/dsa/blob/main/ARRAY/FindPivotIndex)
+1. [Find All Duplicates in an Array](https://github.com/quocanh4433/dsa/blob/main/ARRAY/FindAllDuplicatesInAnArray)
+1. [Find All Numbers Disappeared In An Array](https://github.com/quocanh4433/dsa/blob/main/ARRAY/FindAllNumbersDisappearedInAnArray)
+1. [Simple Bank System](https://github.com/quocanh4433/dsa/blob/main/ARRAY/SimpleBankSystem)
+1. [Single Number (LÀM LẠI KHI HỌC BIT MANUPLATION)](https://github.com/quocanh4433/dsa/blob/main/ARRAY/SingleNumber)
+1. [Best Time To Buy And Sell Stock](https://github.com/quocanh4433/dsa/blob/main/ARRAY/BestTimeToBuyAndSellStock)
+1. [Two Sum](https://github.com/quocanh4433/dsa/blob/main/ARRAY/TwoSum)
+1. [Happy Number](https://github.com/quocanh4433/dsa/blob/main/ARRAY/HappyNumber)
+1. [Range Sum Query - Immutable](https://github.com/quocanh4433/dsa/blob/main/ARRAY/RangeSumQuery-Immutable)
+1. [Max Consecutive Ones](https://github.com/quocanh4433/dsa/blob/main/ARRAY/MaxConsecutiveOnes)
+
+
+
+![Medium](https://img.shields.io/badge/Difficulty-Medium-orange?style=for-the-badge&logo=leetcode)
+![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
+1. [Longest Substring Without Repeating Characters](https://github.com/quocanh4433/dsa/blob/main/ARRAY/LongestSubstringWithoutRepeatingCharacters/)
+1. [Longest Repeating Character Replacement](https://github.com/quocanh4433/dsa/blob/main/ARRAY/LongestRepeatingCharacterReplacement/)
+1. [Longest Consecutive Sequence](https://github.com/quocanh4433/dsa/blob/main/ARRAY/LongestConsecutiveSequence)
+1. [Group Anagram](https://github.com/quocanh4433/dsa/blob/main/ARRAY/GroupAnagram/)
+1. [Two Sum II - Input Array Is Sorted](https://github.com/quocanh4433/dsa/blob/main/ARRAY/TwoSum2InputArrayIsSorted)
+1. [Three Sum](https://github.com/quocanh4433/dsa/blob/main/ARRAY/ThressSum/)
+1. [Three Sum Closest](https://github.com/quocanh4433/dsa/blob/main/ARRAY/ThreeSumClosest/)
+1. [Four Sum](https://github.com/quocanh4433/dsa/blob/main/ARRAY/FourSum/)
+1. [Container With Most Water](https://github.com/quocanh4433/dsa/blob/main/ARRAY/ContainerWithMostWater/)
+1. [Majority Element II](https://github.com/quocanh4433/dsa/blob/main/ARRAY/MajorityElement2)
+1. [Valid Sudoku](https://github.com/quocanh4433/dsa/blob/main/ARRAY/ValidSoduku)
+1. [Maximun Subarray](https://github.com/quocanh4433/dsa/blob/main/ARRAY/MaximunSubarray)
+1. [Rotate Array](https://github.com/quocanh4433/dsa/blob/main/ARRAY/RotateArray)
+1. [Permutation In String](https://github.com/quocanh4433/dsa/blob/main/ARRAY/PermutationInString)
+1. [Boats To Save People](https://github.com/quocanh4433/dsa/blob/main/ARRAY/BoatsToSavePeople)
+1. [Minimum Size Subarray Sum](https://github.com/quocanh4433/dsa/blob/main/ARRAY/MinimumSizeSubarraySum)
+1. [Find K Closest Elements (LÀM LẠI KHI HỌC ĐẾN BINARY SEARCH)](https://github.com/quocanh4433/dsa/blob/main/ARRAY/FindKClosestElements)
+1. [Average Waiting Time (LÀM LẠI KHI HỌC ĐẾN HEAP)](https://github.com/quocanh4433/dsa/blob/main/ARRAY/AverageWaitingTime)
+1. [CustomSortString](https://github.com/quocanh4433/dsa/blob/main/ARRAY/CustomSortString)
+1. [Number Of Substrings Containing All Three Characters](https://github.com/quocanh4433/dsa/blob/main/ARRAY/NumberOfSubstringsContainingAllThreeCharacters)
+1. [Get Equal Substrings Within Budget](https://github.com/quocanh4433/dsa/blob/main/ARRAY/GetEqualSubstringsWithinBudget)
+1. [Best Time To Buy And Sell Stock 2](https://github.com/quocanh4433/dsa/blob/main/ARRAY/BestTimeToBuyAndSellStock2)
+1. [Number of Laser Beams in a Bank](https://github.com/quocanh4433/dsa/blob/main/ARRAY/NumberOfLaserBeamsInABank)
+1. [Product of Array Except Self](https://github.com/quocanh4433/dsa/blob/main/ARRAY/ProductOfArrayExceptSelf)
+
+![Hard](https://img.shields.io/badge/Difficulty-Hard-%23B22222?style=for-the-badge&logo=leetcode)
+![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
+1. [First Missing Positive](https://github.com/quocanh4433/dsa/blob/main/ARRAY/FirstMissingPositive)
+1. [Trapping Rain Water](https://github.com/quocanh4433/dsa/blob/main/ARRAY/TrappingRainWater)
+1. [Minimum Window Substring](https://github.com/quocanh4433/dsa/blob/main/ARRAY/MinimumWindowSubstring)
+1. [Median Of Two Sorted Arrays](https://github.com/quocanh4433/dsa/blob/main/ARRAY/MedianOfTwoSortedArrays)
+
+<br><br>
+
+
+# PREFIXSUM [🔗](./NOTE/Stack.md)
+![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
+![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
+1. [Make Array Elements Equal To Zero](https://github.com/quocanh4433/dsa/blob/main/PREFIXSUM/MakeArrayElementsEqualToZero)
+
+<br><br>
+
+
+# STACK & QUEUE [🔗](./NOTE/Stack.md)
+![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
+![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
+1. [Valid Parentheses](https://github.com/quocanh4433/dsa/blob/main/STACKQUEUE/ValidParentheses)
+1. [Implement Stack Using Queues](https://github.com/quocanh4433/dsa/blob/main/STACKQUEUE/ImplementStackUsingQueues)
+1. [Implement Queue Using Stacks](https://github.com/quocanh4433/dsa/blob/main/STACKQUEUE/ImplementQueueUsingStacks)
+1. [Baseball Game](https://github.com/quocanh4433/dsa/blob/main/STACKQUEUE/BaseballGame)
+
+![Medium](https://img.shields.io/badge/Difficulty-Medium-orange?style=for-the-badge&logo=leetcode)
+![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
+1. [Min Stack](https://github.com/quocanh4433/dsa/blob/main/STACKQUEUE/MinStack)
+1. [Generate Parentheses](https://github.com/quocanh4433/dsa/blob/main/STACKQUEUE/GenerateParentheses)
+1. [Daily Temperatures](https://github.com/quocanh4433/dsa/blob/main/STACKQUEUE/DailyTemperatures)
+1. [Asteroid Collision](https://github.com/quocanh4433/dsa/blob/main/STACKQUEUE/AsteroidCollision)
+1. [Online Stock Span](https://github.com/quocanh4433/dsa/blob/main/STACKQUEUE/OnlineStockSpan)
+1. [Decode String](https://github.com/quocanh4433/dsa/blob/main/STACKQUEUE/DecodeString)
+1. [Simplify Path](https://github.com/quocanh4433/dsa/blob/main/STACKQUEUE/SimplifyPath)
+1. [Evaluate Reverse Polish Notation](https://github.com/quocanh4433/dsa/blob/main/STACKQUEUE/EvaluateReversePolishNotation)
+
+<br><br>
+
+
+## MATH&GEOMETRY [🔗](./NOTE/Math.md)
+![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
+![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)  
+1. [Palindrome Number](https://github.com/quocanh4433/dsa/blob/main/MATH/PalindromeNumber)
+1. [Calculate Money In Leetcode Bank](https://github.com/quocanh4433/dsa/blob/main/MATH/CalculateMoneyInLeetcodeBank)
+1. [Next Greater Numerically Balanced Number](https://github.com/quocanh4433/dsa/blob/main/MATH/NextGreaterNumericallyBalancedNumber)
+1. [Missing Number](https://github.com/quocanh4433/dsa/blob/main/MATH/MissingNumber)
+1. [Roman To Integer](https://github.com/quocanh4433/dsa/blob/main/MATH/RomanToInteger)
+1. [Pascal's Triangle](https://github.com/quocanh4433/dsa/blob/main/MATH/PascalsTriangle)
+
+<br><br>
+
+## TRIE [🔗](./NOTE/TRIE.md)
+![Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=for-the-badge&logo=leetcode)
+![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)  
+1. [Implement Trie (Prefix Tree)](https://github.com/quocanh4433/dsa/blob/main/TRIE/ImplementTriePrefixTree)
+
+![Medium](https://img.shields.io/badge/Difficulty-Medium-orange?style=for-the-badge&logo=leetcode)
+![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
+1. [Design Add And Search Words Data Structure](https://github.com/quocanh4433/dsa/blob/main/TRIE/DesignAddAndSearchWordsDataStructure)
+
+
+![Hard](https://img.shields.io/badge/Difficulty-Hard-%23B22222?style=for-the-badge&logo=leetcode)
+![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
+1. [Word Search 2](https://github.com/quocanh4433/dsa/blob/main/TRIE/WordSearch2)
