@@ -688,7 +688,13 @@
         "pattern": "store val",
         "solution": "[C]hashmap/953_verifying_an_alien_dictionary"
     },
-
+    {
+        "name": "2342. Max Sum of a Pair With Equal Sum of Digits",
+        "leetcode_link": "https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/",
+        "topic": "[C]hashmap",
+        "pattern": "store val",
+        "solution": "[C]hashmap/2342_max_sum_of_a_pair_with_equal_sum_of_digits"
+    },
 
 
 
