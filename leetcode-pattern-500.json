@@ -681,6 +681,13 @@
         "pattern": "store val",
         "solution": "[C]hashmap/13_roman_to_integer"
     },
+    {
+        "name": "953. Verifying an Alien Dictionary",
+        "leetcode_link": "https://leetcode.com/problems/verifying-an-alien-dictionary/",
+        "topic": "[C]hashmap",
+        "pattern": "store val",
+        "solution": "[C]hashmap/953_verifying_an_alien_dictionary"
+    },
 
 
 
