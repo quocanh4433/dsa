@@ -674,7 +674,13 @@
         "pattern": "store val",
         "solution": "[C]hashmap/128_longest_consecutive_sequence"
     },
-
+    {
+        "name": "13. Roman to Integer",
+        "leetcode_link": "https://leetcode.com/problems/roman-to-integer/",
+        "topic": "[C]hashmap",
+        "pattern": "store val",
+        "solution": "[C]hashmap/13_roman_to_integer"
+    },
 
 
 
