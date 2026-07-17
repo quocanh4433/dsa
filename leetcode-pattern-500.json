@@ -695,8 +695,15 @@
         "pattern": "store val",
         "solution": "[C]hashmap/2342_max_sum_of_a_pair_with_equal_sum_of_digits"
     },
+    {
+        "name": "336. Palindrome Pairs",
+        "leetcode_link": "https://leetcode.com/problems/palindrome-pairs/",
+        "topic": "[C]hashmap",
+        "pattern": "store val",
+        "solution": "[C]hashmap/336_palindrome_pairs"
+    },
 
-
+    
 
 
     {
