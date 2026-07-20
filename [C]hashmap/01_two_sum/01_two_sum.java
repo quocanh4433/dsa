@@ -2,7 +2,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class TwoSum {
+class TwoSum {
 
     static int[] twoSum(int[] nums, int target) {
         if (nums == null) {
