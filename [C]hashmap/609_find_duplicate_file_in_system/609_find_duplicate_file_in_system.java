@@ -5,7 +5,13 @@ import java.util.List;
 import java.util.Map;
 
 class FindDuplicateFileInSystem {
+    /*
+        n: length of paths
+        L: total number of character in all string
 
+        time O(n * L)
+        space O(L)
+    */
     public List<List<String>> findDuplicate(String[] paths) {
         Map<String, List<String>> map = new HashMap<>();
 
