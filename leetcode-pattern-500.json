@@ -730,8 +730,13 @@
         "pattern": "store val",
         "solution": "[C]hashmap/609_find_duplicate_file_in_system/"
     },
-
-    
+    {
+        "name": "383. Ransom Note",
+        "leetcode_link": "https://leetcode.com/problems/ransom-note/",
+        "topic": "[C]hashmap",
+        "pattern": "store sth’s freq",
+        "solution": "[C]hashmap/383_ransom_note/"
+    },
 
 
     
