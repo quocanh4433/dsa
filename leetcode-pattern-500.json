@@ -744,9 +744,16 @@
         "pattern": "store sth’s freq",
         "solution": "[C]hashmap/2423_remove_letter_to_equalize_frequency/"
     },
+    {
+        "name": "2364. Count Number of Bad Pairs ",
+        "leetcode_link": "https://leetcode.com/problems/count-number-of-bad-pairs/",
+        "topic": "[C]hashmap",
+        "pattern": "store valid val’s freq for finding pairs",
+        "solution": "[C]hashmap/2364_count_number_of_bad_pairs/"
+    },
 
 
- 
+
 
 
     
