@@ -731,6 +731,13 @@
         "solution": "[C]hashmap/609_find_duplicate_file_in_system/"
     },
     {
+        "name": "819. Most Common Word",
+        "leetcode_link": "https://leetcode.com/problems/most-common-word/",
+        "topic": "[C]hashmap",
+        "pattern": "store sth’s freq  ",
+        "solution": "[C]hashmap/819_most_common_word/"
+    },
+    {
         "name": "383. Ransom Note",
         "leetcode_link": "https://leetcode.com/problems/ransom-note/",
         "topic": "[C]hashmap",
