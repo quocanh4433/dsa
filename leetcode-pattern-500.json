@@ -766,6 +766,13 @@
         "solution": "[C]hashmap/409_longest_palindrome/"
     },
     {
+        "name": "387. First Unique Character in a String",
+        "leetcode_link": "https://leetcode.com/problems/first-unique-character-in-a-string/",
+        "topic": "[C]hashmap",
+        "pattern": "store sth’s freq",
+        "solution": "[C]hashmap/387_first_unique_character_in_a_string/"
+    },
+    {
         "name": "2423. Remove Letter To Equalize Frequency",
         "leetcode_link": "https://leetcode.com/problems/remove-letter-to-equalize-frequency/",
         "topic": "[C]hashmap",
@@ -800,9 +807,16 @@
         "pattern": "search in a sorted array for most close val",
         "solution": "[D]binary_search/744_find_smallest_letter_greater_than_target"
     },
+    {
+        "name": "981. Time Based Key-Value Store",
+        "leetcode_link": "https://leetcode.com/problems/time-based-key-value-store/",
+        "topic": "[D]binary_search",
+        "pattern": "search in a sorted array for most close val",
+        "solution": "[D]binary_search/981_time_based_key_value_store/"
+    },
 
 
-
+  
 
 
 
