@@ -769,6 +769,29 @@
 
 
 
+    {
+        "____comment___": "[D]binary_search",
+
+
+        "name": "74. Search a 2D Matrix",
+        "leetcode_link": "https://leetcode.com/problems/search-a-2d-matrix/",
+        "topic": "[D]binary_search",
+        "pattern": "search in a sorted array for specific val",
+        "solution": "[D]binary_search/74_search_a_2d_matrix"
+    },
+    {
+        "name": "744. Find Smallest Letter Greater Than Target",
+        "leetcode_link": "https://leetcode.com/problems/find-smallest-letter-greater-than-target/",
+        "topic": "[D]binary_search",
+        "pattern": "search in a sorted array for most close val",
+        "solution": "[D]binary_search/744_find_smallest_letter_greater_than_target"
+    },
+
+
+
+
+
+
 
     
 
