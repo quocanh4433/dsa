@@ -794,6 +794,13 @@
         "____comment___": "[D]binary_search",
 
 
+        "name": "704. Binary Search",
+        "leetcode_link": "https://leetcode.com/problems/binary-search/",
+        "topic": "[D]binary_search",
+        "pattern": "search in a sorted array for specific val",
+        "solution": "[D]binary_search/704_binary_search"
+    },
+    {
         "name": "74. Search a 2D Matrix",
         "leetcode_link": "https://leetcode.com/problems/search-a-2d-matrix/",
         "topic": "[D]binary_search",
@@ -814,10 +821,17 @@
         "pattern": "search in a sorted array for most close val",
         "solution": "[D]binary_search/981_time_based_key_value_store/"
     },
+    {
+        "name": "528. Random Pick with Weight",
+        "leetcode_link": "https://leetcode.com/problems/random-pick-with-weight/",
+        "topic": "[D]binary_search",
+        "pattern": "search in a sorted array for most close val",
+        "solution": "[D]binary_search/528_random_pick_with_weight/"
+    },
 
 
   
-
+                                                                              
 
 
 
