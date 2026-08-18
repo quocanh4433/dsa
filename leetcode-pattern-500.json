@@ -801,6 +801,13 @@
         "solution": "[D]binary_search/704_binary_search"
     },
     {
+        "name": "367. Valid Perfect Square",
+        "leetcode_link": "https://leetcode.com/problems/valid-perfect-square/",
+        "topic": "[D]binary_search",
+        "pattern": "search in a sorted array for specific val",
+        "solution": "[D]binary_search/367_valid_perfect_square/"
+    },
+    {
         "name": "74. Search a 2D Matrix",
         "leetcode_link": "https://leetcode.com/problems/search-a-2d-matrix/",
         "topic": "[D]binary_search",
