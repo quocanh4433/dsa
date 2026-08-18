@@ -752,6 +752,13 @@
         "solution": "[C]hashmap/383_ransom_note/"
     },
     {
+        "name": "242. Valid Anagram",
+        "leetcode_link": "https://leetcode.com/problems/valid-anagram/",
+        "topic": "[C]hashmap",
+        "pattern": "store sth’s freq",
+        "solution": "[C]hashmap/242_valid_anagram/"
+    }, 
+    {
         "name": "2423. Remove Letter To Equalize Frequency",
         "leetcode_link": "https://leetcode.com/problems/remove-letter-to-equalize-frequency/",
         "topic": "[C]hashmap",
