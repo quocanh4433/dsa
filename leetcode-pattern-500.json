@@ -759,6 +759,13 @@
         "solution": "[C]hashmap/242_valid_anagram/"
     }, 
     {
+        "name": "409. Longest Palindrome",
+        "leetcode_link": "https://leetcode.com/problems/longest-palindrome/",
+        "topic": "[C]hashmap",
+        "pattern": "store sth’s freq",
+        "solution": "[C]hashmap/409_longest_palindrome/"
+    },
+    {
         "name": "2423. Remove Letter To Equalize Frequency",
         "leetcode_link": "https://leetcode.com/problems/remove-letter-to-equalize-frequency/",
         "topic": "[C]hashmap",
