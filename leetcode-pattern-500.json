@@ -738,6 +738,13 @@
         "solution": "[C]hashmap/819_most_common_word/"
     },
     {
+        "name": "49. Group Anagrams",
+        "leetcode_link": "https://leetcode.com/problems/group-anagrams/",
+        "topic": "[C]hashmap",
+        "pattern": "store sth’s freq",
+        "solution": "[C]hashmap/49_group_anagrams/"
+    },
+    {
         "name": "205. Isomorphic Strings",
         "leetcode_link": "https://leetcode.com/problems/isomorphic-strings/",
         "topic": "[C]hashmap",
