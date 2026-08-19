@@ -842,9 +842,17 @@
         "pattern": "search in a sorted array for most close val",
         "solution": "[D]binary_search/528_random_pick_with_weight/"
     },
+    {
+        "name": "852. Peak Index in a Mountain Array",
+        "leetcode_link": "https://leetcode.com/problems/peak-index-in-a-mountain-array/",
+        "topic": "[D]binary_search",
+        "pattern": "use boundary to record",
+        "solution": "[D]binary_search/852_peak_index_in_a_mountain_array/"
+    },
 
 
-  
+
+
                                                                               
 
 
