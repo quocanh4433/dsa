@@ -8,6 +8,7 @@ class PeakIndexInAMountainArray {
        time O(logn)
        space O(1)
      */
+
     public int peakIndexInMountainArray(int[] arr) {
         int n = arr.length;
         int l = 0;
@@ -17,10 +18,8 @@ class PeakIndexInAMountainArray {
             int m = l + (r - l) / 2;
 
             if (arr[m] < arr[m + 1]) {
-                // đang đi lên peak năm bên phải
                 l = m + 1;
             } else {
-                // đi đi xuống m có thể là peak
                 r = m;
             }
         }
@@ -37,7 +36,6 @@ class PeakIndexInAMountainArray {
             int m = l + (r - l) / 2;
 
             if (arr[m] < arr[m + 1]) {
-                // đang đi lên peak năm bên phải
                 l = m + 1;
                 continue;
             }
