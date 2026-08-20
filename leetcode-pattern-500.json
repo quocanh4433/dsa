@@ -773,6 +773,13 @@
         "solution": "[C]hashmap/409_longest_palindrome/"
     },
     {
+        "name": "767. Reorganize String",
+        "leetcode_link": "https://leetcode.com/problems/reorganize-string/",
+        "topic": "[C]hashmap",
+        "pattern": "store sth’s freq",
+        "solution": "[C]hashmap/767_reorganize_string/"
+    },
+    {
         "name": "387. First Unique Character in a String",
         "leetcode_link": "https://leetcode.com/problems/first-unique-character-in-a-string/",
         "topic": "[C]hashmap",
