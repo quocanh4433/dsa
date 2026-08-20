@@ -860,6 +860,28 @@
 
 
 
+    {
+        "____comment___": "[E]heap",
+
+
+        "name": "1235. Maximum Profit in Job Scheduling",
+        "leetcode_link": "https://leetcode.com/problems/maximum-profit-in-job-scheduling/",
+        "topic": "[E]heap",
+        "pattern": "greedily schedule tasks (start/end/val)",
+        "solution": "[E]heap/1235_maximum_profit_in_job_scheduling"
+    },
+    {
+        "name": "646. Maximum Length of Pair Chain",
+        "leetcode_link": "https://leetcode.com/problems/maximum-length-of-pair-chain/",
+        "topic": "[E]heap",
+        "pattern": "greedily schedule tasks (start/end/val)",
+        "solution": "[E]heap/646_maximum_length_of_pair_chain"
+    },
+
+
+
+
+
                                                                               
 
 
