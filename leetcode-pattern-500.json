@@ -884,6 +884,13 @@
         "pattern": "greedily schedule tasks (start/end/val)",
         "solution": "[E]heap/2008_maximum_earnings_from_taxi/"
     },
+    {
+        "name": "2054. Two Best Non-Overlapping Events",
+        "leetcode_link": "https://leetcode.com/problems/two-best-non-overlapping-events/",
+        "topic": "[E]heap",
+        "pattern": "greedily schedule tasks (start/end/val)",
+        "solution": "[E]heap/2054_two_best_non_overlapping_events/"
+    },
 
 
 
