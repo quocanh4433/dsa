@@ -794,6 +794,13 @@
         "solution": "[C]hashmap/2423_remove_letter_to_equalize_frequency/"
     },
     {
+        "name": "299. Bulls and Cows",
+        "leetcode_link": "https://leetcode.com/problems/bulls-and-cows/",
+        "topic": "[C]hashmap",
+        "pattern": "store sth’s freq",
+        "solution": "[C]hashmap/299_bulls_and_cows/"
+    },
+    {
         "name": "2364. Count Number of Bad Pairs ",
         "leetcode_link": "https://leetcode.com/problems/count-number-of-bad-pairs/",
         "topic": "[C]hashmap",
