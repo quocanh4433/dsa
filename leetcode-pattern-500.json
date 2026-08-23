@@ -870,6 +870,14 @@
         "pattern": "use boundary to record",
         "solution": "[D]binary_search/852_peak_index_in_a_mountain_array/"
     },
+    {
+        "name": "162. Find Peak Element",
+        "leetcode_link": "https://leetcode.com/problems//",
+        "topic": "[D]binary_search",
+        "pattern": "use boundary to record",
+        "solution": "[D]binary_search/162_find_peak_element/"
+    },
+  
 
 
 
