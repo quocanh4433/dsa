@@ -654,18 +654,18 @@
         "solution": "[C]hashmap/706_design_hashmap"
     },
     {
-        "name": "217. Contains Duplicate",
-        "leetcode_link": "https://leetcode.com/problems/contains-duplicate/",
-        "topic": "[C]hashmap",
-        "pattern": "store val",
-        "solution": "[C]hashmap/217_contains_duplicate"
-    },
-    {
         "name": "1805. Number of Different Integers in a String",
         "leetcode_link": "https://leetcode.com/problems/number-of-different-integers-in-a-string/",
         "topic": "[C]hashmap",
         "pattern": "store val",
         "solution": "[C]hashmap/1805_number_of_different_integers_in_a_string"
+    },
+    {
+        "name": "217. Contains Duplicate",
+        "leetcode_link": "https://leetcode.com/problems/contains-duplicate/",
+        "topic": "[C]hashmap",
+        "pattern": "store val",
+        "solution": "[C]hashmap/217_contains_duplicate"
     },
     {
         "name": "128. Longest Consecutive Sequence",
@@ -710,13 +710,6 @@
         "solution": "[C]hashmap/1-two-sum/"
     },
     {
-        "name": "1. Two Sum",
-        "leetcode_link": "https://leetcode.com/problems/two-sum/",
-        "topic": "[C]hashmap",
-        "pattern": "store val",
-        "solution": "[C]hashmap/1-two-sum/"
-    },
-    {
         "name": "380. Insert Delete GetRandom O(1)",
         "leetcode_link": "https://leetcode.com/problems/insert-delete-getrandom-o1/",
         "topic": "[C]hashmap",
@@ -729,6 +722,55 @@
         "topic": "[C]hashmap",
         "pattern": "store val",
         "solution": "[C]hashmap/609_find_duplicate_file_in_system/"
+    },
+    {
+        "name": "383. Ransom Note",
+        "leetcode_link": "https://leetcode.com/problems/ransom-note/",
+        "topic": "[C]hashmap",
+        "pattern": "store sth’s freq",
+        "solution": "[C]hashmap/383_ransom_note/"
+    },
+    {
+        "name": "242. Valid Anagram",
+        "leetcode_link": "https://leetcode.com/problems/valid-anagram/",
+        "topic": "[C]hashmap",
+        "pattern": "store sth’s freq",
+        "solution": "[C]hashmap/242_valid_anagram/"
+    }, 
+    {
+        "name": "409. Longest Palindrome",
+        "leetcode_link": "https://leetcode.com/problems/longest-palindrome/",
+        "topic": "[C]hashmap",
+        "pattern": "store sth’s freq",
+        "solution": "[C]hashmap/409_longest_palindrome/"
+    },
+    {
+        "name": "387. First Unique Character in a String",
+        "leetcode_link": "https://leetcode.com/problems/first-unique-character-in-a-string/",
+        "topic": "[C]hashmap",
+        "pattern": "store sth’s freq",
+        "solution": "[C]hashmap/387_first_unique_character_in_a_string/"
+    },
+    {
+        "name": "767. Reorganize String",
+        "leetcode_link": "https://leetcode.com/problems/reorganize-string/",
+        "topic": "[C]hashmap",
+        "pattern": "store sth’s freq",
+        "solution": "[C]hashmap/767_reorganize_string/"
+    },
+    {
+        "name": "2423. Remove Letter To Equalize Frequency",
+        "leetcode_link": "https://leetcode.com/problems/remove-letter-to-equalize-frequency/",
+        "topic": "[C]hashmap",
+        "pattern": "store sth’s freq",
+        "solution": "[C]hashmap/2423_remove_letter_to_equalize_frequency/"
+    },
+    {
+        "name": "299. Bulls and Cows",
+        "leetcode_link": "https://leetcode.com/problems/bulls-and-cows/",
+        "topic": "[C]hashmap",
+        "pattern": "store sth’s freq",
+        "solution": "[C]hashmap/299_bulls_and_cows/"
     },
     {
         "name": "819. Most Common Word",
@@ -759,53 +801,11 @@
         "solution": "[C]hashmap/205_isomorphic_strings/"
     },
     {
-        "name": "383. Ransom Note",
-        "leetcode_link": "https://leetcode.com/problems/ransom-note/",
+        "name": "1010. Pairs of Songs With Total Durations Divisible by 60",
+        "leetcode_link": "https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/",
         "topic": "[C]hashmap",
-        "pattern": "store sth’s freq",
-        "solution": "[C]hashmap/383_ransom_note/"
-    },
-    {
-        "name": "242. Valid Anagram",
-        "leetcode_link": "https://leetcode.com/problems/valid-anagram/",
-        "topic": "[C]hashmap",
-        "pattern": "store sth’s freq",
-        "solution": "[C]hashmap/242_valid_anagram/"
-    }, 
-    {
-        "name": "409. Longest Palindrome",
-        "leetcode_link": "https://leetcode.com/problems/longest-palindrome/",
-        "topic": "[C]hashmap",
-        "pattern": "store sth’s freq",
-        "solution": "[C]hashmap/409_longest_palindrome/"
-    },
-    {
-        "name": "767. Reorganize String",
-        "leetcode_link": "https://leetcode.com/problems/reorganize-string/",
-        "topic": "[C]hashmap",
-        "pattern": "store sth’s freq",
-        "solution": "[C]hashmap/767_reorganize_string/"
-    },
-    {
-        "name": "387. First Unique Character in a String",
-        "leetcode_link": "https://leetcode.com/problems/first-unique-character-in-a-string/",
-        "topic": "[C]hashmap",
-        "pattern": "store sth’s freq",
-        "solution": "[C]hashmap/387_first_unique_character_in_a_string/"
-    },
-    {
-        "name": "2423. Remove Letter To Equalize Frequency",
-        "leetcode_link": "https://leetcode.com/problems/remove-letter-to-equalize-frequency/",
-        "topic": "[C]hashmap",
-        "pattern": "store sth’s freq",
-        "solution": "[C]hashmap/2423_remove_letter_to_equalize_frequency/"
-    },
-    {
-        "name": "299. Bulls and Cows",
-        "leetcode_link": "https://leetcode.com/problems/bulls-and-cows/",
-        "topic": "[C]hashmap",
-        "pattern": "store sth’s freq",
-        "solution": "[C]hashmap/299_bulls_and_cows/"
+        "pattern": "store valid val’s freq for finding pairs",
+        "solution": "[C]hashmap/1010_pairs_of_songs_with_total_durations_divisible_by_60/"
     },
     {
         "name": "2364. Count Number of Bad Pairs ",
@@ -813,7 +813,9 @@
         "topic": "[C]hashmap",
         "pattern": "store valid val’s freq for finding pairs",
         "solution": "[C]hashmap/2364_count_number_of_bad_pairs/"
-    },
+    }, 
+    
+    
 
 
 
