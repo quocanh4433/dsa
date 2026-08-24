@@ -813,12 +813,20 @@
         "topic": "[C]hashmap",
         "pattern": "store valid val’s freq for finding pairs",
         "solution": "[C]hashmap/2364_count_number_of_bad_pairs/"
+    },
+    {
+        "name": "2013. Detect Squares",
+        "leetcode_link": "https://leetcode.com/problems/detect-squares/",
+        "topic": "[C]hashmap",
+        "pattern": "store valid val’s freq for finding pairs",
+        "solution": "[C]hashmap/2013_detect_squares/"
     }, 
     
+
+
+
+
     
-
-
-
 
     {
         "____comment___": "[D]binary_search",
