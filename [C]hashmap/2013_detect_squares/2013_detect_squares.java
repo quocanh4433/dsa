@@ -14,8 +14,8 @@ class DetectSquares {
     
      */
 
-    private int[][] counts; // mảng 2D
-    private List<int[]> list; // danh sách các điểm được thêm vào 
+    private final int[][] counts; // mảng 2D
+    private final List<int[]> list; // danh sách các điểm được thêm vào 
 
     public DetectSquares() {
         counts = new int[1001][1001];
