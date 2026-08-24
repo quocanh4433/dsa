@@ -940,7 +940,13 @@
         "pattern": "greedily schedule tasks (start/end/val)",
         "solution": "[E]heap/2054_two_best_non_overlapping_events/"
     },
-
+    {
+        "name": "973. K Closest Points to Origin",
+        "leetcode_link": "https://leetcode.com/problems/k-closest-points-to-origin/",
+        "topic": "[E]heap",
+        "pattern": "top k problem (based on heap) ",
+        "solution": "[E]heap/973_k_closest_points_to_origin/"
+    },
 
 
                                                                               
