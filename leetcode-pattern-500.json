@@ -947,12 +947,18 @@
         "pattern": "top k problem (based on heap) ",
         "solution": "[E]heap/973_k_closest_points_to_origin/"
     },
+    {
+        "name": "692. Top K Frequent Words",
+        "leetcode_link": "https://leetcode.com/problems/top-k-frequent-words/",
+        "topic": "[E]heap",
+        "pattern": "top k problem (based on heap)",
+        "solution": "[E]heap/692_top_k_frequent_words/"
+    },
 
 
                                                                               
 
-
-
+    
     
 
     {
