@@ -954,9 +954,15 @@
         "pattern": "top k problem (based on heap)",
         "solution": "[E]heap/692_top_k_frequent_words/"
     },
+    {
+        "name": "264. Ugly Number II",
+        "leetcode_link": "https://leetcode.com/problems/ugly-number-ii/",
+        "topic": "[E]heap",
+        "pattern": "k way merge problem",
+        "solution": "[E]heap/264_ugly_number_ii/"
+    },
 
-
-                                                                              
+                                                                    
 
     
     
