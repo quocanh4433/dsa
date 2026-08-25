@@ -961,10 +961,16 @@
         "pattern": "k way merge problem",
         "solution": "[E]heap/264_ugly_number_ii/"
     },
+    {
+        "name": "313. Super Ugly Number",
+        "leetcode_link": "https://leetcode.com/problems//",
+        "topic": "[E]heap",
+        "pattern": "k way merge problem",
+        "solution": "[E]heap/313_super_ugly_number/"
+    },
 
-                                                                    
+     
 
-    
     
 
     {
