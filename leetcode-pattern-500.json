@@ -963,16 +963,30 @@
     },
     {
         "name": "313. Super Ugly Number",
-        "leetcode_link": "https://leetcode.com/problems//",
+        "leetcode_link": "https://leetcode.com/problems/",
         "topic": "[E]heap",
         "pattern": "k way merge problem",
         "solution": "[E]heap/313_super_ugly_number/"
     },
+    {
+        "name": "355. Design Twitter",
+        "leetcode_link": "https://leetcode.com/problems/design-twitter/",
+        "topic": "[E]heap",
+        "pattern": "k way merge problem",
+        "solution": "[E]heap/355_design_twitter/"
+    },
+    {
+        "name": "632. Smallest Range Covering Elements from K Lists",
+        "leetcode_link": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/",
+        "topic": "[E]heap",
+        "pattern": "k way merge problem",
+        "solution": "[E]heap/632_smallest_range_covering_elements_from_k_lists/"
+    },
 
-     
 
     
 
+    
     {
         "____comment___": "[H]array",
 
