@@ -989,11 +989,19 @@
         "pattern": "k way merge problem",
         "solution": "[E]heap/23_merge_k_sorted_lists/"
     },
+    {
+        "name": "378. Kth Smallest Element in a Sorted Matrix",
+        "leetcode_link": "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/",
+        "topic": "[E]heap",
+        "pattern": "use bfs and heap",
+        "solution": "[E]heap/378_kth_smallest_element_in_a_sorted_matrix/"
+    },
 
 
     
 
-    
+                                   
+
     {
         "____comment___": "[H]array",
 
