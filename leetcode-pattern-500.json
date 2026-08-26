@@ -982,6 +982,13 @@
         "pattern": "k way merge problem",
         "solution": "[E]heap/632_smallest_range_covering_elements_from_k_lists/"
     },
+    {
+        "name": "23. Merge k Sorted Lists",
+        "leetcode_link": "https://leetcode.com/problems/merge-k-sorted-lists/",
+        "topic": "[E]heap",
+        "pattern": "k way merge problem",
+        "solution": "[E]heap/23_merge_k_sorted_lists/"
+    },
 
 
     
