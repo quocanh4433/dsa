@@ -1009,13 +1009,20 @@
         "name": "560. Subarray Sum Equals K",
         "leetcode_link": "https://leetcode.com/problems/subarray-sum-equals-k/",
         "topic": "[H]array_prefix_sum",
-        "pattern": "use hashmap to validate the gap subarray ",
+        "pattern": "use hashmap to validate the gap subarray",
         "solution": "[H]array/[H]array_prefix_sum/560_subarray_sum_equals_k"
+    },
+    {
+        "name": "75. Sort Colors",
+        "leetcode_link": "https://leetcode.com/problems/sort-colors/",
+        "topic": "[H]array-two-pointers-same-direction",
+        "pattern": "use left ptr to record",
+        "solution": "[H]array/[H]array_prefix_sum/75_sort_color/"
     },
 
 
 
-
+    
 
     {
         "____comment___": "[I]stack_queue",
