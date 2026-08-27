@@ -1013,17 +1013,24 @@
         "solution": "[H]array/[H]array_prefix_sum/560_subarray_sum_equals_k"
     },
     {
+        "name": "438. Find All Anagrams in a String",
+        "leetcode_link": "https://leetcode.com/problems/find-all-anagrams-in-a-string/",
+        "topic": "[H]array-sliding-window",
+        "pattern": "use standard sliding window",
+        "solution": "[H]array/[H]array-sliding-window/438_find_all_anagrams_in_a_string/"
+    },
+    {
         "name": "75. Sort Colors",
         "leetcode_link": "https://leetcode.com/problems/sort-colors/",
         "topic": "[H]array-two-pointers-same-direction",
         "pattern": "use left ptr to record",
-        "solution": "[H]array/[H]array_prefix_sum/75_sort_color/"
+        "solution": "[H]array/[H]array-two-pointers-same-direction/75_sort_color/"
     },
 
 
 
-    
 
+    
     {
         "____comment___": "[I]stack_queue",
 
