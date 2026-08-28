@@ -996,9 +996,15 @@
         "pattern": "use bfs and heap",
         "solution": "[E]heap/378_kth_smallest_element_in_a_sorted_matrix/"
     },
+    {
+        "name": "373. Find K Pairs with Smallest Sums",
+        "leetcode_link": "https://leetcode.com/problems/find-k-pairs-with-smallest-sums/",
+        "topic": "[E]heap",
+        "pattern": "use bfs and heap",
+        "solution": "[E]heap/373_find_k_pairs_with_smallest_sums/"
+    },
 
 
-    
 
                                    
 
