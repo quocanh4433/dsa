@@ -990,6 +990,13 @@
         "solution": "[E]heap/23_merge_k_sorted_lists/"
     },
     {
+        "name": "1094. Car Pooling",
+        "leetcode_link": "https://leetcode.com/problems/car-pooling/",
+        "topic": "[E]heap",
+        "pattern": "storing and popping out elements",
+        "solution": "[E]heap/1094_car_pooling/"
+    },
+    {
         "name": "378. Kth Smallest Element in a Sorted Matrix",
         "leetcode_link": "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/",
         "topic": "[E]heap",
