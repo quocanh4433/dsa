@@ -1002,7 +1002,14 @@
         "topic": "[E]heap",
         "pattern": "storing and popping out elements",
         "solution": "[E]heap/1705_maximum_number_of_eaten_apples/"
-    }, 
+    },
+    {
+        "name": "1792. Maximum Average Pass Ratio",
+        "leetcode_link": "https://leetcode.com/problems/maximum-average-pass-ratio/",
+        "topic": "[E]heap",
+        "pattern": "storing and popping out elements",
+        "solution": "[E]heap/1792_/maximum_average_pass_ratio/"
+    },    
     {
         "name": "378. Kth Smallest Element in a Sorted Matrix",
         "leetcode_link": "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/",
