@@ -15,7 +15,8 @@ class SearchA2DMatrix {
         dùng số cột cho cả row và col
         
 
-
+        time O(log(n * m))
+        space O(1)
     
      */
     public boolean searchMatrix(int[][] matrix, int target) {
