@@ -997,6 +997,13 @@
         "solution": "[E]heap/1094_car_pooling/"
     },
     {
+        "name": "1705. Maximum Number of Eaten Apples",
+        "leetcode_link": "https://leetcode.com/problems/maximum-number-of-eaten-apples/",
+        "topic": "[E]heap",
+        "pattern": "storing and popping out elements",
+        "solution": "[E]heap/1705_maximum_number_of_eaten_apples/"
+    }, 
+    {
         "name": "378. Kth Smallest Element in a Sorted Matrix",
         "leetcode_link": "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/",
         "topic": "[E]heap",
