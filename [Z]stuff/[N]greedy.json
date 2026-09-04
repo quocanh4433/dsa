@@ -92,7 +92,7 @@
     },
     {
         "name": "45. Jump Game II",
-        "leetcode_link": "https: //leetcode.com/problems/jump-game-ii/",
+        "leetcode_link": "https://leetcode.com/problems/jump-game-ii/",
         "topic": "[N]greedy",
         "pattern": "greedy",
         "solution": "[N]greedy/45_jump_game_ii"

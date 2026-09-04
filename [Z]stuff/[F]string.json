@@ -1,0 +1,9 @@
+[
+    {
+        "name": "844. Backspace String Compare",
+        "leetcode_link": "https://leetcode.com/problems/backspace-string-compare/",
+        "topic": "[F]string",
+        "pattern": "traverse from end",
+        "solution": "[F]string/844_backspace_string_compare"
+    }
+]

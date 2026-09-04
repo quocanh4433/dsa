@@ -50,7 +50,7 @@
     },
     {
         "name": "206. Reverse Linked List",
-        "leetcode_link": "https: //leetcode.com/problems/reverse-linked-list/",
+        "leetcode_link": "https://leetcode.com/problems/reverse-linked-list/",
         "topic": "[B]linked_list",
         "pattern": "use two pointers (prev and cur)",
         "solution": "[B]linked_list/206_reverse_linked_list"

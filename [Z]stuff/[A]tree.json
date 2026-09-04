@@ -352,14 +352,14 @@
     },
     {
         "name": "230. Kth Smallest Element in a BST",
-        "leetcode_link": "https: //leetcode.com/problems/kth-smallest-element-in-a-bst/",
+        "leetcode_link": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
         "topic": "[A]tree_dfs_inorder",
         "pattern": "lazy inorder",
         "solution": "[A]tree/[A]tree_dfs_inorder/230_kth_smallest_element_in_a_bst"
     },
     {
         "name": "110. Balanced Binary Tree",
-        "leetcode_link": "https: //leetcode.com/problems/balanced-binary-tree/",
+        "leetcode_link": "https://leetcode.com/problems/balanced-binary-tree/",
         "topic": "[A]tree_dfs_postorder",
         "pattern": "postorder",
         "solution": "[A]tree/[A]tree_dfs_postorder/110_balanced_binary_tree"
@@ -387,14 +387,14 @@
     },
     {
         "name": "236. Lowest Common Ancestor of a Binary Tree",
-        "leetcode_link": "https: //leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+        "leetcode_link": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
         "topic": "[A]tree_dfs_postorder",
         "pattern": "postorder",
         "solution": "[A]tree/[A]tree_dfs_postorder/236_lowest_common_ancestor_of_a_binary_tree"
     },
     {
         "name": "1145. Binary Tree Coloring Game",
-        "leetcode_link": "https: //leetcode.com/problems/binary-tree-coloring-game/",
+        "leetcode_link": "https://leetcode.com/problems/binary-tree-coloring-game/",
         "topic": "[A]tree_dfs_postorder",
         "pattern": "postorder",
         "solution": "[A]tree/[A]tree_dfs_postorder/1145_binary_tree_coloring_game"
