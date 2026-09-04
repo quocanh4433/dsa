@@ -50,13 +50,13 @@
 | 048 | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [A]tree_dfs_inorder | inorder | [Link]([A]tree/[A]tree_dfs_preorder/94_binary_tree_inorder_traversal) |
 | 049 | [99. Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) | [A]tree_dfs_inorder | inorder | [Link]([A]tree/[A]tree_dfs_inorder/99_recover_binary_search_tree) |
 | 050 | [173. Binary Search Tree Iterator ](https://leetcode.com/problems/binary-search-tree-iterator/) | [A]tree_dfs_inorder | lazy inorder | [Link]([A]tree/[A]tree_dfs_inorder/173_binary_search_tree_iterator) |
-| 051 | [230. Kth Smallest Element in a BST](https: //leetcode.com/problems/kth-smallest-element-in-a-bst/) | [A]tree_dfs_inorder | lazy inorder | [Link]([A]tree/[A]tree_dfs_inorder/230_kth_smallest_element_in_a_bst) |
-| 052 | [110. Balanced Binary Tree](https: //leetcode.com/problems/balanced-binary-tree/) | [A]tree_dfs_postorder | postorder | [Link]([A]tree/[A]tree_dfs_postorder/110_balanced_binary_tree) |
+| 051 | [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [A]tree_dfs_inorder | lazy inorder | [Link]([A]tree/[A]tree_dfs_inorder/230_kth_smallest_element_in_a_bst) |
+| 052 | [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [A]tree_dfs_postorder | postorder | [Link]([A]tree/[A]tree_dfs_postorder/110_balanced_binary_tree) |
 | 053 | [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [A]tree_dfs_postorder | postorder | [Link]([A]tree/[A]tree_dfs_postorder/543_diameter_of_binary_tree) |
 | 054 | [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [A]tree_dfs_postorder | postorder | [Link]([A]tree/[A]tree_dfs_postorder/124_binary_tree_maximum_path_sum) |
 | 055 | [865. Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/) | [A]tree_dfs_postorder | postorder | [Link]([A]tree/[A]tree_dfs_postorder/865_smallest_subtree_with_all_the_deepest_nodes) |
-| 056 | [236. Lowest Common Ancestor of a Binary Tree](https: //leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [A]tree_dfs_postorder | postorder | [Link]([A]tree/[A]tree_dfs_postorder/236_lowest_common_ancestor_of_a_binary_tree) |
-| 057 | [1145. Binary Tree Coloring Game](https: //leetcode.com/problems/binary-tree-coloring-game/) | [A]tree_dfs_postorder | postorder | [Link]([A]tree/[A]tree_dfs_postorder/1145_binary_tree_coloring_game) |
+| 056 | [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [A]tree_dfs_postorder | postorder | [Link]([A]tree/[A]tree_dfs_postorder/236_lowest_common_ancestor_of_a_binary_tree) |
+| 057 | [1145. Binary Tree Coloring Game](https://leetcode.com/problems/binary-tree-coloring-game/) | [A]tree_dfs_postorder | postorder | [Link]([A]tree/[A]tree_dfs_postorder/1145_binary_tree_coloring_game) |
 | 058 | [2246. Longest Path With Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters/) | [A]tree_dfs_postorder | postorder | [Link]([A]tree/[A]tree_dfs_postorder/2246_longest_path_with_different_adjacent_characters) |
 | 059 | [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [B]linked_list | use sentinel node | [Link]([B]linked_list/21_merge_two_sorted_lists) |
 | 060 | [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [B]linked_list | use sentinel node | [Link]([B]linked_list/2_add_two_numbers) |
@@ -65,7 +65,7 @@
 | 063 | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [B]linked_list | use two pointers (slow and fast) | [Link]([B]linked_list/141_linked_list_cycle) |
 | 064 | [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [B]linked_list | use two pointers (slow and fast) | [Link]([B]linked_list/142_linked_list_cycle_ii) |
 | 065 | [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [B]linked_list | use two pointers (slow and fast) | [Link]([B]linked_list/876_middle_of_the_linked_list) |
-| 066 | [206. Reverse Linked List](https: //leetcode.com/problems/reverse-linked-list/) | [B]linked_list | use two pointers (prev and cur) | [Link]([B]linked_list/206_reverse_linked_list) |
+| 066 | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [B]linked_list | use two pointers (prev and cur) | [Link]([B]linked_list/206_reverse_linked_list) |
 | 067 | [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | [B]linked_list | use two pointers (prev and cur) | [Link]([B]linked_list/92_reverse_linked_list_ii) |
 | 068 | [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [B]linked_list | use two pointers (prev and cur) | [Link]([B]linked_list/25_reverse_nodes_in_k_group) |
 | 069 | [2074. Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/) | [B]linked_list | use two pointers (prev and cur) | [Link]([B]linked_list/2074_reverse_nodes_in_even_length_groups) |
@@ -183,7 +183,7 @@
 | 181 | [135. Candy](https://leetcode.com/problems/candy/) | [N]greedy | greedy | [Link]([N]greedy/135_candy) |
 | 182 | [2144. Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) | [N]greedy | greedy | [Link]([N]greedy/2144_minimum_cost_of_buying_candies_with_discount) |
 | 183 | [179. Largest Number](https://leetcode.com/problems/largest-number/) | [N]greedy | greedy | [Link]([N]greedy/179_largest_number) |
-| 184 | [45. Jump Game II](https: //leetcode.com/problems/jump-game-ii/) | [N]greedy | greedy | [Link]([N]greedy/45_jump_game_ii) |
+| 184 | [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [N]greedy | greedy | [Link]([N]greedy/45_jump_game_ii) |
 | 185 | [1005. Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/) | [N]greedy | greedy | [Link]([N]greedy/1005_maximize_sum_of_array_after_k_negations) |
 | 186 | [455. Assign Cookies](https://leetcode.com/problems/assign-cookies/) | [N]greedy | greedy | [Link]([N]greedy/455_assign_cookies) |
 | 187 | [561. Array Partition](https://leetcode.com/problems/array-partition/) | [N]greedy | greedy | [Link]([N]greedy/561_array_partition) |
