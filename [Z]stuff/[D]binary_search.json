@@ -1,0 +1,72 @@
+[
+    {
+        "name": "704. Binary Search",
+        "leetcode_link": "https://leetcode.com/problems/binary-search/",
+        "topic": "[D]binary_search",
+        "pattern": "search in a sorted array for specific val",
+        "solution": "[D]binary_search/704_binary_search"
+    },
+    {
+        "name": "367. Valid Perfect Square",
+        "leetcode_link": "https://leetcode.com/problems/valid-perfect-square/",
+        "topic": "[D]binary_search",
+        "pattern": "search in a sorted array for specific val",
+        "solution": "[D]binary_search/367_valid_perfect_square/"
+    },
+    {
+        "name": "74. Search a 2D Matrix",
+        "leetcode_link": "https://leetcode.com/problems/search-a-2d-matrix/",
+        "topic": "[D]binary_search",
+        "pattern": "search in a sorted array for specific val",
+        "solution": "[D]binary_search/74_search_a_2d_matrix"
+    },
+    {
+        "name": "744. Find Smallest Letter Greater Than Target",
+        "leetcode_link": "https://leetcode.com/problems/find-smallest-letter-greater-than-target/",
+        "topic": "[D]binary_search",
+        "pattern": "search in a sorted array for most close val",
+        "solution": "[D]binary_search/744_find_smallest_letter_greater_than_target"
+    },
+    {
+        "name": "981. Time Based Key-Value Store",
+        "leetcode_link": "https://leetcode.com/problems/time-based-key-value-store/",
+        "topic": "[D]binary_search",
+        "pattern": "search in a sorted array for most close val",
+        "solution": "[D]binary_search/981_time_based_key_value_store/"
+    },
+    {
+        "name": "528. Random Pick with Weight",
+        "leetcode_link": "https://leetcode.com/problems/random-pick-with-weight/",
+        "topic": "[D]binary_search",
+        "pattern": "search in a sorted array for most close val",
+        "solution": "[D]binary_search/528_random_pick_with_weight/"
+    },
+    {
+        "name": "1201. Ugly Number III",
+        "leetcode_link": "https://leetcode.com/problems/ugly-number-iii/",
+        "topic": "[D]binary_search",
+        "pattern": "search in sth’s range",
+        "solution": "[D]binary_search/1201_ugly_number_iii/"
+    },
+    {
+        "name": "1011. Capacity To Ship Packages Within D Days",
+        "leetcode_link": "https://leetcode.com/problems//",
+        "topic": "[D]binary_search",
+        "pattern": "search in sth’s range",
+        "solution": "[D]binary_search/1011_capacity_to_ship_packages_within_d_days/"
+    },
+    {
+        "name": "852. Peak Index in a Mountain Array",
+        "leetcode_link": "https://leetcode.com/problems/peak-index-in-a-mountain-array/",
+        "topic": "[D]binary_search",
+        "pattern": "use boundary to record",
+        "solution": "[D]binary_search/852_peak_index_in_a_mountain_array/"
+    },
+    {
+        "name": "162. Find Peak Element",
+        "leetcode_link": "https://leetcode.com/problems//",
+        "topic": "[D]binary_search",
+        "pattern": "use boundary to record",
+        "solution": "[D]binary_search/162_find_peak_element/"
+    }
+]

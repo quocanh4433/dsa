@@ -1,0 +1,9 @@
+[
+    {
+        "name": "337. House Robber III",
+        "leetcode_link": "https://leetcode.com/problems/house-robber-iii/",
+        "topic": "[M]dynamic_programming",
+        "pattern": "tree dp",
+        "solution": "[M]dynamic_programming/337_house_robber_iii"
+    }
+]

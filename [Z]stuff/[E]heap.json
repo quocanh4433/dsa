@@ -1,0 +1,121 @@
+[
+     {
+        "name": "1235. Maximum Profit in Job Scheduling",
+        "leetcode_link": "https://leetcode.com/problems/maximum-profit-in-job-scheduling/",
+        "topic": "[E]heap",
+        "pattern": "greedily schedule tasks (start/end/val)",
+        "solution": "[E]heap/1235_maximum_profit_in_job_scheduling/"
+    },
+    {
+        "name": "646. Maximum Length of Pair Chain",
+        "leetcode_link": "https://leetcode.com/problems/maximum-length-of-pair-chain/",
+        "topic": "[E]heap",
+        "pattern": "greedily schedule tasks (start/end/val)",
+        "solution": "[E]heap/646_maximum_length_of_pair_chain/"
+    },
+    {
+        "name": "2008. Maximum Earnings From Taxi",
+        "leetcode_link": "https://leetcode.com/problems//",
+        "topic": "[E]heap",
+        "pattern": "greedily schedule tasks (start/end/val)",
+        "solution": "[E]heap/2008_maximum_earnings_from_taxi/"
+    },
+    {
+        "name": "2054. Two Best Non-Overlapping Events",
+        "leetcode_link": "https://leetcode.com/problems/two-best-non-overlapping-events/",
+        "topic": "[E]heap",
+        "pattern": "greedily schedule tasks (start/end/val)",
+        "solution": "[E]heap/2054_two_best_non_overlapping_events/"
+    },
+    {
+        "name": "973. K Closest Points to Origin",
+        "leetcode_link": "https://leetcode.com/problems/k-closest-points-to-origin/",
+        "topic": "[E]heap",
+        "pattern": "top k problem (based on heap) ",
+        "solution": "[E]heap/973_k_closest_points_to_origin/"
+    },
+    {
+        "name": "692. Top K Frequent Words",
+        "leetcode_link": "https://leetcode.com/problems/top-k-frequent-words/",
+        "topic": "[E]heap",
+        "pattern": "top k problem (based on heap)",
+        "solution": "[E]heap/692_top_k_frequent_words/"
+    },
+    {
+        "name": "264. Ugly Number II",
+        "leetcode_link": "https://leetcode.com/problems/ugly-number-ii/",
+        "topic": "[E]heap",
+        "pattern": "k way merge problem",
+        "solution": "[E]heap/264_ugly_number_ii/"
+    },
+    {
+        "name": "313. Super Ugly Number",
+        "leetcode_link": "https://leetcode.com/problems/",
+        "topic": "[E]heap",
+        "pattern": "k way merge problem",
+        "solution": "[E]heap/313_super_ugly_number/"
+    },
+    {
+        "name": "355. Design Twitter",
+        "leetcode_link": "https://leetcode.com/problems/design-twitter/",
+        "topic": "[E]heap",
+        "pattern": "k way merge problem",
+        "solution": "[E]heap/355_design_twitter/"
+    },
+    {
+        "name": "632. Smallest Range Covering Elements from K Lists",
+        "leetcode_link": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/",
+        "topic": "[E]heap",
+        "pattern": "k way merge problem",
+        "solution": "[E]heap/632_smallest_range_covering_elements_from_k_lists/"
+    },
+    {
+        "name": "23. Merge k Sorted Lists",
+        "leetcode_link": "https://leetcode.com/problems/merge-k-sorted-lists/",
+        "topic": "[E]heap",
+        "pattern": "k way merge problem",
+        "solution": "[E]heap/23_merge_k_sorted_lists/"
+    },
+    {
+        "name": "630. Course Schedule III",
+        "leetcode_link": "https://leetcode.com/problems/course-schedule-iii/",
+        "topic": "[E]heap",
+        "pattern": "storing and popping out elements",
+        "solution": "[E]heap/630_course-schedule-iii/"
+     },
+    {
+        "name": "1094. Car Pooling",
+        "leetcode_link": "https://leetcode.com/problems/car-pooling/",
+        "topic": "[E]heap",
+        "pattern": "storing and popping out elements",
+        "solution": "[E]heap/1094_car_pooling/"
+    },
+    {
+        "name": "1705. Maximum Number of Eaten Apples",
+        "leetcode_link": "https://leetcode.com/problems/maximum-number-of-eaten-apples/",
+        "topic": "[E]heap",
+        "pattern": "storing and popping out elements",
+        "solution": "[E]heap/1705_maximum_number_of_eaten_apples/"
+    },
+    {
+        "name": "1792. Maximum Average Pass Ratio",
+        "leetcode_link": "https://leetcode.com/problems/maximum-average-pass-ratio/",
+        "topic": "[E]heap",
+        "pattern": "storing and popping out elements",
+        "solution": "[E]heap/1792_/maximum_average_pass_ratio/"
+    },    
+    {
+        "name": "378. Kth Smallest Element in a Sorted Matrix",
+        "leetcode_link": "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/",
+        "topic": "[E]heap",
+        "pattern": "use bfs and heap",
+        "solution": "[E]heap/378_kth_smallest_element_in_a_sorted_matrix/"
+    },
+    {
+        "name": "373. Find K Pairs with Smallest Sums",
+        "leetcode_link": "https://leetcode.com/problems/find-k-pairs-with-smallest-sums/",
+        "topic": "[E]heap",
+        "pattern": "use bfs and heap",
+        "solution": "[E]heap/373_find_k_pairs_with_smallest_sums/"
+    }
+]

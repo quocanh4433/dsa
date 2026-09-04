@@ -1,0 +1,23 @@
+[
+    {
+        "name": "307. Range Sum Query - Mutable",
+        "leetcode_link": "https://leetcode.com/problems/range-sum-query-mutable/",
+        "topic": "[P]segment_tree",
+        "pattern": "use sum type segment tree",
+        "solution": "[P]segment_tree/307_range_sum_query_mutable"
+    },
+    {
+        "name": "729. My Calendar I",
+        "leetcode_link": "https://leetcode.com/problems/my-calendar-i/",
+        "topic": "[P]segment_tree",
+        "pattern": "use count type segment tree",
+        "solution": "[P]segment_tree/729_my_calendar_i"
+    },
+    {
+        "name": "731. My Calendar II",
+        "leetcode_link": "https://leetcode.com/problems/my-calendar-ii/",
+        "topic": "[P]segment_tree",
+        "pattern": "use max type segment tree",
+        "solution": "[P]segment_tree/731_my_calendar_ii"
+    }
+]

@@ -1,0 +1,184 @@
+[
+    {
+        "name": "705. Design HashSet",
+        "leetcode_link": "https://leetcode.com/problems/design-hashset/",
+        "topic": "[C]hashmap",
+        "pattern": "separate chaining",
+        "solution": "[C]hashmap/705_design_hashset"
+    },
+    {
+        "name": "706. Design HashMap",
+        "leetcode_link": "https://leetcode.com/problems/design-hashmap/",
+        "topic": "[C]hashmap",
+        "pattern": "separate chaining",
+        "solution": "[C]hashmap/706_design_hashmap"
+    },
+    {
+        "name": "1805. Number of Different Integers in a String",
+        "leetcode_link": "https://leetcode.com/problems/number-of-different-integers-in-a-string/",
+        "topic": "[C]hashmap",
+        "pattern": "store val",
+        "solution": "[C]hashmap/1805_number_of_different_integers_in_a_string"
+    },
+    {
+        "name": "217. Contains Duplicate",
+        "leetcode_link": "https://leetcode.com/problems/contains-duplicate/",
+        "topic": "[C]hashmap",
+        "pattern": "store val",
+        "solution": "[C]hashmap/217_contains_duplicate"
+    },
+    {
+        "name": "128. Longest Consecutive Sequence",
+        "leetcode_link": "https://leetcode.com/problems/longest-consecutive-sequence/",
+        "topic": "[C]hashmap",
+        "pattern": "store val",
+        "solution": "[C]hashmap/128_longest_consecutive_sequence"
+    },
+    {
+        "name": "13. Roman to Integer",
+        "leetcode_link": "https://leetcode.com/problems/roman-to-integer/",
+        "topic": "[C]hashmap",
+        "pattern": "store val",
+        "solution": "[C]hashmap/13_roman_to_integer"
+    },
+    {
+        "name": "953. Verifying an Alien Dictionary",
+        "leetcode_link": "https://leetcode.com/problems/verifying-an-alien-dictionary/",
+        "topic": "[C]hashmap",
+        "pattern": "store val",
+        "solution": "[C]hashmap/953_verifying_an_alien_dictionary"
+    },
+    {
+        "name": "2342. Max Sum of a Pair With Equal Sum of Digits",
+        "leetcode_link": "https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/",
+        "topic": "[C]hashmap",
+        "pattern": "store val",
+        "solution": "[C]hashmap/2342_max_sum_of_a_pair_with_equal_sum_of_digits"
+    },
+    {
+        "name": "336. Palindrome Pairs",
+        "leetcode_link": "https://leetcode.com/problems/palindrome-pairs/",
+        "topic": "[C]hashmap",
+        "pattern": "store val",
+        "solution": "[C]hashmap/336_palindrome_pairs"
+    },
+    {
+        "name": "1. Two Sum",
+        "leetcode_link": "https://leetcode.com/problems/two-sum/",
+        "topic": "[C]hashmap",
+        "pattern": "store val",
+        "solution": "[C]hashmap/1-two-sum/"
+    },
+    {
+        "name": "380. Insert Delete GetRandom O(1)",
+        "leetcode_link": "https://leetcode.com/problems/insert-delete-getrandom-o1/",
+        "topic": "[C]hashmap",
+        "pattern": "store val",
+        "solution": "[C]hashmap/380_insert_delete_getrandom_o1/"
+    },
+    {
+        "name": "609. Find Duplicate File in System",
+        "leetcode_link": "https://leetcode.com/problems/find-duplicate-file-in-system/",
+        "topic": "[C]hashmap",
+        "pattern": "store val",
+        "solution": "[C]hashmap/609_find_duplicate_file_in_system/"
+    },
+    {
+        "name": "383. Ransom Note",
+        "leetcode_link": "https://leetcode.com/problems/ransom-note/",
+        "topic": "[C]hashmap",
+        "pattern": "store sth’s freq",
+        "solution": "[C]hashmap/383_ransom_note/"
+    },
+    {
+        "name": "242. Valid Anagram",
+        "leetcode_link": "https://leetcode.com/problems/valid-anagram/",
+        "topic": "[C]hashmap",
+        "pattern": "store sth’s freq",
+        "solution": "[C]hashmap/242_valid_anagram/"
+    },
+    {
+        "name": "409. Longest Palindrome",
+        "leetcode_link": "https://leetcode.com/problems/longest-palindrome/",
+        "topic": "[C]hashmap",
+        "pattern": "store sth’s freq",
+        "solution": "[C]hashmap/409_longest_palindrome/"
+    },
+    {
+        "name": "387. First Unique Character in a String",
+        "leetcode_link": "https://leetcode.com/problems/first-unique-character-in-a-string/",
+        "topic": "[C]hashmap",
+        "pattern": "store sth’s freq",
+        "solution": "[C]hashmap/387_first_unique_character_in_a_string/"
+    },
+    {
+        "name": "767. Reorganize String",
+        "leetcode_link": "https://leetcode.com/problems/reorganize-string/",
+        "topic": "[C]hashmap",
+        "pattern": "store sth’s freq",
+        "solution": "[C]hashmap/767_reorganize_string/"
+    },
+    {
+        "name": "2423. Remove Letter To Equalize Frequency",
+        "leetcode_link": "https://leetcode.com/problems/remove-letter-to-equalize-frequency/",
+        "topic": "[C]hashmap",
+        "pattern": "store sth’s freq",
+        "solution": "[C]hashmap/2423_remove_letter_to_equalize_frequency/"
+    },
+    {
+        "name": "299. Bulls and Cows",
+        "leetcode_link": "https://leetcode.com/problems/bulls-and-cows/",
+        "topic": "[C]hashmap",
+        "pattern": "store sth’s freq",
+        "solution": "[C]hashmap/299_bulls_and_cows/"
+    },
+    {
+        "name": "819. Most Common Word",
+        "leetcode_link": "https://leetcode.com/problems/most-common-word/",
+        "topic": "[C]hashmap",
+        "pattern": "store sth’s freq",
+        "solution": "[C]hashmap/819_most_common_word/"
+    },
+    {
+        "name": "49. Group Anagrams",
+        "leetcode_link": "https://leetcode.com/problems/group-anagrams/",
+        "topic": "[C]hashmap",
+        "pattern": "store sth’s freq",
+        "solution": "[C]hashmap/49_group_anagrams/"
+    },
+    {
+        "name": "828. Count Unique Characters of All Substrings of a Given String",
+        "leetcode_link": "https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/",
+        "topic": "[C]hashmap",
+        "pattern": "snapshot of hashmap",
+        "solution": "[C]hashmap/828_count_unique_characters_of_all_substrings_of_a_given_string/"
+    },
+    {
+        "name": "205. Isomorphic Strings",
+        "leetcode_link": "https://leetcode.com/problems/isomorphic-strings/",
+        "topic": "[C]hashmap",
+        "pattern": "build bijection mapping relation",
+        "solution": "[C]hashmap/205_isomorphic_strings/"
+    },
+    {
+        "name": "1010. Pairs of Songs With Total Durations Divisible by 60",
+        "leetcode_link": "https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/",
+        "topic": "[C]hashmap",
+        "pattern": "store valid val’s freq for finding pairs",
+        "solution": "[C]hashmap/1010_pairs_of_songs_with_total_durations_divisible_by_60/"
+    },
+    {
+        "name": "2364. Count Number of Bad Pairs ",
+        "leetcode_link": "https://leetcode.com/problems/count-number-of-bad-pairs/",
+        "topic": "[C]hashmap",
+        "pattern": "store valid val’s freq for finding pairs",
+        "solution": "[C]hashmap/2364_count_number_of_bad_pairs/"
+    },
+    {
+        "name": "2013. Detect Squares",
+        "leetcode_link": "https://leetcode.com/problems/detect-squares/",
+        "topic": "[C]hashmap",
+        "pattern": "store valid val’s freq for finding pairs",
+        "solution": "[C]hashmap/2013_detect_squares/"
+    }
+]

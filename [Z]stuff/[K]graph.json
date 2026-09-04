@@ -1,0 +1,156 @@
+[
+    {
+        "name": "721. Accounts Merge",
+        "leetcode_link": "https://leetcode.com/problems/accounts-merge/",
+        "topic": "[K]graph",
+        "pattern": "union find",
+        "solution": "[K]graph/[K]graph_union_find/721_accounts_merge"
+    },
+    {
+        "name": "2316. Count Unreachable Pairs of Nodes in an Undirected Graph",
+        "leetcode_link": "https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/",
+        "topic": "[K]graph",
+        "pattern": "union find",
+        "solution": "[K]graph/[K]graph_union_find/2316_count_unreachable_pairs_of_nodes_in_an_undirected_graph"
+    },
+    {
+        "name": "684. Redundant Connection",
+        "leetcode_link": "https://leetcode.com/problems/redundant-connection/",
+        "topic": "[K]graph",
+        "pattern": "union find",
+        "solution": "[K]graph/[K]graph_union_find/684_redundant_connection"
+    },
+    {
+        "name": "399. Evaluate Division",
+        "leetcode_link": "https://leetcode.com/problems/evaluate-division/",
+        "topic": "[K]graph",
+        "pattern": "weighted union find",
+        "solution": "[K]graph/[K]graph_union_find/399_evaluate_division"
+    },
+    {
+        "name": "130. Surrounded Regions",
+        "leetcode_link": "https://leetcode.com/problems/surrounded-regions/",
+        "topic": "[K]graph",
+        "pattern": "union find",
+        "solution": "[K]graph/[K]graph_union_find/130_surrounded_regions"
+    },
+    {
+        "name": "947. Most Stones Removed with Same Row or Column",
+        "leetcode_link": "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/",
+        "topic": "[K]graph",
+        "pattern": "union find",
+        "solution": "[K]graph/[K]graph_union_find/947_most_stones_removed_with_same_row_or_column"
+    },
+    {
+        "name": "207. Course Schedule",
+        "leetcode_link": "https://leetcode.com/problems/course-schedule/",
+        "topic": "[K]graph",
+        "pattern": "kahn (topological sort)",
+        "solution": "[K]graph/[K]graph_kahn/207_course_schedule"
+    },
+    {
+        "name": "210. Course Schedule II",
+        "leetcode_link": "https://leetcode.com/problems/course-schedule-ii/",
+        "topic": "[K]graph",
+        "pattern": "kahn (topological sort)",
+        "solution": "[K]graph/[K]graph_kahn/210_course_schedule_ii"
+    },
+    {
+        "name": "269. Alien Dictionary",
+        "leetcode_link": "https://leetcode.com/problems/alien-dictionary/",
+        "topic": "[K]graph",
+        "pattern": "kahn (topological sort)",
+        "solution": "[K]graph/[K]graph_kahn/269_alien_dictionary"
+    },
+    {
+        "name": "2115. Find All Possible Recipes from Given Supplies",
+        "leetcode_link": "https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/",
+        "topic": "[K]graph",
+        "pattern": "kahn (topological sort)",
+        "solution": "[K]graph/[K]graph_kahn/2115_find_all_possible_recipes_from_given_supplies"
+    },
+    {
+        "name": "2192. All Ancestors of a Node in a Directed Acyclic Graph",
+        "leetcode_link": "https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/",
+        "topic": "[K]graph",
+        "pattern": "kahn (topological sort)",
+        "solution": "[K]graph/[K]graph_kahn/2192_all_ancestors_of_a_node_in_a_directed_acyclic_graph"
+    },
+    {
+        "name": "2050. Parallel Courses III",
+        "leetcode_link": "https://leetcode.com/problems/parallel-courses-iii/",
+        "topic": "[K]graph",
+        "pattern": "kahn (topological sort)",
+        "solution": "[K]graph/[K]graph_kahn/2050_parallel_courses_iii"
+    },
+    {
+        "name": "802. Find Eventual Safe States",
+        "leetcode_link": "https://leetcode.com/problems/find-eventual-safe-states/",
+        "topic": "[K]graph",
+        "pattern": "kahn reverse (topological sort)",
+        "solution": "[K]graph/[K]graph_kahn/802_find_eventual_safe_states"
+    },
+    {
+        "name": "310. Minimum Height Trees",
+        "leetcode_link": "https://leetcode.com/problems/minimum-height-trees/",
+        "topic": "[K]graph",
+        "pattern": "kahn (topological sort) idea for undirected graph",
+        "solution": "[K]graph/[K]graph_kahn/310_minimum_height_trees"
+    },
+    {
+        "name": "743. Network Delay Time",
+        "leetcode_link": "https://leetcode.com/problems/network-delay-time/",
+        "topic": "[K]graph",
+        "pattern": "dijkstra (shortest path)",
+        "solution": "[K]graph/[K]graph_dijkstra/743_network_delay_time"
+    },
+    {
+        "name": "1514. Path with Maximum Probability",
+        "leetcode_link": "https://leetcode.com/problems/path-with-maximum-probability/",
+        "topic": "[K]graph",
+        "pattern": "dijkstra (shortest path)",
+        "solution": "[K]graph/[K]graph_dijkstra/1514_path_with_maximum_probability"
+    },
+    {
+        "name": "787. Cheapest Flights Within K Stops",
+        "leetcode_link": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+        "topic": "[K]graph",
+        "pattern": "bellman ford (shortest path)",
+        "solution": "[K]graph/[K]graph_bellman_ford/787_cheapest_flights_within_k_stops"
+    },
+    {
+        "name": "1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance",
+        "leetcode_link": "https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/",
+        "topic": "[K]graph",
+        "pattern": "floyd warshall (shortest path)",
+        "solution": "[K]graph/[K]graph_floyd_warshall/1334_find_the_city_with_the_smallest_number_of_neighbors_at_a_threshold_distance/"
+    },
+    {
+        "name": "1584. Min Cost to Connect All Points",
+        "leetcode_link": "https://leetcode.com/problems/min-cost-to-connect-all-points/",
+        "topic": "[K]graph",
+        "pattern": "kruskal (mst)",
+        "solution": "[K]graph/[K]graph_kruskal/1584_min_cost_to_connect_all_points/"
+    },
+    {
+        "name": "1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree",
+        "leetcode_link": "https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/",
+        "topic": "[K]graph",
+        "pattern": "kruskal (mst)",
+        "solution": "[K]graph/[K]graph_kruskal/1489_find_critical_and_pseudo_critical_edges_in_minimum_spanning_tree/"
+    },
+    {
+        "name": "73. Set Matrix Zeroes",
+        "leetcode_link": "https://leetcode.com/problems/set-matrix-zeroes/",
+        "topic": "[K]graph",
+        "pattern": "matrix",
+        "solution": "[K]graph/[K]graph_matrix/73_set_matrix_zeroes/"
+    },
+    {
+        "name": "1582. Special Positions in a Binary Matrix",
+        "leetcode_link": "https://leetcode.com/problems/special-positions-in-a-binary-matrix/",
+        "topic": "[K]graph",
+        "pattern": "matrix",
+        "solution": "[K]graph/[K]graph_matrix/1582_special_positions_in_a_binary_matrix/"
+    }
+]
