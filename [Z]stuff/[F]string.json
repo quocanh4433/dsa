@@ -5,5 +5,12 @@
         "topic": "[F]string",
         "pattern": "traverse from end",
         "solution": "[F]string/844_backspace_string_compare"
-    }
+    },
+     {
+        "name": "43. Multiply Strings",
+        "leetcode_link": "https://leetcode.com/problems/multiply-strings/",
+        "topic": "[F]string",
+        "pattern": "traverse from end",
+        "solution": "[F]string/43_multiply_strings"
+    }     
 ]
