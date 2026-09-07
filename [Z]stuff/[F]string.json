@@ -6,11 +6,25 @@
         "pattern": "traverse from end",
         "solution": "[F]string/844_backspace_string_compare"
     },
-     {
+    {
         "name": "43. Multiply Strings",
         "leetcode_link": "https://leetcode.com/problems/multiply-strings/",
         "topic": "[F]string",
         "pattern": "traverse from end",
         "solution": "[F]string/43_multiply_strings"
-    }     
+    },
+    {
+        "name": "28. Find the Index of the First Occurrence in a String",
+        "leetcode_link": "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/",
+        "topic": "[F]string",
+        "pattern": "use rabin karp (rolling hash)",
+        "solution": "[F]string/28_find_the_index_of_the_first_occurrence_in_a_string"
+    },
+    {
+        "name": "187. Repeated DNA Sequences",
+        "leetcode_link": "https://leetcode.com/problems/repeated-dna-sequences/",
+        "topic": "[F]string",
+        "pattern": "use rabin karp (rolling hash)",
+        "solution": "[F]string/187_repeated_dna_sequences"
+    }  
 ]
