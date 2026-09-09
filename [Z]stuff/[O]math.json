@@ -1,0 +1,9 @@
+[
+    {
+        "name": "263. Ugly Number",
+        "leetcode_link": "https://leetcode.com/problems/ugly-number/",
+        "topic": "[O]math",
+        "pattern": "math",
+        "solution": "[O]math/263_ugly_number"
+    }
+]
