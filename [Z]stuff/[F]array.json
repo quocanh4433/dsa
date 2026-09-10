@@ -1,10 +1,10 @@
 [
     {
-        "name": "560. Subarray Sum Equals K",
-        "leetcode_link": "https://leetcode.com/problems/subarray-sum-equals-k/",
-        "topic": "[H]array_prefix_sum",
-        "pattern": "use hashmap to validate the gap subarray",
-        "solution": "[H]array/[H]array_prefix_sum/560_subarray_sum_equals_k"
+        "name": "287. Find the Duplicate Number",
+        "leetcode_link": "https://leetcode.com/problems/find-the-duplicate-number/",
+        "topic": "[H]array",
+        "pattern": "specific range array (cycle detection)",
+        "solution": "[H]array/[H]array/287_find_the_duplicate_number/"
     },
     {
         "name": "438. Find All Anagrams in a String",
@@ -12,6 +12,13 @@
         "topic": "[H]array-sliding-window",
         "pattern": "use standard sliding window",
         "solution": "[H]array/[H]array-sliding-window/438_find_all_anagrams_in_a_string/"
+    },
+    {
+        "name": "560. Subarray Sum Equals K",
+        "leetcode_link": "https://leetcode.com/problems/subarray-sum-equals-k/",
+        "topic": "[H]array_prefix_sum",
+        "pattern": "use hashmap to validate the gap subarray",
+        "solution": "[H]array/[H]array_prefix_sum/560_subarray_sum_equals_k"
     },
     {
         "name": "75. Sort Colors",
