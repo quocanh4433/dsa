@@ -7,6 +7,13 @@
         "solution": "[H]array/[H]array/287_find_the_duplicate_number/"
     },
     {
+        "name": "845. Longest Mountain in Array",
+        "leetcode_link": "https://leetcode.com/problems/longest-mountain-in-array/",
+        "topic": "[H]array",
+        "pattern": "use finite state machine",
+        "solution": "[H]array/[H]array/845_longest_mountain_in_array/"
+    },
+    {
         "name": "438. Find All Anagrams in a String",
         "leetcode_link": "https://leetcode.com/problems/find-all-anagrams-in-a-string/",
         "topic": "[H]array-sliding-window",
