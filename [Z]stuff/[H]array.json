@@ -14,6 +14,13 @@
         "solution": "[H]array/[H]array/845_longest_mountain_in_array/"
     },
     {
+        "name": "849. Maximize Distance to Closest Person",
+        "leetcode_link": "https://leetcode.com/problems/maximize-distance-to-closest-person/",
+        "topic": "[H]array",
+        "pattern": "count continuous elements",
+        "solution": "[H]array/[H]array/849_maximize_distance_to_closest_person/"
+    },
+    {
         "name": "438. Find All Anagrams in a String",
         "leetcode_link": "https://leetcode.com/problems/find-all-anagrams-in-a-string/",
         "topic": "[H]array-sliding-window",
