@@ -42,10 +42,17 @@
         "solution": "[H]array/[H]array_two_pointers_same_direction/75_sort_color/"
     },
     {
+        "name": "26. Remove Duplicates from Sorted Array",
+        "leetcode_link": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/",
+        "topic": "[H]array_two_pointers_same_direction",
+        "pattern": "use left ptr to record",
+        "solution": "[H]array/[H]array_two_pointers_same_direction/26_remove_duplicates_from_sorted_array/"
+    },
+    {
         "name": "80. Remove Duplicates from Sorted Array II",
         "leetcode_link": "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/",
         "topic": "[H]array_two_pointers_same_direction",
         "pattern": "use left ptr to record",
         "solution": "[H]array/[H]array_two_pointers_same_direction/80_remove_duplicates_from_sorted_array_ii/"
-    }
+    }                                                   
 ]

@@ -14,16 +14,20 @@ class SortColor_OnePass {
         int high = nums.length - 1; // điểm giới hạn của vùng số 2
 
         while (mid <= high) {
-            if (nums[mid] == 0) {
-                swap(nums, mid, low);
-                low++;
-                mid++;
-            } else if (nums[mid] == 1) {
-                mid++;
-            } else {
-                swap(nums, mid, high);
-                high--;
-                // Lưu ý: Không tăng mid ở đây vì số mới swap từ high về mid chưa được kiểm tra!
+            switch (nums[mid]) {
+                case 0:
+                    swap(nums, mid, low);
+                    low++;
+                    mid++;
+                    break;
+                case 1:
+                    mid++;
+                    break;
+                default:
+                    swap(nums, mid, high);
+                    high--;
+                    // Lưu ý: Không tăng mid ở đây vì số mới swap từ high về mid chưa được kiểm tra!
+                    break;
             }
         }
     }
