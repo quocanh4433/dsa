@@ -15,19 +15,17 @@ class SortColor_OnePass {
 
         while (mid <= high) {
             switch (nums[mid]) {
-                case 0:
+                case 0 -> {
                     swap(nums, mid, low);
                     low++;
                     mid++;
-                    break;
-                case 1:
-                    mid++;
-                    break;
-                default:
+                }
+                case 1 -> mid++;
+                default -> {
                     swap(nums, mid, high);
                     high--;
                     // Lưu ý: Không tăng mid ở đây vì số mới swap từ high về mid chưa được kiểm tra!
-                    break;
+                }
             }
         }
     }
