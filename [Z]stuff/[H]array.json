@@ -20,13 +20,7 @@
         "pattern": "count continuous elements",
         "solution": "[H]array/[H]array/849_maximize_distance_to_closest_person/"
     },
-    {
-        "name": "438. Find All Anagrams in a String",
-        "leetcode_link": "https://leetcode.com/problems/find-all-anagrams-in-a-string/",
-        "topic": "[H]array_sliding_window",
-        "pattern": "use standard sliding window",
-        "solution": "[H]array/[H]array_sliding_window/438_find_all_anagrams_in_a_string/"
-    },
+    
     {
         "name": "560. Subarray Sum Equals K",
         "leetcode_link": "https://leetcode.com/problems/subarray-sum-equals-k/",
@@ -35,11 +29,11 @@
         "solution": "[H]array/[H]array_prefix_sum/560_subarray_sum_equals_k"
     },
     {
-        "name": "75. Sort Colors",
-        "leetcode_link": "https://leetcode.com/problems/sort-colors/",
-        "topic": "[H]array_two_pointers_same_direction",
-        "pattern": "use left ptr to record",
-        "solution": "[H]array/[H]array_two_pointers_same_direction/75_sort_color/"
+        "name": "438. Find All Anagrams in a String",
+        "leetcode_link": "https://leetcode.com/problems/find-all-anagrams-in-a-string/",
+        "topic": "[H]array_sliding_window",
+        "pattern": "use standard sliding window",
+        "solution": "[H]array/[H]array_sliding_window/438_find_all_anagrams_in_a_string/"
     },
     {
         "name": "26. Remove Duplicates from Sorted Array",
@@ -54,5 +48,19 @@
         "topic": "[H]array_two_pointers_same_direction",
         "pattern": "use left ptr to record",
         "solution": "[H]array/[H]array_two_pointers_same_direction/80_remove_duplicates_from_sorted_array_ii/"
-    }                                                   
+    },    
+    {
+        "name": "75. Sort Colors",
+        "leetcode_link": "https://leetcode.com/problems/sort-colors/",
+        "topic": "[H]array_two_pointers_same_direction",
+        "pattern": "use left ptr to record",
+        "solution": "[H]array/[H]array_two_pointers_same_direction/75_sort_color/"
+    },
+    {
+        "name": "2414. Length of the Longest Alphabetical Continuous Substring",
+        "leetcode_link": "https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring/",
+        "topic": "[H]array_two_pointers_same_direction",
+        "pattern": "use left ptr to record",
+        "solution": "[H]array/[H]array_two_pointers_same_direction/2414_length_of_the_longest_alphabetical_continuous_substring/"
+    }                                        
 ]
