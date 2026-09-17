@@ -25,4 +25,6 @@ class LengthOfTheLongestAlphabeticalContinuousSubstring {
 
         return max;
     }
+
+    // hoặc có thể tiếp cận theo hướng s.charAt(i) - s.charAt(j) == i - j
 }
