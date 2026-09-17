@@ -69,5 +69,12 @@
         "topic": "[H]array_two_pointers_same_direction",
         "pattern": "find next permutation",
         "solution": "[H]array/[H]array_two_pointers_same_direction/31_next_permutation/"
-    }                               
+    },
+    {
+        "name": "977. Squares of a Sorted Array",
+        "leetcode_link": "https://leetcode.com/problems/squares-of-a-sorted-array/",
+        "topic": "[H]array_two_pointers_opposite_direction",
+        "pattern": "use shrink type",
+        "solution": "[H]array/[H]array_two_pointers_opposite_direction/977_squares_of_a_sorted_array/"
+    }
 ]
