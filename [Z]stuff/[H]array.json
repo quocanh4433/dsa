@@ -62,5 +62,12 @@
         "topic": "[H]array_two_pointers_same_direction",
         "pattern": "use left ptr to record",
         "solution": "[H]array/[H]array_two_pointers_same_direction/2414_length_of_the_longest_alphabetical_continuous_substring/"
-    }                                        
+    },
+    {
+        "name": "31. Next Permutation",
+        "leetcode_link": "https://leetcode.com/problems/next-permutation/",
+        "topic": "[H]array_two_pointers_same_direction",
+        "pattern": "find next permutation",
+        "solution": "[H]array/[H]array_two_pointers_same_direction/31_next_permutation/"
+    }                               
 ]
