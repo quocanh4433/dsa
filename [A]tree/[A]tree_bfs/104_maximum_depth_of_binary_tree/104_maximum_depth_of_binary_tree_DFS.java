@@ -6,8 +6,8 @@ class MaximumDepthOfBinaryTree_DFS {
     /*
         time O(n)
         space O(h)
-            ▪︎ balanced tree: h = logn
-            ▪︎ skew tree: h = On
+            ▪︎ balanced tree: h = O(logn)
+            ▪︎ skew tree: h = O(n)
      */
     public int maxDepth(TreeNode root) {
 
