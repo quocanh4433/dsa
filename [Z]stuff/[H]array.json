@@ -20,7 +20,6 @@
         "pattern": "count continuous elements",
         "solution": "[H]array/[H]array/849_maximize_distance_to_closest_person/"
     },
-    
     {
         "name": "560. Subarray Sum Equals K",
         "leetcode_link": "https://leetcode.com/problems/subarray-sum-equals-k/",
@@ -48,7 +47,7 @@
         "topic": "[H]array_two_pointers_same_direction",
         "pattern": "use left ptr to record",
         "solution": "[H]array/[H]array_two_pointers_same_direction/80_remove_duplicates_from_sorted_array_ii/"
-    },    
+    },
     {
         "name": "75. Sort Colors",
         "leetcode_link": "https://leetcode.com/problems/sort-colors/",
@@ -90,5 +89,12 @@
         "topic": "[H]array_two_pointers_opposite_direction",
         "pattern": "use shrink type",
         "solution": "[H]array/[H]array_two_pointers_opposite_direction/151_reverse_words_in_a_string/"
-    }
+    },
+    {
+        "name": "215. Kth Largest Element in an Array",
+        "leetcode_link": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+        "topic": "[H]array_sort",
+        "pattern": "top k problem (based on sort)",
+        "solution": "[H]array/[H]array_sort/215_kth_largest_element_in_an_array/"
+    } 
 ]
