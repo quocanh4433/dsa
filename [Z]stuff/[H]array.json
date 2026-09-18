@@ -76,5 +76,12 @@
         "topic": "[H]array_two_pointers_opposite_direction",
         "pattern": "use shrink type",
         "solution": "[H]array/[H]array_two_pointers_opposite_direction/977_squares_of_a_sorted_array/"
+    },
+    {
+        "name": "948. Bag of Tokens",
+        "leetcode_link": "https://leetcode.com/problems/bag-of-tokens/",
+        "topic": "[H]array_two_pointers_opposite_direction",
+        "pattern": "use shrink type",
+        "solution": "[H]array/[H]array_two_pointers_opposite_direction/948_bag_of_tokens/"
     }
 ]
