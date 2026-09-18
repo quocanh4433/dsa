@@ -1,9 +1,10 @@
 
 class ReverseWordsInAString_UingPointer {
-
     /*
         time O(n)
         space O(n)
+
+        solution 2: we can use .split() + regext
      */
     public String reverseWords(String s) {
         StringBuilder res = new StringBuilder();
