@@ -83,5 +83,12 @@
         "topic": "[H]array_two_pointers_opposite_direction",
         "pattern": "use shrink type",
         "solution": "[H]array/[H]array_two_pointers_opposite_direction/948_bag_of_tokens/"
+    },
+    {
+        "name": "151. Reverse Words in a String",
+        "leetcode_link": "https://leetcode.com/problems/reverse-words-in-a-string/",
+        "topic": "[H]array_two_pointers_opposite_direction",
+        "pattern": "use shrink type",
+        "solution": "[H]array/[H]array_two_pointers_opposite_direction/151_reverse_words_in_a_string/"
     }
 ]
