@@ -103,5 +103,12 @@
         "topic": "[H]array_sort",
         "pattern": "top k problem (based on sort)",
         "solution": "[H]array/[H]array_sort/1985_find_the_kth_largest_integer_in_the_array/"
+    },
+    {
+        "name": "1710. Maximum Units on a Truck",
+        "leetcode_link": "https://leetcode.com/problems/maximum-units-on-a-truck/",
+        "topic": "[H]array_sort",
+        "pattern": "use bucket sort",
+        "solution": "[H]array/[H]array_sort/1710_maximum_units_on_a_truck/"
     }
 ]
