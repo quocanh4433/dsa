@@ -109,13 +109,20 @@
         "leetcode_link": "https://leetcode.com/problems/maximum-units-on-a-truck/",
         "topic": "[H]array_sort",
         "pattern": "use bucket sort",
-        "solution": "[H]array/[H]array_sort/1710_maximum_units_on_a_truck/"
+        "solution": "[H]array/[H]array_sort/[H]array_bucketsort/1710_maximum_units_on_a_truck/"
     },
     {
         "name": "451. Sort Characters By Frequency",
         "leetcode_link": "https://leetcode.com/problems/sort-characters-by-frequency/",
         "topic": "[H]array_sort",
         "pattern": "use bucket sort",
-        "solution": "[H]array/[H]array_sort/451_sort_characters_by_frequency/"
+        "solution": "[H]array/[H]array_sort/[H]array_bucketsort/451_sort_characters_by_frequency/"
+    },
+    {
+        "name": "164. Maximum Gap",
+        "leetcode_link": "https://leetcode.com/problems/maximum-gap/",
+        "topic": "[H]array_sort",
+        "pattern": "use bucket sort",
+        "solution": "[H]array/[H]array_sort/[H]array_bucketsort/164_maximum_gap/"
     }
 ]
