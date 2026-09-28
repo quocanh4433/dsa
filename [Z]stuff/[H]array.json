@@ -124,5 +124,12 @@
         "topic": "[H]array_sort",
         "pattern": "use bucket sort",
         "solution": "[H]array/[H]array_sort/[H]array_bucketsort/164_maximum_gap/"
+    },
+    {
+        "name": "462. Minimum Moves to Equal Array Elements II",
+        "leetcode_link": "https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/",
+        "topic": "[H]array_sort",
+        "pattern": "use quick select",
+        "solution": "[H]array/[H]array_quickselect/462_minimum_moves_to_equal_array_elements_ii/"
     }
 ]
