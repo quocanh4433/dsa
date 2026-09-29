@@ -131,5 +131,12 @@
         "topic": "[H]array_sort",
         "pattern": "use quick select",
         "solution": "[H]array/[H]array_quickselect/462_minimum_moves_to_equal_array_elements_ii/"
+    },
+    {
+        "name": "324. Wiggle Sort II",
+        "leetcode_link": "https://leetcode.com/problems/wiggle-sort-ii/",
+        "topic": "[H]array_sort",
+        "pattern": "use quick select",
+        "solution": "[H]array/[H]array_quickselect/324_wiggle_sort_ii/"
     }
 ]
