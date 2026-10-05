@@ -1,5 +1,12 @@
 [
     {
+        "name": "1209. Remove All Adjacent Duplicates in String II",
+        "leetcode_link": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/",
+        "topic": "[I]stack_queue",
+        "pattern": "use stack to store the last states",
+        "solution": "[I]stack_queue/[I]stack_queue/1209_remove_all_adjacent_duplicates_in_string_ii"
+    },
+    {
         "name": "1249. Minimum Remove to Make Valid Parentheses",
         "leetcode_link": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
         "topic": "[I]stack_queue",
