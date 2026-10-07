@@ -1,10 +1,10 @@
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-class JumpGameVI_DP {
+class JumpGameVI_DP_and_Deque {
 
     /*
-        time O(n * k) worst case k = n = 10**5 -> TLE
+        time O(n)
         space O(n)
      */
 
