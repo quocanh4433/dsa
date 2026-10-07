@@ -26,5 +26,12 @@
         "topic": "[I]stack_queue",
         "pattern": "use monotonic queue and sliding window",
         "solution": "[I]stack_queue/[I]stack_queue_monotonic/1438_longest_continuous_subarray_with_absolute_diff_less_than_or_equal_to_limit"
+    },
+    {
+        "name": "1696. Jump Game VI",
+        "leetcode_link": "https://leetcode.com/problems/jump-game-vi/",
+        "topic": "[I]stack_queue",
+        "pattern": "use monotonic queue and sliding window",
+        "solution": "[I]stack_queue/[I]stack_queue_monotonic/1696_jump_game_vi"
     }
 ]
