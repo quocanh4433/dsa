@@ -33,5 +33,12 @@
         "topic": "[I]stack_queue",
         "pattern": "use monotonic queue and sliding window",
         "solution": "[I]stack_queue/[I]stack_queue_monotonic/1696_jump_game_vi"
+    },
+    {
+        "name": "496. Next Greater Element I",
+        "leetcode_link": "https://leetcode.com/problems/next-greater-element-i/",
+        "topic": "[I]stack_queue",
+        "pattern": "use monotonic stack (consider one side’s relationship)",
+        "solution": "[I]stack_queue/[I]stack_queue_monotonic/496_next_greater_element_i"
     }
 ]
