@@ -40,5 +40,12 @@
         "topic": "[I]stack_queue",
         "pattern": "use monotonic stack (consider one side’s relationship)",
         "solution": "[I]stack_queue/[I]stack_queue_monotonic/496_next_greater_element_i"
+    },
+    {
+        "name": "503. Next Greater Element II",
+        "leetcode_link": "https://leetcode.com/problems/next-greater-element-ii/",
+        "topic": "[I]stack_queue",
+        "pattern": "use monotonic stack (consider one side’s relationship)",
+        "solution": "[I]stack_queue/[I]stack_queue_monotonic/503_next_greater_element_ii."
     }
 ]
