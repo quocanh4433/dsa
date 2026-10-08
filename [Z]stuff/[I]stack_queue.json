@@ -46,13 +46,20 @@
         "leetcode_link": "https://leetcode.com/problems/next-greater-element-ii/",
         "topic": "[I]stack_queue",
         "pattern": "use monotonic stack (consider one side’s relationship)",
-        "solution": "[I]stack_queue/[I]stack_queue_monotonic/503_next_greater_element_ii."
+        "solution": "[I]stack_queue/[I]stack_queue_monotonic/503_next_greater_element_ii"
     },
     {
         "name": "402. Remove K Digits",
         "leetcode_link": "https://leetcode.com/problems/remove-k-digits/",
         "topic": "[I]stack_queue",
         "pattern": "use monotonic stack (consider one side’s relationship)",
-        "solution": "[I]stack_queue/[I]stack_queue_monotonic/402_remove_k_digits."
+        "solution": "[I]stack_queue/[I]stack_queue_monotonic/402_remove_k_digits"
+    },
+    {
+        "name": "316. Remove Duplicate Letters",
+        "leetcode_link": "https://leetcode.com/problems/remove-duplicate-letters/",
+        "topic": "[I]stack_queue",
+        "pattern": "use monotonic stack (consider one side’s relationship)",
+        "solution": "[I]stack_queue/[I]stack_queue_monotonic/316_remove_duplicate_letters"
     }
 ]
