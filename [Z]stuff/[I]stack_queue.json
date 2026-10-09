@@ -61,5 +61,12 @@
         "topic": "[I]stack_queue",
         "pattern": "use monotonic stack (consider one side’s relationship)",
         "solution": "[I]stack_queue/[I]stack_queue_monotonic/316_remove_duplicate_letters"
+    },
+    {
+        "name": "1944. Number of Visible People in a Queue",
+        "leetcode_link": "https://leetcode.com/problems/number-of-visible-people-in-a-queue/",
+        "topic": "[I]stack_queue",
+        "pattern": "use monotonic stack (consider one side’s relationship)",
+        "solution": "[I]stack_queue/[I]stack_queue_monotonic/1944_number_of_visible_people_in_a_queue"
     }
 ]
